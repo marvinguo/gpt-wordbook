@@ -1,0 +1,146 @@
+---
+/**
+ * AlphabetIndex.astro
+ * A professional, responsive alphabet navigation component with Steve Jobs' aesthetic.
+ * Features:
+ * - Minimalist design with subtle shadows and rounded corners
+ * - Responsive grid layout (8 columns on desktop, 6 on tablet, 4 on mobile)
+ * - Automatic active state detection based on current path
+ * - High-quality hover effects
+ */
+
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const currentPath = Astro.url.pathname;
+
+// Helper to check if a letter is the current active one
+const isActive = (letter: string) => {
+  const path = `/words-index/${letter.toLowerCase()}/`;
+  return currentPath === path || currentPath === `${path}index.html`;
+};
+---
+
+<div class="alphabet-index-container not-prose">
+  <nav class="alphabet-grid" aria-label="Alphabetical index">
+    {alphabet.map((letter) => (
+      <a
+        href={`/words-index/${letter.toLowerCase()}/`}
+        class:list={[
+          'letter-link',
+          { 'active': isActive(letter) }
+        ]}
+        aria-current={isActive(letter) ? 'page' : undefined}
+      >
+        {letter}
+      </a>
+    ))}
+  </nav>
+</div>
+
+<style>
+  .alphabet-index-container {
+    margin: 4rem auto 2rem;
+    padding: 1.25rem;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.25rem;
+    backdrop-filter: blur(12px);
+    box-shadow: 
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06),
+      inset 0 1px 1px rgba(255, 255, 255, 0.05);
+  }
+
+  /* Light mode refinement */
+  :global([data-theme='light']) .alphabet-index-container {
+    background: rgba(0, 0, 0, 0.01);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 
+      0 10px 15px -3px rgba(0, 0, 0, 0.05),
+      0 4px 6px -2px rgba(0, 0, 0, 0.02),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  }
+
+  .alphabet-grid {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 0.5rem;
+  }
+
+  /* Responsive Grid Adjustments */
+  @media (max-width: 1024px) {
+    .alphabet-grid {
+      grid-template-columns: repeat(9, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .alphabet-grid {
+      grid-template-columns: repeat(7, 1fr);
+    }
+    .alphabet-index-container {
+      padding: 1rem;
+      margin: 3rem 0.5rem 1.5rem;
+      border-radius: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .alphabet-grid {
+      grid-template-columns: repeat(6, 1fr);
+      gap: 0.35rem;
+    }
+    .letter-link {
+      font-size: 0.85rem;
+      border-radius: 0.5rem;
+    }
+  }
+
+  .letter-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    font-size: 0.95rem;
+    font-weight: 500;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--sl-color-gray-3);
+    text-decoration: none;
+    border-radius: 0.6rem;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid transparent;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .letter-link:hover {
+    background: var(--sl-color-gray-6);
+    color: var(--sl-color-accent-high);
+    transform: translateY(-1px);
+    border-color: rgba(var(--sl-color-accent-base), 0.1);
+  }
+
+  .letter-link.active {
+    background: var(--sl-color-accent-low);
+    color: var(--sl-color-accent-high);
+    border-color: rgba(var(--sl-color-accent-base), 0.3);
+    font-weight: 700;
+    box-shadow: 
+      0 0 0 1px rgba(var(--sl-color-accent-base), 0.2),
+      0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  :global([data-theme='light']) .letter-link:hover {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  :global([data-theme='light']) .letter-link.active {
+    background: var(--sl-color-accent-low);
+    box-shadow: 
+      0 2px 8px rgba(var(--sl-color-accent-base), 0.15),
+      inset 0 0 0 1px rgba(var(--sl-color-accent-base), 0.1);
+  }
+</style>
+</style>
+
