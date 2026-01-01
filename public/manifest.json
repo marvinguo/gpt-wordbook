@@ -1,6 +1,6 @@
 {
-	"name": "GPT Wordbook - 基于 GPT 生成的单词书",
-	"short_name": "GPT Wordbook",
+	"name": "智析单词书 - 基于 GPT 生成",
+	"short_name": "智析单词书",
 	"description": "基于 GPT-4 生成的深度解析数据构建，涵盖超过 8000+ 核心英语词汇。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 的视角，帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。",
 	"id": "/?source=pwa",
 	"start_url": "/?source=pwa",
@@ -21,7 +21,7 @@
 		}
 	],
 	"background_color": "#ffffff",
-	"theme_color": "#3b82f6",
+	"theme_color": "#0066cc",
 	"icons": [
 		{
 			"src": "/android-chrome-512x512.png",
@@ -61,7 +61,7 @@
 		{
 			"name": "关于页面",
 			"short_name": "关于",
-			"description": "了解更多关于 GPT Wordbook",
+			"description": "了解更多关于智析单词书",
 			"url": "/about",
 			"icons": [{ "src": "/favicon-96x96.png", "sizes": "96x96" }]
 		}

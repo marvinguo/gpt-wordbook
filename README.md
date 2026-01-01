@@ -5,7 +5,7 @@
   </a>
 </p>
 
-<h1 align="center">GPT Wordbook - 基于 GPT 生成的单词书</h1>
+<h1 align="center">智析单词书 - 基于 GPT 生成 </h1>
 
 <div align="center">
   <p>基于 GPT-4 生成的深度解析数据构建，涵盖超过 <strong>8000+ 核心英语词汇</strong>。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 的视角，帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。</p>
@@ -287,7 +287,7 @@ pnpm build
 
 - 📧 提交 [Issue](https://github.com/nicejade/gpt-wordbook/issues)
 - 💬 参与 [Discussions](https://github.com/nicejade/gpt-wordbook/discussions)
-- 🐦 关注作者 [Twitter](https://twitter.com/nicejadeyang)
+- 🐦 关注作者 [X | Twitter](https://x.com/MarshalXuan)
 - 📝 访问作者博客 [晚晴幽草轩](https://www.lovejade.cn/)
 
 ## ⭐ Star History

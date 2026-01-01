@@ -36,7 +36,7 @@ export default defineConfig({
 		svelte(),
 		starlight({
 			plugins: [starlightLinksValidator(), starlightThemeRapide()],
-			title: '智绘单词书',
+			title: '智析单词书',
 			social: [
 				{ icon: 'mastodon', label: 'Mastodon', href: 'https://mastodon.social/@nicejade' },
 				{ icon: 'telegram', label: 'Telegram', href: 'https://t.me/nicejade' },
@@ -54,7 +54,7 @@ export default defineConfig({
 				src: './src/assets/images/logo.svg',
 			},
 			pagefind: true,
-			lastUpdated: true,
+			lastUpdated: false,
 			pagination: true,
 			defaultLocale: 'root',
 			locales: {
@@ -151,7 +151,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'author',
-						content: 'GPT Wordbook',
+						content: 'MarshalXuan',
 					},
 				},
 				{
@@ -232,7 +232,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'twitter:title',
-						content: 'GPT Wordbook - 基于 GPT 生成的单词书',
+						content: '智析单词书 - 基于 GPT 生成 ',
 					},
 				},
 				{
@@ -253,7 +253,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'twitter:image:alt',
-						content: 'GPT Wordbook - 基于 GPT 生成的单词书预览图',
+						content: '智析单词书 - 基于 GPT 生成 预览图',
 					},
 				},
 				// Open Graph Meta 标签 (使用 property 而非 name)
@@ -282,7 +282,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:title',
-						content: 'GPT Wordbook - 基于 GPT 生成的单词书',
+						content: '智析单词书 - 基于 GPT 生成 ',
 					},
 				},
 				{
@@ -317,7 +317,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:image:alt',
-						content: 'GPT Wordbook - 基于 GPT 生成的单词书预览图',
+						content: '智析单词书 - 基于 GPT 生成 预览图',
 					},
 				},
 				{
@@ -360,7 +360,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'apple-mobile-web-app-title',
-						content: 'GPT Wordbook',
+						content: '智析单词书',
 					},
 				},
 				{
@@ -374,7 +374,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'application-name',
-						content: 'GPT Wordbook',
+						content: '智析单词书',
 					},
 				},
 				{
