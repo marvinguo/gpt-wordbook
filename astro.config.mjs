@@ -187,22 +187,6 @@ export default defineConfig({
 				{
 					tag: 'link',
 					attrs: {
-						rel: 'icon',
-						sizes: '32x32',
-						href: '/favicon-32x32.png',
-					},
-				},
-				{
-					tag: 'link',
-					attrs: {
-						rel: 'icon',
-						sizes: '16x16',
-						href: '/favicon-16x16.png',
-					},
-				},
-				{
-					tag: 'link',
-					attrs: {
 						href: '/manifest.json',
 						rel: 'manifest',
 					},
@@ -240,7 +224,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'twitter:description',
-						content: '基于 GPT-4 生成的深度解析数据构建，涵盖超过 8000+ 核心英语词汇。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 的视角，帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。',
+						content: '基于 GPT 生成的深度解析，涵盖超过 8000+ 核心英语词汇。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。',
 					},
 				},
 				{
@@ -290,7 +274,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:description',
-						content: '基于 GPT-4 生成的深度解析数据构建，涵盖超过 8000+ 核心英语词汇。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 的视角，帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。',
+						content: '基于 GPT 生成的深度解析，涵盖超过 8000+ 核心英语词汇。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。',
 					},
 				},
 				{
@@ -388,20 +372,6 @@ export default defineConfig({
 				{
 					tag: 'meta',
 					attrs: {
-						name: 'msapplication-TileImage',
-						content: '/mstile-150x150.png',
-					},
-				},
-				{
-					tag: 'meta',
-					attrs: {
-						name: 'msapplication-config',
-						content: '/browserconfig.xml',
-					},
-				},
-				{
-					tag: 'meta',
-					attrs: {
 						name: 'google-adsense-account',
 						content: 'ca-pub-8586652723015758',
 					},
@@ -440,7 +410,7 @@ export default defineConfig({
 						"name": "GPT Wordbook",
 						"alternateName": "基于 GPT 生成的单词书",
 						"url": "https://word.lovejade.cn/",
-						"description": "基于 GPT-4 生成的深度解析数据构建，涵盖超过 8000+ 核心英语词汇。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 的视角，帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。",
+						"description": "基于 GPT 生成的深度解析，涵盖超过 8000+ 核心英语词汇。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。",
 						"inLanguage": "zh-CN",
 						"potentialAction": {
 							"@type": "SearchAction",
@@ -461,11 +431,11 @@ export default defineConfig({
 					content: JSON.stringify({
 						"@context": "https://schema.org",
 						"@type": "Person",
-						"name": "GPT Wordbook",
+						"name": "智析单词书",
 						"url": "https://word.lovejade.cn/",
 						"logo": "https://word.lovejade.cn/logo.png",
 						"image": "https://word.lovejade.cn/mockup.png",
-						"description": "基于 GPT-4 生成的深度解析数据构建，涵盖超过 8000+ 核心英语词汇的单词书。",
+						"description": "基于 GPT 生成的深度解析，涵盖超过 8000+ 核心英语词汇。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。",
 						"sameAs": [
 							"https://mastodon.social/@nicejade",
 							"https://t.me/nicejade",
