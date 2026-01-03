@@ -63,7 +63,7 @@
 		<button
 			onclick={() => handleAction('copy')}
 			disabled={processing}
-			class="group action-item flex flex-row items-center justify-center gap-2 py-[0.8rem] px-[1.8rem] min-w-[5.5rem] max-[480px]:px-[1.2rem] max-[480px]:py-[0.7rem] max-[480px]:min-w-[4.5rem] bg-transparent border-none rounded-[1.1rem] cursor-pointer text-[#1d1d1f] dark:text-[#f5f5f7] transition-all duration-300 [transition-timing-function:cubic-bezier(0.4,0,0.2,1)] relative hover:not-disabled:bg-black/[0.03] dark:hover:not-disabled:bg-white/[0.05] active:not-disabled:scale-[0.92] active:not-disabled:bg-black/[0.06] disabled:cursor-not-allowed disabled:opacity-40 {success ? 'text-[#34c759]' : ''}"
+			class="group action-item flex flex-row items-center justify-center gap-2 py-[0.8rem] px-[1.8rem] min-w-[5.5rem] max-[480px]:px-[1.2rem] max-[480px]:py-[0.7rem] max-[480px]:min-w-[4.5rem] bg-transparent border-none rounded-[1.25rem] cursor-pointer text-[#1d1d1f] dark:text-[#f5f5f7] transition-all duration-300 [transition-timing-function:cubic-bezier(0.4,0,0.2,1)] relative hover:not-disabled:bg-black/[0.03] dark:hover:not-disabled:bg-white/[0.05] active:not-disabled:scale-[0.92] active:not-disabled:bg-black/[0.06] disabled:cursor-not-allowed disabled:opacity-40 {success ? 'text-[#34c759]' : ''}"
 			title="将单词详情生成图片并拷贝"
 		>
 			<div class="flex items-center justify-center">
@@ -81,7 +81,7 @@
 			<span class="text-[0.75rem] font-semibold tracking-[0.03em] opacity-60 transition-opacity duration-300 group-hover:opacity-100">{processing ? '处理中' : (success ? '已完成' : '拷贝')}</span>
 		</button>
 		
-		<div class="w-[1px] h-8 bg-gradient-to-b from-transparent via-black/[0.08] dark:via-white/0.1 to-transparent mx-2"></div>
+		<div class="w-[1px] h-8 bg-gradient-to-b from-transparent via-black/[0.08] dark:via-white/0.1 to-transparent !mx-2"></div>
 
 		<button
 			onclick={() => handleAction('export')}

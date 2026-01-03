@@ -22,20 +22,117 @@ import { Card, CardGrid } from "@astrojs/starlight/components";
 import AlphabetIndex from "../../components/AlphabetIndex.astro";
 import "../../assets/styles/homepage.css";
 
-<section class="hero-section" style="width: 100%; text-align: center; margin: 4rem auto 6rem;">
-  <div style="max-width: 900px; margin: 0 auto; padding: 0 1.5rem;">
+<section class="hero-section not-prose">
+  <div class="hero-container">
     <h2 class="hero-title">
       深度挖掘英语词汇魅力的学习平台
     </h2>
-    <p style="font-size: clamp(1.1rem, 2.5vw, 1.4rem); line-height: 1.6; color: var(--sl-color-gray-3); max-width: 700px; margin: 0 auto 3rem; font-weight: 400; letter-spacing: -0.01em;">
+    <p class="hero-description">
       涵盖{" "}
-      <strong style="color: var(--sl-color-text-accent); font-weight: 600;">
+      <strong class="hero-highlight">
         8000+
       </strong>{" "}
       精选核心词汇，结合 AI 深度解析、词根词缀与文化背景，构建系统化的逻辑记忆体系。
     </p>
   </div>
 </section>
+
+<style>{`
+  .hero-section {
+    width: 100%;
+    text-align: center;
+    margin: 4rem auto 6rem;
+    padding: 0 1rem;
+  }
+
+  .hero-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.5rem;
+    backdrop-filter: blur(12px);
+    box-shadow: 
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06),
+      inset 0 1px 1px rgba(255, 255, 255, 0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  [data-theme='light'] .hero-container {
+    background: rgba(0, 0, 0, 0.01);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 
+      0 10px 15px -3px rgba(0, 0, 0, 0.05),
+      0 4px 6px -2px rgba(0, 0, 0, 0.02),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  }
+
+  .hero-title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 1.5rem;
+    color: var(--sl-color-white);
+    letter-spacing: -0.02em;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .hero-description {
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    line-height: 1.6;
+    color: var(--sl-color-gray-3);
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .hero-highlight {
+    color: var(--sl-color-text-accent);
+    font-weight: 600;
+    font-size: 1.15em;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+
+  .hero-highlight:hover {
+    transform: scale(1.05);
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero-section {
+      margin: 3rem auto 4rem;
+    }
+
+    .hero-container {
+      padding: 2rem 1.5rem;
+      border-radius: 1.25rem;
+    }
+
+    .hero-title {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero-section {
+      padding: 0 0.5rem;
+    }
+
+    .hero-container {
+      padding: 1.5rem 1rem;
+      border-radius: 1rem;
+    }
+
+    .hero-title {
+      margin-bottom: 1rem;
+    }
+  }
+`}</style>
 
 <div class="index-container" style="margin-bottom: 6rem;">
   <h3 style="text-align: center; margin-bottom: 2rem; border: none; font-size: 1.5rem; color: var(--sl-color-gray-2);">快速开始：按首字母索引</h3>
