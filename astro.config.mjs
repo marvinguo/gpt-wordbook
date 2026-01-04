@@ -259,7 +259,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:site_name',
-						content: 'GPT Wordbook',
+						content: '智析单词书',
 					},
 				},
 				{
@@ -280,7 +280,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:image',
-						content: 'https://word.lovejade.cn/mockup.png',
+						content: 'https://word.lovejade.cn/hero.png',
 					},
 				},
 				{

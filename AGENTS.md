@@ -1,8 +1,8 @@
-# GPT Wordbook - AI-Powered Deep English Vocabular
+# 智析单词书 - AI-Powered Deep English Vocabular
 
 ## Project Overview
 
-**GPT Wordbook** is a static documentation website built with Astro + Starlight, serving as an AI-powered English vocabulary learning platform. It contains **8000+ core English words** with deep analysis including definitions, etymology, cultural context, and memory techniques.
+**智析单词书** is a static documentation website built with Astro + Starlight, serving as an AI-powered English vocabulary learning platform. It contains **8000+ core English words** with deep analysis including definitions, etymology, cultural context, and memory techniques.
 
 **Primary Purpose**: Provide a high-performance, SEO-friendly, static site for English learners to systematically build vocabulary knowledge through AI-generated content.
 
@@ -118,8 +118,8 @@ When working on specific tasks, consult these files for detailed context:
 ## Deployment
 
 This is a static site designed for deployment to:
-- Vercel (recommended, zero-config)
-- Cloudflare Pages
+- Cloudflare Pages (recommended)
+- Vercel
 - GitHub Pages
 - Netlify
 

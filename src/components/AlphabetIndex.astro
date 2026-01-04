@@ -15,7 +15,9 @@ const currentPath = Astro.url.pathname;
 // Helper to check if a letter is the current active one
 const isActive = (letter: string) => {
   const path = `/words-index/${letter.toLowerCase()}/`;
-  return currentPath === path || currentPath === `${path}index.html`;
+  // Normalize both paths to ensure comparison works regardless of trailing slashes
+  const normalizedCurrentPath = currentPath.endsWith('/') ? currentPath : `${currentPath}/`;
+  return normalizedCurrentPath === path || normalizedCurrentPath === `${path}index.html/`;
 };
 ---
 
@@ -141,6 +143,5 @@ const isActive = (letter: string) => {
       0 2px 8px rgba(var(--sl-color-accent-base), 0.15),
       inset 0 0 0 1px rgba(var(--sl-color-accent-base), 0.1);
   }
-</style>
 </style>
 
