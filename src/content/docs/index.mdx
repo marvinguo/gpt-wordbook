@@ -33,20 +33,21 @@ import "../../assets/styles/homepage.css";
 </section>
 
 <style>{`
+  /* Hero Section - Mobile-first approach */
   .hero-section {
     width: 100%;
     text-align: center;
-    margin: 4rem auto 6rem;
+    margin: 2rem auto 3rem;
     padding: 0 1rem;
   }
 
   .hero-container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 3rem 2rem;
+    padding: 2rem 1.25rem;
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     backdrop-filter: blur(12px);
     box-shadow: 
       0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -65,18 +66,18 @@ import "../../assets/styles/homepage.css";
   }
 
   .hero-title {
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
     font-weight: 700;
-    line-height: 1.2;
-    margin: 0 0 1.5rem;
+    line-height: 1.3;
+    margin: 0 0 1rem;
     color: var(--sl-color-white);
     letter-spacing: -0.02em;
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
 
   .hero-description {
-    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
-    line-height: 1.6;
+    font-size: clamp(1rem, 3vw, 1.4rem);
+    line-height: 1.7;
     color: var(--sl-color-gray-3);
     max-width: 700px;
     margin: 0 auto;
@@ -97,15 +98,15 @@ import "../../assets/styles/homepage.css";
     transform: scale(1.05);
   }
 
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
+  /* Tablet and up */
+  @media (min-width: 640px) {
     .hero-section {
       margin: 3rem auto 4rem;
     }
 
     .hero-container {
-      padding: 2rem 1.5rem;
-      border-radius: 1.25rem;
+      padding: 2.5rem 2rem;
+      border-radius: 1.5rem;
     }
 
     .hero-title {
@@ -113,65 +114,132 @@ import "../../assets/styles/homepage.css";
     }
   }
 
-  @media (max-width: 480px) {
+  /* Desktop and up */
+  @media (min-width: 1024px) {
     .hero-section {
-      padding: 0 0.5rem;
+      margin: 4rem auto 6rem;
     }
 
+    .hero-container {
+      padding: 3rem 2.5rem;
+    }
+
+    .hero-title {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  /* Small mobile optimization */
+  @media (max-width: 380px) {
     .hero-container {
       padding: 1.5rem 1rem;
       border-radius: 1rem;
     }
 
     .hero-title {
-      margin-bottom: 1rem;
+      line-height: 1.35;
+    }
+
+    .hero-description {
+      line-height: 1.65;
     }
   }
 `}</style>
 
-<div class="index-container" style="margin-bottom: 6rem;">
-  <h3 style="text-align: center; margin-bottom: 2rem; border: none; font-size: 1.5rem; color: var(--sl-color-gray-2);">
+<div class="index-container">
+  <h3 class="index-title">
     快速开始：按首字母索引
   </h3>
   <AlphabetIndex />
 </div>
 
-<CardGrid stagger>
-  <Card title="🤖 AI 智能驱动" icon="rocket">
-    基于 **GPT-4**
-    生成高质量词汇解析内容，专业且富有洞察力，每个单词都包含深度的语言学分析
-  </Card>
+<style>{`
+  .index-container {
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+  }
 
-{" "}
-<Card title="🎯 系统化学习" icon="puzzle">
-  通过**词根词缀逻辑**梳理，帮助你建立完整的词汇网络，理解单词构成规律，举一反三
-</Card>
+  .index-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border: none;
+    font-size: clamp(1.25rem, 4vw, 1.5rem);
+    color: var(--sl-color-gray-2);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
 
-{" "}
-<Card title="📚 海量词库" icon="open-book">
-  **8000+** 精选核心词汇，覆盖考研、托福、雅思、GRE、四六级等各类考试和应用场景
-</Card>
+  @media (min-width: 640px) {
+    .index-container {
+      margin-bottom: 4rem;
+    }
 
-{" "}
-<Card title="💡 趣味记忆" icon="star">
-  AI 生成生动有趣的**助记故事**，结合文化背景和趣闻轶事，让单词记忆充满乐趣
-</Card>
+    .index-title {
+      margin-bottom: 2rem;
+    }
+  }
 
-{" "}
-<Card title="⚡ 极速体验" icon="rocket">
-  基于 **Astro** 构建的静态网站，加载速度极快，响应式设计完美支持所有设备
-</Card>
+  @media (min-width: 1024px) {
+    .index-container {
+      margin-bottom: 6rem;
+    }
+  }
+`}</style>
 
-  <Card title="🔗 智能关联" icon="random">
-    智能关联相关词汇，构建**词汇网络**，通过联想和对比强化记忆效果
-  </Card>
-</CardGrid>
+<div class="features-wrapper">
+  <CardGrid stagger>
+    <Card title="🤖 AI 智能驱动" icon="rocket">
+      基于 **GPT-4**
+      生成高质量词汇解析内容，专业且富有洞察力，每个单词都包含深度的语言学分析
+    </Card>
+
+    <Card title="🎯 系统化学习" icon="puzzle">
+      通过**词根词缀逻辑**梳理，帮助你建立完整的词汇网络，理解单词构成规律，举一反三
+    </Card>
+
+    <Card title="📚 海量词库" icon="open-book">
+      **8000+** 精选核心词汇，覆盖考研、托福、雅思、GRE、四六级等各类考试和应用场景
+    </Card>
+
+    <Card title="💡 趣味记忆" icon="star">
+      AI 生成生动有趣的**助记故事**，结合文化背景和趣闻轶事，让单词记忆充满乐趣
+    </Card>
+
+    <Card title="⚡ 极速体验" icon="rocket">
+      基于 **Astro** 构建的静态网站，加载速度极快，响应式设计完美支持所有设备
+    </Card>
+
+    <Card title="🔗 智能关联" icon="random">
+      智能关联相关词汇，构建**词汇网络**，通过联想和对比强化记忆效果
+    </Card>
+  </CardGrid>
+</div>
+
+<style>{`
+  .features-wrapper {
+    padding: 0 0.5rem;
+    margin-bottom: 3rem;
+  }
+
+  @media (min-width: 640px) {
+    .features-wrapper {
+      padding: 0 1rem;
+      margin-bottom: 4rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .features-wrapper {
+      margin-bottom: 5rem;
+    }
+  }
+`}</style>
 
 <section class="audience-section">
-  <h3 style="font-size: clamp(1.75rem, 4vw, 2.25rem); font-weight: 700; margin-bottom: 3rem; border: none; color: var(--sl-color-white);">
+  <h3 class="audience-title">
     为进阶英语学习者打造
   </h3>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; max-width: 1100px; margin: 0 auto; text-align: left;">
+  <div class="audience-grid">
     {[
       { title: "🎓 考试备考者", desc: "考研、托福、雅思、GRE" },
       { title: "💼 职场人士", desc: "提升专业英语和职场应用能力" },
@@ -179,10 +247,10 @@ import "../../assets/styles/homepage.css";
       { title: "👨‍🏫 教育工作者", desc: "获取优质的教学资源和素材" },
     ].map((item) => (
       <div class="audience-card">
-        <strong style="display: block; margin-bottom: 0.75rem; color: var(--sl-color-accent); font-size: 1.25rem;">
+        <strong class="audience-card-title">
           {item.title}
         </strong>
-        <span style="font-size: 1rem; color: var(--sl-color-gray-3); line-height: 1.5;">
+        <span class="audience-card-desc">
           {item.desc}
         </span>
       </div>
@@ -190,17 +258,237 @@ import "../../assets/styles/homepage.css";
   </div>
 </section>
 
-<section style="width: 100%; text-align: center; margin: 4rem auto 4rem;">
-  <p style="font-size: 1.2rem; color: var(--sl-color-gray-2); line-height: 1.8; letter-spacing: -0.01em;">
+<style>{`
+  .audience-section {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .audience-title {
+    font-size: clamp(1.5rem, 5vw, 2.25rem);
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+    color: var(--sl-color-white);
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+
+  .audience-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .audience-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: left;
+  }
+
+  [data-theme='light'] .audience-card {
+    background: rgba(0, 0, 0, 0.01);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .audience-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.2);
+  }
+
+  [data-theme='light'] .audience-card:hover {
+    border-color: rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.08);
+  }
+
+  .audience-card-title {
+    display: block;
+    margin-bottom: 0.625rem;
+    color: var(--sl-color-accent);
+    font-size: clamp(1.125rem, 3vw, 1.25rem);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  .audience-card-desc {
+    font-size: clamp(0.9375rem, 2.5vw, 1rem);
+    color: var(--sl-color-gray-3);
+    line-height: 1.6;
+    display: block;
+  }
+
+  /* Two columns for small tablets and up */
+  @media (min-width: 480px) {
+    .audience-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+    }
+  }
+
+  /* Four columns for tablets and up */
+  @media (min-width: 768px) {
+    .audience-section {
+      margin-bottom: 4rem;
+    }
+
+    .audience-title {
+      margin-bottom: 2.5rem;
+    }
+
+    .audience-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+
+    .audience-card {
+      padding: 1.75rem;
+    }
+  }
+
+  /* Full four columns for desktop */
+  @media (min-width: 1024px) {
+    .audience-section {
+      margin-bottom: 5rem;
+    }
+
+    .audience-title {
+      margin-bottom: 3rem;
+    }
+
+    .audience-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .audience-card {
+      padding: 2rem 1.5rem;
+    }
+
+    .audience-card-title {
+      margin-bottom: 0.75rem;
+    }
+  }
+`}</style>
+
+<section class="tech-section">
+  <p class="tech-description">
     🚀{" "}
-    <strong style="color: var(--sl-color-text-accent); font-weight: 600;">
+    <strong class="tech-highlight">
       现代化技术栈
     </strong>
     ：基于 Astro + Starlight + Svelte + TailwindCSS 构建
   </p>
-  <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap;">
+  <div class="tech-tags">
     {["开源免费", "SEO 友好", "响应式设计", "高性能体验"].map((tag) => (
       <span class="tech-tag">{tag}</span>
     ))}
   </div>
 </section>
+
+<style>{`
+  .tech-section {
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 3rem auto 3rem;
+  }
+
+  .tech-description {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    color: var(--sl-color-gray-2);
+    line-height: 1.7;
+    letter-spacing: -0.01em;
+    margin: 0 0 1.25rem;
+  }
+
+  .tech-highlight {
+    color: var(--sl-color-text-accent);
+    font-weight: 600;
+  }
+
+  .tech-tags {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .tech-tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    font-size: clamp(0.875rem, 2.5vw, 0.9375rem);
+    font-weight: 500;
+    color: var(--sl-color-gray-2);
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    letter-spacing: -0.01em;
+  }
+
+  [data-theme='light'] .tech-tag {
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
+  .tech-tag:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--sl-color-white);
+  }
+
+  [data-theme='light'] .tech-tag:hover {
+    background: rgba(0, 0, 0, 0.06);
+    border-color: rgba(0, 0, 0, 0.15);
+    color: var(--sl-color-black);
+  }
+
+  @media (min-width: 640px) {
+    .tech-section {
+      margin: 4rem auto 4rem;
+    }
+
+    .tech-description {
+      margin-bottom: 1.5rem;
+    }
+
+    .tech-tags {
+      gap: 1rem;
+    }
+
+    .tech-tag {
+      padding: 0.5rem 1.25rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .tech-tags {
+      gap: 1.5rem;
+    }
+
+    .tech-tag {
+      padding: 0.625rem 1.5rem;
+    }
+  }
+
+  /* Small mobile optimization */
+  @media (max-width: 380px) {
+    .tech-tags {
+      gap: 0.625rem;
+    }
+
+    .tech-tag {
+      padding: 0.4375rem 0.875rem;
+    }
+  }
+`}</style>
