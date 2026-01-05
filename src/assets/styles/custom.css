@@ -217,6 +217,7 @@ html[data-theme='dark'] h3 {
   border-bottom-color: #333336;
 }
 
+html[data-theme='dark'] .sl-markdown-content ul,
 html[data-theme='dark'] .sl-markdown-content ol,
 html[data-theme='dark'] .sl-markdown-content p {
   color: #d2d2d7;
