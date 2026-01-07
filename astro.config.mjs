@@ -36,7 +36,7 @@ export default defineConfig({
 		svelte(),
 		starlight({
 			plugins: [starlightLinksValidator(), starlightThemeRapide()],
-			title: '智析单词书 | GPT Wordbook- AI 赋能的深度词汇学习平台',
+			title: '智析单词书',
 			social: [
 				{ icon: 'mastodon', label: 'Mastodon', href: 'https://mastodon.social/@nicejade' },
 				{ icon: 'telegram', label: 'Telegram', href: 'https://t.me/nicejade' },
