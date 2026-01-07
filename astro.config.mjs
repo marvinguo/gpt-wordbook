@@ -36,7 +36,7 @@ export default defineConfig({
 		svelte(),
 		starlight({
 			plugins: [starlightLinksValidator(), starlightThemeRapide()],
-			title: '智析单词书',
+			title: '智析单词书 | GPT Wordbook- AI 赋能的深度词汇学习平台',
 			social: [
 				{ icon: 'mastodon', label: 'Mastodon', href: 'https://mastodon.social/@nicejade' },
 				{ icon: 'telegram', label: 'Telegram', href: 'https://t.me/nicejade' },
@@ -216,14 +216,14 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'twitter:title',
-						content: '智析单词书 - 基于 GPT 生成 ',
+						content: '智析单词书 | GPT Wordbook- AI 赋能的深度词汇学习平台',
 					},
 				},
 				{
 					tag: 'meta',
 					attrs: {
 						name: 'twitter:description',
-						content: '基于 GPT 生成的深度解析，涵盖超过 8000+ 核心英语词汇。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。',
+						content: '智析单词书（GPT-Wordbook）是 AI 驱动的深度英语词汇学习平台，精选 8000+ 核心词汇，利用 GPT 模型深度解析每个单词的词义、例句、词根、词缀、文化内涵与使用场景，从理解本质出发构建长期记忆。',
 					},
 				},
 				{
@@ -237,7 +237,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'twitter:image:alt',
-						content: '智析单词书 - 基于 GPT 生成 预览图',
+						content: '智析单词书 | GPT Wordbook- AI 赋能的深度词汇学习平台 预览图',
 					},
 				},
 				// Open Graph Meta 标签 (使用 property 而非 name)
@@ -266,14 +266,14 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:title',
-						content: '智析单词书 - 基于 GPT 生成 ',
+						content: '智析单词书 | GPT Wordbook- AI 赋能的深度词汇学习平台',
 					},
 				},
 				{
 					tag: 'meta',
 					attrs: {
 						property: 'og:description',
-						content: '基于 GPT 生成的深度解析，涵盖超过 8000+ 核心英语词汇。不仅提供精准的词义与例句，更深入挖掘词根词缀、文化背景、记忆技巧及趣味小故事。旨在通过 AI 帮助英语学习者构建逻辑化的词汇体系，让单词记忆不再是死记硬背。',
+						content: '智析单词书（GPT-Wordbook）是 AI 驱动的深度英语词汇学习平台，精选 8000+ 核心词汇，利用 GPT 模型深度解析每个单词的词义、例句、词根、词缀、文化内涵与使用场景，从理解本质出发构建长期记忆。',
 					},
 				},
 				{
@@ -301,7 +301,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:image:alt',
-						content: '智析单词书 - 基于 GPT 生成 预览图',
+						content: '智析单词书 | GPT Wordbook- AI 赋能的深度词汇学习平台 预览图',
 					},
 				},
 				{
