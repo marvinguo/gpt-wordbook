@@ -15,11 +15,11 @@ export default defineConfig({
 	site: 'https://word.lovejade.cn/',
 	// 构建优化配置
 	build: {
-		inlineStylesheets: 'never', // 禁止内联 CSS，减少 HTML 体积
-		assets: '_astro', // 统一资源目录
+		inlineStylesheets: 'auto',
+		assets: '_astro',
 	},
-	// 压缩配置
 	compressHTML: true,
+	scopedStyleStrategy: 'class',
 	// 图片优化
 	image: {
 		remotePatterns: [{ protocol: 'https' }],
@@ -27,10 +27,10 @@ export default defineConfig({
 			entrypoint: 'astro/assets/services/sharp',
 		},
 	},
-	// 预取配置 - 提升页面切换速度
+	// 预取配置 - 按需预取，避免过度请求
 	prefetch: {
-		prefetchAll: true,
-		defaultStrategy: 'viewport',
+		prefetchAll: false,
+		defaultStrategy: 'hover',
 	},
 	integrations: [
 		svelte(),
@@ -69,28 +69,6 @@ export default defineConfig({
 				},
 			},
 			head: [
-				// DNS 预解析和预连接 - 性能优化
-				{
-					tag: 'link',
-					attrs: {
-						rel: 'preconnect',
-						href: 'https://www.googletagmanager.com',
-					},
-				},
-				{
-					tag: 'link',
-					attrs: {
-						rel: 'preconnect',
-						href: 'https://pagead2.googlesyndication.com',
-					},
-				},
-				{
-					tag: 'link',
-					attrs: {
-						rel: 'dns-prefetch',
-						href: 'https://www.google-analytics.com',
-					},
-				},
 				// Canonical URL
 				{
 					tag: 'link',
@@ -375,27 +353,15 @@ export default defineConfig({
 						content: 'ca-pub-8586652723015758',
 					},
 				},
-				// Google Analytics - 优化加载策略
+				// Google Analytics - 延迟加载
 				{
           tag: 'script',
-          attrs: {
-            src: 'https://www.googletagmanager.com/gtag/js?id=G-D3DYLSSL3T',
-						'id': 'G-D3DYLSSL3T',
-            async: true,
-					},
+					content: "window.addEventListener('load',function(){var s=document.createElement('script');s.src='https://www.googletagmanager.com/gtag/js?id=G-D3DYLSSL3T';s.async=true;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-D3DYLSSL3T',{'anonymize_ip':true,'cookie_flags':'SameSite=None;Secure'})});"
 				},
-				{
-          tag: 'script',
-					content: "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-D3DYLSSL3T', {'anonymize_ip': true, 'cookie_flags': 'SameSite=None;Secure'});"
-				},
-				// Google AdSense
+				// Google AdSense - 延迟加载
 				{
 					tag: 'script',
-					attrs: {
-            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8586652723015758',
-            async: true,
-						crossorigin: 'anonymous',
-					},
+					content: "window.addEventListener('load',function(){var s=document.createElement('script');s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8586652723015758';s.async=true;s.crossOrigin='anonymous';document.head.appendChild(s)});"
 				},
 		],
 		sidebar: sidebarConfig,
@@ -403,6 +369,17 @@ export default defineConfig({
 	],
 	vite: { 
 		plugins: [tailwindcss()],
+		build: {
+			cssCodeSplit: true,
+			minify: 'esbuild',
+			rollupOptions: {
+				output: {
+					manualChunks: {
+						'vendor': ['svelte'],
+					},
+				},
+			},
+		},
 		ssr: {
 			noExternal: ['@zumer/snapdom'],
 		},
