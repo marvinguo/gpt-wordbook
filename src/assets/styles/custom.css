@@ -61,6 +61,10 @@ h3 {
   color: #1d1d1f;
 }
 
+.sl-container {
+  max-width: 60rem;
+}
+
 /* Markdown 内容区优化 - 为图片卡片生成设计 */
 .sl-markdown-content {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;

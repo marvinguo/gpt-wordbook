@@ -54,6 +54,7 @@ export default defineConfig({
         // Override the default `MarkdownContent` component.
 				MarkdownContent: './src/components/MarkdownContent.astro',
 				Head: './src/components/CustomHead.astro',
+				Footer: './src/components/Footer.astro',
       },
 			logo: {
 				src: './src/assets/images/logo.svg',

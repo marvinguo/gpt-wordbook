@@ -32,7 +32,7 @@
   const currentYear = new Date().getFullYear();
 </script>
 
-<footer class="w-full mt-20 md:mt-32 px-4 sm:px-6 not-prose not-content" aria-label="网站页脚">
+<footer class="w-full !mt-16 !md:mt-32 px-4 sm:px-6 not-prose not-content" aria-label="网站页脚">
   <div class="max-w-[1200px] mx-auto">
     <div class="rounded-[2rem] border border-white/[0.08] bg-white/[0.02] backdrop-blur-md [:root[data-theme='light']_&]:bg-black/[0.01] [:root[data-theme='light']_&]:border-black/[0.04]">
       <div class="px-6 sm:px-10 py-12 md:py-16">
