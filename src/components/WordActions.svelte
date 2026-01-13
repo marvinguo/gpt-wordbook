@@ -12,7 +12,7 @@
 
 		try {
 			const { snapdom } = await import('@zumer/snapdom');
-			const element = document.querySelector('.main-pane') as HTMLElement;
+			const element = document.querySelector('.word-content') as HTMLElement;
 			if (!element) return;
 
 			// Steve Jobs-level attention to detail: enter Snapping state
@@ -43,7 +43,7 @@
 			setTimeout(() => { copySuccess = false; }, 2000);
 			
 		} catch (err) {
-			document.querySelector('.main-pane')?.classList.remove('is-snapping');
+			document.querySelector('.word-content')?.classList.remove('is-snapping');
 			console.error('Copy failed:', err);
 		} finally {
 			copyProcessing = false;
@@ -57,7 +57,7 @@
 
 		try {
 			const { snapdom } = await import('@zumer/snapdom');
-			const element = document.querySelector('.main-pane') as HTMLElement;
+			const element = document.querySelector('.word-content') as HTMLElement;
 			if (!element) return;
 
 			// Steve Jobs-level attention to detail: enter Snapping state
@@ -84,7 +84,7 @@
 			setTimeout(() => { exportSuccess = false; }, 2000);
 			
 		} catch (err) {
-			document.querySelector('.main-pane')?.classList.remove('is-snapping');
+			document.querySelector('.word-content')?.classList.remove('is-snapping');
 			console.error('Export failed:', err);
 		} finally {
 			exportProcessing = false;
