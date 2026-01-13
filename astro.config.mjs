@@ -209,7 +209,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'twitter:image',
-						content: 'https://word.lovejade.cn/mockup.png',
+						content: 'https://word.lovejade.cn/summary.png',
 					},
 				},
 				{
