@@ -52,7 +52,7 @@
                 利用 GPT 模型深度解析英语词汇，助你从本质理解单词，构建长期记忆。
               </p>
               
-              <div class="flex flex-wrap gap-3 items-center">
+              <div class="flex flex-wrap gap-1 items-center">
                 {#each [
                   { href: "https://github.com/nicejade", img: "github", alt: "Github" },
                   { href: "https://x.com/MarshalXuan", img: "x", alt: "X | Twitter" },
@@ -80,7 +80,7 @@
           <div class="grid grid-cols-2 md:grid-cols-3 flex-1 gap-10 lg:gap-12">
             {#each footerInfoArr as item (item.title)}
               <div class="flex flex-col space-y-6 !mt-0">
-                <h3 class="text-[12px] font-bold tracking-[0.2em] text-[var(--sl-color-gray-2)] uppercase opacity-80">
+                <h3 class="text-[12px] !mt-0 font-bold tracking-[0.2em] text-[var(--sl-color-gray-2)] uppercase opacity-80">
                   {item.title}
                 </h3>
 
@@ -104,7 +104,7 @@
         </div>
 
         <!-- Bottom -->
-        <div class="w-full mt-16 md:mt-24 pt-8 border-t border-white/[0.08] flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left [:root[data-theme='light']_&]:border-black/[0.05]">
+        <div class="w-full !mt-10 !md:mt-16 pt-8 border-t border-white/[0.08] flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left [:root[data-theme='light']_&]:border-black/[0.05]">
           <p class="text-[var(--sl-color-gray-4)] text-[13px] font-medium tracking-wide">
             © {currentYear} <a href="https://www.lovejade.cn/" class="text-[var(--sl-color-gray-3)] px-2 py-1 rounded-md transition-all hover:bg-black/[0.06] dark:hover:bg-white/[0.1] hover:text-[var(--sl-color-text-accent)] decoration-none no-underline border-none">lovejade.cn</a> · 保留所有权利
           </p>
