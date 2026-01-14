@@ -85,6 +85,7 @@ h3 {
 .sl-markdown-content li {
   margin-bottom: 0.8rem;
   padding-left: 0.5rem;
+  list-style-type: circle;
 }
 
 /* 强调色与链接 */

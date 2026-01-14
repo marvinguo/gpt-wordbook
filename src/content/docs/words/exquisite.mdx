@@ -5,9 +5,17 @@ sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词“exquisite”是一个形容词，用来描述某个对象（包括人和事物）极其精致，优美，优雅或它们极其高超，精巧。
+
+### 音标发音
+
+<Pronunciation word="exquisite" uk="/ɪkˈskwɪzɪt/" us="/ɪkˈskwɪzɪt/" client:only />
 
 ### 列举例句
 
@@ -32,6 +40,14 @@ tableOfContents: false
 "Exquisitely"是副词形式，中文为“精致地”或“极好地”。例如:"The room was exquisitely decorated."（房间装饰的恰到好处。）
 
 "Exquisiteness"是名词形式，中文为"精致"、"独特"、"优雅"。例如:"The exquisiteness of the sculpture is undeniable."（雕塑的优雅精致不容否定。）
+
+### 同义&反义
+
+<WordRelations 
+  synonyms={["beautiful", "elegant", "delicate", "fine", "refined", "superb", "perfect", "flawless", "magnificent", "lovely"]}
+  antonyms={["crude", "rough", "coarse", "inferior", "poor", "ugly", "clumsy", "imperfect"]}
+  client:only
+/>
 
 ### 记忆辅助
 
