@@ -5,34 +5,116 @@
 
   let isPlayingUK = false;
   let isPlayingUS = false;
+  let playbackToken = 0;
+  let currentAudio: HTMLAudioElement | null = null;
 
-  const playPronunciation = (accent: 'uk' | 'us') => {
+  const buildAudioUrl = () =>
+    `https://api.dictionaryapi.dev/media/pronunciations/en/${word}-us.mp3`;
+
+  const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+  const setPlayingState = (accent: 'uk' | 'us', isPlaying: boolean) => {
+    if (accent === 'uk') {
+      isPlayingUK = isPlaying;
+    } else {
+      isPlayingUS = isPlaying;
+    }
+  };
+
+  const stopCurrentPlayback = () => {
+    playbackToken += 1;
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
-      
+    }
+    if (currentAudio) {
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+      currentAudio = null;
+    }
+  };
+
+  const playWithSpeechSynthesisOnce = (accent: 'uk' | 'us') =>
+    new Promise<void>((resolve) => {
+      if (!('speechSynthesis' in window)) {
+        resolve();
+        return;
+      }
+
       const utterance = new SpeechSynthesisUtterance(word);
       const voices = window.speechSynthesis.getVoices();
-      const targetVoice = voices.find(voice => 
-        accent === 'uk' 
-          ? voice.lang.startsWith('en-GB')
-          : voice.lang.startsWith('en-US')
+      const targetVoice = voices.find((voice) =>
+        accent === 'uk' ? voice.lang.startsWith('en-GB') : voice.lang.startsWith('en-US')
       );
-      
+
       if (targetVoice) {
         utterance.voice = targetVoice;
       }
       utterance.lang = accent === 'uk' ? 'en-GB' : 'en-US';
       utterance.rate = 0.8;
-      
-      if (accent === 'uk') {
-        isPlayingUK = true;
-        utterance.onend = () => { isPlayingUK = false; };
-      } else {
-        isPlayingUS = true;
-        utterance.onend = () => { isPlayingUS = false; };
-      }
-      
+
+      utterance.onend = () => resolve();
+      utterance.onerror = () => resolve();
+
       window.speechSynthesis.speak(utterance);
+    });
+
+  const playAudioOnce = () =>
+    new Promise<void>((resolve) => {
+      const audio = new Audio(buildAudioUrl());
+      audio.preload = 'none';
+      currentAudio = audio;
+
+      let settled = false;
+      const finish = () => {
+        if (settled) return;
+        settled = true;
+        resolve();
+      };
+
+      const cleanup = () => {
+        if (currentAudio === audio) {
+          currentAudio = null;
+        }
+        audio.removeEventListener('ended', handleEnded);
+        audio.removeEventListener('error', handleError);
+      };
+
+      const fallbackToSpeech = () => {
+        cleanup();
+        playWithSpeechSynthesisOnce('us').then(() => finish());
+      };
+
+      const handleEnded = () => {
+        cleanup();
+        finish();
+      };
+
+      const handleError = () => fallbackToSpeech();
+
+      audio.addEventListener('ended', handleEnded, { once: true });
+      audio.addEventListener('error', handleError, { once: true });
+
+      audio.play().catch(() => fallbackToSpeech());
+    });
+
+  const playOnce = (accent: 'uk' | 'us') =>
+    accent === 'uk' ? playWithSpeechSynthesisOnce('uk') : playAudioOnce();
+
+  const playPronunciation = async (accent: 'uk' | 'us') => {
+    stopCurrentPlayback();
+    const currentToken = playbackToken;
+
+    setPlayingState(accent, true);
+    for (let i = 0; i < 3; i += 1) {
+      if (currentToken !== playbackToken) break;
+      await playOnce(accent);
+      if (currentToken !== playbackToken) break;
+      if (i < 2) {
+        await sleep(300);
+      }
+    }
+    if (currentToken === playbackToken) {
+      setPlayingState(accent, false);
     }
   };
 
