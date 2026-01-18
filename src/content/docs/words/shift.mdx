@@ -1,13 +1,19 @@
 ---
 title: Shift
-description: "Shift可以作为名词或动词，有多种含义："
+description: Shift可以作为名词或动词，有多种含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Shift"可以作为名词或动词，有多种含义：
+
+<Pronunciation word="Shift" uk="/ʃɪft/" us="/ʃɪft/" client:only />
 
 1）名词：“改变，转变”或者“轮班”。例如："There has been a dramatic shift in public opinion."（公共意见发生了剧变）。
 
@@ -48,3 +54,9 @@ tableOfContents: false
 （Tim 对今天的转变测试感到焦虑。他需要按照乱序顺序匹配正确的齿轮）
 
 希望这些信息对你有所帮助！
+
+<WordRelations
+  synonyms={["shift key", "reposition", "interchange", "swap", "get rid of", "remove", "fondle", "grope", "hasten", "rush", "relocate", "transfer", "move"]}
+  antonyms={["unshift"]}
+  client:only
+/>

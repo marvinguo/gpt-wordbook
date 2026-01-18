@@ -1,13 +1,19 @@
 ---
 title: Stammer
-description: "Stammer是一个动词，表示口吃，结结巴巴地说话。它描述的是一个人由于紧张、恐惧、刺激或者其他原因，导致说话时经常停顿，重复某个音节或某个词。"
+description: Stammer是一个动词，表示口吃，结结巴巴地说话。它描述的是一个人由于紧张、恐惧、刺激或者其他原因，导致说话时经常停顿，重复某个音节或某个词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Stammer"是一个动词，表示口吃，结结巴巴地说话。它描述的是一个人由于紧张、恐惧、刺激或者其他原因，导致说话时经常停顿，重复某个音节或某个词。
+
+<Pronunciation word="Stammer" uk="/ˈstæmə/" us="/ˈstæmə/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Tom saw her across the room, and his heart pounded. He walked over, opened his mouth to speak, but found himself stammering. (Tom 在屋子那头看见她，他的心砰砰地跳。他走过去，张开嘴要说话，却发现自己在口吃。)
 这句话的中文翻译是：Tom 在房间的另一头看到她，他的心砰砰砰跳。他走了过去，张嘴要说话，却发现自己在口吃。
+
+<WordRelations
+  synonyms={["stutter"]}
+  client:only
+/>

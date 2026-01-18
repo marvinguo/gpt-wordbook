@@ -1,13 +1,19 @@
 ---
 title: Svelte
-description: "Svelte 是一个带有褒义色彩的形容词，主要用于："
+description: Svelte 是一个带有褒义色彩的形容词，主要用于：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Svelte" 是一个带有褒义色彩的形容词，主要用于：
+
+<Pronunciation word="Svelte" uk="/ˈsfɛlt/" us="/ˈsfɛlt/" client:only />
 
 1. **形容身材**：指人苗条、纤细且富有优雅感（Slender and elegant）。它比 "thin" 或 "skinny" 更强调体态的美感。
 2. **形容设计或物品**：指外观线条流畅、轻薄、不臃肿（Sleek, streamlined）。
@@ -56,3 +62,8 @@ tableOfContents: false
 ### 助记故事
 
 The architect insisted on a **svelte** profile for the new skyscraper, wanting it to pierce the clouds like a silver needle rather than standing like a heavy concrete block. (建筑师坚持为新摩天大楼设计一个纤细的轮廓，希望它像一根银针一样穿透云霄，而不是像一个沉重的混凝土块。)
+
+<WordRelations
+  synonyms={["lithe", "slim", "willowy", "elegant", "gentle"]}
+  client:only
+/>

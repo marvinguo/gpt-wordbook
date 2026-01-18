@@ -1,13 +1,19 @@
 ---
 title: Long
-description: "Long是一个英文单词，最常见的意思是“长的、长度大的”，用来描述物理距离或时间的长度。它还有'渴望、期待'的意思。"
+description: Long是一个英文单词，最常见的意思是“长的、长度大的”，用来描述物理距离或时间的长度。它还有'渴望、期待'的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Long"是一个英文单词，最常见的意思是“长的、长度大的”，用来描述物理距离或时间的长度。它还有"渴望、期待"的意思。
+
+<Pronunciation word="Long" uk="/ˈlɔːŋ/" us="/ˈlɔːŋ/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 
 There is a girl with long hair. She longs to be a singer because she loves music. It's been a long time since she decided to pursue her dream, and she will never give up.
 （有一个长发女孩，她渴望成为一个歌手，因为她热爱音乐。从她决定追求这个梦想以来已经过去了许久，但她绝不放弃。）
+
+<WordRelations
+  synonyms={["extended", "lengthy", "prolonged", "deep", "high", "tall"]}
+  antonyms={["short", "brief", "low", "shallow"]}
+  client:only
+/>

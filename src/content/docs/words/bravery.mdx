@@ -1,13 +1,19 @@
 ---
 title: Bravery
-description: "Bravery 是一个名词，指的是在面对困难、挑战或危险时所表现出的大胆与勇气。"
+description: Bravery 是一个名词，指的是在面对困难、挑战或危险时所表现出的大胆与勇气。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bravery" 是一个名词，指的是在面对困难、挑战或危险时所表现出的大胆与勇气。
+
+<Pronunciation word="Bravery" uk="/ˈbɹeɪvəɹi/" us="/ˈbɹeɪvəɹi/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 The little girl showed her bravery by standing up to the bully at school. Even though she was scared, she knew it was the right thing to do.
 这个小女孩在学校里对抗恶霸，展现出了她的勇敢。即使她感到害怕，她知道那是正确的事情。
+
+<WordRelations
+  synonyms={["bravehood", "braveness", "courage", "courageousness", "fearlessness", "pluck", "valor"]}
+  client:only
+/>

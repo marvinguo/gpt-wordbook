@@ -1,13 +1,19 @@
 ---
 title: Harmless
-description: "Harmless是一个形容词，意为'无害的、无伤害的'，用来描述不会造成伤害或危害的人或事物。"
+description: Harmless是一个形容词，意为'无害的、无伤害的'，用来描述不会造成伤害或危害的人或事物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Harmless"是一个形容词，意为"无害的、无伤害的"，用来描述不会造成伤害或危害的人或事物。
+
+<Pronunciation word="Harmless" uk="/ˈhɑːmləs/" us="/ˈhɑɹmləs/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, there was a harmless rabbit who loved to play with other animals in the forest. The rabbit's kindness and harmless nature made it loved by all.（从前，有一只无害的兔子，它喜欢和森林里的其他动物一起玩耍。兔子的善良和无害的天性使它受到所有动物的爱戴。）
+
+<WordRelations
+  synonyms={["benign", "innocent", "innocuous", "undamaging"]}
+  antonyms={["harmful"]}
+  client:only
+/>

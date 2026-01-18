@@ -1,13 +1,19 @@
 ---
 title: Northern
-description: "- 'Northern'是一个英语形容词，表示'北部的'，'北方的'。通常用来描述地理位置，指向北方或位于北部。"
+description: '- ''Northern''是一个英语形容词，表示''北部的''，''北方的''。通常用来描述地理位置，指向北方或位于北部。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Northern"是一个英语形容词，表示"北部的"，"北方的"。通常用来描述地理位置，指向北方或位于北部。
+
+<Pronunciation word="Northern" uk="/ˈnɔːðn̩/" us="/ˈnɔɹðɚn/" client:only />
 
 ### 列举例句
 
@@ -47,3 +53,9 @@ tableOfContents: false
 The cold northern wind blew through the barren trees, rattling their naked branches. Their northern home may be harsh, but the family loved the serene beauty of the winter landscape.
 
 寒冷的北风吹过光秃秃的树木，震动他们赤裸的树枝。他们的北方之家也许严酷，但家人们喜爱冬景的宁静美。
+
+<WordRelations
+  synonyms={["boreal", "septentrional"]}
+  antonyms={["austral", "meridional", "southern"]}
+  client:only
+/>

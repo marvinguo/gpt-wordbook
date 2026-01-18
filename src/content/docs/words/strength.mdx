@@ -1,13 +1,19 @@
 ---
 title: Strength
-description: "Strength 是一个名词，表示“力量”、“强度”或“优势”。"
+description: Strength 是一个名词，表示“力量”、“强度”或“优势”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Strength" 是一个名词，表示“力量”、“强度”或“优势”。
+
+<Pronunciation word="Strength" uk="/stɹɛŋkθ/" us="/stɹɛŋkθ/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 ### 助记故事
 
 During the war, John proved his strength not only in battle, but also in caring for the wounded. (在战争中，约翰不仅在战斗中证明了他的力量，还在照顾伤员中表现出他的坚韧。)
+
+<WordRelations
+  antonyms={["weakness"]}
+  client:only
+/>

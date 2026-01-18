@@ -1,13 +1,19 @@
 ---
 title: Compose
-description: "Compose 是一个动词，具有几个意义："
+description: Compose 是一个动词，具有几个意义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Compose" 是一个动词，具有几个意义：
+
+<Pronunciation word="Compose" uk="/kəmˈpəʊz/" us="/kəmˈpoʊz/" client:only />
 
 1.  创作，编写：如写诗，作曲，文章等
 2.  组成，构成：如某物事由多个部分组成
@@ -46,3 +52,8 @@ tableOfContents: false
 
 John composed a love song for his girlfriend, using the lyrics of their sweet memories.
 约翰为他的女朋友创作了一首情歌，歌词是他们的甜蜜回忆。
+
+<WordRelations
+  synonyms={["constitute", "form"]}
+  client:only
+/>

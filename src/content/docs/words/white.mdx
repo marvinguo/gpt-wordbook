@@ -1,13 +1,21 @@
 ---
 title: White
-description: "- 英文单词 'white' 通常被用作形容词，用来描述一个物体、光线、或掩体部分的颜色类似于新落下的雪，或者颜色比人的牙齿还白。此外，'white' 也可以作为名词，代表白色，或者在特定文化或特定语境下，像人种比较白皙的种类。"
+description: >-
+  - 英文单词 'white' 通常被用作形容词，用来描述一个物体、光线、或掩体部分的颜色类似于新落下的雪，或者颜色比人的牙齿还白。此外，'white'
+  也可以作为名词，代表白色，或者在特定文化或特定语境下，像人种比较白皙的种类。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - 英文单词 "white" 通常被用作形容词，用来描述一个物体、光线、或掩体部分的颜色类似于新落下的雪，或者颜色比人的牙齿还白。此外，"white" 也可以作为名词，代表白色，或者在特定文化或特定语境下，像人种比较白皙的种类。
+
+<Pronunciation word="White" uk="/waɪt/" us="/waɪt/" client:only />
 
 ### 列举例句
 
@@ -44,3 +52,9 @@ tableOfContents: false
 Maggie loved painting. One day, she decided to paint her room white to give it a fresh clean look. It was the whitest room she could ever imagine.
 
 (玛吉喜欢画画。有一天，她决定把房间刷成白色，给它一个新鲜清洁的外观。这是她能想象到的最白的房间。)
+
+<WordRelations
+  synonyms={["fair", "pale"]}
+  antonyms={["black", "nonwhite", "unwhite", "tanned"]}
+  client:only
+/>

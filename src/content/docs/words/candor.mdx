@@ -1,14 +1,20 @@
 ---
-title: "Candor"
-description: "Candor 指坦率、诚实、公正。"
+title: Candor
+description: Candor 指坦率、诚实、公正。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Candor** 是一个名词。它指的是一种不加掩饰、直接表达真实想法的高尚品质。
+
+<Pronunciation word="Candor" uk="/ˈkæn.də(ɹ)/" us="/ˈkæn.də(ɹ)/" client:only />
 
 ### 列举例句
 
@@ -30,3 +36,8 @@ tableOfContents: false
 Her candor about her past mistakes won her the respect of her colleagues.
 (她对自己过去错误的坦率赢得了同事们的尊重。)
 
+<WordRelations
+  synonyms={["equity", "fairness", "frankness", "honesty", "parrhesia", "sincerity"]}
+  antonyms={["deception", "fraud", "lie"]}
+  client:only
+/>

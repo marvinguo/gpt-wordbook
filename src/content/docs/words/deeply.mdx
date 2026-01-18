@@ -1,13 +1,19 @@
 ---
 title: Deeply
-description: "Deeply 是一个副词，通常用来描述某事或某物的程度达到了深入的、强烈的、内心的、或非常微妙的。例如，“深深地感动”。"
+description: Deeply 是一个副词，通常用来描述某事或某物的程度达到了深入的、强烈的、内心的、或非常微妙的。例如，“深深地感动”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Deeply" 是一个副词，通常用来描述某事或某物的程度达到了深入的、强烈的、内心的、或非常微妙的。例如，“深深地感动”。
+
+<Pronunciation word="Deeply" uk="/ˈdiːpli/" us="/ˈdiːpli/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 
 "Tom looked deeply into her eyes. He couldn't hide his feelings anymore."
 汤姆深深地看着她的眼睛，他再也无法隐藏自己的情感了。
+
+<WordRelations
+  synonyms={["deep"]}
+  client:only
+/>

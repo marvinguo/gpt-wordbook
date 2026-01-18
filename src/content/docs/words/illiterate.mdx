@@ -1,13 +1,19 @@
 ---
 title: Illiterate
-description: "Illiterate 是形容词，指的是一个人不识字，无法阅读或写作，或者对某个主题知识贫乏。这个词也常用来形容一个人对某一特定领域的无知。"
+description: Illiterate 是形容词，指的是一个人不识字，无法阅读或写作，或者对某个主题知识贫乏。这个词也常用来形容一个人对某一特定领域的无知。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Illiterate" 是形容词，指的是一个人不识字，无法阅读或写作，或者对某个主题知识贫乏。这个词也常用来形容一个人对某一特定领域的无知。
+
+<Pronunciation word="Illiterate" uk="/ɪˈlɪtəɹət/" us="/ɪˈlɪtəɹət/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 
 Tom always felt out of place at the book club, as he was illiterate and couldn't read the books everyone else was discussing. But one day he decided to change and started learning to read.
 (汤姆在书俱乐部总是感到格格不入，因为他是不识字的，而无法阅读其他人正在讨论的书。但是有一天，他决定改变，开始学习阅读。)
+
+<WordRelations
+  synonyms={["analphabet", "analphabetic", "ignorant", "unlettered"]}
+  antonyms={["literate"]}
+  client:only
+/>

@@ -1,13 +1,20 @@
 ---
 title: Healthy
-description: "Healthy是一个形容词，最直接的含义是'健康的'，描述的是人或者其他生物的身体状况。另一个常见的用法是描述食品或者生活方式等是'健康的'，即对身体有益。此外，'healthy'也常用于描述强大，健壮或者充满活力的状态。"
+description: >-
+  Healthy是一个形容词，最直接的含义是'健康的'，描述的是人或者其他生物的身体状况。另一个常见的用法是描述食品或者生活方式等是'健康的'，即对身体有益。此外，'healthy'也常用于描述强大，健壮或者充满活力的状态。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Healthy"是一个形容词，最直接的含义是"健康的"，描述的是人或者其他生物的身体状况。另一个常见的用法是描述食品或者生活方式等是"健康的"，即对身体有益。此外，"healthy"也常用于描述强大，健壮或者充满活力的状态。
+
+<Pronunciation word="Healthy" uk="/ˈhɛl.θi/" us="/ˈhɛl.θi/" client:only />
 
 ### 列举例句
 
@@ -39,3 +46,9 @@ tableOfContents: false
 
 Lucy prefers a healthy lifestyle over everything. She exercises daily, eats nutritious food, and maintains a good work-life balance. She demonstrates that being healthy isn't a goal but a way of living.
 （露西更倾向于健康的生活方式。她每天都会锻炼身体，吃富含营养的食物，保持良好的工作生活平衡。她展示出健康不是一个目标，而是一种生活方式。）
+
+<WordRelations
+  synonyms={["healthful"]}
+  antonyms={["unhealthy"]}
+  client:only
+/>

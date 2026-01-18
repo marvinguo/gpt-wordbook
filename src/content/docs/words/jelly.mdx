@@ -1,13 +1,20 @@
 ---
 title: Jelly
-description: "Jelly是英语中的单词，一般来说它有两个常见的含义。第一种含义是一种食品，我们通常称之为果冻，它是由糖、果汁和一种叫做明胶的东西制作的。第二种含义是某一种厚厚的、通常有些透明的、半固态的液体。"
+description: >-
+  Jelly是英语中的单词，一般来说它有两个常见的含义。第一种含义是一种食品，我们通常称之为果冻，它是由糖、果汁和一种叫做明胶的东西制作的。第二种含义是某一种厚厚的、通常有些透明的、半固态的液体。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Jelly"是英语中的单词，一般来说它有两个常见的含义。第一种含义是一种食品，我们通常称之为果冻，它是由糖、果汁和一种叫做明胶的东西制作的。第二种含义是某一种厚厚的、通常有些透明的、半固态的液体。
+
+<Pronunciation word="Jelly" uk="/ˈd͡ʒɛl.i/" us="/ˈd͡ʒɛl.i/" client:only />
 
 ### 列举例句
 
@@ -39,3 +46,9 @@ tableOfContents: false
 
 Lucy loved jelly, especially the strawberry one. One day, she decided to make jelly at home. With careful steps, the kitchen filled with sweet aroma in no time.
 （露西很喜欢果冻，尤其是草莓味的。有一天，她决定在家里自己做果冻。通过小心翼翼的步骤，厨房很快就充满了甜甜的香气。）
+
+<WordRelations
+  synonyms={["Jell-O", "jello", "jam", "marmalade"]}
+  antonyms={["water coconut", "waternut"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Ill
-description: "单词 'ill' 是形容词和副词，意为“生病的”，“不舒服的”，也能表示“不良的”，“错误的”。"
+description: 单词 'ill' 是形容词和副词，意为“生病的”，“不舒服的”，也能表示“不良的”，“错误的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词 "ill" 是形容词和副词，意为“生病的”，“不舒服的”，也能表示“不良的”，“错误的”。
+
+<Pronunciation word="Ill" uk="/ɪl/" us="/ɪl/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ tableOfContents: false
 Bob was feeling ill, so he decided to stay home and rest. His dog, Max, stayed by his side, offering comfort.
 
 Bob 感到不舒服，所以决定在家休息。他的狗，Max，陪在他身边，给他带来安慰。
+
+<WordRelations
+  synonyms={["bad", "mal-", "disgusted", "nauseate", "nauseous", "sick", "sickened", "dope", "diseased", "poorly", "under the weather", "unwell", "illy"]}
+  antonyms={["good", "wack", "fine", "hale", "healthy", "well"]}
+  client:only
+/>

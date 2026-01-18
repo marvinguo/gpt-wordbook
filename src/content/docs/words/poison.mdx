@@ -1,13 +1,21 @@
 ---
 title: Poison
-description: "Poison这个单词在英语中是 '毒药'或者'毒害'的意思。它可以用来指代任何有害的物质，具有物理或心理危害。例如：“The snake’s venom is a potent poison.” （蛇的毒液是一种很强的毒药。）"
+description: >-
+  Poison这个单词在英语中是 '毒药'或者'毒害'的意思。它可以用来指代任何有害的物质，具有物理或心理危害。例如：“The snake’s venom
+  is a potent poison.” （蛇的毒液是一种很强的毒药。）
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Poison"这个单词在英语中是 "毒药"或者"毒害"的意思。它可以用来指代任何有害的物质，具有物理或心理危害。例如：“The snake’s venom is a potent poison.” （蛇的毒液是一种很强的毒药。）
+
+<Pronunciation word="Poison" uk="/ˈpɔɪz(ə)n/" us="/ˈpɔɪz(ə)n/" client:only />
 
 ### 列举例句
 
@@ -43,3 +51,8 @@ Do not poison the environment with chemicals. （不要用化学物品毒害环�
 
 "Once upon a time, the jealous king gave a cup of poison to his brother."
 （很久以前，嫉妒的国王给他的弟弟一杯毒药。）
+
+<WordRelations
+  synonyms={["atter", "bane", "contaminant", "pollutant", "toxin", "venom", "corrupt", "taint", "contaminate", "pollute"]}
+  client:only
+/>

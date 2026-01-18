@@ -1,13 +1,19 @@
 ---
 title: Batter
-description: "Batter 单词在英文中有两个常见的意义：一是作为名词，指的是炸鸡、煎饼等食物的面糊，而第二个意义是作为动词，指的是猛击或者连续重击。"
+description: Batter 单词在英文中有两个常见的意义：一是作为名词，指的是炸鸡、煎饼等食物的面糊，而第二个意义是作为动词，指的是猛击或者连续重击。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Batter" 单词在英文中有两个常见的意义：一是作为名词，指的是炸鸡、煎饼等食物的面糊，而第二个意义是作为动词，指的是猛击或者连续重击。
+
+<Pronunciation word="Batter" uk="/ˈbætə(ɹ)/" us="/ˈbætəɹ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ Batter 作为动词，其过去式和过去分词均为 battered，现在分词�
 
 "Bob was craving for some fried chicken. To satisfy this desire, he made a thick batter, dipped the chicken into it, and fried it till golden brown. It tasted divine."
 （鲍勃非常想吃炸鸡。为了满足他自己，他做了一些厚厚的面糊，将鸡肉放进去后炸至金黄色。它的味道简直太棒了。）
+
+<WordRelations
+  synonyms={["intoxicate", "thrash"]}
+  client:only
+/>

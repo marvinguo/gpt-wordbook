@@ -1,13 +1,19 @@
 ---
 title: Woman
-description: "Woman是一个英文名词，指的是成年的女性。"
+description: Woman是一个英文名词，指的是成年的女性。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Woman"是一个英文名词，指的是成年的女性。
+
+<Pronunciation word="Woman" uk="/ˈwʊmən/" us="/ˈwʊmən/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 
 Once upon a time, there lived a wise woman in a small village. She was known for her kindness and wisdom.
 从前，有一个明智的女人住在一个小村庄里。她以善良和智慧而闻名。
+
+<WordRelations
+  synonyms={["female", "lady"]}
+  client:only
+/>

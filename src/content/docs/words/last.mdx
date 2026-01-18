@@ -1,13 +1,19 @@
 ---
 title: Last
-description: "Last 是一种常见的英语单词，在不同的语境下它有多种用法和含义，主要可以被用作形容词、副词和动词。"
+description: Last 是一种常见的英语单词，在不同的语境下它有多种用法和含义，主要可以被用作形容词、副词和动词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Last" 是一种常见的英语单词，在不同的语境下它有多种用法和含义，主要可以被用作形容词、副词和动词。
+
+<Pronunciation word="Last" uk="/last/" us="/læst/" client:only />
 
 1）当 "last" 作为动词时，意为“持续” 或 “维持”。例如，制裁可能会持续几个月。
 
@@ -44,3 +50,8 @@ tableOfContents: false
 ### 助记故事
 
 He ran as fast as he could, sending the last piece of hope to his people. They couldn't lose, not this time, not their last chance. (他以最快的速度奔跑，将最后一点希望送给他的人民。他们不能输，不是这次，这是他们的最后一次机会。)
+
+<WordRelations
+  synonyms={["at the end", "caboose", "dernier", "final", "tail end", "terminal", "ultimate", "latest", "most", "recent", "finally", "lastly"]}
+  client:only
+/>

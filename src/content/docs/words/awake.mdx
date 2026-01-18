@@ -1,13 +1,19 @@
 ---
 title: Awake
-description: "Awake是一个英文单词，既可作为动词，表示“醒”，“唤醒”，又可作为形容词，表示“醒着的”，“警觉的”。"
+description: Awake是一个英文单词，既可作为动词，表示“醒”，“唤醒”，又可作为形容词，表示“醒着的”，“警觉的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Awake"是一个英文单词，既可作为动词，表示“醒”，“唤醒”，又可作为形容词，表示“醒着的”，“警觉的”。
+
+<Pronunciation word="Awake" uk="/əˈweɪk/" us="/əˈweɪk/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 One day, a loud bang outside awoke Tom from his afternoon nap. He rubbed his eyes, fully awake now, and went out to investigate. (一天，外面的一声巨响把汤姆从午睡中惊醒。他揉了揉眼睛，现在完全清醒了，走出去调查。)
+
+<WordRelations
+  synonyms={["conscious", "lucid", "wide awake", "wary", "woke"]}
+  antonyms={["asleep", "unconscious", "heedless", "oblivious"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Victory
-description: "Victory 是一个英语单词，它的意思是“胜利”，其常用于描述比赛、战斗或者任何形式的竞争情况中的赢家。"
+description: Victory 是一个英语单词，它的意思是“胜利”，其常用于描述比赛、战斗或者任何形式的竞争情况中的赢家。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Victory 是一个英语单词，它的意思是“胜利”，其常用于描述比赛、战斗或者任何形式的竞争情况中的赢家。
+
+<Pronunciation word="Victory" uk="/ˈvɪkt(ə)ɹi/" us="/ˈvɪkt(ə)ɹi/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Victory 作为一个名词，它没有单复数、动词、不同时态、形容
 
 Once, there was a small unknown team who entered a prestigious gaming championship. Despite being underdogs, they never lost hope. Against all odds, they claimed victory, stunning everyone with their skills and team spirit.
 (曾经，有一个小而不知名的队伍参加了一场知名的游戏锦标赛。尽管他们是弱者，但他们从未失去希望。在所有的困境中，他们赢得了胜利，以他们的技巧和团队精神震惊了所有人。)
+
+<WordRelations
+  synonyms={["to win", "triumph", "win"]}
+  antonyms={["defeat", "loss"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Batch
-description: "Batch这个单词在英语中的常用含义是“一批”，“一组”，通常用来形容一次完成或处理的事物的数量，比如一批人、一批货物等。"
+description: Batch这个单词在英语中的常用含义是“一批”，“一组”，通常用来形容一次完成或处理的事物的数量，比如一批人、一批货物等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Batch"这个单词在英语中的常用含义是“一批”，“一组”，通常用来形容一次完成或处理的事物的数量，比如一批人、一批货物等。
+
+<Pronunciation word="Batch" uk="/bæt͡ʃ/" us="/bæt͡ʃ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 "Every Sunday, Grandma would make a big batch of cookies for us. We could smell the aroma from blocks away." 每个星期天，奶奶都会为我们做一大批饼干。我们在好几个街区之外就能闻到那香味。
+
+<WordRelations
+  synonyms={["group", "lot", "pressing", "run", "recipe"]}
+  antonyms={["continuous"]}
+  client:only
+/>

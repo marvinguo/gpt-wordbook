@@ -1,13 +1,19 @@
 ---
 title: Wrench
-description: "Wrench在英式英语中通常作为名词，意为“扳手”；在美式英语中，它有一个额外的动词用法，意思是“猛扭”或“扭伤”。"
+description: Wrench在英式英语中通常作为名词，意为“扳手”；在美式英语中，它有一个额外的动词用法，意思是“猛扭”或“扭伤”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wrench"在英式英语中通常作为名词，意为“扳手”；在美式英语中，它有一个额外的动词用法，意思是“猛扭”或“扭伤”。
+
+<Pronunciation word="Wrench" uk="/ɹɛnt͡ʃ̩̩/" us="/ɹɛnt͡ʃ̩̩/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Bob found an old rusty wrench in his garage. With it, he managed to fix his old bike which was a struggle. "The magic of a wrench!" he thought to himself.
 
 鲍勃在他的车库里找到了一个旧的生锈的扳手。借助它，他设法修好了他的旧自行车，对他来说这是一场斗争。"扳手的魔力！"他心里想。
+
+<WordRelations
+  synonyms={["spanner"]}
+  client:only
+/>

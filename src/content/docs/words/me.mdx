@@ -1,13 +1,19 @@
 ---
 title: Me
-description: "Me 是一个英语的代词，经常被用作宾语来引用讲话者或作者自己。例如：“Give it to me” (把它给我)."
+description: Me 是一个英语的代词，经常被用作宾语来引用讲话者或作者自己。例如：“Give it to me” (把它给我).
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “Me” 是一个英语的代词，经常被用作宾语来引用讲话者或作者自己。例如：“Give it to me” (把它给我).
+
+<Pronunciation word="Me" uk="/miː/" us="/mi/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 "Can you see me? I am waving at you from the top of the hill."
 
 你能看见我吗？我正在山顶向你挥手。
+
+<WordRelations
+  synonyms={["I", "us", "mine", "my", "my ass"]}
+  client:only
+/>

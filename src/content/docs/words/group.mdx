@@ -1,13 +1,19 @@
 ---
 title: Group
-description: "Group 是一个通用的英语单词，主要意思是'一群'或'一组'，通常指具有共同特征或目标的人或物的集合。"
+description: Group 是一个通用的英语单词，主要意思是'一群'或'一组'，通常指具有共同特征或目标的人或物的集合。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Group" 是一个通用的英语单词，主要意思是"一群"或"一组"，通常指具有共同特征或目标的人或物的集合。
+
+<Pronunciation word="Group" uk="/ɡɹuːp/" us="/ɡɹuːp/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 We worked as a group to clean the park. Everyone had a task and we made a great team. The park was sparkling clean! (我们以团队的形式共同清扫公园。每个人都有一个任务，我们形成了一个很好的团队。公园变得焕然一新！)
+
+<WordRelations
+  synonyms={["collection", "set", "band", "ensemble", "assemble", "begather", "foregather", "throng", "amass", "categorise", "categorize", "classify", "collect", "collect up", "gather", "gather up"]}
+  client:only
+/>

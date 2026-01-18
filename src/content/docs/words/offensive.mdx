@@ -1,13 +1,19 @@
 ---
 title: Offensive
-description: "Offensive 是一个形容词，主要含义为“冒犯的”，“使人不悦的”，此外它还有“攻击性的”，“进攻的”等意。"
+description: Offensive 是一个形容词，主要含义为“冒犯的”，“使人不悦的”，此外它还有“攻击性的”，“进攻的”等意。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Offensive" 是一个形容词，主要含义为“冒犯的”，“使人不悦的”，此外它还有“攻击性的”，“进攻的”等意。
+
+<Pronunciation word="Offensive" uk="/əˈfɛnsɪv/" us="/əˈfɛnsɪv/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 Once upon a time, there was a skilled knight. Though generally defensive, he found it offensive when anyone threatened his village. Everyone admired his courage.
 (曾经有一个技艺高超的骑士。尽管他通常持防守态度，但是只要有人威胁到他的村庄，他就会觉得很受冒犯，进入攻击状态。每个人都钦佩他的勇气。)
+
+<WordRelations
+  synonyms={["aggressive", "invidious"]}
+  antonyms={["defensive", "inoffensive"]}
+  client:only
+/>

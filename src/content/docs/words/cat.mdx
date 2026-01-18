@@ -1,13 +1,21 @@
 ---
 title: Cat
-description: "Cat 通常指猫，也有小猫的意思。这是一个名词。此外，“cat”也用于一些专业领域，如“catamaran”（双体船）的缩写或“caterpillar”（履带）的简称。"
+description: >-
+  Cat
+  通常指猫，也有小猫的意思。这是一个名词。此外，“cat”也用于一些专业领域，如“catamaran”（双体船）的缩写或“caterpillar”（履带）的简称。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Cat" 通常指猫，也有小猫的意思。这是一个名词。此外，“cat”也用于一些专业领域，如“catamaran”（双体船）的缩写或“caterpillar”（履带）的简称。
+
+<Pronunciation word="Cat" uk="/kat/" us="/kæt/" client:only />
 
 ### 列举例句
 
@@ -41,3 +49,8 @@ tableOfContents: false
 
 A little boy found a lovely cat on his way home. He took it back and named it Kitty.
 (一个小男孩在回家的路上发现了一只可爱的猫。他把它带回家，并给它取名叫 Kitty。)
+
+<WordRelations
+  synonyms={["saber-tooth", "saber-toothed cat", "feline", "feline cat", "pantherine", "pantherine cat", "Caniformia", "carnivoran", "cat-like", "feliform", "feloid", "jaguar", "leopard", "lion", "panther", "tiger", "Welsh cat", "tortoise", "felid"]}
+  client:only
+/>

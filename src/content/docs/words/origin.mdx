@@ -1,13 +1,19 @@
 ---
 title: Origin
-description: "Origin，源自拉丁语'oriri'，含义为'出生'或'产生'。所以'origin'主要指对象或者事物起源、发源地或者产生的开端。"
+description: Origin，源自拉丁语'oriri'，含义为'出生'或'产生'。所以'origin'主要指对象或者事物起源、发源地或者产生的开端。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Origin"，源自拉丁语"oriri"，含义为"出生"或"产生"。所以"origin"主要指对象或者事物起源、发源地或者产生的开端。
+
+<Pronunciation word="Origin" uk="/ˈɒɹ.ə.dʒən/" us="/ˈɑɹ.ɪ.dʒɪn/" client:only />
 
 ### 列举例句
 
@@ -50,3 +56,9 @@ tableOfContents: false
 There is an old forest that nobody knew its origin, but it is believed that the forest holds ancient secrets about the origin of the world.
 
 有一个古老的森林，没有人知道它的起源，但人们相信，这片森林里藏着关于世界起源的古老秘密。
+
+<WordRelations
+  synonyms={["source", "zero vector"]}
+  antonyms={["insertion", "end", "destination"]}
+  client:only
+/>

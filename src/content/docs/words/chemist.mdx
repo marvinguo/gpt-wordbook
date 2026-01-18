@@ -1,13 +1,19 @@
 ---
 title: Chemist
-description: "Chemist 是一个名词，通常指的是从事化学研究或化学实验的工作者，也可以指药剂师或药店。"
+description: Chemist 是一个名词，通常指的是从事化学研究或化学实验的工作者，也可以指药剂师或药店。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Chemist" 是一个名词，通常指的是从事化学研究或化学实验的工作者，也可以指药剂师或药店。
+
+<Pronunciation word="Chemist" uk="/ˈkɛmɪst/" us="/ˈkɛmɪst/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 "The chemist worked late into the night, his eyes fixed on the colorful potions bubbling in front of him. This experiment might just revolutionize the world of medicine. Sparks of excitement lit up in his tired eyes."（化学家工作到深夜，他的眼睛紧盯着面前冒泡的五彩药水。这个实验可能会彻底改变医药界。他疲惫的眼睛中闪烁着兴奋的火花。）
+
+<WordRelations
+  synonyms={["apothecary", "druggist", "pharmacist", "chemist's", "chemist's shop", "drugstore", "pharmacy"]}
+  client:only
+/>

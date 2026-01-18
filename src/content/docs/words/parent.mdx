@@ -1,13 +1,19 @@
 ---
 title: Parent
-description: "Parent 是英文中的一个名词，代表父母或是一名养父或养母。这个词通常用于表示有生物关系或法律关系的保护者或者抚养者。"
+description: Parent 是英文中的一个名词，代表父母或是一名养父或养母。这个词通常用于表示有生物关系或法律关系的保护者或者抚养者。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Parent" 是英文中的一个名词，代表父母或是一名养父或养母。这个词通常用于表示有生物关系或法律关系的保护者或者抚养者。
+
+<Pronunciation word="Parent" uk="/ˈpɛəɹənt/" us="/ˈpeəɹənt/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 Sarah never knew her biological parents. She was adopted and her adoptive parents raised her with great love. She learned to love and accept her life, and she became a proud parent herself. (萨拉从未见过她的生父母。她被收养，收养父母用巨大的爱养大了她。她学会了爱和接受她的生活，她自己也成为了一个骄傲的母亲。)
+
+<WordRelations
+  synonyms={["mother", "progenitor", "raise", "rear"]}
+  antonyms={["child", "offspring"]}
+  client:only
+/>

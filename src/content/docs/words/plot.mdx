@@ -1,13 +1,19 @@
 ---
 title: Plot
-description: "Plot是一个英语单词，主要有两个含义。"
+description: Plot是一个英语单词，主要有两个含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Plot"是一个英语单词，主要有两个含义。
+
+<Pronunciation word="Plot" uk="/plɒt/" us="/plɑt/" client:only />
 
 1.  阴谋，诡计。这种解释主要用在文学和戏剧中，表示故事的主线或大致发展方向。
 2.  地块，小块土地。例如：建筑物地块，田地等。
@@ -43,3 +49,8 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, a group of farmers plotted a piece of land, each of the farmer owned a plot. One day, they found a treasure under one of the plots.（从前，一群农夫在一片土地上划分了地块，每个农人都拥有一块。有一天，他们在一个地块下发现了宝藏。）
+
+<WordRelations
+  synonyms={["conspiracy", "scheme", "parcel", "storyline", "lot", "becast"]}
+  client:only
+/>

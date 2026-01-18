@@ -1,13 +1,19 @@
 ---
 title: Thankful
-description: "Thankful 是一种形容词，表示对某种好事或好运表示感激的情绪，感到满足。例如，一种嘉奖或大大改善生活的事件。"
+description: Thankful 是一种形容词，表示对某种好事或好运表示感激的情绪，感到满足。例如，一种嘉奖或大大改善生活的事件。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Thankful" 是一种形容词，表示对某种好事或好运表示感激的情绪，感到满足。例如，一种嘉奖或大大改善生活的事件。
+
+<Pronunciation word="Thankful" uk="/ˈθæŋkfəl/" us="/ˈθæŋkfəl/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 
 Bob was lost in the forest, but finally he was saved by a stranger. He was very thankful for the man's kindness. （波布在森林里迷路了，但最终他被一个陌生人救了出来。他非常感激那个人的善良。）
 （中文翻译：波布在森林中迷失了方向，但最终被一个陌生人所救。他对那个人的善良表达了深深的感激。）
+
+<WordRelations
+  synonyms={["appreciative", "grateful"]}
+  antonyms={["thankless", "unthankful"]}
+  client:only
+/>

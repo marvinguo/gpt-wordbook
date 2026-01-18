@@ -1,13 +1,19 @@
 ---
 title: Throat
-description: "Throat是英语单词，可以指人体里连接嘴和胃的部分，也即我们说的喉咙。此外，'throat'还可以比喻狭窄的入口或通道。"
+description: Throat是英语单词，可以指人体里连接嘴和胃的部分，也即我们说的喉咙。此外，'throat'还可以比喻狭窄的入口或通道。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Throat"是英语单词，可以指人体里连接嘴和胃的部分，也即我们说的喉咙。此外，"throat"还可以比喻狭窄的入口或通道。
+
+<Pronunciation word="Throat" uk="/ˈθɹəʊt/" us="/ˈθɹoʊt/" client:only />
 
 ### 列举例句
 
@@ -35,3 +41,9 @@ tableOfContents: false
 
 Jane had a sore throat. She tried to swallow some water, but pain surged up. She knew she had to see a doctor.
 （简喉咙疼。她试图喝一些水，但是疼痛涌上心头。她知道她必须去看医生。）
+
+<WordRelations
+  synonyms={["esophagus", "gullet", "oesophagus", "bottleneck", "neck", "trachea", "windpipe"]}
+  antonyms={["peak"]}
+  client:only
+/>

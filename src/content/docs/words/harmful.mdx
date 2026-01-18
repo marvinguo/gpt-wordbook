@@ -1,13 +1,19 @@
 ---
 title: Harmful
-description: "Harmful是一个形容词，它描述的是某种可以对人、事物或者环境造成损害的状态或者性质。基本上，它本身就带有一种负面的含义。"
+description: Harmful是一个形容词，它描述的是某种可以对人、事物或者环境造成损害的状态或者性质。基本上，它本身就带有一种负面的含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Harmful"是一个形容词，它描述的是某种可以对人、事物或者环境造成损害的状态或者性质。基本上，它本身就带有一种负面的含义。
+
+<Pronunciation word="Harmful" uk="/ˈhɑːmfl̩/" us="/ˈhɑɹmfl̩/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ Harmful 没有复数形式，但可以生成副词形式："harmfully" (有害�
 ### 助记故事
 
 In a small village, a harmful dragon always destroyed their crops every year. (在一个小村庄，一只有害的龙每年都会破坏他们的庄稼。)
+
+<WordRelations
+  synonyms={["injurious"]}
+  antonyms={["beneficial", "harmless"]}
+  client:only
+/>

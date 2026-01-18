@@ -1,13 +1,19 @@
 ---
 title: Initial
-description: "Initial作为形容词，它的含义是'最初的，开始的'。作为动词，它的意思是'用姓名的首字母签名'。而作为名词，它指的是单词、名字等的首字母。"
+description: Initial作为形容词，它的含义是'最初的，开始的'。作为动词，它的意思是'用姓名的首字母签名'。而作为名词，它指的是单词、名字等的首字母。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Initial"作为形容词，它的含义是"最初的，开始的"。作为动词，它的意思是"用姓名的首字母签名"。而作为名词，它指的是单词、名字等的首字母。
+
+<Pronunciation word="Initial" uk="/ɪˈnɪʃəl/" us="/ɪˈnɪʃəl/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ Initial 的前缀是 in-，表示 "进入"，词根是 -it-，之后的动词词
 
 Jack received an initial letter of his name from his girlfriend as a birthday gift, the silver J pendent made him smile bright.
 杰克收到了他女朋友送的生日礼物，一个首字母 'J' 的银色挂坠，这让他笑得很开心。
+
+<WordRelations
+  synonyms={["drop cap", "versal", "incipient", "opening"]}
+  antonyms={["final"]}
+  client:only
+/>

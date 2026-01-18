@@ -1,13 +1,18 @@
 ---
 title: Paperback
-description: "Paperback 是一个英文词，通常用来表示 '平装书' 或是 '软封面的书'。"
+description: Paperback 是一个英文词，通常用来表示 '平装书' 或是 '软封面的书'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Paperback" 是一个英文词，通常用来表示 "平装书" 或是 "软封面的书"。
+
 
 ### 列举例句
 
@@ -39,3 +44,8 @@ tableOfContents: false
 
 - Tom went to the bookstore and bought a bunch of paperbacks. He always enjoyed the smell and feel of a real book. (Tom 去书店买了一堆平装书。他总是喜欢真正的书的那种味道和感觉。)
 - 汤姆去书店买了一堆平装书，他总是很享受真书的气味和感觉。
+
+<WordRelations
+  synonyms={["livre de poche", "pocketbook", "paperbacked", "paperbound", "softcovered"]}
+  client:only
+/>

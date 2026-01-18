@@ -1,13 +1,19 @@
 ---
 title: Magic
-description: "Magic 是一个英文单词，具有魔法、巫术或者神奇的意义。它可以用作名词或形容词。"
+description: Magic 是一个英文单词，具有魔法、巫术或者神奇的意义。它可以用作名词或形容词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Magic" 是一个英文单词，具有魔法、巫术或者神奇的意义。它可以用作名词或形容词。
+
+<Pronunciation word="Magic" uk="/ˈmadʒɪk/" us="/ˈmædʒɪk/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ Magic 是一词根词，没有词缀。以 ic 结尾的形容词很多，如 "sp
 ### 助记故事
 
 "Every Christmas, children believe that Santa uses magic to deliver presents around the world." (每个圣诞节，孩子们都认为圣诞老人使用魔法来分发世界各地的礼物。)
+
+<WordRelations
+  synonyms={["charmwork", "conjuring", "dweomercraft", "dwimmer", "dwimmercraft", "enchantment", "hexcraft", "sorcery", "spellcasting", "spellcraft", "spellwork", "thaumaturgy", "wandwork", "warlockry", "witchcraft", "wizardcraft", "wizardry", "illusionism", "legerdemain", "sleight of hand"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Notify
-description: "Notify 是一个英语动词，意为通知、告知。"
+description: Notify 是一个英语动词，意为通知、告知。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Notify" 是一个英语动词，意为通知、告知。
+
+<Pronunciation word="Notify" uk="/ˈnoʊtɪfaɪ/" us="/ˈnoʊtɪfaɪ/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 
 Tom got a message notifying him of a parcel at the post office. He was excited and curious, wondering what it could be.
 汤姆收到一条通知他在邮局有一个包裹的信息。他既兴奋又好奇，想知道那里面是什么。
+
+<WordRelations
+  synonyms={["apprise", "inform"]}
+  client:only
+/>

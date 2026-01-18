@@ -1,13 +1,19 @@
 ---
 title: Female
-description: "Female是一个形容词，意为“女性的”，也可以作为名词，表示“女性”。"
+description: Female是一个形容词，意为“女性的”，也可以作为名词，表示“女性”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Female"是一个形容词，意为“女性的”，也可以作为名词，表示“女性”。
+
+<Pronunciation word="Female" uk="/ˈfiː.meɪl/" us="/ˈfiː.meɪl/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Sally, the only female in the tech team, showed her excellent skills and won everyone's applause.
 (萨莉是科技团队中唯一的女性，她展示出了出色的技巧，赢得了所有人的掌声。)
+
+<WordRelations
+  synonyms={["socket", "feminine", "womanly"]}
+  client:only
+/>

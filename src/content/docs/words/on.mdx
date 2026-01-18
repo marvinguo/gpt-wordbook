@@ -1,13 +1,19 @@
 ---
-title: "On"
-description: "On 是一个英语介词，主要有以下几种含义："
+title: 'On'
+description: On 是一个英语介词，主要有以下几种含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "On" 是一个英语介词，主要有以下几种含义：
+
+<Pronunciation word="On" uk="/ɒn/" us="/ɔn/" client:only />
 
 1.  表示某物在某物之上并接触；
 2.  指示日期、天、年等时间；
@@ -43,3 +49,9 @@ tableOfContents: false
 
 Story: A cat slept on the roof, under the warm sun, on a peaceful Sunday.
 故事：一只猫在和煦的太阳下，安静的星期日，睡在了屋顶上。
+
+<WordRelations
+  synonyms={["turn on", "base", "on", "leg", "by dint of", "due to", "about", "apropos", "as for"]}
+  antonyms={["off", "after", "afterward", "afterwards", "later", "subsequently", "thence", "against"]}
+  client:only
+/>

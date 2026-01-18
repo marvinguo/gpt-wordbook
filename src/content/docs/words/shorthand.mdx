@@ -1,13 +1,19 @@
 ---
 title: Shorthand
-description: "Shorthand是一个英语单词，意为速记，这是一种系统化的写作技术，使人们能够快速记录讲话或阅读材料。"
+description: Shorthand是一个英语单词，意为速记，这是一种系统化的写作技术，使人们能够快速记录讲话或阅读材料。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Shorthand"是一个英语单词，意为速记，这是一种系统化的写作技术，使人们能够快速记录讲话或阅读材料。
+
+<Pronunciation word="Shorthand" uk="/ˈʃɔːthænd/" us="/ˈʃɔːthænd/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 Justin practiced his shorthand daily, the words unfolding from his pen like quicksilver. He knew every second counted in the courtroom, and his skill would be put to the test.
 （贾斯汀每天都在练习他的速记，他笔下的文字如水银般流淌。他知道在法庭上，每一秒都很重要，他的技能将会受到考验。）
+
+<WordRelations
+  synonyms={["brachygraphy", "phonography", "stenography"]}
+  antonyms={["longhand"]}
+  client:only
+/>

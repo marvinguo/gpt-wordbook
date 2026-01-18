@@ -1,13 +1,21 @@
 ---
 title: Chase
-description: "Chase 是一个相当常用的英语单词，主要有两种语言基本含义。作为动词时，'chase' 的含义是追逐，追赶，追求，寻找。作为名词时，'chase' 的含义是追赶，追逐，猎捕。"
+description: >-
+  Chase 是一个相当常用的英语单词，主要有两种语言基本含义。作为动词时，'chase' 的含义是追逐，追赶，追求，寻找。作为名词时，'chase'
+  的含义是追赶，追逐，猎捕。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Chase" 是一个相当常用的英语单词，主要有两种语言基本含义。作为动词时，"chase" 的含义是追逐，追赶，追求，寻找。作为名词时，"chase" 的含义是追赶，追逐，猎捕。
+
+<Pronunciation word="Chase" uk="/tʃeɪs/" us="/tʃeɪs/" client:only />
 
 ### 列举例句
 
@@ -43,3 +51,8 @@ tableOfContents: false
 English: "In the quiet town, a sudden chase broke the peace. The police officer chased a thief who had just robbed the bank. People watched in awe as the chase unfolded in front of them, hoping for a peaceful resolution."
 
 中文: "在一个宁静的小镇上，一个突然的追逐打破了平静。警察在追赶一个刚抢劫了银行的小偷。人们看着眼前展开的追逐，希望能有一个和平的解决。"
+
+<WordRelations
+  synonyms={["game", "pursue"]}
+  client:only
+/>

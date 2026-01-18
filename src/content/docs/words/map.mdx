@@ -1,13 +1,19 @@
 ---
 title: Map
-description: "Map 这个单词来自于英文，通常作为名词使用，点对点地表示了地点的关系，具有'地图'的含义。当作为动词时，意为'制作地图'或'规划，安排'。"
+description: Map 这个单词来自于英文，通常作为名词使用，点对点地表示了地点的关系，具有'地图'的含义。当作为动词时，意为'制作地图'或'规划，安排'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Map" 这个单词来自于英文，通常作为名词使用，点对点地表示了地点的关系，具有"地图"的含义。当作为动词时，意为"制作地图"或"规划，安排"。
+
+<Pronunciation word="Map" uk="/mæp/" us="/mæp/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 ### 助记故事
 
 David, a young explorer, was given a warm, old map. He was eager to find a hidden treasure marked on the map. (戴维，一个年轻的探险者，收到了一张旧旧的地图。他跃跃欲试，想找到地图上标记的隐藏宝藏。)
+
+<WordRelations
+  synonyms={["function", "mapping", "level", "stage", "chart", "plan"]}
+  client:only
+/>

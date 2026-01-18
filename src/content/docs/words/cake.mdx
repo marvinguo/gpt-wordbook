@@ -1,13 +1,19 @@
 ---
 title: Cake
-description: "Cake是一个名词，主要用来表示'蛋糕'。它既可以指代由糖、鸡蛋、面粉、牛奶等制成后烤制而成的一种甜品，也可以借代生日、婚礼等庆祝场合的主题食品。"
+description: Cake是一个名词，主要用来表示'蛋糕'。它既可以指代由糖、鸡蛋、面粉、牛奶等制成后烤制而成的一种甜品，也可以借代生日、婚礼等庆祝场合的主题食品。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Cake"是一个名词，主要用来表示"蛋糕"。它既可以指代由糖、鸡蛋、面粉、牛奶等制成后烤制而成的一种甜品，也可以借代生日、婚礼等庆祝场合的主题食品。
+
+<Pronunciation word="Cake" uk="/keɪk/" us="/keɪk/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 Today is my birthday. I wake up to the smell of a freshly baked cake. It's a lovely surprise from my family. I make a wish and cut the cake.
 
 今天是我的生日。我醒来时闻到了新鲜烘焙的蛋糕的香味。这是我的家人为我准备的一个可爱的惊喜。我许下了一个愿望，并切下了蛋糕。
+
+<WordRelations
+  synonyms={["block", "gâteau", "piece of cake", "crust", "encrust"]}
+  client:only
+/>

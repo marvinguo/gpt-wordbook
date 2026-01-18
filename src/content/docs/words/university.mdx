@@ -1,13 +1,19 @@
 ---
 title: University
-description: "University 是英语中表示“大学”的单词，是一个教育机构，特别是提供高级教育和进行研究的地方。"
+description: University 是英语中表示“大学”的单词，是一个教育机构，特别是提供高级教育和进行研究的地方。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "University" 是英语中表示“大学”的单词，是一个教育机构，特别是提供高级教育和进行研究的地方。
+
+<Pronunciation word="University" uk="/juːnɪˈvɜːsətiː/" us="/junɨˈvɝsəti/" client:only />
 
 ### 列举例句
 
@@ -47,3 +53,8 @@ University 是一个纯洁的单词，"uni-"是前缀，“-vers-”是词根，
 
 Lucy's dream was to study at a top university. After years of studying, she was accepted to Harvard University, a dream come true.
 露西的梦想是上一所顶级大学。经过几年的学习，她被哈佛大学录取，梦想成真。
+
+<WordRelations
+  synonyms={["academy", "college", "institute", "uni", "varsity"]}
+  client:only
+/>

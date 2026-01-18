@@ -1,13 +1,21 @@
 ---
 title: Human
-description: "Human 是一个英语单词，代表'人'或'人类'。通常用于描述与人类有关的事物，例如人类行为(human behavior)、人类学(human studies)，等等。"
+description: >-
+  Human 是一个英语单词，代表'人'或'人类'。通常用于描述与人类有关的事物，例如人类行为(human behavior)、人类学(human
+  studies)，等等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Human" 是一个英语单词，代表"人"或"人类"。通常用于描述与人类有关的事物，例如人类行为(human behavior)、人类学(human studies)，等等。
+
+<Pronunciation word="Human" uk="/ˈhjuː.mən/" us="/ˈ(h)ju.mən/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,8 @@ tableOfContents: false
 
 Once upon a time, there was a human who wanted to understand the beauty of life. (从前，有一个人，他想理解生活的美好。)
 这个简单的故事可以帮助你记住 "human" 这个单词，并理解它的意义，即"人"。
+
+<WordRelations
+  synonyms={["human being", "man", "mannish", "mennish"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Definite
-description: "Definite 是一个形容词，基本上意味着“确定的，明确的”，无论是人们的观点、计划或是具体的事物。"
+description: Definite 是一个形容词，基本上意味着“确定的，明确的”，无论是人们的观点、计划或是具体的事物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Definite" 是一个形容词，基本上意味着“确定的，明确的”，无论是人们的观点、计划或是具体的事物。
+
+<Pronunciation word="Definite" uk="/ˈdɛfɪnɪt/" us="/ˈdɛfənɪt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 Mark had been in two minds about whether to go on a trip or not. But when he saw the sunny weather outside, he made up his mind. He took his luggage and made a definite decision to leave before dawn.
 
 马克一直在纠结是否要去旅行。然而，当他看到外面的阳光明媚时，他做出了决定。他拿起行李，做出了在黎明前离开的明确决定。
+
+<WordRelations
+  synonyms={["unquestionable"]}
+  antonyms={["indefinite"]}
+  client:only
+/>

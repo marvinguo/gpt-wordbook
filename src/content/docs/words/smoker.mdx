@@ -1,13 +1,19 @@
 ---
 title: Smoker
-description: "Smoker 是一个名词，主要有两种含义。其一，表示'吸烟者'，即经常或习惯性吸烟的人。其二，在美国，也可能指一种烟熏炉，用于烘烤或烤烟熏食物。"
+description: Smoker 是一个名词，主要有两种含义。其一，表示'吸烟者'，即经常或习惯性吸烟的人。其二，在美国，也可能指一种烟熏炉，用于烘烤或烤烟熏食物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Smoker" 是一个名词，主要有两种含义。其一，表示"吸烟者"，即经常或习惯性吸烟的人。其二，在美国，也可能指一种烟熏炉，用于烘烤或烤烟熏食物。
+
+<Pronunciation word="Smoker" uk="/ˈsmoʊkɚ/" us="/ˈsmoʊkɚ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 Once upon a time, there was a smoker called Tom. One day, he found a magical smoker that could cook any food perfectly. This improved his life.
 
 曾经，有一个叫 Tom 的吸烟者。有一天，他找到了一个神奇的烟熏炉，可以将任何食物烧得恰到好处。这改善了他的生活。
+
+<WordRelations
+  synonyms={["smoker"]}
+  antonyms={["non-smoker"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Side
-description: "英文单词 'side' 在中文里的意思通常是“侧面”，“旁边”或“一方”。它既可以作为名词，也可以作为动词使用。"
+description: 英文单词 'side' 在中文里的意思通常是“侧面”，“旁边”或“一方”。它既可以作为名词，也可以作为动词使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英文单词 "side" 在中文里的意思通常是“侧面”，“旁边”或“一方”。它既可以作为名词，也可以作为动词使用。
+
+<Pronunciation word="Side" uk="/saɪd/" us="/saɪd/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 ### 助记故事
 
 There were two boxes side by side. On the left side was a cat, and on the right side was a mouse. No one dared to move. (两个盒子并排地放着。左边的盒子里有一只猫，右边的盒子里有一只老鼠。谁都不敢动。)
+
+<WordRelations
+  synonyms={["edge", "face", "half", "team", "page", "channel", "station", "take side"]}
+  client:only
+/>

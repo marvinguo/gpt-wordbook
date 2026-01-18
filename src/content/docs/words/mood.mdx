@@ -1,13 +1,19 @@
 ---
 title: Mood
-description: "mood 的基本词义是心情或情绪的意思，常常用来描述人的感觉或状态。比如 'I'm in a good mood today'（我今天心情很好）。"
+description: mood 的基本词义是心情或情绪的意思，常常用来描述人的感觉或状态。比如 'I'm in a good mood today'（我今天心情很好）。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "mood" 的基本词义是心情或情绪的意思，常常用来描述人的感觉或状态。比如 "I'm in a good mood today"（我今天心情很好）。
+
+<Pronunciation word="Mood" uk="/muːd/" us="/muːd/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 "Tom was in a moody state, glancing at the moon outside the window. It seemed to reflect his fluctuating mood."
 (汤姆心情多变，看着窗外的月亮。好像能反映他此刻起伏的心情。)
+
+<WordRelations
+  synonyms={["big mood", "composure", "humor", "spirit", "temperament", "frame of mind", "huff", "pet", "temper"]}
+  antonyms={["good humour", "good mood", "good spirits"]}
+  client:only
+/>

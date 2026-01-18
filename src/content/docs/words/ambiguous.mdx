@@ -1,13 +1,21 @@
 ---
 title: Ambiguous
-description: "ambiguous 这个英文单词的基本含义是'不清楚的'、'模糊的'或'有多种可能解释的”。当一个句子、单词或者情况可以有多种解释或者理解的时候，我们就可以称其为'ambiguous'。"
+description: >-
+  ambiguous
+  这个英文单词的基本含义是'不清楚的'、'模糊的'或'有多种可能解释的”。当一个句子、单词或者情况可以有多种解释或者理解的时候，我们就可以称其为'ambiguous'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "ambiguous" 这个英文单词的基本含义是"不清楚的"、"模糊的"或"有多种可能解释的”。当一个句子、单词或者情况可以有多种解释或者理解的时候，我们就可以称其为"ambiguous"。
+
+<Pronunciation word="Ambiguous" uk="/æmˈbɪɡjuəs/" us="/æmˈbɪɡjuəs/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,9 @@ tableOfContents: false
 ### 助记故事
 
 She gave him an ambiguous smile, leaving him wondering. （她给了他一个模糊的微笑，让他不解。）
+
+<WordRelations
+  synonyms={["equivocal"]}
+  antonyms={["clear", "precise", "unambiguous"]}
+  client:only
+/>

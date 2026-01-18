@@ -1,13 +1,19 @@
 ---
 title: Professor
-description: "Professor是一个名词，中文翻译为“教授”，常用来称呼具有教学和研究能力的大学或学院的高级教学人员。"
+description: Professor是一个名词，中文翻译为“教授”，常用来称呼具有教学和研究能力的大学或学院的高级教学人员。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Professor"是一个名词，中文翻译为“教授”，常用来称呼具有教学和研究能力的大学或学院的高级教学人员。
+
+<Pronunciation word="Professor" uk="/pɹəˈfɛsə/" us="/pɹəˈfɛsɚ/" client:only />
 
 ### 列举例句
 
@@ -47,3 +53,8 @@ tableOfContents: false
 Professor Johnson is always in his office, surrounded by mountains of books and papers. He gives his lectures in such a passionate and engaging way that students often forget about the time.
 
 约翰逊教授总是坐在他的办公室里，周围堆满了书和论文。他用极富热情和引人入胜的方式讲解，以至于学生们常常忘记时间。
+
+<WordRelations
+  synonyms={["prof"]}
+  client:only
+/>

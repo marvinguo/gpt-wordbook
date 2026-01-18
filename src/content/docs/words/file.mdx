@@ -1,13 +1,19 @@
 ---
 title: File
-description: "File 是一个英语词汇，术语解释为'文档'或'文件'。在计算机科学中，'file'常被用于称呼一个储存在磁盘上的具体数据集。"
+description: File 是一个英语词汇，术语解释为'文档'或'文件'。在计算机科学中，'file'常被用于称呼一个储存在磁盘上的具体数据集。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "File" 是一个英语词汇，术语解释为"文档"或"文件"。在计算机科学中，"file"常被用于称呼一个储存在磁盘上的具体数据集。
+
+<Pronunciation word="File" uk="/faɪl/" us="/faɪl/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 
 Once upon a time, a detective named Jack used an old file to solve a mysterious case. All clues were hidden inside.
 (从前，有一个叫杰克的侦探使用一份旧文件解决了一个神秘的案件。所有的线索都隐藏在里面。)
+
+<WordRelations
+  synonyms={["document", "paper"]}
+  client:only
+/>

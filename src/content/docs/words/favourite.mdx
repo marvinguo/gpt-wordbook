@@ -1,13 +1,19 @@
 ---
 title: Favourite
-description: "Favourite是个形容词，表达最喜欢的或首选的意思。 这个单词也可以被用做名词，表示最喜欢的人，事物或活动。"
+description: Favourite是个形容词，表达最喜欢的或首选的意思。 这个单词也可以被用做名词，表示最喜欢的人，事物或活动。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Favourite"是个形容词，表达最喜欢的或首选的意思。 这个单词也可以被用做名词，表示最喜欢的人，事物或活动。
+
+<Pronunciation word="Favourite" uk="/ˈfeɪv.ɹɪt/" us="/ˈfeɪv.ɹɪt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 Andy went to the ice cream shop. He looked at all the flavours, but chocolate was his undeniable favourite.
 
 安迪去了冰淇淋店。他看了所有的口味，但巧克力毋庸置疑的是他最喜欢的。
+
+<WordRelations
+  synonyms={["top dog"]}
+  antonyms={["unfavorite", "unfavourite", "least favorite"]}
+  client:only
+/>

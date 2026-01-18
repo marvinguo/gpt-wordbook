@@ -1,13 +1,19 @@
 ---
 title: Now
-description: "now 是一个表示时间的副词，通常用于指当前的时间点或者现在的瞬间。也可以用作连词，表示'既然'或'由于'的意思。"
+description: now 是一个表示时间的副词，通常用于指当前的时间点或者现在的瞬间。也可以用作连词，表示'既然'或'由于'的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "now" 是一个表示时间的副词，通常用于指当前的时间点或者现在的瞬间。也可以用作连词，表示"既然"或"由于"的意思。
+
+<Pronunciation word="Now" uk="/naʊ/" us="/naʊ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 The rain was pouring down, but now the sun shines brightly. Let's go outside and enjoy the beautiful weather.
 （雨一直在下，但是现在太阳明媚地照耀。让我们出去享受这美好的天气吧。）
+
+<WordRelations
+  synonyms={["here and now"]}
+  client:only
+/>

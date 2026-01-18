@@ -1,13 +1,19 @@
 ---
 title: Simplicity
-description: "Simplicity 是一个英文的名词，意味着简易，简洁，单纯，无复杂的元素和结构。"
+description: Simplicity 是一个英文的名词，意味着简易，简洁，单纯，无复杂的元素和结构。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Simplicity" 是一个英文的名词，意味着简易，简洁，单纯，无复杂的元素和结构。
+
+<Pronunciation word="Simplicity" uk="/sɪmˈplɪsɪti/" us="/sɪmˈplɪsɪti/" client:only />
 
 ---
 
@@ -61,3 +67,9 @@ Simplicity 的发展历史可追溯到拉丁语的 "simplicitas" 表示纯朴无
 Jane moved to the simplicity city where everyone lived in a simple way. She loved the clear skies and bonded very closely with nature and its simplicity.
 
 简妮移居到了简单城，那里的人们都过着简单的生活。她喜欢那清澈的天空，并与大自然和它的简单性结下了深深的纽带。
+
+<WordRelations
+  synonyms={["simpleness"]}
+  antonyms={["complexity", "complication"]}
+  client:only
+/>

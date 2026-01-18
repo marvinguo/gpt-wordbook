@@ -1,13 +1,19 @@
 ---
 title: Make
-description: "Make是一个最常用的英语动词，意思是'制造'，'生产'，'创造'或'造成'。"
+description: Make是一个最常用的英语动词，意思是'制造'，'生产'，'创造'或'造成'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Make"是一个最常用的英语动词，意思是"制造"，"生产"，"创造"或"造成"。
+
+<Pronunciation word="Make" uk="/meɪk/" us="/meɪk/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, a boy decided to make a boat. He worked hard, and finally, his boat was made. It was a success. (从前，一个男孩决定做一艘船。他努力工作，最后，他的船做成了。这是个成功的例子。)
+
+<WordRelations
+  synonyms={["making", "manufacture", "manufacturing", "production", "brand", "manufacturer", "type", "actuation", "closing", "completion", "construction", "origin", "character", "disposition", "makeup", "way", "output", "ID", "identification", "lay"]}
+  client:only
+/>

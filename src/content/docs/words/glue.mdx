@@ -1,13 +1,19 @@
 ---
 title: Glue
-description: "Glue 是一个英语单词，意思是“胶水”，作为名词，它常用于表示用来粘合东西的一种物质。也可以作为动词，意思是“粘合”、“粘住”。"
+description: Glue 是一个英语单词，意思是“胶水”，作为名词，它常用于表示用来粘合东西的一种物质。也可以作为动词，意思是“粘合”、“粘住”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Glue 是一个英语单词，意思是“胶水”，作为名词，它常用于表示用来粘合东西的一种物质。也可以作为动词，意思是“粘合”、“粘住”。
+
+<Pronunciation word="Glue" uk="/ɡluː/" us="/ɡluː/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ Glue 的较早的应用可以追溯到古埃及，那时人们就已经开始使
 Lucy spilled some glue on her new book. Trying to remove it only made it worse, spreading it further across the page.
 
 露西把一些胶水洒在了她的新书上。试图清除只是使情况变得更糟，将其进一步蔓延到页面上。
+
+<WordRelations
+  synonyms={["adhere", "cling", "stick", "agglutinate", "conglutinate", "gum", "paste"]}
+  client:only
+/>

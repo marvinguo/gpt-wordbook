@@ -1,14 +1,20 @@
 ---
-title: "Bashful"
-description: "Bashful 形容羞怯的、局促不安的、不好意思的。"
+title: Bashful
+description: Bashful 形容羞怯的、局促不安的、不好意思的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Bashful** 是一个形容词。它常用来形容小孩子或害羞的人在陌生人面前表现出的那种畏缩或不好意思。
+
+<Pronunciation word="Bashful" uk="[ˈbæʃfəɫ]" us="[ˈbæʃfəɫ]" client:only />
 
 ### 列举例句
 
@@ -30,3 +36,7 @@ tableOfContents: false
 He was bashful about his singing talent and only sang when he was home alone.
 (他对自己的唱歌天赋感到害羞，只有在一个人在家时才唱。)
 
+<WordRelations
+  synonyms={["shy"]}
+  client:only
+/>

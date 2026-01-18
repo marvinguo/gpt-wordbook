@@ -1,13 +1,19 @@
 ---
 title: Core
-description: "Core是英语单词，主要有以下三种基本含义："
+description: Core是英语单词，主要有以下三种基本含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Core"是英语单词，主要有以下三种基本含义：
+
+<Pronunciation word="Core" uk="/kɔː/" us="/kɔɹ/" client:only />
 
 1.  核心 region、中心，在某种事物的最中央或最重要的部分，例如：The core of the earth（地球的核心）。
 2.  果核，果实的中心结构，例如：The apple has a sweet crunchy core（苹果有一个甜脆的核）。
@@ -42,3 +48,8 @@ tableOfContents: false
 ### 助记故事
 
 John runs a small core company that creates software. ——约翰经营着一个小型核心公司，该公司生产软件。
+
+<WordRelations
+  synonyms={["crux", "gist"]}
+  client:only
+/>

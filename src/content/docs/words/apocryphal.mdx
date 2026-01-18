@@ -1,14 +1,20 @@
 ---
-title: "Apocryphal"
-description: "Apocryphal 形容传闻的、真实性可疑的（虽然广为流传）。"
+title: Apocryphal
+description: Apocryphal 形容传闻的、真实性可疑的（虽然广为流传）。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Apocryphal** 是一个形容词。常用来形容那些非常出名但其实可能是编造出来的故事或轶事。
+
+<Pronunciation word="Apocryphal" uk="/əˈpɒkɹəfəl/" us="/əˈpɑːkɹəfəl/" client:only />
 
 ### 列举例句
 
@@ -29,3 +35,8 @@ tableOfContents: false
 The professor warned the students that many famous scientific quotes are actually apocryphal.
 (教授警告学生，许多著名的科学名言实际上都是杜撰的。)
 
+<WordRelations
+  synonyms={["allonymous", "spurious", "anecdotal"]}
+  antonyms={["canonical"]}
+  client:only
+/>

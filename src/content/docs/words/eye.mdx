@@ -1,13 +1,19 @@
 ---
 title: Eye
-description: "Eye 是英语中一个常见的词，意思是“眼睛”。"
+description: Eye 是英语中一个常见的词，意思是“眼睛”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Eye" 是英语中一个常见的词，意思是“眼睛”。
+
+<Pronunciation word="Eye" uk="/aɪ/" us="/aɪ/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ Eye 并无词缀。
 Once upon a time, there was a girl who had the most beautiful eyes in the land. Each morning, she would stand in front of the mirror and admire her own eyes' beauty.
 
 从前，这里有一个女孩，她有这片大地上最美丽的眼睛。每天早上，她都会站在镜子前，欣赏自己眼睛的美丽。
+
+<WordRelations
+  synonyms={["eyelet", "perceptiveness"]}
+  client:only
+/>

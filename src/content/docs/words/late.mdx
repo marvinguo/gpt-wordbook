@@ -1,13 +1,21 @@
 ---
 title: Late
-description: "Late 是一个形容词和副词，主要的意思是'迟的'或'晚的'。它可用于描述时间上发生得比预期或通常要晚的事或人。例如，'He is late for school' (他上学迟到了)。"
+description: >-
+  Late 是一个形容词和副词，主要的意思是'迟的'或'晚的'。它可用于描述时间上发生得比预期或通常要晚的事或人。例如，'He is late for
+  school' (他上学迟到了)。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Late" 是一个形容词和副词，主要的意思是"迟的"或"晚的"。它可用于描述时间上发生得比预期或通常要晚的事或人。例如，"He is late for school" (他上学迟到了)。
+
+<Pronunciation word="Late" uk="/leɪt/" us="/leɪt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 "John was running late for his meeting. He ran through the park, the late afternoon sunlight filtering through the leaves." (约翰要迟到了，他正在赶往会议。他穿过公园，晚后的阳光透过树叶洒下。)
+
+<WordRelations
+  synonyms={["erenow", "freshly", "belatedly"]}
+  antonyms={["early"]}
+  client:only
+/>

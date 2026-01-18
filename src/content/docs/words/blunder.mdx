@@ -1,13 +1,19 @@
 ---
 title: Blunder
-description: "Blunder 是一个英语单词，可以用作名词和动词，主要有两层含义。"
+description: Blunder 是一个英语单词，可以用作名词和动词，主要有两层含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Blunder" 是一个英语单词，可以用作名词和动词，主要有两层含义。
+
+<Pronunciation word="Blunder" uk="/ˈblʌn.də(ɹ)/" us="/ˈblʌn.dɚ/" client:only />
 
 1.  （名词）它可以表示“极大的错误”或者“愚蠢的失误”。
 2.  （动词）它表示“做某事失败，出错”。
@@ -43,3 +49,8 @@ tableOfContents: false
 
 Tom, in front of a big audience, blundered his speech for the school president campaign. He mixed up his papers and ended up delivering the wrong elements. The incident ruined his reputation.
 （汤姆在大量的观众面前，为学校总统的竞选演讲出了错误。他把稿子搞混了，结果讲错了内容。这个事件破坏了他的名誉。）
+
+<WordRelations
+  synonyms={["blooper", "boo-boo", "error", "faux pas", "flub", "fluff", "fumble", "gaffe", "goof", "lapse", "mistake", "slip", "stumble", "thinko"]}
+  client:only
+/>

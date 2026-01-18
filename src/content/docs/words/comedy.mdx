@@ -1,13 +1,20 @@
 ---
 title: Comedy
-description: "英文单词'comedy'代表着一个古老的艺术形式，也就是剧院里的一种类型。当我们说“comedy”时，我们常常指的是在戏剧、电影、电视节目或任何形式的娱乐中找到的一种欢笑和乐趣。"
+description: >-
+  英文单词'comedy'代表着一个古老的艺术形式，也就是剧院里的一种类型。当我们说“comedy”时，我们常常指的是在戏剧、电影、电视节目或任何形式的娱乐中找到的一种欢笑和乐趣。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英文单词"comedy"代表着一个古老的艺术形式，也就是剧院里的一种类型。当我们说“comedy”时，我们常常指的是在戏剧、电影、电视节目或任何形式的娱乐中找到的一种欢笑和乐趣。
+
+<Pronunciation word="Comedy" uk="/ˈkɒmədi/" us="/ˈkɑmədi/" client:only />
 
 ### 列举例句
 
@@ -44,3 +51,8 @@ tableOfContents: false
 
 Once upon a time, a comedy club named "Laugh Out Loud" existed. It was the sanctuary where everyone laughed their worries away.
 从前，有一个名叫“Laugh Out Loud”的喜剧俱乐部。这里是每个人笑声盈耳，忘却烦恼的圣地。
+
+<WordRelations
+  antonyms={["drama", "tragedy"]}
+  client:only
+/>

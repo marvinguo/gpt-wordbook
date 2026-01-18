@@ -1,13 +1,19 @@
 ---
 title: Infant
-description: "Infant 是一个英语单词，意指儿童早期阶段的婴儿或尚未学会说话的小孩。"
+description: Infant 是一个英语单词，意指儿童早期阶段的婴儿或尚未学会说话的小孩。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Infant" 是一个英语单词，意指儿童早期阶段的婴儿或尚未学会说话的小孩。
+
+<Pronunciation word="Infant" uk="/ˈɪn.fənt/" us="/ˈɪn.fənt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 ### 助记故事
 
 "Once upon a time, in a quiet village, was an infant named Oscar. Despite being an infant, Oscar was very alert and curious." (从前，在一个安静的村庄里，有一个叫奥斯卡的婴儿。尽管他还是个婴儿，但奥斯卡非常警觉和好奇。)
+
+<WordRelations
+  synonyms={["baby"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Likelihood
-description: "Likelihood 是一个名词，指的是某事发生的可能性或概率。这个词被广泛用于描述各种情况的可能性。"
+description: Likelihood 是一个名词，指的是某事发生的可能性或概率。这个词被广泛用于描述各种情况的可能性。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Likelihood" 是一个名词，指的是某事发生的可能性或概率。这个词被广泛用于描述各种情况的可能性。
+
+<Pronunciation word="Likelihood" uk="/ˈlaɪklihʊd/" us="/ˈlaɪklihʊd/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,9 @@ Likelihood 作为名词，没有特别复数形式，主要配合度量词用来
 Tom was always curious about the likelihood of finding treasure in his backyard. One day, he decided to dig a hole. His parents smiled, believing there was no likelihood of this actually happening.
 
 汤姆总是对在他的后院找到宝藏的可能性感到好奇。有一天，他决定挖个洞。他的父母笑了笑，认为这根本不可能发生。
+
+<WordRelations
+  synonyms={["likeliness", "odds"]}
+  antonyms={["unlikelihood"]}
+  client:only
+/>

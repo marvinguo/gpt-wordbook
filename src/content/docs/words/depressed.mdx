@@ -1,13 +1,19 @@
 ---
 title: Depressed
-description: "Depressed是一个形容词，主要有两种含义:"
+description: 'Depressed是一个形容词，主要有两种含义:'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Depressed"是一个形容词，主要有两种含义:
+
+<Pronunciation word="Depressed" uk="/dɪˈpɹɛst/" us="/dɪˈpɹɛst/" client:only />
 
 1.  悲伤的，沮丧的，表示一个人的情绪低落或者消沉。例如：He was depressed after his failure (他在失败后感到很沮丧)。
 
@@ -46,3 +52,9 @@ tableOfContents: false
 John was feeling so depressed after failing his chemistry test. He thought he studied hard, but results were not what he expected. (约翰在化学测试失败后感到非常沮丧。他认为他学习很努力，但是结果却不是他预期的。)
 
 约翰在化学测试失败后感到非常沮丧。他认为他学习很努力，但结果并非他所期望的。
+
+<WordRelations
+  synonyms={["downbear", "despondent", "emo", "gloomy", "melancholy", "miserable", "sad", "unhappy"]}
+  antonyms={["cheerful"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Quiet
-description: "Quiet 这个单词在英语中常用作形容词或副词，主要表示“安静的”、“平静的”。"
+description: Quiet 这个单词在英语中常用作形容词或副词，主要表示“安静的”、“平静的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Quiet" 这个单词在英语中常用作形容词或副词，主要表示“安静的”、“平静的”。
+
+<Pronunciation word="Quiet" uk="/ˈkwaɪ.ət/" us="/ˈkwaɪ.ət/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 
 In the middle of the night, the forest became extremely quiet. The only sound that could be heard was the rustling of leaves in the wind.
 (在深夜，森林变得极其安静。唯一能听到的声音就是风吹动树叶的沙沙声。)
+
+<WordRelations
+  synonyms={["quiet down", "quieten", "slow", "unbusy", "modest", "plain", "simple"]}
+  antonyms={["loud", "sounded", "vocal"]}
+  client:only
+/>

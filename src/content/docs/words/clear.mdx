@@ -1,13 +1,21 @@
 ---
 title: Clear
-description: "Clear 是一个英语单词，既可以做形容词，也可以做动词。作为一个形容词，它的基本含义是'清澈的，明确的，干净的，'。作为动词，它的基本含义是'清除，清理，澄清'。"
+description: >-
+  Clear
+  是一个英语单词，既可以做形容词，也可以做动词。作为一个形容词，它的基本含义是'清澈的，明确的，干净的，'。作为动词，它的基本含义是'清除，清理，澄清'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Clear 是一个英语单词，既可以做形容词，也可以做动词。作为一个形容词，它的基本含义是"清澈的，明确的，干净的，"。作为动词，它的基本含义是"清除，清理，澄清"。
+
+<Pronunciation word="Clear" uk="/klɪə(ɹ)/" us="/klɪɹ/" client:only />
 
 ### 列举例句
 
@@ -34,3 +42,9 @@ Clear 的不同形式包括：clear (基本形式), clears (第三人称单数),
 ### 助记故事
 
 One day, a little boy helped his mother clear the leaves in their garden. After a while, the garden became clean and clear. (有一天，一个小男孩帮他妈妈清理园子里的树叶。过了一会儿，花园变得干净又清爽。)
+
+<WordRelations
+  synonyms={["stub", "pellucid", "transparent", "homogeneous", "conspicuous"]}
+  antonyms={["thick", "opaque", "turbid", "cloudy", "nebulous", "obscure"]}
+  client:only
+/>

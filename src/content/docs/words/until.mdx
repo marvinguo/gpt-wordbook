@@ -1,13 +1,19 @@
 ---
 title: Until
-description: "Until 是一个英文的介词或者连词，它的基本含义是“直到......为止”或者“在......之前”。"
+description: Until 是一个英文的介词或者连词，它的基本含义是“直到......为止”或者“在......之前”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Until" 是一个英文的介词或者连词，它的基本含义是“直到......为止”或者“在......之前”。
+
+<Pronunciation word="Until" uk="/ənˈtɪl/" us="/ənˈtɪl/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 "John practiced playing the piano every day until he could play the sonata perfectly. All his efforts paid off at the recital."
 约翰每天都在练习弹钢琴，直到他能够完美地演奏那首奏鸣曲。到了音乐会，他的所有努力都得到了回报。
+
+<WordRelations
+  synonyms={["'til", "till", "up to", "afore", "before"]}
+  antonyms={["since"]}
+  client:only
+/>

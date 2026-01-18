@@ -1,13 +1,19 @@
 ---
 title: Candy
-description: "Candy是英文中的一个名词，中文的意思是“糖果”。也可用作动词，意思是将一种食物用糖或蜂蜜烧制得甜蜜。"
+description: Candy是英文中的一个名词，中文的意思是“糖果”。也可用作动词，意思是将一种食物用糖或蜂蜜烧制得甜蜜。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Candy"是英文中的一个名词，中文的意思是“糖果”。也可用作动词，意思是将一种食物用糖或蜂蜜烧制得甜蜜。
+
+<Pronunciation word="Candy" uk="/ˈkændi/" us="/ˈkændi/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ Candy 可以作为名词或者动词使用。其形容词形式为"candied"，�
 ### 助记故事
 
 Once upon a time, a candy shop opened in our town. As sweet as a dream, it brought great joy to the children. （从前，我们的城市开了一家糖果店。糖果店就像一个甜蜜的梦，给孩子们带来了极大的快乐。）
+
+<WordRelations
+  synonyms={["confectionery", "lollies", "sugar candy", "sweet", "lolly"]}
+  client:only
+/>

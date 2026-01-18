@@ -1,13 +1,19 @@
 ---
 title: Brain
-description: "Brain 是一个名词，主要用来指人体或动物体内的大脑。除此之外，它也可以形象地指一个人的智力或者头脑。"
+description: Brain 是一个名词，主要用来指人体或动物体内的大脑。除此之外，它也可以形象地指一个人的智力或者头脑。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Brain" 是一个名词，主要用来指人体或动物体内的大脑。除此之外，它也可以形象地指一个人的智力或者头脑。
+
+<Pronunciation word="Brain" uk="/bɹeɪn/" us="/bɹeɪn/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 ### 助记故事
 
 Tom has always been the brain of the group. He could solve problems that were too difficult for the rest of us. This time, he put his brain to work and found a solution to our biggest challenge. （汤姆一直是我们组的智囊团。他能解决对我们其他人来说太难的问题。这次，他动起了脑筋，找到了我们最大挑战的解决方案。）
+
+<WordRelations
+  synonyms={["harns"]}
+  client:only
+/>

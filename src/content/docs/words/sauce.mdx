@@ -1,13 +1,19 @@
 ---
 title: Sauce
-description: "Sauce是一个英文单词，表示“酱汁”。这是一种通常用于为食物增添风味的液体，半固体或混合物。包括番茄酱、奶油酱、烧烤酱等。"
+description: Sauce是一个英文单词，表示“酱汁”。这是一种通常用于为食物增添风味的液体，半固体或混合物。包括番茄酱、奶油酱、烧烤酱等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “Sauce”是一个英文单词，表示“酱汁”。这是一种通常用于为食物增添风味的液体，半固体或混合物。包括番茄酱、奶油酱、烧烤酱等。
+
+<Pronunciation word="Sauce" uk="/sɔːs/" us="/sɑs/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 Every day, Mary cooks dinner for her family, and her special spaghetti with meat sauce is a favorite. ("玛丽每天为家人做晚餐，她特别的肉酱意面是家人们的最爱。")
+
+<WordRelations
+  synonyms={["sowl", "wellspring"]}
+  client:only
+/>

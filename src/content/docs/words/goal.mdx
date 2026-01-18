@@ -1,13 +1,19 @@
 ---
 title: Goal
-description: "Goal是一个英语单词，主要的含义是目标或者目的。在不同的语境中，也可以表示进球、终点或计划。"
+description: Goal是一个英语单词，主要的含义是目标或者目的。在不同的语境中，也可以表示进球、终点或计划。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Goal"是一个英语单词，主要的含义是目标或者目的。在不同的语境中，也可以表示进球、终点或计划。
+
+<Pronunciation word="Goal" uk="/ɡɒʊl/" us="/ɡoʊl/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Tom has a goal - he wants to become the best doctor in his town. Every day, he studies hard to achieve his goal. (汤姆有一个目标--他想成为他所在城镇的最佳医生。每天，他都为实现自己的目标而努力学习。)
+
+<WordRelations
+  synonyms={["ambition", "aspiration", "objective", "purpose"]}
+  client:only
+/>

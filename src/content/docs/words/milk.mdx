@@ -1,13 +1,21 @@
 ---
 title: Milk
-description: "milk 是我们日常生活中非常常见的一个词，主要用来表达牛奶或者其他动物生产的乳汁。另外, “milk” 也可以作为动词, 如 'milk the cow' (挤奶牛)。"
+description: >-
+  milk 是我们日常生活中非常常见的一个词，主要用来表达牛奶或者其他动物生产的乳汁。另外, “milk” 也可以作为动词, 如 'milk the cow'
+  (挤奶牛)。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "milk" 是我们日常生活中非常常见的一个词，主要用来表达牛奶或者其他动物生产的乳汁。另外, “milk” 也可以作为动词, 如 "milk the cow" (挤奶牛)。
+
+<Pronunciation word="Milk" uk="/mɪlk/" us="/mɪlk/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 Every morning, Jimmy helps his grandfather milk their cows in the farm. They always enjoy warm milk for breakfast. (每天早上，吉米都会帮助他的爷爷在农场挤奶。他们总是享受温热的牛奶作为早餐。)
+
+<WordRelations
+  synonyms={["cow milk", "cow's milk", "cowmilk"]}
+  client:only
+/>

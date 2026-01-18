@@ -1,13 +1,21 @@
 ---
 title: P.M.
-description: "- P.M. 是一个英文的缩写，全称为 'Post Meridiem'，翻译成中文的意思就是 “正午之后”，我们常用于表示在 12 点至 24 点之间的时间，即下午和晚上。"
+description: >-
+  - P.M. 是一个英文的缩写，全称为 'Post Meridiem'，翻译成中文的意思就是 “正午之后”，我们常用于表示在 12 点至 24
+  点之间的时间，即下午和晚上。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - P.M. 是一个英文的缩写，全称为 "Post Meridiem"，翻译成中文的意思就是 “正午之后”，我们常用于表示在 12 点至 24 点之间的时间，即下午和晚上。
+
+<Pronunciation word="P.M." uk="/piːˈɛm/" us="/piːˈɛm/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 
 Once upon a time, the sun was blazing at its peak - 12 P.M. As time passed, it crossed the meridian, transforming into P.M., when the earth began to cool and the stars began to blink in the night sky.
 (从前有一次，太阳在顶峰时刻 - 中午 12 点 - 炽热地燃烧。随着时间的推移，它越过了子午线，转变为下午和晚上，此时地球开始降温，星星开始在夜空中闪烁。）
+
+<WordRelations
+  synonyms={["afternoon"]}
+  antonyms={["a.m.", "forenoon"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Prompt
-description: "Prompt是一个英语单词，作为动词时意思是'马上做'，或者说'促使'；作为名词时可以理解为'提示'或者'指示'。"
+description: Prompt是一个英语单词，作为动词时意思是'马上做'，或者说'促使'；作为名词时可以理解为'提示'或者'指示'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Prompt"是一个英语单词，作为动词时意思是"马上做"，或者说"促使"；作为名词时可以理解为"提示"或者"指示"。
+
+<Pronunciation word="Prompt" uk="/pɹɒmpt/" us="/pɹɒmpt/" client:only />
 
 ### 列举例句
 
@@ -49,3 +55,8 @@ tableOfContents: false
 ### 助记故事
 
 Barry was lost in the dark forest. Suddenly, a prompt in his survival guide book occurred to him, "Follow the North Star to find your way." (巴里在黑暗的森林中迷路了。突然，他想起了生存指南中的一个提示："跟随北极星找到你的路。")
+
+<WordRelations
+  synonyms={["hasty", "timely", "good to go", "yare"]}
+  client:only
+/>

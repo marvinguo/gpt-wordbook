@@ -1,13 +1,21 @@
 ---
 title: Rare
-description: "Rare' 是一个形容词，主要意思是 '不常见的'、'罕见的' 或 '稀有的'，它侧重表示一种稀缺或非常值得珍视的特性。例如，'A kind person like you is quite rare.' 意思是 '像你这样好心的人真是难得一见。"
+description: >-
+  Rare' 是一个形容词，主要意思是 '不常见的'、'罕见的' 或 '稀有的'，它侧重表示一种稀缺或非常值得珍视的特性。例如，'A kind person
+  like you is quite rare.' 意思是 '像你这样好心的人真是难得一见。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Rare" 是一个形容词，主要意思是 '不常见的'、'罕见的' 或 '稀有的'，它侧重表示一种稀缺或非常值得珍视的特性。例如，'A kind person like you is quite rare.' 意思是 '像你这样好心的人真是难得一见。'
+
+<Pronunciation word="Rare" uk="[ɹɜɹ]" us="/ɹɛəɹ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,9 @@ tableOfContents: false
 Once there was a rare blue butterfly, which flew around rarely seen flowers. People loved and took care of it, as it was very rare.
 
 曾经有一只稀有的蓝蝴蝶，它飞到几乎从未见过的花朵上。人们非常喜爱并照顾它，因为它非常稀有。
+
+<WordRelations
+  synonyms={["geason", "scarce", "selcouth", "seld", "seldsome", "selly", "uncommon"]}
+  antonyms={["common", "frequent"]}
+  client:only
+/>

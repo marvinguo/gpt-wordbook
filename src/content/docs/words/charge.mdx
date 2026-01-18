@@ -4,8 +4,14 @@ sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
     "Charge" 是一个常用的英语单词，常见的意义有：
+
+<Pronunciation word="Charge" uk="/t͡ʃɑːd͡ʒ/" us="/t͡ʃɑɹd͡ʒ/" client:only />
 
 - "费用，价钱"，例如 "entrance charge"（入场费）
 - "充电"，例如 "charge a phone"（给手机充电）
@@ -43,3 +49,8 @@ tableOfContents: false
     Once upon a time, a brave soldier, knowing he was outnumbered, decided to charge at the enemy alone. Gripping his weapon tightly, he charged forward, the threat of his pending charges giving him courage.
 
 曾经有一次，一个勇敢的士兵，虽然知道自己寡不敌众，但依然决定单枪匹马冲向敌人。他紧紧握着武器，向前冲，对即将面临的指控的威胁给了他勇气。
+
+<WordRelations
+  synonyms={["count"]}
+  client:only
+/>

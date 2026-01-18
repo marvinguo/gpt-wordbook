@@ -1,13 +1,19 @@
 ---
 title: Earth
-description: "Earth 是地球的英文名称，它指的是我们生活的这个行星。"
+description: Earth 是地球的英文名称，它指的是我们生活的这个行星。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Earth" 是地球的英文名称，它指的是我们生活的这个行星。
+
+<Pronunciation word="Earth" uk="/ɜːθ/" us="/ɝθ/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,8 @@ tableOfContents: false
 
 In the vast space, the Earth looks like a blue marble. Full of life and vitality, it's our only home.
 在浩渺的宇宙空间中，地球看起来就像一颗蓝色的弹珠。充满了生命和活力，它是我们唯一的家。
+
+<WordRelations
+  synonyms={["Mother Earth", "Sol III", "Terra", "globe", "world", "Middle Earth", "Midgard", "ground"]}
+  client:only
+/>

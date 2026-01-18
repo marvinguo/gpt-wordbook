@@ -1,13 +1,19 @@
 ---
 title: Mankind
-description: "Mankind 是一个英文词汇，它主要被用于指代所有的人类。它强调的是人类的总体，整个人类社会，或者是人作为一种生物的整体。"
+description: Mankind 是一个英文词汇，它主要被用于指代所有的人类。它强调的是人类的总体，整个人类社会，或者是人作为一种生物的整体。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Mankind" 是一个英文词汇，它主要被用于指代所有的人类。它强调的是人类的总体，整个人类社会，或者是人作为一种生物的整体。
+
+<Pronunciation word="Mankind" uk="/mænˈkaɪnd/" us="/mænˈkaɪnd/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 The ambition of mankind was to conquer space. After years of striving, mankind eventually walked on the moon. It was a giant leap for mankind.
 
 (人类的抱负是征服空间。经过多年的努力，人类终于登上了月球。这对于人类来说是一个巨大的飞跃。)
+
+<WordRelations
+  antonyms={["womankind", "womenkind"]}
+  client:only
+/>

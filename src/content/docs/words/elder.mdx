@@ -1,13 +1,19 @@
 ---
 title: Elder
-description: "Elder 是一个英语词汇，它主要用来表示年龄更大的，或者在家族、社区、教会或其他团体中的地位更高的人。"
+description: Elder 是一个英语词汇，它主要用来表示年龄更大的，或者在家族、社区、教会或其他团体中的地位更高的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Elder" 是一个英语词汇，它主要用来表示年龄更大的，或者在家族、社区、教会或其他团体中的地位更高的人。
+
+<Pronunciation word="Elder" uk="/ˈeldə/" us="/ˈeldə/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 Tom, a young man, was struggling in life. He went to the village elder for advice. The elder, with his wisdom, guided Tom, changing his life forever. (汤姆是一个年轻人，正处在人生挣扎之中。他去向村里的长者求教。长者用他的智慧，引导着汤姆，永远改变了他的生活。)
+
+<WordRelations
+  synonyms={["eld", "mzee", "senior", "antecessor", "forerunner", "erstwhile", "ex-", "former", "one-time", "past", "ancient", "long in the tooth", "aged", "of age", "ageing", "aging", "elderly", "on in years", "antiquated", "obsolete"]}
+  antonyms={["current", "latest", "new", "brand new", "fresh", "young"]}
+  client:only
+/>

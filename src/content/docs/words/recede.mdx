@@ -1,13 +1,21 @@
 ---
 title: Recede
-description: "Recede是一个动词，主要指向后移，减少，减弱。例如，海水在退潮时会“recede”，或者说，当疾病症状减轻时，“Symptoms may recede”。"
+description: >-
+  Recede是一个动词，主要指向后移，减少，减弱。例如，海水在退潮时会“recede”，或者说，当疾病症状减轻时，“Symptoms may
+  recede”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Recede"是一个动词，主要指向后移，减少，减弱。例如，海水在退潮时会“recede”，或者说，当疾病症状减轻时，“Symptoms may recede”。
+
+<Pronunciation word="Recede" uk="/ɹɨˈsiːd/" us="/ɹɨˈsiːd/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ Recded 的过去式和过去分词都是“receded”，现在分词为“recedi
 After the heavy rain, the town was flooded. But to everyone's relief, the flood began to recede the next day, gradually revealing the original appearance of the town.
 
 (在一场大雨之后，整个镇子被淹没。但令所有人欣慰的是，洪水在第二天开始退去，逐渐露出了小镇原本的样貌。)
+
+<WordRelations
+  synonyms={["withdraw"]}
+  client:only
+/>

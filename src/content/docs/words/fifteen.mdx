@@ -1,13 +1,19 @@
 ---
 title: Fifteen
-description: "Fifteen 是一个英文数字，代表 15。它既可以用来表示具体的数目，也可以指代一个顺序。"
+description: Fifteen 是一个英文数字，代表 15。它既可以用来表示具体的数目，也可以指代一个顺序。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fifteen" 是一个英文数字，代表 15。它既可以用来表示具体的数目，也可以指代一个顺序。
+
+<Pronunciation word="Fifteen" uk="/fɪfˈtiːn/" us="/fɪfˈtiːn/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 
 Lucy received fifteen candies on her birthday. She was thrilled because her favourite number is fifteen!
 (露西在她的生日收到了十五颗糖果。她很兴奋，因为她最喜欢的数字就是十五！)
+
+<WordRelations
+  synonyms={["15", "XV"]}
+  client:only
+/>

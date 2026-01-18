@@ -1,13 +1,19 @@
 ---
 title: Electric
-description: "Electric这个单词在英文中是形容词和名词，主要表示与电有关的意思。"
+description: Electric这个单词在英文中是形容词和名词，主要表示与电有关的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Electric"这个单词在英文中是形容词和名词，主要表示与电有关的意思。
+
+<Pronunciation word="Electric" uk="/əˈlɛktɹɪk/" us="/əˈlɛktɹɪk/" client:only />
 
 形容词用法：例如，"electric car"（电动汽车）, "electric shock"（电击, 电休克）.
 
@@ -44,3 +50,9 @@ tableOfContents: false
 ### 助记故事
 
 Tom is an engineer. He designed an electric skateboard, fast and stylish. He rode it to work today, stunning everyone.（汤姆是一名工程师。他设计了一个电动滑板，快速且时尚。他今天骑着它去上班，所有人都被惊艳到了。）
+
+<WordRelations
+  synonyms={["electrical"]}
+  antonyms={["steam"]}
+  client:only
+/>

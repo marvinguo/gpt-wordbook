@@ -1,13 +1,19 @@
 ---
 title: Hearth
-description: "Hearth 这个单词在英文中的主要含义是 '壁炉的炉床' 或 '壁炉周围的地面区域'，它也可以引申为家庭和家庭生活的象征。"
+description: Hearth 这个单词在英文中的主要含义是 '壁炉的炉床' 或 '壁炉周围的地面区域'，它也可以引申为家庭和家庭生活的象征。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Hearth" 这个单词在英文中的主要含义是 "壁炉的炉床" 或 "壁炉周围的地面区域"，它也可以引申为家庭和家庭生活的象征。
+
+<Pronunciation word="Hearth" uk="/hɑːθ/" us="/hɑɹθ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 "Despite the snowstorm outside, inside was cozy. The family was gathered around the hearth, sharing stories and laughter." 在这个简单的故事中，家人围坐在壁炉旁世界它的温暖。
 中文翻译是："尽管外面是大雪纷飞，但室内却是温暖如春。全家人围坐在壁炉旁，分享故事和笑声。"
+
+<WordRelations
+  synonyms={["fireplace"]}
+  client:only
+/>

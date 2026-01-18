@@ -1,13 +1,19 @@
 ---
 title: Fame
-description: "Fame 是一个名词，意思是 '名誉'，'声誉' 或 '知名度'，通常用来指代一个人的知名度或者被公众广泛认可的状态。"
+description: Fame 是一个名词，意思是 '名誉'，'声誉' 或 '知名度'，通常用来指代一个人的知名度或者被公众广泛认可的状态。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fame" 是一个名词，意思是 "名誉"，"声誉" 或 "知名度"，通常用来指代一个人的知名度或者被公众广泛认可的状态。
+
+<Pronunciation word="Fame" uk="/feɪm/" us="/feɪm/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Julian was a small town boy with big dreams. He moved to the city to find fame. Overcoming numerous challenges, he became a successful musician. Despite his fame, he never forgot his humble beginnings.
 
 (朱利安是一个有着大梦想的小镇男孩。他搬到了这个城市去找寻名声。克服了无数的挑战后，他成为了一位成功的音乐家。尽管他很出名，但他从未忘记他的朴素出身。)
+
+<WordRelations
+  antonyms={["obscurity", "unknownness"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Sad
-description: "sad是一个形容词，用于描述充满悲伤或失落的情绪，典型使用场景是描述个人，宠物或场景的感觉。"
+description: sad是一个形容词，用于描述充满悲伤或失落的情绪，典型使用场景是描述个人，宠物或场景的感觉。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 'sad'是一个形容词，用于描述充满悲伤或失落的情绪，典型使用场景是描述个人，宠物或场景的感觉。
+
+<Pronunciation word="Sad" uk="/sæd/" us="/sæd/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,9 @@ tableOfContents: false
 Once upon a time, there was a sad little girl who lost her ballon. She sat all day, missing her balloon.
 
 从前，有个小女孩失去了她的气球，感到非常伤心。她整天坐着，想念她的气球。
+
+<WordRelations
+  synonyms={["lamentable", "discomforted", "distressed", "uncomfortable", "unhappy", "depressed", "down in the dumps", "glum", "melancholy", "poignant", "touching", "pitiful", "sorry"]}
+  antonyms={["cheerful", "decent", "gleeful", "upbeat", "happy"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Honest
-description: "Honest 是一个英文形容词，常用来描述人的品质，意为'诚实的，真实的，公正的'。而作为副词时，可以解释为“老实说，实话说”。"
+description: Honest 是一个英文形容词，常用来描述人的品质，意为'诚实的，真实的，公正的'。而作为副词时，可以解释为“老实说，实话说”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Honest" 是一个英文形容词，常用来描述人的品质，意为"诚实的，真实的，公正的"。而作为副词时，可以解释为“老实说，实话说”。
+
+<Pronunciation word="Honest" uk="/ˈɒnɪst/" us="/ˈɑnɪst/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Tom was an honest salesman. Everyone in town trusted him because he was always fair and open. No matter what, he chose honesty over profit.
 
 汤姆是个诚实的销售员。镇上的每个人都信任他，因为他总是公平公正。无论如何，他都会选择诚实而非利润。
+
+<WordRelations
+  antonyms={["dishonest"]}
+  client:only
+/>

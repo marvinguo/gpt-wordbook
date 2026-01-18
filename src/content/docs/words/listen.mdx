@@ -1,13 +1,19 @@
 ---
 title: Listen
-description: "Listen 是一个动词，其核心词义是“听”。在具体使用中它可以表示平常我们说的“听音乐、听报告、听小时候的故事”等等。"
+description: Listen 是一个动词，其核心词义是“听”。在具体使用中它可以表示平常我们说的“听音乐、听报告、听小时候的故事”等等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Listen" 是一个动词，其核心词义是“听”。在具体使用中它可以表示平常我们说的“听音乐、听报告、听小时候的故事”等等。
+
+<Pronunciation word="Listen" uk="/ˈlɪs.ən/" us="/ˈlɪs.ən/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 ### 助记故事
 
 Once John was having trouble with his math problems. His wise grandmother said, "John, sit down and listen. Understanding comes from listening carefully."（有一次，约翰在做数学题时遇到了麻烦，他聪明的祖母说：“约翰，坐下来，听我说，理解来自于仔细的倾听。”）
+
+<WordRelations
+  synonyms={["play", "agree", "assent", "hearken", "mind", "obey", "anticipate", "await", "expect", "wait for", "hear", "heed", "attend", "behear", "give ear", "hark", "list", "note", "pay attention"]}
+  antonyms={["disobey", "disregard", "ignore"]}
+  client:only
+/>

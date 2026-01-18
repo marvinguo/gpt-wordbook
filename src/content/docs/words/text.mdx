@@ -1,13 +1,19 @@
 ---
 title: Text
-description: "Text 在英语中是名词，意为'文本'或'正文'。它可以指任何书面或印刷的内容，可以是一封信、一篇文章、一本书的内容等。"
+description: Text 在英语中是名词，意为'文本'或'正文'。它可以指任何书面或印刷的内容，可以是一封信、一篇文章、一本书的内容等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Text" 在英语中是名词，意为"文本"或"正文"。它可以指任何书面或印刷的内容，可以是一封信、一篇文章、一本书的内容等。
+
+<Pronunciation word="Text" uk="/tɛkst/" us="/tɛkst/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ Once upon a time, a mysterious text appeared in the town square. Everyone was pu
 
 上述故事的中文版：
 在很久以前，一个神秘的文本出现在城市的广场上。每个人都对它感到困惑。老图书馆管理员眼里闪烁着光芒，他拿起一本古老的教科书开始解码它。
+
+<WordRelations
+  synonyms={["text hand", "text message", "theme", "topic", "SMS", "message"]}
+  antonyms={["binary"]}
+  client:only
+/>

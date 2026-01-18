@@ -1,13 +1,21 @@
 ---
 title: Lonely
-description: "Lonely 是一个形容词，只有英文含义是' feeling sad because one has no friends or company'，中文翻译为'孤独的'或者'寂寞的'。"
+description: >-
+  Lonely 是一个形容词，只有英文含义是' feeling sad because one has no friends or
+  company'，中文翻译为'孤独的'或者'寂寞的'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Lonely" 是一个形容词，只有英文含义是" feeling sad because one has no friends or company"，中文翻译为"孤独的"或者"寂寞的"。
+
+<Pronunciation word="Lonely" uk="/ˈləʊnli/" us="/ˈloʊnli/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,8 @@ tableOfContents: false
 
 On a cold winter day, a lonely snowman stood in the park. No one came to visit him. His heart was colder than the snow.
 在冷冷的冬日里，一个孤独的雪人站在公园里。没有人来看望它。它的心比雪还要冷。
+
+<WordRelations
+  synonyms={["lonesome", "desert", "desolate", "empty", "unpeopled", "unpopulated", "alone", "solitary", "unaccompanied"]}
+  client:only
+/>

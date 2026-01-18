@@ -1,13 +1,19 @@
 ---
 title: Wholesome
-description: "Wholesome是一个形容词，通常被用来描述有益于人的身心健康的事物。它可以被用来描述食物，活动，人，甚至是环境。"
+description: Wholesome是一个形容词，通常被用来描述有益于人的身心健康的事物。它可以被用来描述食物，活动，人，甚至是环境。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wholesome"是一个形容词，通常被用来描述有益于人的身心健康的事物。它可以被用来描述食物，活动，人，甚至是环境。
+
+<Pronunciation word="Wholesome" uk="/ˈhoʊlsəm/" us="/ˈhoʊlsəm/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 ### 助记故事
 
 Sally always loved her grandma's kitchen. It was always filled with the wholesome aroma of homemade bread and cookies, ticking all the senses into a state of comfort and peace. (萨莉一直喜欢她奶奶的厨房，那里总是弥漫着自制面包和饼干的有益健康的香气，把所有的感官都引向了安慰和平静的状态。)
+
+<WordRelations
+  synonyms={["healthful", "healthy", "salubrious"]}
+  antonyms={["unwholesome"]}
+  client:only
+/>

@@ -1,13 +1,21 @@
 ---
 title: Common
-description: "Common 是一个常用的英语单词，主要意思是“普通的”、“常见的”或“共享的”。用法多样，并可用作形容词、名词和动词。例如，'It's common knowledge that...'（这是大家都知道的事实…）。"
+description: >-
+  Common 是一个常用的英语单词，主要意思是“普通的”、“常见的”或“共享的”。用法多样，并可用作形容词、名词和动词。例如，'It's common
+  knowledge that...'（这是大家都知道的事实…）。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Common" 是一个常用的英语单词，主要意思是“普通的”、“常见的”或“共享的”。用法多样，并可用作形容词、名词和动词。例如，"It's common knowledge that..."（这是大家都知道的事实…）。
+
+<Pronunciation word="Common" uk="/ˈkɒmən/" us="/ˈkɑmən/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,9 @@ tableOfContents: false
 ### 助记故事
 
 "One day, Tom saw a bird in his backyard. This was not a common sight as he lived in a busy city. He felt excitement because it's not common to see nature in such a bustling place."（有一天，汤姆在他的后院看见了一只鸟。这在他这个繁忙的城市里并不是一个常见的情景。他感到很兴奋，因为在如此繁忙的地方看到大自然的情景并不常见。）
+
+<WordRelations
+  synonyms={["appellative", "epicene", "mutual", "shared", "widespread", "common-or-garden", "everyday", "normal", "ordinary", "standard", "usual", "common parlance"]}
+  antonyms={["individual", "peculiar", "personal", "few and far between", "rare", "uncommon", "exceptional", "extraordinary", "noteworthy", "special", "technical term"]}
+  client:only
+/>

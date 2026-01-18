@@ -1,13 +1,19 @@
 ---
 title: Odd
-description: "当 'odd' 用作形容词时，意思是'奇怪的'，'不寻常的'。它也可用来描述数字，表示'奇数的'。另外，它也有'偶然的'，'零星的'等意思。"
+description: 当 'odd' 用作形容词时，意思是'奇怪的'，'不寻常的'。它也可用来描述数字，表示'奇数的'。另外，它也有'偶然的'，'零星的'等意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 当 "odd" 用作形容词时，意思是"奇怪的"，"不寻常的"。它也可用来描述数字，表示"奇数的"。另外，它也有"偶然的"，"零星的"等意思。
+
+<Pronunciation word="Odd" uk="/ɒd/" us="/ɑd/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 Tom saw a cat with three legs, it was really odd. (汤姆看到了一只只有三条腿的猫，真是奇怪。)
+
+<WordRelations
+  synonyms={["mismatched", "single", "strange", "unusual"]}
+  antonyms={["common", "familiar", "mediocre", "even"]}
+  client:only
+/>

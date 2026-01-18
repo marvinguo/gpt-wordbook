@@ -1,13 +1,19 @@
 ---
 title: Rabbit
-description: "Rabbit是一个英文词汇，意为'兔子'。"
+description: Rabbit是一个英文词汇，意为'兔子'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Rabbit"是一个英文词汇，意为"兔子"。
+
+<Pronunciation word="Rabbit" uk="/ˈɹæbət/" us="/ˈɹæbɪt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 There was a little rabbit named Fluffy. He loved hopping around the meadow. One day, he found a big, juicy carrot and had a wonderful day.
 在一个地方，住着一个名叫 Fluffy 的小兔子。他喜欢在草地上跳来跳去。一天，他发现了一根又大又多汁的胡萝卜，于是他过得非常开心。
+
+<WordRelations
+  synonyms={["bunny", "colloquial", "hypocoristic", "pet name", "bunny rabbit", "coney", "cony", "bolt", "run off", "scamper"]}
+  client:only
+/>

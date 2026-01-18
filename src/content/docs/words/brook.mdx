@@ -1,13 +1,21 @@
 ---
 title: Brook
-description: "Brook是一个词性丰富的单词，既可以作为名词使用，也可以作为动词使用。作为名词，'brook' 指的是一条小溪，流动的水体。作为动词时，'brook '意指'容忍'，'接受'的意思。"
+description: >-
+  Brook是一个词性丰富的单词，既可以作为名词使用，也可以作为动词使用。作为名词，'brook' 指的是一条小溪，流动的水体。作为动词时，'brook
+  '意指'容忍'，'接受'的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Brook"是一个词性丰富的单词，既可以作为名词使用，也可以作为动词使用。作为名词，"brook" 指的是一条小溪，流动的水体。作为动词时，"brook "意指"容忍"，"接受"的意思。
+
+<Pronunciation word="Brook" uk="/bɹʊk/" us="/bɹʊk/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ tableOfContents: false
 
 A weary traveler laid down to rest by a babbling brook. The soft sound of the brook lulled him to sleep peacefully.
 (一个疲倦的旅行者躺在嘎嘎作响的小溪边休息。小溪的柔和声音轻轻地哄着他进入梦乡。)
+
+<WordRelations
+  synonyms={["apply", "employ", "utilize"]}
+  client:only
+/>

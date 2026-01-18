@@ -1,13 +1,19 @@
 ---
 title: Defend
-description: "Defend 是一个动词，用于描述保护某人或某事，防止受到伤害或袭击。比如保护一个人不被攻击，保护一个观点或理念不被攻击等。"
+description: Defend 是一个动词，用于描述保护某人或某事，防止受到伤害或袭击。比如保护一个人不被攻击，保护一个观点或理念不被攻击等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Defend" 是一个动词，用于描述保护某人或某事，防止受到伤害或袭击。比如保护一个人不被攻击，保护一个观点或理念不被攻击等。
+
+<Pronunciation word="Defend" uk="/dɪˈfɛnd/" us="/diˈfɛnd/" client:only />
 
 ### 列举例句
 
@@ -53,3 +59,8 @@ Defend 这个单词在中世纪的欧洲诞生，主要用于描述封建领主�
 Once upon a time, a brave knight **defended** his castle from a dragon. His courage was admired by everyone.
 
 曾经有一次，一位勇敢的骑士**保卫**他的城堡不被一只龙攻打。他的勇气受到了每个人的敬仰。
+
+<WordRelations
+  antonyms={["attack"]}
+  client:only
+/>

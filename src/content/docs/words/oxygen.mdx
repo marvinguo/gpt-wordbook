@@ -1,13 +1,19 @@
 ---
 title: Oxygen
-description: "Oxygen是指二氧化碳，我们呼吸的空气中含有 21%的氧气，它是我们生存的基石，也在其他生命形式中起着关键作用。"
+description: Oxygen是指二氧化碳，我们呼吸的空气中含有 21%的氧气，它是我们生存的基石，也在其他生命形式中起着关键作用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Oxygen"是指二氧化碳，我们呼吸的空气中含有 21%的氧气，它是我们生存的基石，也在其他生命形式中起着关键作用。
+
+<Pronunciation word="Oxygen" uk="/ˈɒksɪdʒən/" us="/ˈɒksɪdʒən/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 "Peter was climbing a mountain. The further he went, the shorter his breath became. He reached for his oxygen tank. How wonderful, the oxygen was!"
 
 "彼特正在爬山。他越往上走，呼吸就越短促。他伸手去拿他的氧气罐。多么美妙，氧气就是这么重要！"
+
+<WordRelations
+  synonyms={["E948", "packaging gas", "sourstuff"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Grandmother
-description: "Grandmother 是一個英文名詞，意思是「奶奶」或者「外婆」，是母親或父親的母親。"
+description: Grandmother 是一個英文名詞，意思是「奶奶」或者「外婆」，是母親或父親的母親。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Grandmother" 是一個英文名詞，意思是「奶奶」或者「外婆」，是母親或父親的母親。
+
+<Pronunciation word="Grandmother" uk="/ˈɡɹæn(d)ˌmʌðə(r)/" us="/ˈɡɹæn(d)ˌmʌðɚ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ Grandmother 包含兩個部分：“grand-”和“mother”，其中“grand-�
 Emma often visits her grandmother during the holidays. Her grandmother would bake her favorite apple pies and tell her stories of her own youth. It always made Emma feel warm and loved.
 
 艾玛在假期里经常去看望她的外婆。外婆总是会烤艾玛最喜欢的苹果派，并给她讲述自己年轻时的故事。这让艾玛感到温暖和被爱。
+
+<WordRelations
+  antonyms={["grandchild", "granddaughter", "grandson", "grandfather"]}
+  client:only
+/>

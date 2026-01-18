@@ -1,13 +1,19 @@
 ---
 title: Fate
-description: "英语单词 'fate' 的基本意思是命运、运气或者结局。"
+description: 英语单词 'fate' 的基本意思是命运、运气或者结局。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英语单词 "fate" 的基本意思是命运、运气或者结局。
+
+<Pronunciation word="Fate" uk="/feɪt/" us="/feɪt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 There was a prince who didn't believe in fate. He married a commoner girl despite the protest of the kingdom. Sadly, the girl unexpectedly died because of an illness. The prince finally realized that he couldn't escape his fate.
 
 曾经有个王子不相信命运。尽管国王反对，他还是娶了一个平民女孩。可是，不幸的是，女孩因病意外去世。王子最终意识到，他无法逃脱自己的命运。
+
+<WordRelations
+  synonyms={["destiny", "doom", "fortune", "kismet", "lot", "necessity", "orlay", "predestination", "wyrd"]}
+  antonyms={["chance", "choice", "free will", "freedom"]}
+  client:only
+/>

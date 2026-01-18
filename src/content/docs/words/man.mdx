@@ -1,13 +1,19 @@
 ---
 title: Man
-description: "Man 是英语中很常用的词汇，一般意思是“男人”，也可以指代“人类”，“成年男子”。"
+description: Man 是英语中很常用的词汇，一般意思是“男人”，也可以指代“人类”，“成年男子”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Man" 是英语中很常用的词汇，一般意思是“男人”，也可以指代“人类”，“成年男子”。
+
+<Pronunciation word="Man" uk="/mæn/" us="/mæn/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 "Once upon a time, there was a man who loved stars. Every night, he would look into the sky and admire their sparkle."
 
 从前，有一个男子热爱星星。每一个晚上，他都会看向天空欣赏他们的闪烁。
+
+<WordRelations
+  synonyms={["male", "omi", "human", "person"]}
+  client:only
+/>

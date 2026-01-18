@@ -1,13 +1,19 @@
 ---
 title: Cancer
-description: "Cancer 主要有两种含义，医学上指的是 “癌症”，天文学上则表示 “巨蟹座”。"
+description: Cancer 主要有两种含义，医学上指的是 “癌症”，天文学上则表示 “巨蟹座”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Cancer" 主要有两种含义，医学上指的是 “癌症”，天文学上则表示 “巨蟹座”。
+
+<Pronunciation word="Cancer" uk="/ˈkænsə/" us="/ˈkænsɚ/" client:only />
 
 ### 列举例句
 
@@ -35,3 +41,8 @@ N/A。"Cancer" 作为抽象名词和专有名词通常不变形。
 
 John, a Cancer born in July, fought hard against lung cancer. With family support and advances in science, he prevailed. Victory is sweeter when hard-fought.
 约翰，一个七月出生的巨蟹座，与肺癌进行了艰难的斗争。在家人的支持和科技的进步下，他取得了胜利。经过艰难斗争获得的胜利更为甜美。
+
+<WordRelations
+  synonyms={["growth", "malignancy", "neoplasia", "lichen"]}
+  client:only
+/>

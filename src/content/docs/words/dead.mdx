@@ -1,13 +1,19 @@
 ---
 title: Dead
-description: "Dead 是一个形容词，表示已经死亡的，不再存在的。也有完全的，彻底的含义。"
+description: Dead 是一个形容词，表示已经死亡的，不再存在的。也有完全的，彻底的含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Dead" 是一个形容词，表示已经死亡的，不再存在的。也有完全的，彻底的含义。
+
+<Pronunciation word="Dead" uk="/diːd/" us="/diːd/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 Tom's phone was dead in the middle of the night. He felt like at a dead end, with no way to call for help.
 (中夜时分，汤姆的手机没电了。他觉得自己像是走进了死胡同，无法呼求帮助。)
+
+<WordRelations
+  synonyms={["deceased"]}
+  antonyms={["alive", "living"]}
+  client:only
+/>

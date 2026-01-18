@@ -1,13 +1,19 @@
 ---
 title: Exist
-description: "Exist 是一个动词，意思是“存在”，涵盖了在实际、理论或某个特定环境中的存在。它也可以表示为“生存”、“活着”。"
+description: Exist 是一个动词，意思是“存在”，涵盖了在实际、理论或某个特定环境中的存在。它也可以表示为“生存”、“活着”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 'Exist' 是一个动词，意思是“存在”，涵盖了在实际、理论或某个特定环境中的存在。它也可以表示为“生存”、“活着”。
+
+<Pronunciation word="Exist" uk="/ɪɡˈzɪst/" us="/ɪɡˈzɪst/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 'Do you think mermaids exist?' John asked his grandpa. 'Well, John, existence is not black and white. Maybe in our minds, they exist.'
 (“你认为美人鱼存在吗？”约翰问他的爷爷。“嗯，约翰，存在并不是非黑即白。也许在我们的脑海中，他们是存在的。”)
+
+<WordRelations
+  synonyms={["be"]}
+  client:only
+/>

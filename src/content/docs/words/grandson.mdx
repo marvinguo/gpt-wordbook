@@ -1,13 +1,19 @@
 ---
 title: Grandson
-description: "Grandson是英语中的一个名词，指的是你的儿子或者女儿的儿子，中文里我们叫'孙子'。"
+description: Grandson是英语中的一个名词，指的是你的儿子或者女儿的儿子，中文里我们叫'孙子'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Grandson"是英语中的一个名词，指的是你的儿子或者女儿的儿子，中文里我们叫"孙子"。
+
+<Pronunciation word="Grandson" uk="/ˈɡɹæn(d)sʌn/" us="/ˈɡɹæn(d)sʌn/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ Grandson 的对应名词是"granddaughter"，有着相同的前缀"grand-"。
 ### 助记故事
 
 "John loves spending time with his grandson, Bobby. They often fish together at the nearby lake." 约翰喜欢和他的孙子鲍比在一起消磨时间。他们经常在附近的湖边一起钓鱼。
+
+<WordRelations
+  synonyms={["grandboy"]}
+  antonyms={["grandfather", "grandmother"]}
+  client:only
+/>

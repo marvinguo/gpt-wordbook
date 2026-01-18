@@ -1,13 +1,19 @@
 ---
 title: Isle
-description: "Isle 是英语中的名词，它的意思是“岛屿”。这个词通常用来描述一个较小且通常较为草木茂盛的岛。"
+description: Isle 是英语中的名词，它的意思是“岛屿”。这个词通常用来描述一个较小且通常较为草木茂盛的岛。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Isle" 是英语中的名词，它的意思是“岛屿”。这个词通常用来描述一个较小且通常较为草木茂盛的岛。
+
+<Pronunciation word="Isle" uk="/aɪ̯l/" us="/aɪ̯l/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 
 There is a tiny isle in the middle of the tranquil lake, full of vibrant wild flowers and emerald green trees, making it a perfect picnic spot for the citizens during spring.
 湖中央有一个小岛，遍布着鲜艳的野花和翠绿的树木，使它成为市民春天野餐的完美去处。
+
+<WordRelations
+  synonyms={["isle", "aisle seat"]}
+  antonyms={["window", "window seat"]}
+  client:only
+/>

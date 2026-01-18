@@ -1,13 +1,19 @@
 ---
 title: Ribbon
-description: "Ribbon 是英语中的一个单词，它的基本意义是“丝带，带状物”。它也常常作为一个动词，表示'削成带状'。"
+description: Ribbon 是英语中的一个单词，它的基本意义是“丝带，带状物”。它也常常作为一个动词，表示'削成带状'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Ribbon 是英语中的一个单词，它的基本意义是“丝带，带状物”。它也常常作为一个动词，表示"削成带状"。
+
+<Pronunciation word="Ribbon" uk="/ˈɹɪbən/" us="/ˈɹɪbən/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ Ribbon 的变形主要体现在其动词形式，过去时和过去分词为 rib
 
 Annie found a blue ribbon on the playground. She tied it on her wrist, then it became her lucky charm.
 (安妮在操场上找到了一条蓝色的丝带。她把它绑在她的手腕上，然后它就成了她的幸运符。)
+
+<WordRelations
+  synonyms={["beribbon"]}
+  client:only
+/>

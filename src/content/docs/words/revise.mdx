@@ -1,13 +1,19 @@
 ---
 title: Revise
-description: "Revise 是一个英文动词，表示'重查、复习、修改、改正'。"
+description: Revise 是一个英文动词，表示'重查、复习、修改、改正'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Revise" 是一个英文动词，表示"重查、复习、修改、改正"。
+
+<Pronunciation word="Revise" uk="/ɹɪˈvaɪ̯z/" us="/ɹɪˈvaɪ̯z/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 John found a lot of mistakes after he revised his essay. He realized the importance of revision and decided to revise his work meticulously in the future.（约翰在修订他的论文后发现了很多错误。他意识到了复习的重要性，决定以后要仔细地修改他的作品。）
 
 中文翻译：约翰在修改他的论文后发现了很多错误。他意识到了复习的重要性，决定以后要仔细地修改他的作品。
+
+<WordRelations
+  synonyms={["review"]}
+  client:only
+/>

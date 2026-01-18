@@ -1,13 +1,19 @@
 ---
 title: Depart
-description: "Depart 是一个动词，主要意思是离开或出发。这个词代表了一个人或一件事物从一个地方或情形离开或开始一个新的旅程或任务。"
+description: Depart 是一个动词，主要意思是离开或出发。这个词代表了一个人或一件事物从一个地方或情形离开或开始一个新的旅程或任务。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Depart" 是一个动词，主要意思是离开或出发。这个词代表了一个人或一件事物从一个地方或情形离开或开始一个新的旅程或任务。
+
+<Pronunciation word="Depart" uk="/dɪˈpɑːt/" us="/dɪˈpɑɹt/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 
 The day was dull and rainy as Jim packed his suitcase to depart for college. He took one last look at his room and left it empty.
 （那天阴沉而雨蘸, 吉姆打包行李准备离家上大学。他最后看了一眼他的房间，然后离开了空荡荡的屋子。）
+
+<WordRelations
+  synonyms={["deviate", "digress", "diverge", "sidetrack", "straggle", "vary", "leave"]}
+  antonyms={["arrive", "come", "stay", "conform", "live"]}
+  client:only
+/>

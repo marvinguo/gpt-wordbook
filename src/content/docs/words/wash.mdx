@@ -1,13 +1,21 @@
 ---
 title: Wash
-description: "Wash 是一个用途广泛的英语单词，主要用作动词，指的是清洗、洗涤的意思，例如洗脸、洗手、洗车。同时，“wash”也可以用作名词，指的是洗涤的行为或结果，如 “give the car a good wash”（给车子好好洗一洗）。"
+description: >-
+  Wash 是一个用途广泛的英语单词，主要用作动词，指的是清洗、洗涤的意思，例如洗脸、洗手、洗车。同时，“wash”也可以用作名词，指的是洗涤的行为或结果，如
+  “give the car a good wash”（给车子好好洗一洗）。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wash" 是一个用途广泛的英语单词，主要用作动词，指的是清洗、洗涤的意思，例如洗脸、洗手、洗车。同时，“wash”也可以用作名词，指的是洗涤的行为或结果，如 “give the car a good wash”（给车子好好洗一洗）。
+
+<Pronunciation word="Wash" uk="/wɒʃ/" us="/wɑʃ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ tableOfContents: false
 
 Every morning, Tom washes his face, brushes his teeth, and starts a new day.
 每天早上，汤姆都会洗脸，刷牙，然后开始新的一天。
+
+<WordRelations
+  synonyms={["lavatory"]}
+  client:only
+/>

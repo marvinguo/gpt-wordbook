@@ -1,13 +1,19 @@
 ---
 title: Sunshine
-description: "Sunshine是一个英语单词，主要有两个含义：1）阳光。2）开朗快乐的人或事物，这是引申意。"
+description: Sunshine是一个英语单词，主要有两个含义：1）阳光。2）开朗快乐的人或事物，这是引申意。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sunshine"是一个英语单词，主要有两个含义：1）阳光。2）开朗快乐的人或事物，这是引申意。
+
+<Pronunciation word="Sunshine" uk="/ˈsʌnʃaɪn/" us="/ˈsʌnʃaɪn/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Sally loves to play in the sunshine. She says it makes her feel alive and full of joy. Warm rays make the world seem brighter. (萨莉喜欢在阳光下玩耍。她说这让她感到充满活力和快乐。温暖的阳光使世界看起来更明亮。)
+
+<WordRelations
+  synonyms={["sunlight"]}
+  client:only
+/>

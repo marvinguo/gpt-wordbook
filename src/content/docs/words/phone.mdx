@@ -1,13 +1,19 @@
 ---
 title: Phone
-description: "Phone是英语中的一个非常常用的单词，表示电话。这个单词通常用来指代固定电话或移动电话，可能是特许的设备，也可能是应用程序。"
+description: Phone是英语中的一个非常常用的单词，表示电话。这个单词通常用来指代固定电话或移动电话，可能是特许的设备，也可能是应用程序。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Phone"是英语中的一个非常常用的单词，表示电话。这个单词通常用来指代固定电话或移动电话，可能是特许的设备，也可能是应用程序。
+
+<Pronunciation word="Phone" uk="/fəʊ̯n/" us="/foʊ̯n/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ Phone 的复数形式为 phones。作为动词，phone 有三种主要形式：p
 
 There was a power outage, so John couldn't charge his phone. He felt disconnected from the world without it.
 荒漠里的约翰电量用完，无法给电话充电。没有它，他感到自己与世界断开了联系。
+
+<WordRelations
+  synonyms={["call", "ring", "telephone"]}
+  client:only
+/>

@@ -1,14 +1,20 @@
 ---
-title: "Callous"
-description: "Callous 形容冷酷无情的、起老茧的。"
+title: Callous
+description: Callous 形容冷酷无情的、起老茧的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Callous** 既可以形容身体上的皮肤变硬（老茧），更常用来形容心理上的冷漠，对不属于自己的痛苦无动于衷。
+
+<Pronunciation word="Callous" uk="/ˈkæləs/" us="/ˈkæləs/" client:only />
 
 ### 列举例句
 
@@ -29,3 +35,7 @@ tableOfContents: false
 The callous landlord evicted the family right before Christmas.
 (那位冷酷无情的房东在圣诞节前夕把那一家人赶了出来。)
 
+<WordRelations
+  synonyms={["heartless", "insensitive"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Taste
-description: "taste 是一个多义词，主要含有以下几种意思："
+description: taste 是一个多义词，主要含有以下几种意思：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "taste" 是一个多义词，主要含有以下几种意思：
+
+<Pronunciation word="Taste" uk="/teɪst/" us="/teɪst/" client:only />
 
 1.  品尝：试吃或试饮食物或饮料的味道。
 2.  味道：食物或饮料在口中的感觉或感知。
@@ -48,3 +54,8 @@ tableOfContents: false
 "Anna decided to bake cookies for the first time. She followed the recipe, and finally, she tasted it. To her surprise, it had a wonderful taste!”
 
 "安娜决定第一次自己烘烤饼干。她按照食谱做，最后，她尝了尝。令她惊喜的是，它的味道非常好！"
+
+<WordRelations
+  synonyms={["smack", "smatch", "culture", "discernment", "refinement", "style", "impression", "sample", "trial", "hint", "smake"]}
+  client:only
+/>

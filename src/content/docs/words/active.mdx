@@ -1,13 +1,19 @@
 ---
 title: Active
-description: "Active这个单词在英语中主要有两层含义。"
+description: Active这个单词在英语中主要有两层含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Active"这个单词在英语中主要有两层含义。
+
+<Pronunciation word="Active" uk="/ˈæk.tɪv/" us="/ˈæk.tɪv/" client:only />
 
 1.  通常用来描述一个人体力活动频繁的特性，例如喜欢运动或不喜欢坐着不动的人，就可以说是 "active"。相当于中文中的“活跃”或“积极的”。
 2.  在语法中，我们会把主动的句式称为 "active"（主动句）。例如对比："The cat caught the mouse"（主动句）和 "The mouse was caught by the cat"（被动句）。
@@ -44,3 +50,9 @@ Active 的词根源于 14 世纪的英法拉丁词"activus"，意为"给予生�
 
 Tom is an active boy. He likes sports and is always seen on the basketball court after class. In class, he is also active in answering questions.
 汤姆是个活跃的男孩。他喜欢运动，课后总在篮球场上见到他。在课堂上，他亦积极回答问题。
+
+<WordRelations
+  synonyms={["acting", "agile", "nimble", "busy", "deedful", "diligent", "energetic", "in action", "in force", "working", "operative", "top"]}
+  antonyms={["bottom", "passive", "dormant", "extinct", "quiescent", "dull", "indolent", "inert", "sluggish", "still", "sedentary", "tranquil", "slow", "speculative", "theoretical"]}
+  client:only
+/>

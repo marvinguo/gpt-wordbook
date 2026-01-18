@@ -1,13 +1,21 @@
 ---
 title: Rise
-description: "Rise 是一个常用的动词，具有多个含义。最常见的含义是“上升，升起”，既可以指物理上的升高，比如“太阳升起”(the sun rises)，也可以表示抽象的提升，如“价格上涨”或“崛起”。"
+description: >-
+  Rise 是一个常用的动词，具有多个含义。最常见的含义是“上升，升起”，既可以指物理上的升高，比如“太阳升起”(the sun
+  rises)，也可以表示抽象的提升，如“价格上涨”或“崛起”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Rise" 是一个常用的动词，具有多个含义。最常见的含义是“上升，升起”，既可以指物理上的升高，比如“太阳升起”(the sun rises)，也可以表示抽象的提升，如“价格上涨”或“崛起”。
+
+<Pronunciation word="Rise" uk="/ɹaɪs/" us="/ɹaɪs/" client:only />
 
 ### 列举例句
 
@@ -45,3 +53,9 @@ tableOfContents: false
 
 "Every morning, Tom watches the sun rise above the mountains."
 『每天早上，汤姆都会看着太阳从山上升起。』
+
+<WordRelations
+  synonyms={["come back from the dead", "arise", "get up", "climb", "go up", "increase"]}
+  antonyms={["descend", "drop", "fall", "sink", "set", "decrease", "go down", "reduced"]}
+  client:only
+/>

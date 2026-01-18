@@ -1,13 +1,19 @@
 ---
 title: Middle
-description: "Middle 是一个英语单词，用作名词和形容词。作为名词，它称为中间或中部；作为形容词，它描述的事物位于中间，质量或顺序位于两个目标之间。"
+description: Middle 是一个英语单词，用作名词和形容词。作为名词，它称为中间或中部；作为形容词，它描述的事物位于中间，质量或顺序位于两个目标之间。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Middle" 是一个英语单词，用作名词和形容词。作为名词，它称为中间或中部；作为形容词，它描述的事物位于中间，质量或顺序位于两个目标之间。
+
+<Pronunciation word="Middle" uk="/ˈmɪdəl/" us="/ˈmɪdəl/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 
 There was a tree in the middle of the forest, where the animals loved to gather.
 (森林中央有一棵树，动物们喜欢在那里聚集。)
+
+<WordRelations
+  synonyms={["center", "centre", "midpoint", "midst"]}
+  client:only
+/>

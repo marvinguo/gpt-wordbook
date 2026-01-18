@@ -1,13 +1,19 @@
 ---
 title: Petrol
-description: "Petrol在英语中是一个名词，主要在英国使用来表示我们通常所说的汽油。在美国，这个词通常被称为'gasoline'。"
+description: Petrol在英语中是一个名词，主要在英国使用来表示我们通常所说的汽油。在美国，这个词通常被称为'gasoline'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Petrol"在英语中是一个名词，主要在英国使用来表示我们通常所说的汽油。在美国，这个词通常被称为"gasoline"。
+
+<Pronunciation word="Petrol" uk="/ˈpɛt.ɹəl/" us="/ˈpɛt.ɹəl/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ Tom's brand new car ran out of petrol in the middle of nowhere. （汤姆的全�
 汤姆的全新汽车在不知名的地方用完了汽油。
 
 希望以上信息能帮助你理解和记住单词"petrol"。
+
+<WordRelations
+  synonyms={["gas", "gasoline"]}
+  client:only
+/>

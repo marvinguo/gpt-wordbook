@@ -1,13 +1,19 @@
 ---
 title: Slang
-description: "Slang 是一个英语单词，通常指的是在某个社区、集团、地区或特殊行业中使用的非正式的、非标准的词汇或词组。"
+description: Slang 是一个英语单词，通常指的是在某个社区、集团、地区或特殊行业中使用的非正式的、非标准的词汇或词组。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Slang 是一个英语单词，通常指的是在某个社区、集团、地区或特殊行业中使用的非正式的、非标准的词汇或词组。
+
+<Pronunciation word="Slang" uk="/sleɪŋ/" us="/sleɪŋ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Slang 是一个基本单词，没有词缀。
 
 Tom used a lot of slang in his speech, which, to outsiders, was difficult to understand. But his friends understood every word and laughed heartily.
 （汤姆在他的讲话中使用了很多俚语，对外人来说，这很难理解。但他的朋友们明白每一个单词，都笑得很开心。）
+
+<WordRelations
+  synonyms={["cant", "dialect", "jargon", "lingo", "vernacular"]}
+  client:only
+/>

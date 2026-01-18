@@ -1,13 +1,19 @@
 ---
 title: Mutter
-description: "mutter 是一个英语动词，意思是嘀咕，小声抱怨或发牢骚。"
+description: mutter 是一个英语动词，意思是嘀咕，小声抱怨或发牢骚。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "mutter" 是一个英语动词，意思是嘀咕，小声抱怨或发牢骚。
+
+<Pronunciation word="Mutter" uk="/ˈmʌtə/" us="/ˈmʌtɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Once upon a time, a boy named Jack mutters every time he does his chores. His mother told him to stop complaining.
 (从前，一个叫杰克的男孩每次做家务都会嘀咕。他的母亲告诉他不要抱怨。)
+
+<WordRelations
+  synonyms={["growl", "putter", "rumble", "babble", "mumble", "murmur", "ramble", "stutter", "grumble"]}
+  client:only
+/>

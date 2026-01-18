@@ -1,13 +1,18 @@
 ---
 title: Playmate
-description: "Playmate是一个英文单词，指的是游戏伙伴或玩伴。"
+description: Playmate是一个英文单词，指的是游戏伙伴或玩伴。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Playmate"是一个英文单词，指的是游戏伙伴或玩伴。
+
 
 ### 列举例句
 
@@ -44,3 +49,8 @@ tableOfContents: false
 
 "Once upon a time, a lonely puppy found a playmate. They played together every day and soon became inseparable."
 "从前，有只孤独的小狗找到了一个玩伴。他们每天都在一起玩，很快就变得形影不离。"
+
+<WordRelations
+  synonyms={["playfellow"]}
+  client:only
+/>

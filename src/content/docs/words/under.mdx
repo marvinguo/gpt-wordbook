@@ -1,13 +1,21 @@
 ---
 title: Under
-description: "Under 是一个英文介词，它通常表示某物位于另一物之下。除此之外，'under' 也可以表示某事处在进行中，或被控制、管理或影响的状态，如“under construction”(在建)，“under control”(在控制之下)。"
+description: >-
+  Under 是一个英文介词，它通常表示某物位于另一物之下。除此之外，'under' 也可以表示某事处在进行中，或被控制、管理或影响的状态，如“under
+  construction”(在建)，“under control”(在控制之下)。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Under" 是一个英文介词，它通常表示某物位于另一物之下。除此之外，"under" 也可以表示某事处在进行中，或被控制、管理或影响的状态，如“under construction”(在建)，“under control”(在控制之下)。
+
+<Pronunciation word="Under" uk="/ˈʊndə/" us="/ˈʌndɚ/" client:only />
 
 ### 列举例句
 
@@ -43,3 +51,9 @@ tableOfContents: false
 "Jimmy was trying to find his lost toy. Suddenly, he found it under the bed." Jimmy 在找他丢失的玩具。突然，他在床下找到了它。
 
 中文翻译：吉米正在寻找他丢失的玩具。突然，他在床下找到了它。
+
+<WordRelations
+  synonyms={["below", "beneath", "underneath"]}
+  antonyms={["above", "over"]}
+  client:only
+/>

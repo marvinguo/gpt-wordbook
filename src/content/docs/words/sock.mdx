@@ -1,13 +1,19 @@
 ---
 title: Sock
-description: "英语单词 'sock' 在中文中的主要意思是“袜子”。"
+description: 英语单词 'sock' 在中文中的主要意思是“袜子”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英语单词 "sock" 在中文中的主要意思是“袜子”。
+
+<Pronunciation word="Sock" uk="/sɒk/" us="/sɑk/" client:only />
 
 ### 列举例句
 
@@ -36,3 +42,8 @@ Sock 的词根是来自古英语的 "socc"，原意为“轻软鞋”，没有�
 
 One Christmas, Tom got a pair of warm socks from his grandma. They were not fashionable, but they made him feel his grandma's love.
 （一个圣诞节，汤姆从他的奶奶那里收到了一双温暖的袜子。他们可能并不时尚，但他们让他感受到了他奶奶的爱。）
+
+<WordRelations
+  synonyms={["mitten"]}
+  client:only
+/>

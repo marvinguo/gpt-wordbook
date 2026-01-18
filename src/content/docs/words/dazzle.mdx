@@ -1,13 +1,19 @@
 ---
 title: Dazzle
-description: "Dazzle是一个动词, 它的主要含义是“使人眼花缭乱”或者“朝人眼睛投射刺眼的光”。"
+description: 'Dazzle是一个动词, 它的主要含义是“使人眼花缭乱”或者“朝人眼睛投射刺眼的光”。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Dazzle"是一个动词, 它的主要含义是“使人眼花缭乱”或者“朝人眼睛投射刺眼的光”。
+
+<Pronunciation word="Dazzle" uk="/ˈdæzəl/" us="/ˈdæzəl/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 
 Walking down the street at Christmas, the dazzling lights of the store windows never failed to dazzle me.
 (当我在圣诞节走在街上时，商店窗户的炫目灯光总是让我眼花缭乱。)
+
+<WordRelations
+  synonyms={["herd", "zeal", "impress", "overpower"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Fear
-description: "Fear是英语中的一个动词和名词，表示害怕、担忧、恐惧的含义。"
+description: Fear是英语中的一个动词和名词，表示害怕、担忧、恐惧的含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fear"是英语中的一个动词和名词，表示害怕、担忧、恐惧的含义。
+
+<Pronunciation word="Fear" uk="/fɪə/" us="/fɪəɹ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Fear 本身就是一个单词的基本形式，它不包含特定的词缀。
 
 Once, Anna had a great fear of heights. One day, she decided to face her fear. She slowly climbed to the top of a hill and looked down. After that day, her fear of heights slowly lessened.
 （曾经，安娜非常害怕高处。有一天，她决定去面对她的恐惧。她慢慢地爬上了山顶，向下看。从那一天之后，她对高处的恐惧慢慢减轻了。）
+
+<WordRelations
+  synonyms={["dread", "afraid", "frightened", "scared", "terrorised", "terrorized", "revere", "venerate"]}
+  antonyms={["belittle", "contemn"]}
+  client:only
+/>

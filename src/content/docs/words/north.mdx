@@ -1,13 +1,19 @@
 ---
 title: North
-description: "North 可以用作名词，形容词和副词，它代表了方向概念中的'向北'或'北方'。"
+description: North 可以用作名词，形容词和副词，它代表了方向概念中的'向北'或'北方'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "North" 可以用作名词，形容词和副词，它代表了方向概念中的"向北"或"北方"。
+
+<Pronunciation word="North" uk="/nɔːθ/" us="/noɹθ/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 Mike resolved to explore the far north in search of a rare animal. He ventured through the chilly winds, excited about his northern adventure.
 (Mike 决定探索遥远的北方，寻找一种稀有的动物。他冒着寒风踏上了北方的冒险之旅，兴奋不已。)
+
+<WordRelations
+  synonyms={["boreal"]}
+  antonyms={["south"]}
+  client:only
+/>

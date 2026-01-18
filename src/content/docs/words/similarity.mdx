@@ -1,13 +1,19 @@
 ---
 title: Similarity
-description: "Similarity 是一个表示'相似性'的英文词汇，用于描述两个或多个事物之间的相似之处。"
+description: Similarity 是一个表示'相似性'的英文词汇，用于描述两个或多个事物之间的相似之处。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Similarity" 是一个表示"相似性"的英文词汇，用于描述两个或多个事物之间的相似之处。
+
+<Pronunciation word="Similarity" uk="/sɪmɪˈlæɹɪti/" us="/sɪmɪˈlæɹɪti/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,9 @@ tableOfContents: false
 "In a small village, there lived two boys. Their similarity in appearance caused quite a stir as everyone thought they were twins. But in reality, they weren't related at all."
 
 在一个小村庄里，住着两个男孩。他们的相貌相似度引起了很大的轰动，因为每个人都以为他们是双胞胎。但实际上，他们根本不亲近。
+
+<WordRelations
+  synonyms={["resemblance"]}
+  antonyms={["difference"]}
+  client:only
+/>

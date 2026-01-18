@@ -1,13 +1,19 @@
 ---
 title: Why
-description: "Why是一个英文问句常用词汇，用来询问原因或者理由。"
+description: Why是一个英文问句常用词汇，用来询问原因或者理由。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Why"是一个英文问句常用词汇，用来询问原因或者理由。
+
+<Pronunciation word="Why" uk="/waɪ/" us="/waɪ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Why 在英语中是原词，没有特定的词根。
 
 "Why?" Little Timmy constantly asked his mother. But she just smiled and replied, "Because life is full of whys, my dear."
 “为什么？”小汤米总是问他的妈妈。但她只是微笑地回答：“因为生活充满了为什么，亲爱的。”
+
+<WordRelations
+  synonyms={["wherefore", "how come", "to what end"]}
+  client:only
+/>

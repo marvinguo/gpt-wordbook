@@ -1,13 +1,19 @@
 ---
 title: Sweater
-description: "Sweater 是英文中的一个名词，汉语中的意思是“毛衣”。"
+description: Sweater 是英文中的一个名词，汉语中的意思是“毛衣”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sweater" 是英文中的一个名词，汉语中的意思是“毛衣”。
+
+<Pronunciation word="Sweater" uk="/ˈswetə/" us="/-ɾɚ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Tom put on his favorite sweater and went out for a walk in the park. The wind was chilly, but his sweater kept him warm and comfortable.
 
 汤姆穿上他最爱的毛衣，走出家门去公园散步。风很凉，但他的毛衣让他感觉温暖舒适。
+
+<WordRelations
+  synonyms={["sweatshirt", "cardigan", "jersey", "jumper", "pullover", "wooly", "perspirer", "exploiter"]}
+  client:only
+/>

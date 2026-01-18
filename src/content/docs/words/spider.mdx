@@ -1,13 +1,19 @@
 ---
 title: Spider
-description: "Spider 是英语中表示“蜘蛛”的单词。"
+description: Spider 是英语中表示“蜘蛛”的单词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Spider" 是英语中表示“蜘蛛”的单词。
+
+<Pronunciation word="Spider" uk="[ˈspʌɪ̯ɾə(ɹ)]" us="/ˈspaɪ̯dɚ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Once in a quiet forest, a tiny spider spun a beautiful web between two trees. It worked patiently and diligently, creating a masterpiece.
 
 （曾经在一个宁静的森林里，一只小蜘蛛在两棵树之间织了一个美丽的网。它耐心、勤奋地工作，创造了一个杰作）
+
+<WordRelations
+  synonyms={["attercop", "cop"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Happiness
-description: "幸福这个单词是一个抽象的概念，它通常用于描述一种积极的感情状态，如乐观、满足、快乐等。它也可以用来反映一个人或一群人生活的满足程度。"
+description: 幸福这个单词是一个抽象的概念，它通常用于描述一种积极的感情状态，如乐观、满足、快乐等。它也可以用来反映一个人或一群人生活的满足程度。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "幸福"这个单词是一个抽象的概念，它通常用于描述一种积极的感情状态，如乐观、满足、快乐等。它也可以用来反映一个人或一群人生活的满足程度。
+
+<Pronunciation word="Happiness" uk="/ˈhæpinəs/" us="/ˈhæpinəs/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 ### 助记故事
 
 "Tom was a poor boy. But he thought he had the greatest happiness in the world, because he had a loving mother and a harmonious family." (汤姆是一个贫穷的男孩，但他认为他拥有世界上最大的幸福，因为他有一个爱他的母亲和一个和谐的家庭。)
+
+<WordRelations
+  synonyms={["blessedness", "bliss", "felicity", "joy", "pleasure"]}
+  antonyms={["haplessness", "suffering", "unhappiness"]}
+  client:only
+/>

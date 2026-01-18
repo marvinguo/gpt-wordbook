@@ -1,13 +1,19 @@
 ---
 title: Wet
-description: "Wet是一个形容词，用来描述某物品或处于湿潮或液体的状态。也可以作为动词使用，表示让某物变湿。"
+description: Wet是一个形容词，用来描述某物品或处于湿潮或液体的状态。也可以作为动词使用，表示让某物变湿。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wet"是一个形容词，用来描述某物品或处于湿潮或液体的状态。也可以作为动词使用，表示让某物变湿。
+
+<Pronunciation word="Wet" uk="/wɛt/" us="/wɛt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 ### 助记故事
 
 After the rain, the whole world was wet. Even the little kitten's fur was wet, but it still played happily on the lawn.（下过雨后，整个世界都变得湿湿的。连小猫咪的毛也都湿了，但它依然在草坪上开心地玩耍。）
+
+<WordRelations
+  synonyms={["damp", "raining", "rainy", "saturated", "soaked", "drip", "feeble", "hopeless", "useless", "green", "wet behind the ears", "horny", "moist", "inebriated", "soused", "wetting"]}
+  antonyms={["dry", "sunny"]}
+  client:only
+/>

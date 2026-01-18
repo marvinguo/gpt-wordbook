@@ -1,13 +1,19 @@
 ---
 title: Almost
-description: "Almost 是一个副词，表示'几乎'，'差不多' 或 '接近' 的意思。"
+description: Almost 是一个副词，表示'几乎'，'差不多' 或 '接近' 的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Almost" 是一个副词，表示"几乎"，"差不多" 或 "接近" 的意思。
+
+<Pronunciation word="Almost" uk="/ɔːl.ˈməʊst/" us="/ˈɑl.moʊst/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Tom almost won the race. But at the last moment, he stumbled and lost by a hair's breadth.
 (汤姆差点赢得比赛。但在最后一刻，他绊倒了，只差一点就能赢。)
+
+<WordRelations
+  synonyms={["close to", "near", "nearly", "next to", "nigh", "not", "not yet", "practically", "virtually", "well-nigh"]}
+  client:only
+/>

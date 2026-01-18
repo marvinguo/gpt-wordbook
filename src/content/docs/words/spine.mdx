@@ -1,13 +1,20 @@
 ---
 title: Spine
-description: "Spine是一个英文单词，它有两个主要含义。第一个更常见的含义是'脊椎'或者'脊柱'。这是一个解剖学术语，指的是从颈部到骨盆中间的一系列连接的骨头。另一个含义就是'刺'或者'棘'，比如像仙人掌上的那种尖锐的东西。"
+description: >-
+  Spine是一个英文单词，它有两个主要含义。第一个更常见的含义是'脊椎'或者'脊柱'。这是一个解剖学术语，指的是从颈部到骨盆中间的一系列连接的骨头。另一个含义就是'刺'或者'棘'，比如像仙人掌上的那种尖锐的东西。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Spine"是一个英文单词，它有两个主要含义。第一个更常见的含义是"脊椎"或者"脊柱"。这是一个解剖学术语，指的是从颈部到骨盆中间的一系列连接的骨头。另一个含义就是"刺"或者"棘"，比如像仙人掌上的那种尖锐的东西。
+
+<Pronunciation word="Spine" uk="/spaɪn/" us="/spaɪn/" client:only />
 
 **例如的句子：**
 
@@ -40,3 +47,8 @@ Spine 的词根是 Latin "spina"，意思是"刺"或者"脊柱"。我们可以�
 ### 助记故事
 
 Stella, a tiny hedgehog, is known for her sharp spines. She's small, but no one dares to touch her because of her spines. (斯特拉，一只小刺猬，以其尖锐的刺而出名。她虽然小，但没有人敢碰她，因为她的刺。)
+
+<WordRelations
+  synonyms={["needle", "quill", "spike", "virgula"]}
+  client:only
+/>

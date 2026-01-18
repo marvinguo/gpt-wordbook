@@ -1,13 +1,21 @@
 ---
 title: Dialog
-description: "英文单词 'dialog' 指的是语言交流或者对话，它通常用于描述两个或更多的人之间的交谈。这可以在现实生活中的对话，也可以在书籍、电影、戏剧等艺术作品中的对话。"
+description: >-
+  英文单词 'dialog'
+  指的是语言交流或者对话，它通常用于描述两个或更多的人之间的交谈。这可以在现实生活中的对话，也可以在书籍、电影、戏剧等艺术作品中的对话。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英文单词 "dialog" 指的是语言交流或者对话，它通常用于描述两个或更多的人之间的交谈。这可以在现实生活中的对话，也可以在书籍、电影、戏剧等艺术作品中的对话。
+
+<Pronunciation word="Dialog" uk="/ˈdaɪəlɒɡ/" us="/ˈdaɪəlɑɡ/" client:only />
 
 ### 列举例句
 
@@ -43,3 +51,8 @@ dialog window（对话窗口）
 ### 助记故事
 
 Bob and Alice had a long dialog about their future plans, eventually reaching an agreement. (鲍勃和爱丽丝关于未来计划进行了长时间的对话，最终达成了共识。)
+
+<WordRelations
+  antonyms={["introspection", "monolog", "multilog"]}
+  client:only
+/>

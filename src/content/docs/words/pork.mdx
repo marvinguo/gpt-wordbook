@@ -1,13 +1,19 @@
 ---
 title: Pork
-description: "Pork是英语中的一个名词，它是指猪肉。这个词通常用于表示一种食物或者烹饪的原料。"
+description: Pork是英语中的一个名词，它是指猪肉。这个词通常用于表示一种食物或者烹饪的原料。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Pork"是英语中的一个名词，它是指猪肉。这个词通常用于表示一种食物或者烹饪的原料。
+
+<Pronunciation word="Pork" uk="/pɔːk/" us="/pɔɹk/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ Pork 是个单词单位，没有词缀。因此，我们无法提供关于同一
 ### 助记故事
 
 "One day, a boy went on a farm trip. His eyes lit up when he saw pigs. 'Pork is my favorite food!' he exclaimed, taking out his sandwich filled with pork slices."（有一天，一个男孩去了农场游玩。当他看到猪时，他的眼睛亮了起来。"猪肉是我最喜欢的食物！"他边说边拿出了里面填满猪肉片的三明治。）
+
+<WordRelations
+  synonyms={["pigmeat", "swineflesh", "the other white meat"]}
+  client:only
+/>

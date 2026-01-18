@@ -1,13 +1,19 @@
 ---
 title: Flip
-description: "Flip 是一个极其普遍用的词，主要有三个含义："
+description: Flip 是一个极其普遍用的词，主要有三个含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Flip" 是一个极其普遍用的词，主要有三个含义：
+
+<Pronunciation word="Flip" uk="/flɪp/" us="/flɪp/" client:only />
 
 - 作为动词时，它表示“轻轻翻转”或“快速翻转”的动作，例如翻转一张纸或翻转一枚硬币。
 - 还可以表示情绪的突然变化，如 "Her mood can flip in an instant." (她的情绪可以在一瞬间翻转。)
@@ -43,3 +49,8 @@ tableOfContents: false
 
 Marry has a strange old book. When she flips its pages, magical things happen.
 (玛丽有一本奇怪的旧书。当她翻动这本书的页子时，奇妙的事情就会发生。)
+
+<WordRelations
+  synonyms={["toss", "turn", "turn over"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Island
-description: "Island是一个名词，表示“岛屿”，尤指典型的有面积，被水（例如海洋、湖泊、河流）围绕的陆地。"
+description: Island是一个名词，表示“岛屿”，尤指典型的有面积，被水（例如海洋、湖泊、河流）围绕的陆地。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Island"是一个名词，表示“岛屿”，尤指典型的有面积，被水（例如海洋、湖泊、河流）围绕的陆地。
+
+<Pronunciation word="Island" uk="/ˈaɪ̯lənd/" us="/ˈaɪ̯lənd/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ Island 来源于古英语的"iegland"，其中"ieg"表示岛屿，"land"表示�
 In the Pacific Ocean lay a small island called "Sunny Island". The weather there was always beautiful and the people were friendly.
 
 在太平洋有一个叫"阳光岛"的小岛。那里的天气总是美丽动人，人们也都十分友好。
+
+<WordRelations
+  synonyms={["oasis", "ait", "holm", "isle"]}
+  client:only
+/>

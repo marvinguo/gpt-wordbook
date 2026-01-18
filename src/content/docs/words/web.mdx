@@ -1,13 +1,21 @@
 ---
 title: Web
-description: "Web 是一个非常常见的英语单词，它在不同的上下文中可以有不同的含义。最常见的使用是指 '网络'，尤其是在互联网相关的上下文下。此外，'web' 也可以指一个编织的实物如 '蛛网' 或树叶上的露水形成的薄膜。"
+description: >-
+  Web 是一个非常常见的英语单词，它在不同的上下文中可以有不同的含义。最常见的使用是指 '网络'，尤其是在互联网相关的上下文下。此外，'web'
+  也可以指一个编织的实物如 '蛛网' 或树叶上的露水形成的薄膜。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Web" 是一个非常常见的英语单词，它在不同的上下文中可以有不同的含义。最常见的使用是指 "网络"，尤其是在互联网相关的上下文下。此外，"web" 也可以指一个编织的实物如 "蛛网" 或树叶上的露水形成的薄膜。
+
+<Pronunciation word="Web" uk="/wɛb/" us="/wɛb/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ tableOfContents: false
 "There is a spider creating a web in the corner of my room. As I observe, I can see the intricacy of the web, each strand connected to another, forming a beautiful pattern."
 
 (我的房间角落里有一只蜘蛛在织网。当我观察时，我看到了网的复杂性，每一根线都与另一根线相连，形成了一个美丽的图案。)
+
+<WordRelations
+  synonyms={["yarn"]}
+  client:only
+/>

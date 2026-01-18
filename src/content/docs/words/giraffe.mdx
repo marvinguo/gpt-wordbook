@@ -1,13 +1,19 @@
 ---
 title: Giraffe
-description: "实译词义:"
+description: '实译词义:'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "实译"词义:
+
+<Pronunciation word="Giraffe" uk="/dʒɪˈɹɑːf/" us="/d͡ʒəˈɹæf/" client:only />
 
 _giraffe_ 是指长颈鹿，这是一种新兴近动物， 是草食动物，以身高和长长的脖子为特征。
 
@@ -46,3 +52,8 @@ _giraffe_ 的第一部分 "gira-" 你可以想象为"girl"， 而第二部分 "-
 Once upon a time, there was a giraffe called Grace. She was taller than all her peers. Grace yearned to share her tree-top views, but nobody could reach her height. Her long neck became a tale of legend.
 
 从前有只叫 Grace 的长颈鹿，她比所有的伙伴都要高。Grace 渴望分享她的树顶视野，但是没有人能达到她的高度。她长长的脖子变成了一个传奇的故事。
+
+<WordRelations
+  synonyms={["bubble", "bubble bath", "camelopard"]}
+  client:only
+/>

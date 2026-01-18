@@ -1,13 +1,19 @@
 ---
 title: Boring
-description: "boring是形容词，意思是“令人无聊的，乏味的”。"
+description: boring是形容词，意思是“令人无聊的，乏味的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "boring"是形容词，意思是“令人无聊的，乏味的”。
+
+<Pronunciation word="Boring" uk="/ˈbɔːɹɪŋ/" us="/ˈbɔːɹɪŋ/" client:only />
 
 ### 列举例句
 
@@ -49,3 +55,9 @@ tableOfContents: false
 ### 助记故事
 
 There was a class that was so boring, even the teacher fell asleep. (这个课程无聊得连老师都睡着了。)
+
+<WordRelations
+  synonyms={["dull", "mind-numbing", "tedious"]}
+  antonyms={["interest"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Concise
-description: "Concise是一个形容词，意思是简明的，简洁的，只包含必需的信息而没有多余的部分。"
+description: Concise是一个形容词，意思是简明的，简洁的，只包含必需的信息而没有多余的部分。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Concise"是一个形容词，意思是简明的，简洁的，只包含必需的信息而没有多余的部分。
+
+<Pronunciation word="Concise" uk="/kənˈsaɪs/" us="/kənˈsaɪs/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 John was often famed as a verbose speaker, until one day his boss told him, "Be concise, John." Since then, John has learned to speak succinctly, capturing attention with brief, impactful statements.
 (约翰以前常常因为话多而出名，直到有一天，他的老板告诉他：“言简意赅，约翰。”自那天起，约翰学会了简洁地表达，用简短、有影响力的陈述吸引大家的注意。)
+
+<WordRelations
+  synonyms={["succinct", "terse"]}
+  antonyms={["verbose"]}
+  client:only
+/>

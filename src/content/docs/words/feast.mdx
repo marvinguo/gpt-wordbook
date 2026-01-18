@@ -1,13 +1,19 @@
 ---
 title: Feast
-description: "Feast 是一个英语词汇，它的基本意思是 '大餐' 或 '盛宴'。它可以是名词，也可以用作动词。"
+description: Feast 是一个英语词汇，它的基本意思是 '大餐' 或 '盛宴'。它可以是名词，也可以用作动词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Feast 是一个英语词汇，它的基本意思是 "大餐" 或 "盛宴"。它可以是名词，也可以用作动词。
+
+<Pronunciation word="Feast" uk="/fiːst/" us="/fiːst/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Feast 是一个没有词缀的单词。
 ### 助记故事
 
 Every year on her birthday, Maria had a feast with her family. The table was laden with delicious food and they laughed and enjoyed the evening together. (每年在她的生日，玛丽亚都会和她的家人一起享受一顿盛宴。餐桌上满载着美食，他们大家一起欢笑，享受这个晚上。)
+
+<WordRelations
+  synonyms={["banquet"]}
+  client:only
+/>

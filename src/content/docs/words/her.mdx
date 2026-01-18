@@ -1,13 +1,19 @@
 ---
 title: Her
-description: "Her 是指示代词，在句子中常用来表达'她的'，或者作为直接宾语和间接宾语来替换前文提到的女性实体。"
+description: Her 是指示代词，在句子中常用来表达'她的'，或者作为直接宾语和间接宾语来替换前文提到的女性实体。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Her" 是指示代词，在句子中常用来表达"她的"，或者作为直接宾语和间接宾语来替换前文提到的女性实体。
+
+<Pronunciation word="Her" uk="/ə(ɹ)/" us="/ɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 John has no idea how to express his feelings to her. He decided to write a letter to her.
 约翰不知道如何向她表达自己的感情。他决定给她写一封信。
+
+<WordRelations
+  synonyms={["she"]}
+  client:only
+/>

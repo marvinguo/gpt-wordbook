@@ -1,13 +1,19 @@
 ---
 title: Ox
-description: "Ox是牛的一种类型，特指一只阉割的成年公牛，通常用于农业劳动或拖拉重物。"
+description: Ox是牛的一种类型，特指一只阉割的成年公牛，通常用于农业劳动或拖拉重物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Ox"是牛的一种类型，特指一只阉割的成年公牛，通常用于农业劳动或拖拉重物。
+
+<Pronunciation word="Ox" uk="/ˈɒks/" us="/ˈɒks/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Once there was an ox, strong and diligent. He worked tirelessly in the fields everyday. The villagers respected him and called him Mighty Ox. (曾经有一头公牛，强壮且勤奋。它每天在田野上不知疲倦地工作。村民们尊敬它，并称之为“强大的公牛”。)
+
+<WordRelations
+  synonyms={["bullock", "steer"]}
+  client:only
+/>

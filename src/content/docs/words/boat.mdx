@@ -1,13 +1,19 @@
 ---
 title: Boat
-description: "Boat 这个单词在英语中意为“船”，它可以指的是不同类型和尺寸的船只，包括游艇、船艇、小船等，一般在只有一层、不是供人居住的船只时用这个词。"
+description: Boat 这个单词在英语中意为“船”，它可以指的是不同类型和尺寸的船只，包括游艇、船艇、小船等，一般在只有一层、不是供人居住的船只时用这个词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Boat" 这个单词在英语中意为“船”，它可以指的是不同类型和尺寸的船只，包括游艇、船艇、小船等，一般在只有一层、不是供人居住的船只时用这个词。
+
+<Pronunciation word="Boat" uk="/bəʊt/" us="/boʊt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 A young boy found a toy boat by the river, he spent the whole afternoon playing with it, sailing it on the water, pretending he was on an adventure.
 (一个小男孩在河边发现了一个玩具船，他下午的整个时间都在玩耍它，让它在水面上划来划去，假装他正在冒险。)
+
+<WordRelations
+  synonyms={["craft", "ship", "vessel"]}
+  client:only
+/>

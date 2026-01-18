@@ -1,13 +1,19 @@
 ---
 title: Good
-description: "Good是一个形容词，主要意思为好的、优秀的。除此之外，也可以表示足够的、合适的。此外，'good'还可以作为名词，表示好事、好处或者优点。"
+description: Good是一个形容词，主要意思为好的、优秀的。除此之外，也可以表示足够的、合适的。此外，'good'还可以作为名词，表示好事、好处或者优点。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Good"是一个形容词，主要意思为好的、优秀的。除此之外，也可以表示足够的、合适的。此外，"good"还可以作为名词，表示好事、好处或者优点。
+
+<Pronunciation word="Good" uk="/ɡʊ(d)/" us="[ɡɪ̈d]" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 ### 助记故事
 
 "Once upon a time, a good fairy visited a poor village and turned stones into gold, making everyone's life a good deal better."（从前，一位好心的仙女访问了一个贫穷的村庄，她把石头变成了金子，让每个人的生活变得更好。）
+
+<WordRelations
+  synonyms={["accomplished", "all right", "decent", "not bad", "satisfactory", "well"]}
+  antonyms={["bad", "evil", "poor"]}
+  client:only
+/>

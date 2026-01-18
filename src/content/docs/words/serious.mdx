@@ -1,13 +1,19 @@
 ---
 title: Serious
-description: "Serious是一个形容词，表示“严肃的”、“庄重的”或者“认真的”。另外，它也可以表示“严重的”或者“重大的”。"
+description: Serious是一个形容词，表示“严肃的”、“庄重的”或者“认真的”。另外，它也可以表示“严重的”或者“重大的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Serious"是一个形容词，表示“严肃的”、“庄重的”或者“认真的”。另外，它也可以表示“严重的”或者“重大的”。
+
+<Pronunciation word="Serious" uk="/ˈsɪə.ɹi.əs/" us="/ˈsɪəɹ.i.əs/" client:only />
 
 ### 列举例句
 
@@ -54,3 +60,9 @@ tableOfContents: false
 Tom is a serious person who always treats his work seriously. Even when he went to the amusement park, he still wore his serious expression. His seriousness often makes his friends laugh.
 
 汤姆是一个严肃的人，总是认真对待他的工作。即使他去游乐园，他还是带着他认真的表情。他的严肃常常让他的朋友笑出声。
+
+<WordRelations
+  synonyms={["earnest", "solemn"]}
+  antonyms={["trifling", "unimportant", "jesting"]}
+  client:only
+/>

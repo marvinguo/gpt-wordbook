@@ -1,13 +1,19 @@
 ---
 title: Noisy
-description: "Noisy 这个单词是形容词，用于形容声音大的或者嘈杂的环境或者物体。"
+description: Noisy 这个单词是形容词，用于形容声音大的或者嘈杂的环境或者物体。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Noisy" 这个单词是形容词，用于形容声音大的或者嘈杂的环境或者物体。
+
+<Pronunciation word="Noisy" uk="/ˈnɔːɪzɪ/" us="/ˈnɔɪzi/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Once upon a time, in a small town, a noisy rooster would crow every morning, waking everyone up.
 (从前，在一个小镇上，有一只嘈杂的公鸡，每天早上都会打鸣，把每个人都吵醒。)
+
+<WordRelations
+  synonyms={["boisterous", "clamorous", "turbulent", "vociferous"]}
+  client:only
+/>

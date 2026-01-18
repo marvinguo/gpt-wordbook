@@ -1,13 +1,19 @@
 ---
 title: Arrival
-description: "Arrival是名词，表示到达或者抵达某个地方。"
+description: Arrival是名词，表示到达或者抵达某个地方。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “Arrival”是名词，表示到达或者抵达某个地方。
+
+<Pronunciation word="Arrival" uk="/əˈɹaɪ.vəl/" us="/əˈɹaɪ.vəl/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 In every family's life, the arrival of a baby brings immense joy and togetherness. Every member cherishes the arrival, turning a new leaf in their life story.
 
 在每个家庭的生活中，一个婴儿的降临都会带来无尽的欢乐和团聚。每个成员都珍惜这次的到来，翻开他们生活故事的新篇章。
+
+<WordRelations
+  antonyms={["departure", "non-arrival", "nonarrival"]}
+  client:only
+/>

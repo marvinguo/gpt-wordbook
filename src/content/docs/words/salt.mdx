@@ -1,13 +1,19 @@
 ---
 title: Salt
-description: "英文单词'salt'的主要含义是'盐'，它既可以作为名词也可以作为动词。"
+description: 英文单词'salt'的主要含义是'盐'，它既可以作为名词也可以作为动词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英文单词"salt"的主要含义是"盐"，它既可以作为名词也可以作为动词。
+
+<Pronunciation word="Salt" uk="/sɒlt/" us="/sɑlt/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 
 Once a little girl went to the beach for the first time. She ran to the sea and scooped up a handful of water to taste. "Mum, why does the water taste salty?" she wondered.
 (曾经，一个小女孩第一次去海边。她跑到海边，舀起一把水尝尝看。 "妈妈，为什么水的味道这么咸呢？"她想知道。)
+
+<WordRelations
+  antonyms={["desalt"]}
+  client:only
+/>

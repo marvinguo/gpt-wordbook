@@ -1,13 +1,19 @@
 ---
 title: Yell
-description: "Yell是一个动词，原词意为'大声呼喊'或者'大叫'，通常用于描述一个人因为愤怒、惊奇、恐惧或者激动等情绪而发出的很大的声音。"
+description: Yell是一个动词，原词意为'大声呼喊'或者'大叫'，通常用于描述一个人因为愤怒、惊奇、恐惧或者激动等情绪而发出的很大的声音。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Yell"是一个动词，原词意为"大声呼喊"或者"大叫"，通常用于描述一个人因为愤怒、惊奇、恐惧或者激动等情绪而发出的很大的声音。
+
+<Pronunciation word="Yell" uk="/jɛl/" us="/jɛl/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 
 当 Jenny 见到她的朋友时，她无法抑制她的兴奋，所以她大声喊道, "Hey, Jessica!"
 小故事中文翻译： 当珍妮(Jenny)看到她的朋友时，她无法控制自己的兴奋，所以她大声喊道："嘿，洁西卡(Jessica)！"
+
+<WordRelations
+  synonyms={["call", "cry", "holler", "shout"]}
+  client:only
+/>

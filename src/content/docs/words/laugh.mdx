@@ -1,13 +1,19 @@
 ---
 title: Laugh
-description: "Laugh是个动词，意思是“大笑”或者“笑”。它可以用来表达因为开心、娱乐、费解等情感的表达。"
+description: Laugh是个动词，意思是“大笑”或者“笑”。它可以用来表达因为开心、娱乐、费解等情感的表达。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Laugh"是个动词，意思是“大笑”或者“笑”。它可以用来表达因为开心、娱乐、费解等情感的表达。
+
+<Pronunciation word="Laugh" uk="/laːf/" us="/læf/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 ### 助记故事
 
 Once there was a man who laughed at everything. Even when he was sad, he would laugh. His unique way of handling sorrow made him popular in his town.（从前，有一个人对任何事情都笑。即使他很伤心，他也会笑。他处理悲伤的独特方式使他在镇上很受欢迎。）
+
+<WordRelations
+  synonyms={["cachinnation", "cackle", "chortle", "chuckle", "giggle", "guffaw", "snicker", "snigger", "titter", "joke", "laughing stock"]}
+  antonyms={["cry", "weep"]}
+  client:only
+/>

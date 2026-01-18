@@ -1,13 +1,19 @@
 ---
 title: Smelly
-description: "Smelly 是形容词，用以描述某件事物有强烈或者令人不悦的气味。具有贬义色彩。"
+description: Smelly 是形容词，用以描述某件事物有强烈或者令人不悦的气味。具有贬义色彩。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Smelly" 是形容词，用以描述某件事物有强烈或者令人不悦的气味。具有贬义色彩。
+
+<Pronunciation word="Smelly" uk="/ˈsmɛli/" us="/ˈsmɛli/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ Smelly 由词根"smell"(闻，嗅，气味)+ -y（后缀，表示具有...特性
 
 Every morning, Tom has to deal with his smelly dog. It loves to roll in the muddiest and smelliest part of the garden, which is the real challenge for Tom. Yet, he could never stop adoring it.
 每天早上，汤姆都要对付他那只有味道的狗。它喜欢在花园里最肮脏、最臭的地方滚来滚去，这对汤姆来说真是一个挑战，然而，他始终不能不爱它。
+
+<WordRelations
+  synonyms={["dodgy", "doubtful", "dubious", "suspect", "suspicious", "fetid", "foul-smelling", "malodorous", "rank", "stinky", "whiffy"]}
+  antonyms={["above board", "clean", "aromatic", "fragrant", "sweet-smelling"]}
+  client:only
+/>

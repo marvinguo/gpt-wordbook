@@ -1,13 +1,19 @@
 ---
 title: Fluent
-description: "Fluent 是一个形容词，用于描述某人在某项技能或语言上的流畅度。在语言学习领域，我们常用它来形容一个人的语言运用能力。"
+description: Fluent 是一个形容词，用于描述某人在某项技能或语言上的流畅度。在语言学习领域，我们常用它来形容一个人的语言运用能力。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fluent" 是一个形容词，用于描述某人在某项技能或语言上的流畅度。在语言学习领域，我们常用它来形容一个人的语言运用能力。
+
+<Pronunciation word="Fluent" uk="/ˈfluːənt/" us="/ˈfluənt/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Sarah worked hard every day. After a few years, she was finally fluent in Chinese. (萨拉每天都很努力学习。几年后，她终于可以流利地讲汉语了。)
+
+<WordRelations
+  synonyms={["fluent"]}
+  client:only
+/>

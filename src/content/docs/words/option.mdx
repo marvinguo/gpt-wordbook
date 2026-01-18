@@ -1,13 +1,19 @@
 ---
 title: Option
-description: "Option是一个英语名词，主要有两种基本含义："
+description: Option是一个英语名词，主要有两种基本含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Option"是一个英语名词，主要有两种基本含义：
+
+<Pronunciation word="Option" uk="/ˈɒpʃən/" us="/ˈɑpʃən/" client:only />
 
 1.  选择，挑选的机会或自由。
 2.  可选择的事物，备选方案。
@@ -44,3 +50,8 @@ tableOfContents: false
 
 Nick was in a dilemma, choosing between a steady job, which his parents preferred, and his own startup, which was risky but could potentially fulfill his dreams. It was a tough option.
 （尼克面临难题，是选择稳定的工作，这是他父母更倾向的，还是他自己的创业公司，虽然风险很大但有可能实现他的梦想。这是一个艰难的选择。）
+
+<WordRelations
+  synonyms={["alternative", "choice", "possibility"]}
+  client:only
+/>

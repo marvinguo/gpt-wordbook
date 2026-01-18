@@ -1,13 +1,19 @@
 ---
 title: Saying
-description: "Saying作为名词，意思是'谚语'，'格言'，或者'常言'，通常用于描述一个已被广泛接受和频繁引用的表达，通常包含人的智慧或生活经验。"
+description: Saying作为名词，意思是'谚语'，'格言'，或者'常言'，通常用于描述一个已被广泛接受和频繁引用的表达，通常包含人的智慧或生活经验。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Saying"作为名词，意思是"谚语"，"格言"，或者"常言"，通常用于描述一个已被广泛接受和频繁引用的表达，通常包含人的智慧或生活经验。
+
+<Pronunciation word="Saying" uk="/ˈseɪɪŋ/" us="/ˈseɪɪŋ/" client:only />
 
 ### 列举例句
 
@@ -46,3 +52,8 @@ tableOfContents: false
 There's a saying in our family, "A penny saved is a penny earned." My sister took it to heart. She began picking up coins off the ground and now she has a jar full of them.
 
 我们家有句话，“省一分就是赚一分。”我妹妹把它记在了心里。她开始捡地上的硬币，现在她有一个罐子装满了它们。
+
+<WordRelations
+  synonyms={["expression", "maxim", "proverb", "saw"]}
+  client:only
+/>

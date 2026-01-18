@@ -1,13 +1,19 @@
 ---
 title: Unfortunate
-description: "Unfortunate是一个形容词，用于描述倒霉的、不幸的情况或事件。多用于形容人遭遇不好的事件或者事情不按照期望去发生。"
+description: Unfortunate是一个形容词，用于描述倒霉的、不幸的情况或事件。多用于形容人遭遇不好的事件或者事情不按照期望去发生。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Unfortunate"是一个形容词，用于描述倒霉的、不幸的情况或事件。多用于形容人遭遇不好的事件或者事情不按照期望去发生。
+
+<Pronunciation word="Unfortunate" uk="/ʌnˈfɔːtjʊnət/" us="/ʌnˈfɔːtjʊnət/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 In an unfortunate turn of events, Jason missed his train because his alarm didn't ring. He lost a significant client because he arrived late for the meeting. (在一系列不幸的事件中，Jason 因为闹钟没有响而错过了火车。因为他迟到了会议， 所以失去了一个重要的客户。)
+
+<WordRelations
+  synonyms={["unlucky", "unsuccessful"]}
+  antonyms={["fortunate", "lucky"]}
+  client:only
+/>

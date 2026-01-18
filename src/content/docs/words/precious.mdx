@@ -1,13 +1,19 @@
 ---
 title: Precious
-description: "Precious 这个单词在英文中的主要含义是“珍贵的”或“宝贵的”。它用来描述那些具有高价值、不可替换、或者对某人有特殊意义的东西。"
+description: Precious 这个单词在英文中的主要含义是“珍贵的”或“宝贵的”。它用来描述那些具有高价值、不可替换、或者对某人有特殊意义的东西。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Precious 这个单词在英文中的主要含义是“珍贵的”或“宝贵的”。它用来描述那些具有高价值、不可替换、或者对某人有特殊意义的东西。
+
+<Pronunciation word="Precious" uk="/ˈpɹɛʃəs/" us="/ˈpɹɛʃəs/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,8 @@ Preciousness (名词形式): 例如 "The preciousness of time cannot be overesti
 Emily found a precious necklace on the street. She picked it up and admired its beauty.
 
 (Emily 在街上找到了一条珍贵的项链。她捡了起来，欣赏着它的美。)
+
+<WordRelations
+  synonyms={["saccharine", "syrupy", "twee", "dear", "valuable"]}
+  client:only
+/>

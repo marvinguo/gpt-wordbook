@@ -1,13 +1,19 @@
 ---
 title: Private
-description: "Private是一个英语单词，主要作为形容词使用，它的核心义项为“私人的，私有的，不公开的”。例如，'private property'（私人财产）"
+description: Private是一个英语单词，主要作为形容词使用，它的核心义项为“私人的，私有的，不公开的”。例如，'private property'（私人财产）
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Private"是一个英语单词，主要作为形容词使用，它的核心义项为“私人的，私有的，不公开的”。例如，"private property"（私人财产）
+
+<Pronunciation word="Private" uk="/ˈpɹaɪvət/" us="/ˈpɹaɪvət/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 In a quiet, private corner of the park, a boy was reading under the tree.（在公园安静、私密的角落里，一个男孩在树下阅读。）
 在公园的一个安静、私人的角落里，一个男孩正在树下读书。
+
+<WordRelations
+  synonyms={["bit", "private parts", "secret", "personal", "secluded"]}
+  antonyms={["public"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Fantastic
-description: "Fantastic 是形容词，用于描述事物或经历极好，出色。"
+description: Fantastic 是形容词，用于描述事物或经历极好，出色。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fantastic" 是形容词，用于描述事物或经历极好，出色。
+
+<Pronunciation word="Fantastic" uk="/fænˈtæstɪk/" us="/fænˈtæstɪk/" client:only />
 
 **例句举例**：
 
@@ -37,3 +43,9 @@ tableOfContents: false
 ### 助记故事
 
 Bob found a map in the attic which pointed to a fantastic treasure hidden on a distant island.（Bob 在阁楼里发现了一份地图，上面指出有一份奇妙的宝藏隐藏在一个遥远的岛屿上。）
+
+<WordRelations
+  synonyms={["fabulous", "fantastical", "foolish", "hare-brained", "unrealistic", "wild", "brilliant", "splendid", "super", "wonderful"]}
+  antonyms={["sucktastic"]}
+  client:only
+/>

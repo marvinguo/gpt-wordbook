@@ -1,13 +1,21 @@
 ---
 title: Romance
-description: "Romance 是一个具有丰富含义的单词。它通常作为名词使用，可以表示爱情故事或冒险故事，或指一种引人入胜的质地，例如在诗歌或音乐中。另外，它还可以作为动词使用，表示寻求、诱惑或吸引某人以开始或维持一段浪漫的关系。"
+description: >-
+  Romance
+  是一个具有丰富含义的单词。它通常作为名词使用，可以表示爱情故事或冒险故事，或指一种引人入胜的质地，例如在诗歌或音乐中。另外，它还可以作为动词使用，表示寻求、诱惑或吸引某人以开始或维持一段浪漫的关系。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Romance 是一个具有丰富含义的单词。它通常作为名词使用，可以表示爱情故事或冒险故事，或指一种引人入胜的质地，例如在诗歌或音乐中。另外，它还可以作为动词使用，表示寻求、诱惑或吸引某人以开始或维持一段浪漫的关系。
+
+<Pronunciation word="Romance" uk="/ɹəˈmæns/" us="/ɹoʊˈmæns/" client:only />
 
 ### 列举例句
 
@@ -42,3 +50,9 @@ Romance 一词的起源可以追溯到中世纪的欧洲，当时该词是歌颂
 ### 助记故事
 
 Remembering the sweet moments they spent under the stars, John decided to romance Mary by bringing her back to the picturesque beach where they first fell in love. (约翰记起他们曾在星空下度过的甜蜜时光，决定带玛丽回到他们首次相爱的那个景色如画的海滩，以此来追求她。)
+
+<WordRelations
+  synonyms={["make love", "put the moves on", "solicit"]}
+  antonyms={["platonic", "platonic love", "platonic relationship"]}
+  client:only
+/>

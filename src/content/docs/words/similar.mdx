@@ -1,13 +1,19 @@
 ---
 title: Similar
-description: "Similar 是一个英语形容词，意味着全体或部分相似或接近，通常是在外形，品质，结构，或性质上。在汉语中我们通常译为“相似的，类似的”。"
+description: Similar 是一个英语形容词，意味着全体或部分相似或接近，通常是在外形，品质，结构，或性质上。在汉语中我们通常译为“相似的，类似的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Similar" 是一个英语形容词，意味着全体或部分相似或接近，通常是在外形，品质，结构，或性质上。在汉语中我们通常译为“相似的，类似的”。
+
+<Pronunciation word="Similar" uk="/ˈsɪmələ/" us="/ˈsɪməlɚ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 ### 助记故事
 
 Emma glanced at her twin sister, Ella. Despite having similar faces, their personalities were entirely different. (艾玛看着她的双胞胎妹妹艾拉，尽管他们的脸相似，但性格却完全不同。)
+
+<WordRelations
+  synonyms={["akin", "alike", "comparable", "identical", "same", "twin"]}
+  antonyms={["different", "dissimilar", "unlike"]}
+  client:only
+/>

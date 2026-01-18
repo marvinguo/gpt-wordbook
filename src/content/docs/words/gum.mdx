@@ -1,13 +1,19 @@
 ---
 title: Gum
-description: "gum是英文的一个常用词，主要的含义有"
+description: gum是英文的一个常用词，主要的含义有
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "gum"是英文的一个常用词，主要的含义有
+
+<Pronunciation word="Gum" uk="/ɡʌm/" us="/ɡʌm/" client:only />
 
 1.  口香糖，比如 "chewing gum" 就是口香糖，
 2.  牙龈， 例如 "Brush your gums as well as your teeth." 就是要刷牙龈和牙齿，
@@ -46,3 +52,8 @@ tableOfContents: false
 
 "Sara loved the sweet taste of chewing gum. But one day, her gums started to hurt. She wondered if it was because of all the gum she chewed."
 萨拉喜欢口香糖的甜味。但是有一天，她的牙龈开始疼痛。她在怀疑这是不是因为她嚼的口香糖太多。
+
+<WordRelations
+  synonyms={["gingiva"]}
+  client:only
+/>

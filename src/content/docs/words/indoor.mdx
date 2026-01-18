@@ -1,13 +1,19 @@
 ---
 title: Indoor
-description: "Indoor这个单词用来描述事情或活动是在室内进行的。这意味着它们在房子、建筑或其他封闭的空间内完成。"
+description: Indoor这个单词用来描述事情或活动是在室内进行的。这意味着它们在房子、建筑或其他封闭的空间内完成。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Indoor"这个单词用来描述事情或活动是在室内进行的。这意味着它们在房子、建筑或其他封闭的空间内完成。
+
+<Pronunciation word="Indoor" uk="/ˈɪndɔː/" us="/ˈɪndɔː/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Tom always prefers indoor games to outdoor ones because of his allergies. He enjoys playing chess with friends. - Tom 因为过敏总是更喜欢室内游戏而不是户外游戏。他喜欢和朋友们下棋。
+
+<WordRelations
+  antonyms={["outdoor"]}
+  client:only
+/>

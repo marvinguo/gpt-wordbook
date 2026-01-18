@@ -1,13 +1,19 @@
 ---
 title: Startle
-description: "Startle 是一个动词，意味着突然地吓到或是惊动到某人。"
+description: Startle 是一个动词，意味着突然地吓到或是惊动到某人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Startle" 是一个动词，意味着突然地吓到或是惊动到某人。
+
+<Pronunciation word="Startle" uk="/ˈstɑːt(ə)l/" us="/ˈstɑːt(ə)l/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ Startle 的词根"start"与"起跑"的意思相近，你可以联想到一声枪
 
 In the quiet library, a phone ring suddenly broke the silence, making everyone startle.
 (在安静的图书馆里，电话铃声突然打破了寂静，使得每个人都吓了一跳。)
+
+<WordRelations
+  synonyms={["deter", "alarm", "frighten", "scare", "surprise", "start"]}
+  client:only
+/>

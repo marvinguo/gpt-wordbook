@@ -1,13 +1,19 @@
 ---
 title: Incomplete
-description: "Incomplete是一个形容词，指的是“不完全的”，“不完整的”。它可以用来描述任何还未完成或不完备的情况。"
+description: Incomplete是一个形容词，指的是“不完全的”，“不完整的”。它可以用来描述任何还未完成或不完备的情况。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Incomplete"是一个形容词，指的是“不完全的”，“不完整的”。它可以用来描述任何还未完成或不完备的情况。
+
+<Pronunciation word="Incomplete" uk="/ɪn.kəm.ˈpliːt/" us="/ɪn.kəm.ˈpliːt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 ### 助记故事
 
 There was an incomplete puzzle on the table, frustrating Lily. She searched everywhere for the missing piece but could not find it. (桌子上放着一个未完成的拼图，让莉莉感到非常困扰。她到处寻找那个遗失的部分，但始终没有找到。)
+
+<WordRelations
+  synonyms={["underdone", "unfinished", "unwhole"]}
+  antonyms={["complete"]}
+  client:only
+/>

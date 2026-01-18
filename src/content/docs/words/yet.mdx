@@ -1,14 +1,20 @@
 ---
 title: Yet
-description: "Yet 是一个副词，意思是'still' (仍然) 或者 'up to now' (到现在为止)。"
+description: Yet 是一个副词，意思是'still' (仍然) 或者 'up to now' (到现在为止)。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Yet" 是一个副词，意思是"still" (仍然) 或者 "up to now" (到现在为止)。
 另一种用法是用作连接词，表示"but"，"however"， "though" 的意思，有了一但还，然而的意思。
+
+<Pronunciation word="Yet" uk="/jɛt/" us="/jɛt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 
 There's a big project due tomorrow, yet John was still procrastinating.
 (明天有个大项目要交，但是约翰还在拖延。)
+
+<WordRelations
+  synonyms={["at last", "in time", "sooner or later", "even", "now", "still", "besides", "further", "moreover", "erenow", "so far", "to date", "be that as it may", "even so", "withal"]}
+  client:only
+/>

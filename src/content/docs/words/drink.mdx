@@ -1,13 +1,19 @@
 ---
 title: Drink
-description: "Drink 是一个英语单词，既可以作为名词，意思是“饮料”或者“一份饮料”，也可以作为动词，意思是“喝”。"
+description: Drink 是一个英语单词，既可以作为名词，意思是“饮料”或者“一份饮料”，也可以作为动词，意思是“喝”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Drink" 是一个英语单词，既可以作为名词，意思是“饮料”或者“一份饮料”，也可以作为动词，意思是“喝”。
+
+<Pronunciation word="Drink" uk="/dɹɪŋk/" us="/dɹɪŋk/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,8 @@ tableOfContents: false
 Poppy loves to drink hot chocolate before bedtime. The sweet flavor and warm feeling make her relaxed. Everyone knows this little habit of Poppy, her warmest memory.
 
 译文：波比喜欢在睡前喝热巧克力。甜美的口味和温暖的感觉让她放松。每个人都知道波比这个小习惯，这是她最温暖的记忆。
+
+<WordRelations
+  synonyms={["gulp", "imbibe", "quaff", "sip", "alcohol", "hit the sauce"]}
+  client:only
+/>

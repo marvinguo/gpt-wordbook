@@ -1,14 +1,20 @@
 ---
-title: "Arcane"
-description: "Arcane 形容神秘的、晦涩的、只有少数人懂的。"
+title: Arcane
+description: Arcane 形容神秘的、晦涩的、只有少数人懂的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Arcane** 是一个形容词。常用来形容那些古老、复杂且鲜为人知的知识或仪式。
+
+<Pronunciation word="Arcane" uk="/ɑɹˈkeɪn/" us="/ɑɹˈkeɪn/" client:only />
 
 ### 列举例句
 
@@ -29,3 +35,8 @@ tableOfContents: false
 The secret society used arcane rituals to initiate its new members.
 (这个秘密社团使用神秘的仪式来接纳新成员。)
 
+<WordRelations
+  synonyms={["clandestine", "enigmatic", "esoteric", "recondite"]}
+  antonyms={["mundane"]}
+  client:only
+/>

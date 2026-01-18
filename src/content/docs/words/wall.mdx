@@ -1,13 +1,21 @@
 ---
 title: Wall
-description: "Wall 是一个英语单词，通常被翻译为“墙”，它通常指的是建筑物的一面，一般为垂直且实心的，将室内和室外或将两个区域分开。它也可以在比喻中使用，代表一种难以超越或穿越的障碍。"
+description: >-
+  Wall
+  是一个英语单词，通常被翻译为“墙”，它通常指的是建筑物的一面，一般为垂直且实心的，将室内和室外或将两个区域分开。它也可以在比喻中使用，代表一种难以超越或穿越的障碍。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wall" 是一个英语单词，通常被翻译为“墙”，它通常指的是建筑物的一面，一般为垂直且实心的，将室内和室外或将两个区域分开。它也可以在比喻中使用，代表一种难以超越或穿越的障碍。
+
+<Pronunciation word="Wall" uk="/wɔːl/" us="/wɔl/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 Johnny painted a large sunflower on the wall. It was so bright that everyone who saw it smiled.（约翰尼在墙上画了一朵大向日葵。它很亮，每个看到它的人都会笑。）
+
+<WordRelations
+  synonyms={["chandelier", "profile", "rampart"]}
+  antonyms={["sieve"]}
+  client:only
+/>

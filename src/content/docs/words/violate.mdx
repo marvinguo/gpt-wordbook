@@ -1,13 +1,19 @@
 ---
 title: Violate
-description: "Violate 是一个动词，意思是“违反”。被广泛用于指违反规则、法律、习俗、道德等。"
+description: Violate 是一个动词，意思是“违反”。被广泛用于指违反规则、法律、习俗、道德等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Violate" 是一个动词，意思是“违反”。被广泛用于指违反规则、法律、习俗、道德等。
+
+<Pronunciation word="Violate" uk="/ˈvaɪəˌleɪt/" us="/ˈvaɪəˌleɪt/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 
 John wakes up late and realizes that he has an exam in ten minutes. In his rush, he decides to run a red light and violate the traffic rules. The result is that he is fined for his actions.
 （约翰起床晚了，意识到他十分钟后就有考试。他决定闯红灯，违反了交通规则。结果他被罚了一笔款。）
+
+<WordRelations
+  antonyms={["comply", "obey"]}
+  client:only
+/>

@@ -1,13 +1,21 @@
 ---
 title: Satellite
-description: "Satellite 这个单词在英语中主要有两个意义。第一个是指一个由地球引力捕获的自然物体，例如月亮就是地球的一个卫星(satellite)。第二个是人造的设备，一般被发射到空间从而围绕地球或其他天体旋转，用于科研、通信、天气预报等目的。"
+description: >-
+  Satellite
+  这个单词在英语中主要有两个意义。第一个是指一个由地球引力捕获的自然物体，例如月亮就是地球的一个卫星(satellite)。第二个是人造的设备，一般被发射到空间从而围绕地球或其他天体旋转，用于科研、通信、天气预报等目的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Satellite" 这个单词在英语中主要有两个意义。第一个是指一个由地球引力捕获的自然物体，例如月亮就是地球的一个卫星(satellite)。第二个是人造的设备，一般被发射到空间从而围绕地球或其他天体旋转，用于科研、通信、天气预报等目的。
+
+<Pronunciation word="Satellite" uk="/ˈsætəlaɪt/" us="/ˈsætəlaɪt/" client:only />
 
 ### 列举例句
 
@@ -42,3 +50,8 @@ tableOfContents: false
 Once upon a time, a tiny satellite was launched into the dark space. It circled the earth, sending pictures and information back home, aiding in scientific research and weather prediction.
 
 曾经有一次，一个小小的卫星被发射到黑暗的太空中。它环绕着地球，发送回家的图片和信息，有助于科学研究和天气预测。
+
+<WordRelations
+  synonyms={["sat"]}
+  client:only
+/>

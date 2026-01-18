@@ -1,13 +1,19 @@
 ---
 title: Dad
-description: "Dad是英语中表示父亲的一个非正式词汇，类似于中文中的“爸爸”。"
+description: Dad是英语中表示父亲的一个非正式词汇，类似于中文中的“爸爸”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Dad"是英语中表示父亲的一个非正式词汇，类似于中文中的“爸爸”。
+
+<Pronunciation word="Dad" uk="/dæd/" us="/dæd/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 "Every night, my dad reads me bedtime stories. His voice lulls me to sleep." - "每晚，爸爸都会给我讲睡前故事。他的声音哄我入睡。"
+
+<WordRelations
+  synonyms={["Pa", "Pop", "dada", "daddy", "pa", "papa", "pappa", "papà", "papá", "pater", "paw", "pop", "daddio", "pops"]}
+  client:only
+/>

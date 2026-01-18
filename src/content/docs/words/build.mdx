@@ -1,13 +1,19 @@
 ---
 title: Build
-description: "Build 是一个英文动词，其基本意思是建造、构建。此外，它也有形成、逐渐增强的含义。"
+description: Build 是一个英文动词，其基本意思是建造、构建。此外，它也有形成、逐渐增强的含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Build" 是一个英文动词，其基本意思是建造、构建。此外，它也有形成、逐渐增强的含义。
+
+<Pronunciation word="Build" uk="/bɪld/" us="/bɪld/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 
 Mike is always looking to build. First, as a child, he built sand castles. Later, as an adult, he built professional relationships.
 (麦克总是寻求建造。他小时候会堆砌沙堡，成年后则建立起了专业关系。)
+
+<WordRelations
+  synonyms={["create", "base", "found", "ground", "construct", "erect", "build up", "enlarge", "increase", "strengthen"]}
+  antonyms={["demolish", "destroy", "ruin", "wreck", "decrease", "dissipate", "weaken"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Product
-description: "Product 是一个名词，主要有两大意义：1) 明确指代被生产出来的货物或者服务，例如一台手机或者一次理发服务等。 2) 指示数学中的乘法运算结果。"
+description: Product 是一个名词，主要有两大意义：1) 明确指代被生产出来的货物或者服务，例如一台手机或者一次理发服务等。 2) 指示数学中的乘法运算结果。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Product" 是一个名词，主要有两大意义：1) 明确指代被生产出来的货物或者服务，例如一台手机或者一次理发服务等。 2) 指示数学中的乘法运算结果。
+
+<Pronunciation word="Product" uk="/ˈpɹɒd.əkt/" us="/ˈpɹɒd.əkt/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 In a small town, there was a factory. The product they made was unique - a magic lamp. Anyone who owned it could have one wish come true.
 
 在一个小镇上，有一个工厂。他们生产的产品非常独特 - 一盏魔法灯。任何拥有这盏灯的人，都能让一个愿望成真。
+
+<WordRelations
+  synonyms={["goods", "merchandise", "wares"]}
+  client:only
+/>

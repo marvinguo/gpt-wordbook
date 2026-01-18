@@ -1,13 +1,19 @@
 ---
 title: Hers
-description: "Hers 是一个英语代词，用于表示属于所提及的女性的事物。它主要用于代替前面已经提及的女性的名词，以避免重复。"
+description: Hers 是一个英语代词，用于表示属于所提及的女性的事物。它主要用于代替前面已经提及的女性的名词，以避免重复。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Hers" 是一个英语代词，用于表示属于所提及的女性的事物。它主要用于代替前面已经提及的女性的名词，以避免重复。
+
+<Pronunciation word="Hers" uk="/əz/" us="/ɚz/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ Amy found a book on the desk, it was hers. She had been looking for it all day.
 
 中文翻译:
 艾米在桌子上找到了一本书，那是她的。她一整天都在找这本书。
+
+<WordRelations
+  synonyms={["she"]}
+  client:only
+/>

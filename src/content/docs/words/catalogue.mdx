@@ -1,13 +1,19 @@
 ---
 title: Catalogue
-description: "Catalogue 是一个名词，意思是 '目录' 或者 '分类列表'。常常被用于描述一个可供参照的物品、服务或者信息的列表。"
+description: Catalogue 是一个名词，意思是 '目录' 或者 '分类列表'。常常被用于描述一个可供参照的物品、服务或者信息的列表。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Catalogue" 是一个名词，意思是 "目录" 或者 "分类列表"。常常被用于描述一个可供参照的物品、服务或者信息的列表。
+
+<Pronunciation word="Catalogue" uk="/ˈkætəlɑɡ/" us="/ˈkætəlɔɡ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 Once Upon a time, a young librarian was cataloguing books. He found an old, magical book in his catalogue, opening a world of mystery to him. (从前，有个年轻的图书管理员在为图书编目。他在目录中发现了一本旧的、神奇的书，为他打开了一个充满神秘的世界。)
+
+<WordRelations
+  synonyms={["put down", "list"]}
+  client:only
+/>

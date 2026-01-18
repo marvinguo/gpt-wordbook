@@ -1,13 +1,19 @@
 ---
 title: Tea
-description: "单词 'tea' 反映到的是一种受欢迎的热饮料，通常由某种植物的叶子泡成，最常见的类型是茶叶。也可指作为社交活动的一种饮茶仪式，如英式下午茶。"
+description: 单词 'tea' 反映到的是一种受欢迎的热饮料，通常由某种植物的叶子泡成，最常见的类型是茶叶。也可指作为社交活动的一种饮茶仪式，如英式下午茶。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词 "tea" 反映到的是一种受欢迎的热饮料，通常由某种植物的叶子泡成，最常见的类型是茶叶。也可指作为社交活动的一种饮茶仪式，如英式下午茶。
+
+<Pronunciation word="Tea" uk="/tiː/" us="/ti/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 In the peaceful afternoon, Mary sat by the window, enjoying her cup of tea. The fragrant aroma filled the room, bringing a sense of calm.
 
 在和平的下午，玛丽坐在窗边，享受着她的一杯茶。香的气息充满了房间，带来了一种平静的感觉。
+
+<WordRelations
+  synonyms={["dinner", "evening meal", "afternoon tea", "herb tea", "herbal tea", "infusion", "tisane", "tea leaves", "tea bush", "tea plant", "tea tree"]}
+  client:only
+/>

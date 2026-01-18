@@ -1,13 +1,19 @@
 ---
 title: Thought
-description: "Thought 是一个英文单词，既可以当名词使用，意思是“思考”，“思想”，也可以做动词 think 的过去式和过去分词，表示“想”，“思考”。"
+description: Thought 是一个英文单词，既可以当名词使用，意思是“思考”，“思想”，也可以做动词 think 的过去式和过去分词，表示“想”，“思考”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Thought" 是一个英文单词，既可以当名词使用，意思是“思考”，“思想”，也可以做动词 think 的过去式和过去分词，表示“想”，“思考”。
+
+<Pronunciation word="Thought" uk="/θɔːt/" us="/θɔt/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,8 @@ tableOfContents: false
 
 In the quiet library, Mike sat alone by the window with a ray of sunshine on his face. He thought deeply about the problem. Suddenly, a thought occurred to him, lighting up his eyes.
 在安静的图书馆，迈克独自坐在窗边，阳光洒在他的脸上。他深深地思考着问题。突然，一个思路出现在他的脑海，点亮了他的眼睛。
+
+<WordRelations
+  synonyms={["guess"]}
+  client:only
+/>

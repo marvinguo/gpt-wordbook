@@ -1,13 +1,19 @@
 ---
 title: Blush
-description: "Blush是一个英语单词，既可以作为名词，也可以作为动词。"
+description: Blush是一个英语单词，既可以作为名词，也可以作为动词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Blush"是一个英语单词，既可以作为名词，也可以作为动词。
+
+<Pronunciation word="Blush" uk="/blʌʃ/" us="/blʌʃ/" client:only />
 
 作为名词: "Blush"指的是当人们害羞、尴尬或激动时，脸上出现的红晕，还可表现一种颜色，那种红润而淡雅的颜色。
 例如： She has a natural blush on her cheeks. （她的脸颊上有自然的红晕。）
@@ -46,3 +52,8 @@ tableOfContents: false
 
 One sunny afternoon, the lovely girl, Anna, was reading in the garden. Suddenly, a handsome boy approached and handed her a beautiful flower. Seeing this, Anna's heart leaped, and a blush spread over her cheeks. All her shyness turned into a silent language of love at that moment.
 一个阳光明媚的下午，可爱的女孩安娜在花园里读书。突然，一个英俊的男孩走过来，给她递过来一朵美丽的花。看到这一情景，安娜的心猛然跳动，脸颊升起一抹红晕。她所有的害羞在那一刻变成了爱的无声言语。
+
+<WordRelations
+  synonyms={["blush wine", "rosé", "blusher", "rouge", "flush", "go red", "pinken", "redden"]}
+  client:only
+/>

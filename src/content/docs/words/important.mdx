@@ -1,13 +1,19 @@
 ---
 title: Important
-description: "Important是英语中的形容词，常被用来表示'重要的，严肃的，有影响的'。"
+description: Important是英语中的形容词，常被用来表示'重要的，严肃的，有影响的'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Important"是英语中的形容词，常被用来表示"重要的，严肃的，有影响的"。
+
+<Pronunciation word="Important" uk="/ɪmˈpɔːtənt/" us="/ɪmˈpɔɹtənt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 ### 助记故事
 
 Once a king held a party, he had an important mission to find a suitable wife among the guests. The girl he chose would be the future queen. (曾经一个国王举办了一个宴会，他有一个重要的任务，就是在所有的客人中找到一位合适的妻子。他选择的女孩将会成为未来的女王。)
+
+<WordRelations
+  synonyms={["significant", "weighty"]}
+  antonyms={["ignorable", "negligible", "petty", "slight", "unimportant"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Whatever
-description: "Whatever是一个可以代表'无论什么'、“任何”的原词，有时候也可以表示强烈的不快或置之不理的态度。"
+description: Whatever是一个可以代表'无论什么'、“任何”的原词，有时候也可以表示强烈的不快或置之不理的态度。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Whatever"是一个可以代表"无论什么"、“任何”的原词，有时候也可以表示强烈的不快或置之不理的态度。
+
+<Pronunciation word="Whatever" uk="/wɒtˈɛvə/" us="/wʌtˈɛvɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 He said, "Whatever the result, I won't regret."(他说，“无论结果如何，我都不会后悔。”)
 他说，“无论结果如何，我都不会后悔。”
+
+<WordRelations
+  synonyms={["meh", "so what", "whatev", "whoopee do"]}
+  client:only
+/>

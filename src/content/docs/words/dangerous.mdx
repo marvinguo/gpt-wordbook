@@ -1,13 +1,19 @@
 ---
 title: Dangerous
-description: "dangerous这个单词来自于英语，意思是'有风险的'或者'危险的'。它通常用于描述可能造成伤害或威胁的人、物或环境。"
+description: dangerous这个单词来自于英语，意思是'有风险的'或者'危险的'。它通常用于描述可能造成伤害或威胁的人、物或环境。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "dangerous"这个单词来自于英语，意思是"有风险的"或者"危险的"。它通常用于描述可能造成伤害或威胁的人、物或环境。
+
+<Pronunciation word="Dangerous" uk="/ˈdeɪnd͡ʒ(ə)ɹəs/" us="/ˈdeɪnd͡ʒəɹəs/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 ### 助记故事
 
 There was a dangerous snake near the campsite. Everyone was careful not to get close. (在营地附近有一条危险的蛇。每个人都小心翼翼地不去靠近。)
+
+<WordRelations
+  synonyms={["hazardous", "perilous", "risky", "unsafe"]}
+  antonyms={["harmless", "safe"]}
+  client:only
+/>

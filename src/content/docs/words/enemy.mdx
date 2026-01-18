@@ -1,13 +1,19 @@
 ---
 title: Enemy
-description: "Enemy 是一个名词，意为“敌人”或“敌军”。它可以指任何对我们有害或对我们有敌意的人，也可以指与我们有竞争关系的人或事物。"
+description: Enemy 是一个名词，意为“敌人”或“敌军”。它可以指任何对我们有害或对我们有敌意的人，也可以指与我们有竞争关系的人或事物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Enemy" 是一个名词，意为“敌人”或“敌军”。它可以指任何对我们有害或对我们有敌意的人，也可以指与我们有竞争关系的人或事物。
+
+<Pronunciation word="Enemy" uk="/ˈɛnəmi/" us="/ˈɛnəmi/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 Once, two brothers living in the same house considered each other as enemies over property division. It was until they realized their folly and made up, that they could feel the joy of brotherhood again. (从前，同住一屋的两兄弟因为财产分割问题互视为敌。直到他们意识到自己的愚蠢，和解后，他们才重新感受到了兄弟之间的喜悦。)
+
+<WordRelations
+  synonyms={["adversary", "backfriend", "foe", "nemesis", "unfriend"]}
+  antonyms={["ally", "friend"]}
+  client:only
+/>

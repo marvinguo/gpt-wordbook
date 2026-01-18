@@ -1,13 +1,19 @@
 ---
 title: Commence
-description: "Commence是一个来自于法语的词，意为开始、着手、启动。"
+description: Commence是一个来自于法语的词，意为开始、着手、启动。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Commence"是一个来自于法语的词，意为开始、着手、启动。
+
+<Pronunciation word="Commence" uk="/kəˈmɛns/" us="/kəˈmɛns/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ commence 没有前缀或后缀，其核心部分就是'commence'。
 The village was quiet, then the drums commenced — a rhythmic beat echoing across the landscape, announcing the commencement of the feast.
 
 村庄很安静，然后鼓声开始了——节奏性的敲击声在整个景观中回荡，宣告着盛宴的开始。
+
+<WordRelations
+  antonyms={["cease", "stop"]}
+  client:only
+/>

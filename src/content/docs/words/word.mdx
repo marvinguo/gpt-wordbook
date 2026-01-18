@@ -1,13 +1,19 @@
 ---
 title: Word
-description: "Word 是一个英语词汇，主要指的是一个语句或者句子的基本单位，也可以指说的或者写的话。它有很多含义和用法。"
+description: Word 是一个英语词汇，主要指的是一个语句或者句子的基本单位，也可以指说的或者写的话。它有很多含义和用法。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Word" 是一个英语词汇，主要指的是一个语句或者句子的基本单位，也可以指说的或者写的话。它有很多含义和用法。
+
+<Pronunciation word="Word" uk="/wɜːd/" us="/wɝd/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Word 作为一个名词,其复数形式为 words。
 
 "Every word he said was pure poetry. It was as if he was painting a picture with his words."
 （他说的每个字都像纯粹的诗。就像他正在用他的词描绘一幅画。）
+
+<WordRelations
+  synonyms={["Bible", "word of God", "God", "Logos", "promise", "vocable", "express", "phrase", "put into words", "state"]}
+  client:only
+/>

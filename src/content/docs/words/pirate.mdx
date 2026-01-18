@@ -1,13 +1,21 @@
 ---
 title: Pirate
-description: "Pirate 是一个名词，来源于希腊语 'peirates'，意为“企图攻击”的人。这个词用于描述那些在海上抢劫船只、掠夺货物以及在水陆都可能对人进行攻击和抢劫的人。此后，这个词也用于在其他背景下，比如算法、音乐、电影等，来描述未经许可的复制和销售的行为。"
+description: >-
+  Pirate 是一个名词，来源于希腊语
+  'peirates'，意为“企图攻击”的人。这个词用于描述那些在海上抢劫船只、掠夺货物以及在水陆都可能对人进行攻击和抢劫的人。此后，这个词也用于在其他背景下，比如算法、音乐、电影等，来描述未经许可的复制和销售的行为。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Pirate" 是一个名词，来源于希腊语 "peirates"，意为“企图攻击”的人。这个词用于描述那些在海上抢劫船只、掠夺货物以及在水陆都可能对人进行攻击和抢劫的人。此后，这个词也用于在其他背景下，比如算法、音乐、电影等，来描述未经许可的复制和销售的行为。
+
+<Pronunciation word="Pirate" uk="/ˈpaɪ̯(ə)ɹət/" us="/ˈpaɪ̯(ə)ɹət/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ tableOfContents: false
 Once upon a time, a brave pirate named Jack sailed the seven seas. He wasn't an ordinary pirate though, he was a pirate of knowledge, seeking wisdom from uncharted lands.
 
 曾几何时，有一个名叫杰克的勇敢海盗航行在七大洋上。然而他不是普通的海盗，他是一个知识的海盗，寻求来自未知陆地的智慧。
+
+<WordRelations
+  synonyms={["bootlegger", "buccaneer", "corsair", "counterfeit", "plagiarize", "pirated"]}
+  client:only
+/>

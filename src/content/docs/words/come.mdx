@@ -1,13 +1,19 @@
 ---
 title: Come
-description: "Come 是一个英文常用词，大多用作动词，主要有以下几种含义："
+description: Come 是一个英文常用词，大多用作动词，主要有以下几种含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Come" 是一个英文常用词，大多用作动词，主要有以下几种含义：
+
+<Pronunciation word="Come" uk="/kʌm/" us="/kʌm/" client:only />
 
 1.  来，达到或进入某地；
 2.  发生，出现；
@@ -48,3 +54,8 @@ tableOfContents: false
 The snow had just stopped, but the cold winter wind was still blowing fiercely. Despite this, little Timmy decided to go out and play. Just as he was making a snowman, he heard his mother calling from the house: "Timmy, come in! It's freezing outside. It's time for hot chocolate."
 
 (雪刚刚停下，但寒冷的冬风还在猛烈地吹着。尽管如此，小提米还是决定出去玩。正当他在堆雪人的时候，他听到他的妈妈从房子里呼唤：“提米，快回来！外面冻死人了，热巧克力的时间到了。”)
+
+<WordRelations
+  antonyms={["depart", "exit", "flee", "go", "leave", "retreat", "withdraw"]}
+  client:only
+/>

@@ -1,13 +1,21 @@
 ---
 title: Wise
-description: "Wise 是一个形容词，用来形容一个人具有经验和知识，并且能做出明智的决定。类似的词包括聪明的 (smart) ，聪颖的 (clever) 和有洞察力的 (insightful)。"
+description: >-
+  Wise 是一个形容词，用来形容一个人具有经验和知识，并且能做出明智的决定。类似的词包括聪明的 (smart) ，聪颖的 (clever) 和有洞察力的
+  (insightful)。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 'Wise' 是一个形容词，用来形容一个人具有经验和知识，并且能做出明智的决定。类似的词包括聪明的 (smart) ，聪颖的 (clever) 和有洞察力的 (insightful)。
+
+<Pronunciation word="Wise" uk="/waɪz/" us="/waɪz/" client:only />
 
 ### 列举例句
 
@@ -49,3 +57,8 @@ tableOfContents: false
 
 There once lived a wise owl in the forest, who spent his days watching the animals and his nights telling tales of wisdom.
 森林中曾住着一只明智的猫头鹰，它白天观察动物行为，晚上则讲述充满智慧的故事。
+
+<WordRelations
+  antonyms={["foolish", "unwise"]}
+  client:only
+/>

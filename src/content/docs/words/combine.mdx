@@ -1,13 +1,19 @@
 ---
 title: Combine
-description: "Combine是一个英语单词，主要有两种基础含义："
+description: Combine是一个英语单词，主要有两种基础含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Combine"是一个英语单词，主要有两种基础含义：
+
+<Pronunciation word="Combine" uk="/kəmˈbaɪn/" us="/kəmˈbaɪn/" client:only />
 
 1.  "联合，结合"的意思，通常指把两个或更多的元素融合在一起以产生新的效果。
     例如：They combined the two companies to make a larger one.（他们将两家公司合并为一家更大的公司。）
@@ -48,3 +54,9 @@ Once upon a time, two small companies decided to combine their resources to comp
 从前，两家小公司决定结合他们的资源以与大企业竞争。他们很快就意识到了这种团结的好处，因为他们结合起来可以实现更多的目标，这是他们单独行动做不到的。
 
 希望我的解答对你有所帮助！
+
+<WordRelations
+  synonyms={["kombinat"]}
+  antonyms={["disunite", "divide", "separate"]}
+  client:only
+/>

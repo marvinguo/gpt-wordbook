@@ -1,13 +1,19 @@
 ---
 title: Insect
-description: "Insect是一个英语名词，指的是昆虫，一个庞大的无脊椎动物类。它们具有分节的身体（通常包括头、胸和腹部），一对触须和通常有六条腿。"
+description: Insect是一个英语名词，指的是昆虫，一个庞大的无脊椎动物类。它们具有分节的身体（通常包括头、胸和腹部），一对触须和通常有六条腿。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Insect"是一个英语名词，指的是昆虫，一个庞大的无脊椎动物类。它们具有分节的身体（通常包括头、胸和腹部），一对触须和通常有六条腿。
+
+<Pronunciation word="Insect" uk="/ˈɪnsɛkt/" us="/ˈɪnsɛkt/" client:only />
 
 ### 列举例句
 
@@ -34,3 +40,8 @@ tableOfContents: false
 ### 助记故事
 
 "The insect, no bigger than a speck of dust, soared through the air before landing on a flower." 中文翻译: "那只昆虫，小如尘埃，翱翔在空中，然后落在一朵花上。"
+
+<WordRelations
+  synonyms={["bug"]}
+  client:only
+/>

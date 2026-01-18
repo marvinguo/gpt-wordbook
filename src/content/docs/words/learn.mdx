@@ -1,13 +1,19 @@
 ---
 title: Learn
-description: "Learn 是一个动词，它的基本含义是获得知识或者技能。具体来说，这个过程可能是通过读书，观察，听讲解或者通过实践自己去理解和掌握。"
+description: Learn 是一个动词，它的基本含义是获得知识或者技能。具体来说，这个过程可能是通过读书，观察，听讲解或者通过实践自己去理解和掌握。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Learn" 是一个动词，它的基本含义是获得知识或者技能。具体来说，这个过程可能是通过读书，观察，听讲解或者通过实践自己去理解和掌握。
+
+<Pronunciation word="Learn" uk="/lɜːn/" us="/lɝn/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,9 @@ tableOfContents: false
 
 Mike loved to learn. Every day, he read books, attended lectures, and practiced new skills. Learning was his lifelong passion.
 (迈克热爱学习。每一天，他都会阅读书籍，听讲座，练习新技能。学习是他毕生的热情。)
+
+<WordRelations
+  synonyms={["study"]}
+  antonyms={["forget", "teach"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Misled
-description: "misled 是 'mislead' 的过去式和过去分词。'Mislead' 是一个动词，表示误导，引入歧途。"
+description: misled 是 'mislead' 的过去式和过去分词。'Mislead' 是一个动词，表示误导，引入歧途。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "misled" 是 "mislead" 的过去式和过去分词。"Mislead" 是一个动词，表示误导，引入歧途。
+
+<Pronunciation word="Misled" uk="/ˌmɪsˈlɛd/" us="/ˌmɪsˈlɛd/" client:only />
 
 ### 列举例句
 
@@ -51,3 +57,9 @@ tableOfContents: false
 
 Yesterday, Bob was misled by misleading information on the internet.
 昨天，鲍勃被互联网上的误导信息误导了。
+
+<WordRelations
+  synonyms={["beguile", "cheat", "deceive", "delude", "forlead", "misguide", "misinform", "seduce"]}
+  antonyms={["direct", "guide", "lead"]}
+  client:only
+/>

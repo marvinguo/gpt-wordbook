@@ -1,13 +1,19 @@
 ---
 title: Pants
-description: "- 'Pants' 在美国英语中通常指的是 '长裤'，在英国英语中则是对 '内裤' 的通称。"
+description: '- ''Pants'' 在美国英语中通常指的是 ''长裤''，在英国英语中则是对 ''内裤'' 的通称。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Pants" 在美国英语中通常指的是 "长裤"，在英国英语中则是对 "内裤" 的通称。
+
+<Pronunciation word="Pants" uk="/pænts/" us="/pænts/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 翻译：彼得挑选了他最喜欢的裤子去参加野餐。尽管天气热，但他穿着棉制的裤子还是感觉很舒服。
 
 希望以上的解答能帮助到你！
+
+<WordRelations
+  synonyms={["breeks", "britches", "hosen", "slacks", "strides", "trousers"]}
+  client:only
+/>

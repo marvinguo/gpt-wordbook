@@ -1,13 +1,19 @@
 ---
 title: Abash
-description: "Abash 是一个动词，表示使某人感到困窘或尴尬。常见的中文翻译有：使...局促不安、使困窘、使...羞愧。"
+description: Abash 是一个动词，表示使某人感到困窘或尴尬。常见的中文翻译有：使...局促不安、使困窘、使...羞愧。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Abash" 是一个动词，表示使某人感到困窘或尴尬。常见的中文翻译有：使...局促不安、使困窘、使...羞愧。
+
+<Pronunciation word="Abash" uk="/əˈbæʃ/" us="/əˈbæʃ/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ Abash 在不同的时态下有不同的变形，例如：
 
 In the elegant party, Jane's slip of tongue greatly abashed her.
 在这个高雅的聚会上，简的口误大大地使她感到尴尬。
+
+<WordRelations
+  synonyms={["bewilder", "confound", "confuse", "daunt", "discompose", "disconcert", "discountenance", "dishearten", "embarrass", "faze", "fluster", "humble", "humiliate", "mortify", "rattle", "shake", "shame", "snub"]}
+  antonyms={["abet", "animate", "buoy", "cheer", "countenance", "embolden", "encourage", "incite", "inspirit", "rally", "reassure", "uphold"]}
+  client:only
+/>

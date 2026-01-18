@@ -1,13 +1,19 @@
 ---
 title: Unhealthy
-description: "Unhealthy是一个形容词，用来描述不健康、有害健康或不良的。"
+description: Unhealthy是一个形容词，用来描述不健康、有害健康或不良的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Unhealthy"是一个形容词，用来描述不健康、有害健康或不良的。
+
+<Pronunciation word="Unhealthy" uk="/ʌnˈhɛl.θi/" us="/ʌnˈhɛl.θi/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,8 @@ tableOfContents: false
 
 "Jake constantly ate junk food and played video games all night. His unhealthy lifestyle worried his parents immensely."
 杰克总是吃垃圾食物并且通宵玩电子游戏。他的不健康生活方式让他的父母非常担心。
+
+<WordRelations
+  antonyms={["healthy"]}
+  client:only
+/>

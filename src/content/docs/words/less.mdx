@@ -1,13 +1,19 @@
 ---
 title: Less
-description: "Less 是英语中常用的一个副词，表示“较少的”、“较小的”或者“不太”。"
+description: Less 是英语中常用的一个副词，表示“较少的”、“较小的”或者“不太”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Less" 是英语中常用的一个副词，表示“较少的”、“较小的”或者“不太”。
+
+<Pronunciation word="Less" uk="/lɛs/" us="/lɛs/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Tom always wants to be less noticed at school, so he keeps quiet and does his work. (汤姆总是希望在学校不被注意，所以他保持安静，做自己的事。)
 
 翻译：汤姆总是希望在学校被注意的较少，所以他保持安静，做自己的事。
+
+<WordRelations
+  antonyms={["more", "plus"]}
+  client:only
+/>

@@ -1,13 +1,21 @@
 ---
 title: Pest
-description: "pest 是英语中的一个常见单词，它的基本含义是 '害虫' 或者 '令人讨厌的人或事物'。当用来描述动物或植物时，通常指的是对环境造成破坏或者对人类造成伤害的种类；而当描述人时，则是指行为让人烦躁或者干扰到别人的人。"
+description: >-
+  pest 是英语中的一个常见单词，它的基本含义是 '害虫' 或者
+  '令人讨厌的人或事物'。当用来描述动物或植物时，通常指的是对环境造成破坏或者对人类造成伤害的种类；而当描述人时，则是指行为让人烦躁或者干扰到别人的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "pest" 是英语中的一个常见单词，它的基本含义是 "害虫" 或者 "令人讨厌的人或事物"。当用来描述动物或植物时，通常指的是对环境造成破坏或者对人类造成伤害的种类；而当描述人时，则是指行为让人烦躁或者干扰到别人的人。
+
+<Pronunciation word="Pest" uk="/pɛst/" us="/pɛst/" client:only />
 
 ### 列举例句
 
@@ -44,3 +52,8 @@ tableOfContents: false
 Once upon a time, there was a pest named Tiny. Tiny wanted to fit in, but all the other bugs were scared of him because he could destroy their homes.
 
 从前，有一只名叫 Tiny 的害虫。Tiny 想要融入其他昆虫的群体，但所有的昆虫都怕他，因为他有破坏它们家园的能力。
+
+<WordRelations
+  synonyms={["bug"]}
+  client:only
+/>

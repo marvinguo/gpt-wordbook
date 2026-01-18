@@ -1,13 +1,19 @@
 ---
 title: Just
-description: "Just是一个非常常用的英语单词，它有多个意思，大多数情况下表示“只是，仅仅”；表示强调时语气助词，“正好”，“刚刚”，或者“公正，公平”。"
+description: Just是一个非常常用的英语单词，它有多个意思，大多数情况下表示“只是，仅仅”；表示强调时语气助词，“正好”，“刚刚”，或者“公正，公平”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “Just”是一个非常常用的英语单词，它有多个意思，大多数情况下表示“只是，仅仅”；表示强调时语气助词，“正好”，“刚刚”，或者“公正，公平”。
+
+<Pronunciation word="Just" uk="/d͡ʒʌst/" us="/d͡ʒʌst/" client:only />
 
 ### 列举例句
 
@@ -35,3 +41,9 @@ tableOfContents: false
 
 "Mary just moved to a new city. She was just a teenager, but she adjusted just fine."
 (玛丽刚搬到一个新城市。她只是个青少年，但她调整得很好。)
+
+<WordRelations
+  synonyms={["adequate", "proper", "correct", "right", "equitable", "righteous", "barely", "hardly", "scarcely", "on the dot", "smack-dab", "merely", "simply", "freshly", "lately", "newly"]}
+  antonyms={["unjust"]}
+  client:only
+/>

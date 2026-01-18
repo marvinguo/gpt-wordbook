@@ -1,13 +1,19 @@
 ---
 title: Tomorrow
-description: "Tomorrow是一个英语单词，表达的是“明天”的意思。它通常用于谈论未来的一天，也就是今天之后的第二天。"
+description: Tomorrow是一个英语单词，表达的是“明天”的意思。它通常用于谈论未来的一天，也就是今天之后的第二天。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “Tomorrow”是一个英语单词，表达的是“明天”的意思。它通常用于谈论未来的一天，也就是今天之后的第二天。
+
+<Pronunciation word="Tomorrow" uk="/təˈmɒɹəʊ/" us="/təˈmɑɹoʊ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 Tom planned to confess his love to Lily tomorrow. But his heart was pumping fast, as if it was beating a drum. Could Lily feel the same?
 
 汤姆计划在明天向莉丽表白。但他的心正在快速跳动，就好像在敲鼓一样。莉丽会有同样的感觉吗？
+
+<WordRelations
+  synonyms={["morrow"]}
+  antonyms={["yesterday"]}
+  client:only
+/>

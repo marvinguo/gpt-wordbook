@@ -1,13 +1,19 @@
 ---
 title: Nose
-description: "Nose是一个英文名词，指的是我们身体的一个重要部位：鼻子。它不只用于闻气味，也是我们呼吸系统的重要组成部分。"
+description: Nose是一个英文名词，指的是我们身体的一个重要部位：鼻子。它不只用于闻气味，也是我们呼吸系统的重要组成部分。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Nose"是一个英文名词，指的是我们身体的一个重要部位：鼻子。它不只用于闻气味，也是我们呼吸系统的重要组成部分。
+
+<Pronunciation word="Nose" uk="/nəʊz/" us="/noʊz/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Noses(鼻子们)：复数形式；
 ### 助记故事
 
 John has a very sensitive nose. He can tell what his mom is cooking even from his own room. (约翰的鼻子很敏感。即使在自己的房间，他也能闻出妈妈在做什么菜。)
+
+<WordRelations
+  synonyms={["tab", "drip", "nark"]}
+  client:only
+/>

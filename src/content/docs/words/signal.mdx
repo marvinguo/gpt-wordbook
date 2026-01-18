@@ -1,13 +1,19 @@
 ---
 title: Signal
-description: "Signal 是一个英文单词，被翻译为'信号' 或 '标志'。它可以作为名词，也可以作为动词。"
+description: Signal 是一个英文单词，被翻译为'信号' 或 '标志'。它可以作为名词，也可以作为动词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Signal" 是一个英文单词，被翻译为"信号" 或 "标志"。它可以作为名词，也可以作为动词。
+
+<Pronunciation word="Signal" uk="/ˈsɪɡnəl/" us="/ˈsɪɡnəl/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ tableOfContents: false
 
 Every morning, the crow from the old tree signals the start of a new day by its relentless cawing. It's as if it's saying, "Wake up, folks! It's time to rise and shine!"
 (每天早上，老树上的乌鸦通过其不间断的叫声标志着新的一天的开始。就好像它在说：“起床了，伙计们！是时候开始新的一天了！”)
+
+<WordRelations
+  synonyms={["eminent", "noteworthy", "significant"]}
+  antonyms={["noise"]}
+  client:only
+/>

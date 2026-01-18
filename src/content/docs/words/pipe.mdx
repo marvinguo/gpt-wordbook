@@ -1,13 +1,19 @@
 ---
 title: Pipe
-description: "Pipe是一个常用的英语单词，其主要的含义是“管子”或者“烟斗”。也可以作为动词，表示“用管子输送”或者“鸣奏（疏通管道）”。"
+description: Pipe是一个常用的英语单词，其主要的含义是“管子”或者“烟斗”。也可以作为动词，表示“用管子输送”或者“鸣奏（疏通管道）”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “Pipe”是一个常用的英语单词，其主要的含义是“管子”或者“烟斗”。也可以作为动词，表示“用管子输送”或者“鸣奏（疏通管道）”。
+
+<Pronunciation word="Pipe" uk="/paɪp/" us="/paɪp/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 "Tom sighed contentedly as he fixed the leaky pipe in the kitchen. After hours of tinkering, the water was finally flowing smoothly through the pipes again."
 
 汤姆满足地叹了口气，因为他终于修好了厨房里漏水的管子。经过几个小时的修理，水终于再次顺畅地通过管子流动了。
+
+<WordRelations
+  synonyms={["pan", "bar", "vertical bar", "vertical line", "virgule"]}
+  client:only
+/>

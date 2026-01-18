@@ -1,13 +1,21 @@
 ---
 title: Cheese
-description: "Cheese 是一个英语单词，主要用于指一种由牛奶（或羊奶、山羊奶等）通过发酵等手段制作的乳制品。在很多西方国家，比如法国和意大利，cheese 是非常重要的食品。"
+description: >-
+  Cheese 是一个英语单词，主要用于指一种由牛奶（或羊奶、山羊奶等）通过发酵等手段制作的乳制品。在很多西方国家，比如法国和意大利，cheese
+  是非常重要的食品。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Cheese" 是一个英语单词，主要用于指一种由牛奶（或羊奶、山羊奶等）通过发酵等手段制作的乳制品。在很多西方国家，比如法国和意大利，cheese 是非常重要的食品。
+
+<Pronunciation word="Cheese" uk="/t͡ʃiz/" us="/t͡ʃiz/" client:only />
 
 ### 列举例句
 
@@ -45,3 +53,8 @@ tableOfContents: false
 
 Mike is in a cheese shop, looking for some delicious cheese. The aroma of different cheeses fills the air. He finally chooses a piece of blue cheese. He can't wait to share it with his friends at tonight's party.
 迈克在一个奶酪店里，正在寻找一些美味的奶酪。不同种类的奶酪散发出的香气弥漫在空气中。他最终选择了一块蓝奶酪。他迫不及待地想在今晚的派对上和朋友们分享。
+
+<WordRelations
+  antonyms={["fill"]}
+  client:only
+/>

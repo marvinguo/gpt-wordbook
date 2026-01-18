@@ -1,13 +1,19 @@
 ---
 title: Unemployment
-description: "Unemployment 是英语中的一个名词，用来指一个人当前没有工作，也就是他或她失业的状态。"
+description: Unemployment 是英语中的一个名词，用来指一个人当前没有工作，也就是他或她失业的状态。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Unemployment" 是英语中的一个名词，用来指一个人当前没有工作，也就是他或她失业的状态。
+
+<Pronunciation word="Unemployment" uk="/ʌn.ɪmˈplɔɪ.mənt/" us="/ʌn.ɪmˈplɔɪ.mənt/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ tableOfContents: false
 Jill was a hardworking employee. But due to the economic downturn, she faced a dreaded phase of unemployment. She found this period to be tough, but she chose to stay positive and spend this time acquiring new skills.
 
 吉尔是个工作努力的员工。可是，由于经济低迷，她不得已面临了一段畏惧的失业期。她觉得这段时间很艰难，但她选择积极乐观，并利用这段时间去学习新的技能。
+
+<WordRelations
+  synonyms={["joblessness", "unwork", "worklessness"]}
+  antonyms={["employment"]}
+  client:only
+/>

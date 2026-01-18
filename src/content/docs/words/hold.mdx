@@ -1,13 +1,21 @@
 ---
 title: Hold
-description: "hold 是一个常见的单词，在英语中主要用作动词，它的基本含义是抓住或握住。此外，'hold' 还可以用来表示拥有，支撑，容纳或者维持某种状态。例如，你可以 hold 一个笔记本(computer)，hold 一项观点(view)，或者 hold 一场会议(meeting)。"
+description: >-
+  hold 是一个常见的单词，在英语中主要用作动词，它的基本含义是抓住或握住。此外，'hold' 还可以用来表示拥有，支撑，容纳或者维持某种状态。例如，你可以
+  hold 一个笔记本(computer)，hold 一项观点(view)，或者 hold 一场会议(meeting)。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "hold" 是一个常见的单词，在英语中主要用作动词，它的基本含义是抓住或握住。此外，"hold" 还可以用来表示拥有，支撑，容纳或者维持某种状态。例如，你可以 hold 一个笔记本(computer)，hold 一项观点(view)，或者 hold 一场会议(meeting)。
+
+<Pronunciation word="Hold" uk="/həʊld/" us="/hoʊld/" client:only />
 
 ### 列举例句
 
@@ -42,3 +50,9 @@ tableOfContents: false
 Peter always hold the old key tightly in his hand, for it's the only thing left from his grandfather.
 
 彼特一直紧紧地握着那把旧钥匙，因为那是他的祖父留下的唯一的东西。
+
+<WordRelations
+  synonyms={["clasp", "grasp", "grip", "own", "happen"]}
+  antonyms={["release"]}
+  client:only
+/>

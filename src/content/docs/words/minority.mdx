@@ -1,13 +1,19 @@
 ---
 title: Minority
-description: "Minority 是一个名词，主要有以下两种含义："
+description: Minority 是一个名词，主要有以下两种含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Minority" 是一个名词，主要有以下两种含义：
+
+<Pronunciation word="Minority" uk="/maɪˈnɒɹ.ɪ.ti/" us="/maɪˈnɑɹ.ɪ.ti/" client:only />
 
 1.  数量上的少数，例如人口、种族、党派等；
 2.  法定年龄以下的人。
@@ -43,3 +49,9 @@ Minority 为名词。单复数形式相同，都为 minority。
 
 "As the only left-handed person in the class, John felt like a minority." ——作为班上唯一一个左撇子，约翰感觉自己像一个少数派。
 中文翻译：作为班上唯一的左撇子，约翰感觉自己像一个少数派。
+
+<WordRelations
+  synonyms={["childhood"]}
+  antonyms={["adulthood", "majority"]}
+  client:only
+/>

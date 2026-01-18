@@ -1,13 +1,19 @@
 ---
 title: Mill
-description: "Mill 是一个英文词汇，可用作名词，也可用作动词。"
+description: Mill 是一个英文词汇，可用作名词，也可用作动词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Mill" 是一个英文词汇，可用作名词，也可用作动词。
+
+<Pronunciation word="Mill" uk="/mɪl/" us="/mɪl/" client:only />
 
 1.  当"Mill" 作为名词时，它主要有两个含义：
 
@@ -55,3 +61,8 @@ tableOfContents: false
 Mike worked in the big steel mill in town, where his father and grandfather had worked before him. He was proud to mill the steel that was used to build skyscrapers in big cities.
 
 Mike 在镇上的大钢铁厂工作，他的父亲和祖父以前在那里工作。他为炼制用于建造大城市摩天大楼的钢铁而感到骄傲。
+
+<WordRelations
+  synonyms={["factory", "works", "roam", "wander"]}
+  client:only
+/>

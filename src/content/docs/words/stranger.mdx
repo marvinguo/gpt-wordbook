@@ -1,13 +1,19 @@
 ---
 title: Stranger
-description: "Stranger是一个名词，主要用来指代一个我们不熟悉或未曾见过的人。"
+description: Stranger是一个名词，主要用来指代一个我们不熟悉或未曾见过的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Stranger"是一个名词，主要用来指代一个我们不熟悉或未曾见过的人。
+
+<Pronunciation word="Stranger" uk="/ˈstɹeɪndʒə/" us="/ˈstɹeɪndʒɚ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, in a small town, a stranger came. He seemed different, with his exotic clothes and strange accent. But the kids in the town, full of curiosity, started to follow him. (曾经，在一个小镇，来了一个陌生人。他看起来与众不同，穿着异国服饰，带着奇怪的口音。但是镇上的孩子们，满怀好奇，开始跟随他。)
+
+<WordRelations
+  synonyms={["new", "unfamiliar", "unknown", "newbie", "newcomer"]}
+  antonyms={["everyday", "normal", "regular", "standard", "unsurprising", "usual", "familiar", "known", "citizen", "compatriot", "countryman", "fellow", "national", "resident", "acquaintance", "friend"]}
+  client:only
+/>

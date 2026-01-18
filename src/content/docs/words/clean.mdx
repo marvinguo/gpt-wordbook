@@ -1,13 +1,19 @@
 ---
 title: Clean
-description: "Clean这个单词，其基本意思是“清洁的，干净的”。它不仅可以描述物体、地方的清洁状态，也可以用来描述行为、动作的纯洁、诚实。"
+description: Clean这个单词，其基本意思是“清洁的，干净的”。它不仅可以描述物体、地方的清洁状态，也可以用来描述行为、动作的纯洁、诚实。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Clean"这个单词，其基本意思是“清洁的，干净的”。它不仅可以描述物体、地方的清洁状态，也可以用来描述行为、动作的纯洁、诚实。
+
+<Pronunciation word="Clean" uk="/kliːn/" us="/klin/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, there was a clean and tidy town. Everyone in this town loved cleanliness very much, so they cleaned every corner of the town every day. Their simple and clean lives made everyone feel happy and comfortable.（从前，有一个干净整洁的小镇。这个小镇的每个人都很热爱干净，所以他们每天都会清洁小镇的每一个角落。他们简洁干净的生活使每个人都感到快乐和舒适。）
+
+<WordRelations
+  synonyms={["clean"]}
+  antonyms={["dirty", "unclean"]}
+  client:only
+/>

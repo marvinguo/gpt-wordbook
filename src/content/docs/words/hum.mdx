@@ -1,13 +1,19 @@
 ---
 title: Hum
-description: "Hum 是一个动词和名词，作动词时主要有两个意思：1）模仿嗡嗡声，2）低声不清地唱。作名词时主要指的是嗡嗡声或者低声唱的声音。"
+description: Hum 是一个动词和名词，作动词时主要有两个意思：1）模仿嗡嗡声，2）低声不清地唱。作名词时主要指的是嗡嗡声或者低声唱的声音。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Hum" 是一个动词和名词，作动词时主要有两个意思：1）模仿嗡嗡声，2）低声不清地唱。作名词时主要指的是嗡嗡声或者低声唱的声音。
+
+<Pronunciation word="Hum" uk="/ˈhʌm/" us="/ˈhʌm/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,8 @@ Hum 来源于古英语的 word "hūmian"，意思是发出低沉的声音，这�
 
 Every morning, Tom wakes up to the hum of his alarm clock. This sound signals the start of a new day.
 每天早晨，Tom 都会被闹钟的嗡嗡声唤醒。这个声音标志着新的一天的开始。
+
+<WordRelations
+  synonyms={["hnn", "bumble", "bustle", "buzz", "croon", "hustle", "whir"]}
+  client:only
+/>

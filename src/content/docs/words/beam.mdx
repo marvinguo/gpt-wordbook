@@ -1,13 +1,21 @@
 ---
 title: Beam
-description: "Beam 这个单词在英语中有多种意义，最常见的有两个。一方面，它可以被解读为 '一条长而直的硬条' 或者 '横梁', 例如在建筑学中的一个重要组成部分。另一方面，它也常常用来形容 '射出光线或热量'，例如 '阳光照射' 或 '电视信号传输'。"
+description: >-
+  Beam 这个单词在英语中有多种意义，最常见的有两个。一方面，它可以被解读为 '一条长而直的硬条' 或者 '横梁',
+  例如在建筑学中的一个重要组成部分。另一方面，它也常常用来形容 '射出光线或热量'，例如 '阳光照射' 或 '电视信号传输'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Beam" 这个单词在英语中有多种意义，最常见的有两个。一方面，它可以被解读为 "一条长而直的硬条" 或者 "横梁", 例如在建筑学中的一个重要组成部分。另一方面，它也常常用来形容 "射出光线或热量"，例如 "阳光照射" 或 "电视信号传输"。
+
+<Pronunciation word="Beam" uk="/biːm/" us="/biːm/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,8 @@ tableOfContents: false
 
 Mike was sitting under the beam of the old house, reflecting on his childhood as the sun beamed through the window.
 麦克坐在老房子的梁下，阳光通过窗户照射进来，他在回忆自己的童年。
+
+<WordRelations
+  synonyms={["beam feather", "breadth", "walking beam", "working beam"]}
+  client:only
+/>

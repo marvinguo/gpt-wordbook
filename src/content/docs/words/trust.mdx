@@ -1,13 +1,22 @@
 ---
 title: Trust
-description: "Trust 是一个英语单词，如果作为名词使用，意为信任、信赖、托付，例如：“I put my trust in you”（我信任你）。如果作为动词使用，则意为相信、信赖、依赖，如：'We trust in his ability to solve the problem.'（我们相信他有能力解决这个问题）。"
+description: >-
+  Trust 是一个英语单词，如果作为名词使用，意为信任、信赖、托付，例如：“I put my trust in
+  you”（我信任你）。如果作为动词使用，则意为相信、信赖、依赖，如：'We trust in his ability to solve the
+  problem.'（我们相信他有能力解决这个问题）。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Trust" 是一个英语单词，如果作为名词使用，意为信任、信赖、托付，例如：“I put my trust in you”（我信任你）。如果作为动词使用，则意为相信、信赖、依赖，如："We trust in his ability to solve the problem."（我们相信他有能力解决这个问题）。
+
+<Pronunciation word="Trust" uk="/trʊst/" us="/trʌst/" client:only />
 
 ### 列举例句
 
@@ -40,3 +49,9 @@ Trust 这个词在语言中的使用可以追溯到公元 1200 年，在德国�
 ### 助记故事
 
 Emma is a trusting child. She believes that there is magic in the world. Her trust in magic brings her much joy.（艾玛是一个相信人皆善良的孩子，她相信这个世界上有魔法，这种对魔法的信任给她带来了很多快乐。）
+
+<WordRelations
+  synonyms={["belief", "confidence", "expectation", "faith", "hope"]}
+  antonyms={["distrust", "mistrust", "untrust", "wantrust"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Ramble
-description: "Ramble 是一个非常有趣的英语单词。作为动词，它主要有两种意思：一是长时间、无目的地漫步或游走；二是长篇大论地、没有条理地说或写。"
+description: Ramble 是一个非常有趣的英语单词。作为动词，它主要有两种意思：一是长时间、无目的地漫步或游走；二是长篇大论地、没有条理地说或写。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Ramble" 是一个非常有趣的英语单词。作为动词，它主要有两种意思：一是长时间、无目的地漫步或游走；二是长篇大论地、没有条理地说或写。
+
+<Pronunciation word="Ramble" uk="/ˈɹæmbəl/" us="/ˈɹæmbəl/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 ### 助记故事
 
 He loved to ramble in the city, aimlessly exploring the streets and buildings. Soon, he realized he rambled into a magical world hidden in the city's heart. (他喜欢在城市中漫步，无目的地探索街道和建筑。不久，他意识到他闯入了隐藏在城市中心的一个神奇世界。)
+
+<WordRelations
+  synonyms={["drivel", "sperg"]}
+  client:only
+/>

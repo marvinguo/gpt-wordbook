@@ -1,13 +1,19 @@
 ---
 title: Duty
-description: "Duty是一个名词，它在英语中有几种主要的含义：1）是一种职责、义务或责任，指必须做的事情；2）也可以指一种税或费用，如关税。"
+description: Duty是一个名词，它在英语中有几种主要的含义：1）是一种职责、义务或责任，指必须做的事情；2）也可以指一种税或费用，如关税。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Duty"是一个名词，它在英语中有几种主要的含义：1）是一种职责、义务或责任，指必须做的事情；2）也可以指一种税或费用，如关税。
+
+<Pronunciation word="Duty" uk="/ˈdjuːti/" us="/duːti/" client:only />
 
 例如：
 
@@ -38,3 +44,9 @@ tableOfContents: false
 
 一日，Lily 获选为班级的班长。 她记住自己的 duty，每天都认真完成所有的工作。
 （一天，莉莉被选为班长。她记住了自己的职责，每天都认真地完成所有的工作。）
+
+<WordRelations
+  synonyms={["obligation"]}
+  antonyms={["right", "duty-free"]}
+  client:only
+/>

@@ -1,13 +1,20 @@
 ---
 title: Drop
-description: "Drop这个英文单词有多种用途，它的意思可能取决于上下文。首先，作为动词，它的最基本的意思是'使掉下'或'落下'。反过来，当它作为名词时，它可以是'下降'或'滴'的意思。"
+description: >-
+  Drop这个英文单词有多种用途，它的意思可能取决于上下文。首先，作为动词，它的最基本的意思是'使掉下'或'落下'。反过来，当它作为名词时，它可以是'下降'或'滴'的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Drop"这个英文单词有多种用途，它的意思可能取决于上下文。首先，作为动词，它的最基本的意思是"使掉下"或"落下"。反过来，当它作为名词时，它可以是"下降"或"滴"的意思。
+
+<Pronunciation word="Drop" uk="/dɹɒp/" us="/dɹɑp/" client:only />
 
 ### 列举例句
 
@@ -53,3 +60,8 @@ tableOfContents: false
 Amy decided to drop her old habits and start a new life. She took the first step by dropping a coin into a wishing well, hoping for a positive change.
 
 艾米决定放下她的旧习惯，开始新的生活。她先是向许愿井中投掷硬币，希望带来积极的改变。
+
+<WordRelations
+  synonyms={["drop off"]}
+  client:only
+/>

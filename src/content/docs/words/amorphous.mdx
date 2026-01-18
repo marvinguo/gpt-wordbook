@@ -1,14 +1,20 @@
 ---
-title: "Amorphous"
-description: "Amorphous 形容无固定形状的、杂乱无章的、不确定的。"
+title: Amorphous
+description: Amorphous 形容无固定形状的、杂乱无章的、不确定的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Amorphous** 是一个形容词。它可以指物理上的没有形状（如云），也可以指组织或计划上的松散和缺乏结构。
+
+<Pronunciation word="Amorphous" uk="/əˈmɔɹfəs/" us="/əˈmɔɹfəs/" client:only />
 
 ### 列举例句
 
@@ -32,3 +38,7 @@ tableOfContents: false
 The protest started as an amorphous group of individuals but soon became a highly organized movement.
 (抗议活动最初是一群杂乱无章的人，但很快就演变成了一场组织严密的运动。)
 
+<WordRelations
+  synonyms={["formless", "shapeless"]}
+  client:only
+/>

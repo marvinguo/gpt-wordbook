@@ -1,13 +1,19 @@
 ---
 title: Tuberculosis
-description: "Tuberculosis（结核病）是一种感染病，由结核杆菌引起，常常影响肺部。这个词是一个名词，特指这种病理状态。"
+description: Tuberculosis（结核病）是一种感染病，由结核杆菌引起，常常影响肺部。这个词是一个名词，特指这种病理状态。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Tuberculosis（结核病）是一种感染病，由结核杆菌引起，常常影响肺部。这个词是一个名词，特指这种病理状态。
+
+<Pronunciation word="Tuberculosis" uk="/tjuːˌbɜː(r)kjʊˈləʊsɪs/" us="/tjuːˌbɜː(r)kjʊˈləʊsɪs/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ Tuberculosis 是一种历史悠久的疾病，被人类知晓和研究了数千�
 Linda works for a tuberculosis prevention organization. She counsels patients, provides medicine, and vigilant about her own health.
 
 琳达在一个防止结核病的组织工作。她对患者进行心理咨询，提供药物，并且时刻警惕自己的健康。
+
+<WordRelations
+  synonyms={["TB", "consumption", "phthisic"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Meeting
-description: "Meeting 是个名词，常被用来指代“会议”，一般是指三人或以上的人群相聚在一起，为了讨论或决定某些事情。"
+description: Meeting 是个名词，常被用来指代“会议”，一般是指三人或以上的人群相聚在一起，为了讨论或决定某些事情。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Meeting" 是个名词，常被用来指代“会议”，一般是指三人或以上的人群相聚在一起，为了讨论或决定某些事情。
+
+<Pronunciation word="Meeting" uk="/ˈmiːtɪŋ/" us="/ˈmitɪŋ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Emily rushed to the office for a crucial meeting. Her presentation could determine the company's future.（艾米莉匆忙赶到办公室参加一场关键的会议。她的演示可能决定企业的未来。）
+
+<WordRelations
+  synonyms={["assembly", "convocation", "gathering"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Sufficient
-description: "Sufficient 是一个形容词，表示'足够的'，'充足的'，主要用于描述某物或某个数量可以满足需要或要求。"
+description: Sufficient 是一个形容词，表示'足够的'，'充足的'，主要用于描述某物或某个数量可以满足需要或要求。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sufficient" 是一个形容词，表示"足够的"，"充足的"，主要用于描述某物或某个数量可以满足需要或要求。
+
+<Pronunciation word="Sufficient" uk="/səˈfɪʃənt/" us="/səˈfɪʃənt/" client:only />
 
 ### 列举例句
 
@@ -47,3 +53,9 @@ tableOfContents: false
 After working hard for months, John found that he had sufficient money to afford a well-deserved vacation trip. (约翰辛苦工作了几个月后，发现他已经有足够的钱去支付一次应得的假期旅行。)
 
 经过几个月的辛勤工作，约翰发现他已经有足够的钱去享受一次应得的假期旅行。
+
+<WordRelations
+  synonyms={["ample", "competent"]}
+  antonyms={["insufficient", "nonsufficient", "unsufficient"]}
+  client:only
+/>

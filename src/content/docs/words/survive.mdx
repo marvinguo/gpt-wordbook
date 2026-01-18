@@ -1,13 +1,19 @@
 ---
 title: Survive
-description: "Survive 是一个动词，主要有两种含义：一是在困难或危险的情况中活下来或维持生活；二是经过某事后继续存在或生活。"
+description: Survive 是一个动词，主要有两种含义：一是在困难或危险的情况中活下来或维持生活；二是经过某事后继续存在或生活。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Survive" 是一个动词，主要有两种含义：一是在困难或危险的情况中活下来或维持生活；二是经过某事后继续存在或生活。
+
+<Pronunciation word="Survive" uk="/səˈvʌɪv/" us="/sɚˈvaɪv/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 In the deserted island, Jack used his wit and courage to survive, learning to fish, making fire, and building shelter. (在荒岛上，杰克用他的智慧和勇气生存下来，学习钓鱼，生火，建造住所。)
 
 中文翻译：在荒岛上，杰克用他的智慧和勇气生存下来，学会了钓鱼，生火，和建造住所。
+
+<WordRelations
+  synonyms={["outlive", "overlive"]}
+  antonyms={["predecease"]}
+  client:only
+/>

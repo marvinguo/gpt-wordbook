@@ -1,13 +1,21 @@
 ---
 title: Inhabit
-description: "Inhabit 是一个动词，意思是在某处居住或存在，例如，我们可以说“这是一个被野生动物居住着的森林”（This is a forest inhabited by wildlife.）。"
+description: >-
+  Inhabit 是一个动词，意思是在某处居住或存在，例如，我们可以说“这是一个被野生动物居住着的森林”（This is a forest inhabited
+  by wildlife.）。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Inhabit" 是一个动词，意思是在某处居住或存在，例如，我们可以说“这是一个被野生动物居住着的森林”（This is a forest inhabited by wildlife.）。
+
+<Pronunciation word="Inhabit" uk="/ɪnˈhæbɪt/" us="/ɪnˈhæbɪt/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 There was an old house in the village, said to be inhabited by a friendly ghost. It would often help the villagers when they were in trouble. (据说村子里的那座古老房子住着一个友好的鬼魂，经常在村民麻烦的时候帮助他们。)
+
+<WordRelations
+  synonyms={["occupy", "bedwell"]}
+  client:only
+/>

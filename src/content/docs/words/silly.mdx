@@ -1,13 +1,19 @@
 ---
 title: Silly
-description: "Silly 是一种描述粗心大意，做事冲动，或者是幼稚，不理智的形容词。"
+description: Silly 是一种描述粗心大意，做事冲动，或者是幼稚，不理智的形容词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Silly" 是一种描述粗心大意，做事冲动，或者是幼稚，不理智的形容词。
+
+<Pronunciation word="Silly" uk="/ˈsɪli/" us="/ˈsɪli/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 Once, a silly mouse danced in a cat's party. The cat laughed and let it go.
 (有一次，一个傻乎乎的老鼠在猫的聚会上跳舞。猫笑了，让它走了。)
+
+<WordRelations
+  synonyms={["charming"]}
+  antonyms={["pious"]}
+  client:only
+/>

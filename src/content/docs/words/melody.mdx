@@ -1,13 +1,19 @@
 ---
 title: Melody
-description: "Melody是一个名词，通常表示乐曲的主旋律，或者指歌曲中的主唱部分。它也可以更广义地表示某种和谐、美好的声音或调子。"
+description: Melody是一个名词，通常表示乐曲的主旋律，或者指歌曲中的主唱部分。它也可以更广义地表示某种和谐、美好的声音或调子。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Melody"是一个名词，通常表示乐曲的主旋律，或者指歌曲中的主唱部分。它也可以更广义地表示某种和谐、美好的声音或调子。
+
+<Pronunciation word="Melody" uk="/ˈmel.ə.di/" us="/ˈmɛl.ə.di/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Every morning, Alice wakes to the melody of birds chirping outside her window. The sweet sound is like a daily dose of joy to her. (每天早晨，爱丽丝都会被窗外鸟儿的叽叽喳喳唤醒。这甜美的旋律就像是她的每日一剂欢愉。)
+
+<WordRelations
+  synonyms={["tune"]}
+  client:only
+/>

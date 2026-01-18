@@ -1,13 +1,19 @@
 ---
 title: Emotion
-description: "Emotion 是一个名词，意指的是感情或者情绪，涵盖了愤怒、快乐、恐惧、惊讶、悲伤等多种人类的心理反应。"
+description: Emotion 是一个名词，意指的是感情或者情绪，涵盖了愤怒、快乐、恐惧、惊讶、悲伤等多种人类的心理反应。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Emotion" 是一个名词，意指的是感情或者情绪，涵盖了愤怒、快乐、恐惧、惊讶、悲伤等多种人类的心理反应。
+
+<Pronunciation word="Emotion" uk="/iˈmoʊʃən/" us="/iˈmoʊʃən/" client:only />
 
 **例句分析：**
 
@@ -39,3 +45,8 @@ tableOfContents: false
 The man was overwhelmed with emotion when he finally reunited with his long-lost dog. It was pure joy and relief, a testament to their unconditional love.
 
 这个男人在最终和他失散多年的狗狗重逢时，情绪无法控制。那是纯粹的快乐和释然，是他们无条件爱意的见证。
+
+<WordRelations
+  synonyms={["affect", "feeling"]}
+  client:only
+/>

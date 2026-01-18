@@ -1,13 +1,19 @@
 ---
 title: Eat
-description: "- 'Eat' 是一个动词，表示“吃”或“食用”的行为。"
+description: '- ''Eat'' 是一个动词，表示“吃”或“食用”的行为。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Eat" 是一个动词，表示“吃”或“食用”的行为。
+
+<Pronunciation word="Eat" uk="/iːt/" us="/it/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 
 - When Johnny felt sad, he would always eat ice cream to feel better. （每当约翰尼感到难过时，他总会吃冰淇淋来使自己感觉好一些）
 - 当约翰尼感到难过时，他总会吃冰淇淋来使自己感觉好一些。
+
+<WordRelations
+  synonyms={["bother", "disturb", "worry", "consume", "swallow", "breakfast", "chow down", "dine", "dinner", "feed one's face", "lunch", "supper", "tea"]}
+  client:only
+/>

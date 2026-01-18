@@ -1,13 +1,19 @@
 ---
 title: Cinema
-description: "Cinema 是英语中的一个常见单词， 它又被称为电影院, 是我们放映电影的地方。 它也可以被用来指代电影产业或者电影艺术。"
+description: 'Cinema 是英语中的一个常见单词， 它又被称为电影院, 是我们放映电影的地方。 它也可以被用来指代电影产业或者电影艺术。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Cinema" 是英语中的一个常见单词， 它又被称为电影院, 是我们放映电影的地方。 它也可以被用来指代电影产业或者电影艺术。
+
+<Pronunciation word="Cinema" uk="/ˈsɪn.ɪ.mɑː/" us="/ˈsɪn.ə.mə/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ Cinema 没有词缀，它是一个精简版本的 "kinematograph"，这个单词
 Once upon a time, Sally, a little girl, went to the cinema with her mom. They bought a large bucket of popcorn and enjoyed a fantastic movie together.
 
 从前，Sally 是一个小女孩，她和妈妈一起去了电影院。他们买了一大桶爆米花，一起享受了一部绝妙的电影。
+
+<WordRelations
+  synonyms={["movie house", "movie theater", "movie theatre", "pictures", "seventh art"]}
+  client:only
+/>

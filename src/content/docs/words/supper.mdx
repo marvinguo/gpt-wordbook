@@ -1,13 +1,21 @@
 ---
 title: Supper
-description: "Supper 是一个英文字，主要用作名词，表示“晚餐”或“晚餐所吃的食物”。在美国和英国之间，关于“supper”的具体意义有所不同。在美国，“supper”通常指的是较早的晚餐，而在英国，“supper”通常指的是在晚上或夜晚之后的一个小餐。"
+description: >-
+  Supper
+  是一个英文字，主要用作名词，表示“晚餐”或“晚餐所吃的食物”。在美国和英国之间，关于“supper”的具体意义有所不同。在美国，“supper”通常指的是较早的晚餐，而在英国，“supper”通常指的是在晚上或夜晚之后的一个小餐。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Supper" 是一个英文字，主要用作名词，表示“晚餐”或“晚餐所吃的食物”。在美国和英国之间，关于“supper”的具体意义有所不同。在美国，“supper”通常指的是较早的晚餐，而在英国，“supper”通常指的是在晚上或夜晚之后的一个小餐。
+
+<Pronunciation word="Supper" uk="/ˈsʌpə/" us="/ˈsʌpɚ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,8 @@ Supper 本身是名词，没有名词的复数形式。对于动词或形容词�
 ### 助记故事
 
 "After a long day of saving the world, the superhero finally got home just in time for supper. He enjoyed his meal with his family, feeling the warmth and comfort." （在拯救世界的漫长一天后，超级英雄终于在晚餐时间回到了家。他与家人一起享受饭菜，感受着温暖和舒适。）
+
+<WordRelations
+  synonyms={["dinner", "evening meal"]}
+  client:only
+/>

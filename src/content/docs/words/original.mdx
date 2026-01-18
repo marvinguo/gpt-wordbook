@@ -1,13 +1,19 @@
 ---
 title: Original
-description: "Original 表示的是'初始的'，'首创的' 或 '原始的'。"
+description: Original 表示的是'初始的'，'首创的' 或 '原始的'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Original" 表示的是"初始的"，"首创的" 或 "原始的"。
+
+<Pronunciation word="Original" uk="/əˈɹɪdʒnəl/" us="/əˈɹɪdʒnəl/" client:only />
 
 ### 列举例句
 
@@ -50,3 +56,9 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, there was an original idea that ignited the spark of human progress. (从前，有一个原始的想法点燃了人类进步的火花。)
+
+<WordRelations
+  synonyms={["autograph", "prototype", "initial"]}
+  antonyms={["copy", "remake", "reproduction", "derivative", "ultimate"]}
+  client:only
+/>

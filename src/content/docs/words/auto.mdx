@@ -1,13 +1,19 @@
 ---
 title: Auto
-description: "Auto 是一种用于指代 'automobile'（'汽车'）的缩写，广泛应用于日常生活中。这个词也可以用作前缀，表示'自动的'或'自我的'的意思。"
+description: Auto 是一种用于指代 'automobile'（'汽车'）的缩写，广泛应用于日常生活中。这个词也可以用作前缀，表示'自动的'或'自我的'的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Auto" 是一种用于指代 "automobile"（"汽车"）的缩写，广泛应用于日常生活中。这个词也可以用作前缀，表示"自动的"或"自我的"的意思。
+
+<Pronunciation word="Auto" uk="/ˈɑtoʊ/" us="/ˈɑtoʊ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 Jack misplaced his auto keys, and was late for work. He had to use a share-bike instead. / 杰克把他的车钥匙放错地方，迟到了上班。他不得不改用共享单车。
+
+<WordRelations
+  synonyms={["automobile", "car", "motor", "motorcar", "automatic", "instinctive", "perfunctory", "thoughtless"]}
+  antonyms={["manual", "non-automatic", "voluntary"]}
+  client:only
+/>

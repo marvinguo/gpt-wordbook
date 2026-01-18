@@ -1,14 +1,20 @@
 ---
-title: "Alacrity"
-description: "Alacrity 指敏捷、轻快以及乐意的态度。"
+title: Alacrity
+description: Alacrity 指敏捷、轻快以及乐意的态度。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Alacrity** 是一个名词。如果一个人以 **alacrity** 做某事，意味着他不仅做得快，而且非常乐意、积极。
+
+<Pronunciation word="Alacrity" uk="[əˈlækɹɨti]" us="[əˈlækɹɨti]" client:only />
 
 ### 列举例句
 
@@ -30,3 +36,8 @@ tableOfContents: false
 Knowing there was ice cream for dessert, the children cleared the table with great alacrity.
 (知道甜点有冰淇淋，孩子们非常轻快地清理了桌子。)
 
+<WordRelations
+  synonyms={["avidity", "eagerness", "enthusiasm", "willingness", "briskness", "celerity", "haste", "promptness", "quickness", "swiftness"]}
+  antonyms={["apathy", "disinclination", "hesitance", "indifference", "reluctance"]}
+  client:only
+/>

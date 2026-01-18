@@ -1,13 +1,22 @@
 ---
 title: Terminal
-description: "Terminal是一个英文单词，作名词用时，它有多个含义，例如：1. 终端，比如计算机终端；2. (交通工具的)终点站，如机场的航站楼，或者公交，火车的终点站；3. 终端设备，如电视上的信号接收终端。作形容词时，它表示'末端的'，'最终的'，如 terminal stage 意为'末期阶段'。"
+description: >-
+  Terminal是一个英文单词，作名词用时，它有多个含义，例如：1. 终端，比如计算机终端；2.
+  (交通工具的)终点站，如机场的航站楼，或者公交，火车的终点站；3. 终端设备，如电视上的信号接收终端。作形容词时，它表示'末端的'，'最终的'，如
+  terminal stage 意为'末期阶段'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Terminal"是一个英文单词，作名词用时，它有多个含义，例如：1. 终端，比如计算机终端；2. (交通工具的)终点站，如机场的航站楼，或者公交，火车的终点站；3. 终端设备，如电视上的信号接收终端。作形容词时，它表示"末端的"，"最终的"，如 terminal stage 意为"末期阶段"。
+
+<Pronunciation word="Terminal" uk="/ˈtɚmɪnəl/" us="/ˈtɚmɪnəl/" client:only />
 
 ### 列举例句
 
@@ -38,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 After a long journey, Tom finally reached the terminal. He was filled with both joy and exhaustion. (经过长途跋涉，汤姆终于到达了终点站。他心中充满了喜悦和疲惫。)
+
+<WordRelations
+  synonyms={["endly", "endsome", "final", "late"]}
+  antonyms={["early", "initial", "non-terminal"]}
+  client:only
+/>

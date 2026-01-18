@@ -1,13 +1,20 @@
 ---
 title: Clockwise
-description: "Clockwise是一个英文形容词，也可以当作副词，用来描述一个东西以时钟的指针方向前进的方向，也就是从上方向右边，再向下，然后向左，最后回到上方。在中文里，我们将其翻译成“顺时针”。"
+description: >-
+  Clockwise是一个英文形容词，也可以当作副词，用来描述一个东西以时钟的指针方向前进的方向，也就是从上方向右边，再向下，然后向左，最后回到上方。在中文里，我们将其翻译成“顺时针”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Clockwise"是一个英文形容词，也可以当作副词，用来描述一个东西以时钟的指针方向前进的方向，也就是从上方向右边，再向下，然后向左，最后回到上方。在中文里，我们将其翻译成“顺时针”。
+
+<Pronunciation word="Clockwise" uk="/ˈklɒkwaɪz/" us="/ˈklɒkwaɪz/" client:only />
 
 ### 列举例句
 
@@ -47,3 +54,9 @@ tableOfContents: false
 Sarah was lost in the maze. Suddenly, she remembered her father's words, "If you get lost, just walk clockwise, you'll find the exit." So she did, and finally found her way out.
 
 萨拉在迷宫中迷失了方向。突然，她记起了她父亲的话："如果你迷路了，就顺时针走，你会找到出口的。"她照做了，最终找到了出路。
+
+<WordRelations
+  synonyms={["CW", "deasil", "dextrorotatory", "sunwise"]}
+  antonyms={["ACW", "anticlockwise", "CCW", "counter-clockwise", "counterclockwise", "widdershins", "withershins"]}
+  client:only
+/>

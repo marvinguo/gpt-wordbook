@@ -1,13 +1,19 @@
 ---
 title: Subway
-description: "Subway 是一个英文单词，最常见的含义是“地铁”，一种城市轨道交通工具。在美国，它也可以用来表示“人行道地下通道”。"
+description: Subway 是一个英文单词，最常见的含义是“地铁”，一种城市轨道交通工具。在美国，它也可以用来表示“人行道地下通道”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Subway 是一个英文单词，最常见的含义是“地铁”，一种城市轨道交通工具。在美国，它也可以用来表示“人行道地下通道”。
+
+<Pronunciation word="Subway" uk="/ˈsʌbˌweɪ/" us="/ˈsʌbˌweɪ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ Subway 是一个名词，没有词形变化。
 Emmet used to ride his bike to work, but when the weather turned bad, he would switch to taking the subway. One day, as he was heading to the subway station, he saw a kid dropped his toy onto the tracks. Emmet quickly notified the station manager, and the toy was safely retrieved.
 
 艾米特过去常乘自行车上班，但天气变坏时，他会选择乘坐地铁。有一天，他正要去地铁站，却看见一个小孩在铁轨上掉了一个玩具。艾米特立刻告诉了站务长，玩具被安全地找回了。
+
+<WordRelations
+  synonyms={["Métro", "metro", "Tube", "tube", "rapid transit", "underground", "underground railway", "underpass"]}
+  client:only
+/>

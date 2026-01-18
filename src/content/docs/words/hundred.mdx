@@ -1,13 +1,19 @@
 ---
 title: Hundred
-description: "Hundred 是一个英文数词，表示数字 '100'。它可以用在各种环境下，表述数量上的百或者很多。"
+description: Hundred 是一个英文数词，表示数字 '100'。它可以用在各种环境下，表述数量上的百或者很多。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Hundred" 是一个英文数词，表示数字 "100"。它可以用在各种环境下，表述数量上的百或者很多。
+
+<Pronunciation word="Hundred" uk="/ˈhʌndɚd/" us="/ˈhʌndɚd/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Tom has saved for years and finally, he has a hundred dollars in his piggy bank. He excitedly went to the toy store and got the toy robot he had been yearning for.
 
 汤姆省了很多年，终于他的小猪存钱罐里有一百美元了。他兴奋地去了玩具店，买下了他一直渴望的玩具机器人。
+
+<WordRelations
+  synonyms={["Franklin", "c-note", "yard", "barony", "commote", "rape", "riding", "wapentake", "century", "one hundred"]}
+  client:only
+/>

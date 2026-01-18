@@ -1,13 +1,19 @@
 ---
 title: Decide
-description: "Decide 这个单词最常见的意思是“决定”，“做决定”，也可用于描述下决心或者解决问题等。"
+description: Decide 这个单词最常见的意思是“决定”，“做决定”，也可用于描述下决心或者解决问题等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Decide" 这个单词最常见的意思是“决定”，“做决定”，也可用于描述下决心或者解决问题等。
+
+<Pronunciation word="Decide" uk="/dɪˈsaɪd/" us="/dɪˈsaɪd/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 ### 助记故事
 
 "Tom had to decide whether to go to college or start working. After much thought, he decided to pursue his education." (汤姆必须决定是去上大学还是开始工作。经过深思熟虑，他决定追求他的教育。)
+
+<WordRelations
+  synonyms={["choose", "determine", "make up one's mind", "pick"]}
+  client:only
+/>

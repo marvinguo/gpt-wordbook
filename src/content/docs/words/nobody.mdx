@@ -1,13 +1,19 @@
 ---
 title: Nobody
-description: "Nobody 这个单词在英文里意味着“没有人”，或者“无人”。它是一个代词，经常用于强调没有人参与或符合某种描述。"
+description: Nobody 这个单词在英文里意味着“没有人”，或者“无人”。它是一个代词，经常用于强调没有人参与或符合某种描述。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Nobody 这个单词在英文里意味着“没有人”，或者“无人”。它是一个代词，经常用于强调没有人参与或符合某种描述。
+
+<Pronunciation word="Nobody" uk="/ˈnəʊ.bɒ.di/" us="/ˈnoʊ.bɑ.di/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ You can associate "nobody" with a visual image of an empty house or empty street
 ### 助记故事
 
 在一个寒冷的冬夜，Gary 来到一个老旧的木屋。他敲了敲门，但没人答应。他推开门走了进去，一眼望去，他发现：Nobody was there. (加里在一个寒冷的冬夜来到一个破旧的木屋，他敲了敲门，但是没有人回应。他推门走了进去，看了一眼，发现里面一个人都没有)
+
+<WordRelations
+  synonyms={["no one"]}
+  antonyms={["anybody", "anyone", "everybody", "everyone", "somebody", "someone"]}
+  client:only
+/>

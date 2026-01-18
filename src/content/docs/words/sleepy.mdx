@@ -1,13 +1,19 @@
 ---
 title: Sleepy
-description: "Sleepy 是一个形容词，用于描述一个人感到困倦和疲劳, 需要睡觉。"
+description: 'Sleepy 是一个形容词，用于描述一个人感到困倦和疲劳, 需要睡觉。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sleepy" 是一个形容词，用于描述一个人感到困倦和疲劳, 需要睡觉。
+
+<Pronunciation word="Sleepy" uk="/ˈsliːpi/" us="/ˈsliːpi/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 It was a sleepy afternoon. The sun was gently setting and the whole town was getting ready for bed. (这是一个宁静的下午。太阳温柔地落下，整个小镇正准备睡觉。)
 
 此外，"sleepy" 还可以作为固定搭配，如 "sleepyhead"，意为爱睡觉的人。
+
+<WordRelations
+  synonyms={["sleep", "tired"]}
+  client:only
+/>

@@ -1,13 +1,21 @@
 ---
 title: General
-description: "General 是一个英文单词，主要的含义是“一般的，普通的”或“全面的，总的”。它往往被用于描述广泛的、非特定的或非详细的内容。例如，“It's just a general idea.”（这只是一个大概的思路。）"
+description: >-
+  General 是一个英文单词，主要的含义是“一般的，普通的”或“全面的，总的”。它往往被用于描述广泛的、非特定的或非详细的内容。例如，“It's just
+  a general idea.”（这只是一个大概的思路。）
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "General" 是一个英文单词，主要的含义是“一般的，普通的”或“全面的，总的”。它往往被用于描述广泛的、非特定的或非详细的内容。例如，“It's just a general idea.”（这只是一个大概的思路。）
+
+<Pronunciation word="General" uk="/ˈd͡ʒɛnɹəl/" us="/ˈd͡ʒɛnəɹəl/" client:only />
 
 ### 列举例句
 
@@ -42,3 +50,9 @@ tableOfContents: false
 "General Mike looked at the world map in the war room. Although the situation looked grim, he needed to stay optimistic for his soldiers."
 
 “将军麦克在战争室里看着世界地图。尽管形势看起来很严峻，但他必须为他的士兵保持乐观。”
+
+<WordRelations
+  synonyms={["broad", "generic", "typical"]}
+  antonyms={["particular", "specific", "abnormal", "uncommon"]}
+  client:only
+/>

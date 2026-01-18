@@ -1,13 +1,19 @@
 ---
 title: Velocity
-description: "Velocity是一个名词，指的是物体的速度以及其方向，通常在物理学中使用。"
+description: Velocity是一个名词，指的是物体的速度以及其方向，通常在物理学中使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Velocity"是一个名词，指的是物体的速度以及其方向，通常在物理学中使用。
+
+<Pronunciation word="Velocity" uk="/vəˈlɒsəti/" us="/vəˈlɑsəti/" client:only />
 
 ### 列举例句
 
@@ -34,3 +40,8 @@ tableOfContents: false
 ### 助记故事
 
 "Harry was always impressed by the velocity of hummingbirds. They moved so quickly, their wings were a blur."（哈利总是被蜂鸟的速度所震撼。它们移动得如此之快，翅膀已经模糊不见了。）
+
+<WordRelations
+  synonyms={["speed"]}
+  client:only
+/>

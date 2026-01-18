@@ -1,13 +1,19 @@
 ---
 title: Peace
-description: "Peace 是名词，指的是没有战争、冲突或对立的状态。也可以表示内心的平静和宁静。"
+description: Peace 是名词，指的是没有战争、冲突或对立的状态。也可以表示内心的平静和宁静。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Peace" 是名词，指的是没有战争、冲突或对立的状态。也可以表示内心的平静和宁静。
+
+<Pronunciation word="Peace" uk="/piːs/" us="/piːs/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 There was a land where people lived in peace. No wars, no conflicts, only love and respect for each other. (在这片土地上，人们和平共处。没有战争，没有冲突，只有彼此的爱和尊重。
 )
+
+<WordRelations
+  synonyms={["frith"]}
+  antonyms={["disruption", "violence", "war"]}
+  client:only
+/>

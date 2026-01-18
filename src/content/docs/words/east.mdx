@@ -1,13 +1,19 @@
 ---
 title: East
-description: "East 是一个英语单词，表示方向或地理位置，意为“东方”。"
+description: East 是一个英语单词，表示方向或地理位置，意为“东方”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "East" 是一个英语单词，表示方向或地理位置，意为“东方”。
+
+<Pronunciation word="East" uk="/iːst/" us="/iːst/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, a young adventurer decided to explore the unknown east, where he found a whole new world. (从前，一个年轻的冒险家决定去探索未知的东方，他在那里发现了一个全新的世界。)
+
+<WordRelations
+  synonyms={["oriental", "easterly", "eastern", "eastward", "eastwards"]}
+  antonyms={["westerly", "western", "westward", "west", "westwards"]}
+  client:only
+/>

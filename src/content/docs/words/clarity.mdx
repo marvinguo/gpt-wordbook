@@ -1,13 +1,19 @@
 ---
 title: Clarity
-description: "Clarity 是一个名词，意味着清楚、明确。它指的是任何表达信息、观念、观念等的方式易于理解且无歧义。"
+description: Clarity 是一个名词，意味着清楚、明确。它指的是任何表达信息、观念、观念等的方式易于理解且无歧义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Clarity 是一个名词，意味着清楚、明确。它指的是任何表达信息、观念、观念等的方式易于理解且无歧义。
+
+<Pronunciation word="Clarity" uk="/ˈklæɹ.ə.ti/" us="/ˈklæɹ.ə.ti/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Clarity 是由词根 "clar"（清楚的）和词尾 "-ity"（表示状态或质�
 
 In the city of Clarity, everything was clear and understandable. Every resident was known for their clear thoughts and expressions.
 （在 Clarity 城中，一切都是清晰和易于理解的。每个居民都因他们清晰的思考和表达而闻名。）
+
+<WordRelations
+  synonyms={["clearness", "obviousness", "transparency"]}
+  antonyms={["confusion"]}
+  client:only
+/>

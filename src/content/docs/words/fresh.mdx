@@ -1,13 +1,20 @@
 ---
 title: Fresh
-description: "Fresh这个单词在英文中是一个形容词，最直接的意思是“新鲜的”，通常用来形容食物未被加工，原汁原味的状态。另一种常见的意义是'新的'或者'未使用过的'。它还可以用来形容清新的空气或者是尚无经验的新手。"
+description: >-
+  Fresh这个单词在英文中是一个形容词，最直接的意思是“新鲜的”，通常用来形容食物未被加工，原汁原味的状态。另一种常见的意义是'新的'或者'未使用过的'。它还可以用来形容清新的空气或者是尚无经验的新手。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fresh"这个单词在英文中是一个形容词，最直接的意思是“新鲜的”，通常用来形容食物未被加工，原汁原味的状态。另一种常见的意义是"新的"或者"未使用过的"。它还可以用来形容清新的空气或者是尚无经验的新手。
+
+<Pronunciation word="Fresh" uk="/fɹɛʃ/" us="/fɹɛʃ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 There is a fresh flower shop in town. Every morning, the owner freshly picks flowers from the garden. The fresh scent fills up the nearby street. (城里有一家新开的花店。每天早晨, 店主会在花园里新鲜地摘取花朵。 新鲜的香气充满了附近的街道。)
+
+<WordRelations
+  synonyms={["cool", "fashionable", "rested"]}
+  antonyms={["saline", "stale", "tired"]}
+  client:only
+/>

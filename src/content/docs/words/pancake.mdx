@@ -1,13 +1,19 @@
 ---
 title: Pancake
-description: "Pancake 是一个英语单词，其主要含义是 '煎饼'或'薄烤饼'，是一种常见的早餐食品，经常会配以糖浆，黄油，各种浆果或其它甜点酱料一起食用。"
+description: Pancake 是一个英语单词，其主要含义是 '煎饼'或'薄烤饼'，是一种常见的早餐食品，经常会配以糖浆，黄油，各种浆果或其它甜点酱料一起食用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Pancake" 是一个英语单词，其主要含义是 "煎饼"或"薄烤饼"，是一种常见的早餐食品，经常会配以糖浆，黄油，各种浆果或其它甜点酱料一起食用。
+
+<Pronunciation word="Pancake" uk="/ˈpæn.keɪk/" us="/ˈpæn.keɪk/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 One Sunday morning, Mary decided to make pancakes. She mixed the batter, poured it onto the hot pan, and waited for bubbles to form. Flipping it over, she smiled as she noticed the golden-brown color. The sweet smell filled the kitchen, inviting everyone to breakfast.
 (一个周日的早上，Mary 决定做煎饼。她混合了面糊，倒在热锅上，等待气泡形成。翻过来后，她看到金黄色的煎饼笑了出来。香甜的味道充满了厨房，邀请每个人来吃早餐。)
+
+<WordRelations
+  synonyms={["crepe", "crêpe", "flapjack", "griddle cake", "hotcake", "pikelet"]}
+  client:only
+/>

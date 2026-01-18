@@ -1,13 +1,19 @@
 ---
 title: Disappear
-description: "Disappear 是一个动词，指的是突然不可见或找不到的情况。通常我们用它来形容人或对的突然不在原本的位置或无法被寻找。"
+description: Disappear 是一个动词，指的是突然不可见或找不到的情况。通常我们用它来形容人或对的突然不在原本的位置或无法被寻找。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Disappear" 是一个动词，指的是突然不可见或找不到的情况。通常我们用它来形容人或对的突然不在原本的位置或无法被寻找。
+
+<Pronunciation word="Disappear" uk="/dɪsəˈpiːɹ/" us="/dɪsəˈpɪɹ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 One day, Tom's cat, Whiskers, just disappeared. He looked for Whiskers everywhere, but could not find her. He was very sad and missed Whiskers very much. （有一天，汤姆的猫威克士就消失了。他到处寻找威克士，但找不到她。他很伤心，非常想念威克士。)
+
+<WordRelations
+  synonyms={["dematerialize", "vanish"]}
+  antonyms={["appear"]}
+  client:only
+/>

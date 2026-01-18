@@ -1,13 +1,21 @@
 ---
 title: Idiot
-description: "Idiot 是一个英语词汇，用来形容一个人的理解能力特别低下，行为愚蠢或者缺乏常识。但需要注意的是，它常被看作是带有侮辱性的词汇，我们建议尽可能避免在正式和文明的场合使用。"
+description: >-
+  Idiot
+  是一个英语词汇，用来形容一个人的理解能力特别低下，行为愚蠢或者缺乏常识。但需要注意的是，它常被看作是带有侮辱性的词汇，我们建议尽可能避免在正式和文明的场合使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Idiot" 是一个英语词汇，用来形容一个人的理解能力特别低下，行为愚蠢或者缺乏常识。但需要注意的是，它常被看作是带有侮辱性的词汇，我们建议尽可能避免在正式和文明的场合使用。
+
+<Pronunciation word="Idiot" uk="/ˈɪd.i.(j)ɪt/" us="/ˈɪd.i.(j)ɪt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ tableOfContents: false
 Robert ignored all advice and drove his car on the icy road. As expected, he skidded and crashed into a tree. Everyone called him an "idiot".
 
 罗伯特不顾所有人的劝告，硬是在冰滑的路上驾车。果不其然，他打滑撞上了一棵树。所有人都叫他 “傻瓜”。
+
+<WordRelations
+  antonyms={["genius"]}
+  client:only
+/>

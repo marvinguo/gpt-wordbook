@@ -1,13 +1,21 @@
 ---
 title: Stress
-description: "尽管 'stress' 是一个常见的词语，但它在医学、心理学、语言学、物理学等多个领域中都有不同的含义。无论在哪个领域，'stress' 基本上都可以解释为一种压力、紧张或压迫。"
+description: >-
+  尽管 'stress' 是一个常见的词语，但它在医学、心理学、语言学、物理学等多个领域中都有不同的含义。无论在哪个领域，'stress'
+  基本上都可以解释为一种压力、紧张或压迫。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 尽管 "stress" 是一个常见的词语，但它在医学、心理学、语言学、物理学等多个领域中都有不同的含义。无论在哪个领域，"stress" 基本上都可以解释为一种压力、紧张或压迫。
+
+<Pronunciation word="Stress" uk="/stɹɛs/" us="/stɹɛs/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ Stresses (复数)、Stressful（形容词）。
 
 In a busy city, a hardworking man named Tom faced a lot of stress from work and his health was starting to suffer. He decided it was time to de-stress, so he left for a peaceful village and started living a stress-free life.
 在忙碌的城市中，一个勤劳的人叫汤姆从工作中承受了很多压力，他的健康状况开始下滑。他决定是时候减压了，于是他去了一个安静的村庄，开始过上无压力的生活。
+
+<WordRelations
+  synonyms={["emphasis", "accent", "emphasise", "emphasize", "underline"]}
+  antonyms={["eustress"]}
+  client:only
+/>

@@ -1,13 +1,21 @@
 ---
 title: Foreign
-description: "Foreign 主要是一个形容词，用来描述与本地、本国、自身或某种特定环境不同或不相关的事物。例如，在 'foreign language'（外语）和 'foreign country'（外国）中的使用就非常普遍。"
+description: >-
+  Foreign 主要是一个形容词，用来描述与本地、本国、自身或某种特定环境不同或不相关的事物。例如，在 'foreign language'（外语）和
+  'foreign country'（外国）中的使用就非常普遍。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Foreign" 主要是一个形容词，用来描述与本地、本国、自身或某种特定环境不同或不相关的事物。例如，在 "foreign language"（外语）和 "foreign country"（外国）中的使用就非常普遍。
+
+<Pronunciation word="Foreign" uk="/ˈfɒɹən/" us="/ˈfɔɹən/" client:only />
 
 ### 列举例句
 
@@ -42,3 +50,9 @@ Jessie was exploring a foreign city for the first time. Despite the language bar
 杰西第一次探索外国的城市。尽管语言和习俗都很陌生，但他发现当地人非常友好。
 
 plaintext
+
+<WordRelations
+  synonyms={["chamber foreign", "international", "overseas", "extraneous", "alien", "fremd"]}
+  antonyms={["domestic", "indigenous", "native"]}
+  client:only
+/>

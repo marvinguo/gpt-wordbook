@@ -1,13 +1,19 @@
 ---
 title: Bookstore
-description: "Bookstore 是英语中的一个名词，指的是专门出售书籍的店铺或地方，有时候也包含了售卖杂志、文具或者音乐 cd 等商品。"
+description: Bookstore 是英语中的一个名词，指的是专门出售书籍的店铺或地方，有时候也包含了售卖杂志、文具或者音乐 cd 等商品。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bookstore" 是英语中的一个名词，指的是专门出售书籍的店铺或地方，有时候也包含了售卖杂志、文具或者音乐 cd 等商品。
+
+<Pronunciation word="Bookstore" uk="/ˈbʊkstɔː/" us="/ˈbʊkstɔː/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Tom was a high school student. Every day after class, he liked to go to the bookstore on the corner. There, surrounded by books, he found peace and contentment.
 
 (Tom 是一个高中生。每天放学后，他喜欢去街角的书店。在那里，他在书的包围下找到了宁静与满足。)
+
+<WordRelations
+  synonyms={["bookshop"]}
+  client:only
+/>

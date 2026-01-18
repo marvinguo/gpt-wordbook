@@ -1,13 +1,19 @@
 ---
 title: Feather
-description: "Feather 是一个英语单词，意为“羽毛”。它主要用来描述鸟类身体的覆羽。在较宽泛的情况下，'feather' 也能用来表示轻且软的事物。"
+description: Feather 是一个英语单词，意为“羽毛”。它主要用来描述鸟类身体的覆羽。在较宽泛的情况下，'feather' 也能用来表示轻且软的事物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Feather 是一个英语单词，意为“羽毛”。它主要用来描述鸟类身体的覆羽。在较宽泛的情况下，"feather" 也能用来表示轻且软的事物。
+
+<Pronunciation word="Feather" uk="/ˈfɛð.ə(ɹ)/" us="/ˈfɛð.ɚ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ Feather 作为一个名词，其复数形式为 feathers。其动词形式有：
 Once upon a time, a little girl found a golden feather in her yard. She knew it was something special. (有一次，一个小女孩在她的院子里发现了一片金色的羽毛。她知道这是特别的东西。)
 
 有一天，一个小女孩在她的庭院里找到了一根金色的羽毛，她知道这是某种特别的东西。
+
+<WordRelations
+  synonyms={["feathering", "feathers", "horsefeathers"]}
+  antonyms={["spats"]}
+  client:only
+/>

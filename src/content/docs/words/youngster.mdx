@@ -1,13 +1,19 @@
 ---
 title: Youngster
-description: "Youngster 是一个名词，主要用来指一个年轻人或儿童。其含义较为中性，没有褒贬之分。"
+description: Youngster 是一个名词，主要用来指一个年轻人或儿童。其含义较为中性，没有褒贬之分。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Youngster" 是一个名词，主要用来指一个年轻人或儿童。其含义较为中性，没有褒贬之分。
+
+<Pronunciation word="Youngster" uk="/ˈjʌŋstə/" us="/ˈjʌŋstə/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 There was a youngster named Tom who loved to explore the neighborhood on his bike. He was a known face among the elders of the town. (有一个名叫汤姆的小伙子喜欢骑着自行车探索附近的社区。他在镇上的老人们当中是个熟面孔。)
+
+<WordRelations
+  antonyms={["oldster"]}
+  client:only
+/>

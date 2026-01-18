@@ -1,13 +1,19 @@
 ---
 title: Activate
-description: "Activate 是一个动词，中文意思主要是“激活”，“启动” 或者 “使生效”。 它常常用于描述使某种事物开始工作或运行。"
+description: Activate 是一个动词，中文意思主要是“激活”，“启动” 或者 “使生效”。 它常常用于描述使某种事物开始工作或运行。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Activate" 是一个动词，中文意思主要是“激活”，“启动” 或者 “使生效”。 它常常用于描述使某种事物开始工作或运行。
+
+<Pronunciation word="Activate" uk="/ˈæktɪˌveɪt/" us="/ˈæktɪˌveɪt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 
 "Before stepping into his new car, Larry had to activate his vehicle's engine using his key. This simple act signaled the start of a new journey."
 (“在步入他的新车之前，拉里必须用钥匙激活他的车的引擎。这个简单的动作标志着新旅程的开始。”)
+
+<WordRelations
+  synonyms={["actuate", "enable", "get going", "set going", "set in motion", "set off", "spur", "start", "stimulate", "trigger", "turn on"]}
+  antonyms={["deactivate", "inactivate"]}
+  client:only
+/>

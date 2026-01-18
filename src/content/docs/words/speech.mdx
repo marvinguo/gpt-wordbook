@@ -1,13 +1,19 @@
 ---
 title: Speech
-description: "Speech 是一个名词，主要用来指'对于公众所做的形式演讲'。在扩大范围的语境中，'speech' 可以指代'人类语言的能力'，或者简单的'谈话'。"
+description: Speech 是一个名词，主要用来指'对于公众所做的形式演讲'。在扩大范围的语境中，'speech' 可以指代'人类语言的能力'，或者简单的'谈话'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Speech" 是一个名词，主要用来指"对于公众所做的形式演讲"。在扩大范围的语境中，"speech" 可以指代"人类语言的能力"，或者简单的"谈话"。
+
+<Pronunciation word="Speech" uk="/ˈspiːtʃ/" us="/ˈspiːtʃ/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 Tom stepped onto the stage, looking at the sea of faces in front of him. This was his first public speech, but he was ready. He cleared his throat and began, "Ladies and gentlemen..."
 
 汤姆走上台，看着面前的一片海洋般的面孔。这是他的第一次公开演讲，但他已经准备好了。他清了清喉咙，开始了：“女士们，先生们......”
+
+<WordRelations
+  synonyms={["monologue", "oration", "soliloquy"]}
+  client:only
+/>

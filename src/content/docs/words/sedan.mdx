@@ -1,13 +1,21 @@
 ---
 title: Sedan
-description: "Sedan 是英语中的一个单词，通常指一种有四个轮子，至少包括四个座位和一个固定的硬顶的乘用车。这个词通常用来区分有固定硬顶的乘客车与其他类型的车辆，例如敞篷车或者跑车。"
+description: >-
+  Sedan
+  是英语中的一个单词，通常指一种有四个轮子，至少包括四个座位和一个固定的硬顶的乘用车。这个词通常用来区分有固定硬顶的乘客车与其他类型的车辆，例如敞篷车或者跑车。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sedan" 是英语中的一个单词，通常指一种有四个轮子，至少包括四个座位和一个固定的硬顶的乘用车。这个词通常用来区分有固定硬顶的乘客车与其他类型的车辆，例如敞篷车或者跑车。
+
+<Pronunciation word="Sedan" uk="/səˈdæn/" us="/səˈdæn/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,8 @@ tableOfContents: false
 
 A family of four decided to take a road trip. They packed their luggage and hopped into their blue sedan, excited about the adventure ahead.
 （一个四口之家决定去旅行。他们收拾好行李，跳上他们的蓝色轿车，对前方的冒险充满了兴奋。）
+
+<WordRelations
+  synonyms={["saloon", "litter", "sedan chair"]}
+  client:only
+/>

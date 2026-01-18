@@ -1,13 +1,19 @@
 ---
 title: Then
-description: "Then 是一个英语连词，用作副词、形容词或名词，主要有以下几种含义："
+description: Then 是一个英语连词，用作副词、形容词或名词，主要有以下几种含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Then" 是一个英语连词，用作副词、形容词或名词，主要有以下几种含义：
+
+<Pronunciation word="Then" uk="/ðen/" us="/ðɛn/" client:only />
 
 1.  然后，接着：表示事情的发生顺序；
 2.  那时，那时候：表示早些时候的某个时间点；
@@ -45,3 +51,8 @@ tableOfContents: false
 
 Once upon a time, a rabbit challenged a turtle to a race. The rabbit thought he was faster, so he took a nap. When he woke up, the turtle was already across the finish line. The rabbit then realized that being overconfident can lead to failure.
 （有一次，兔子挑战乌龟赛跑，兔子认为自己跑得快，于是就先休息了一会。等他醒来，乌龟已经过了终点线。然后兔子意识到过于自信可能会导致失败。）
+
+<WordRelations
+  synonyms={["at the time", "back in the day", "concurrently", "therewhile", "accordingly", "as a result", "and then", "followed by", "and so", "so", "subsequently"]}
+  client:only
+/>

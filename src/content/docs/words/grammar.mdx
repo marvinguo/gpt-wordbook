@@ -1,13 +1,21 @@
 ---
 title: Grammar
-description: "Grammar 是一个英文名词，指的是一种语言的规则集合，这些规则用于描述那种语言中的句子、短语、单词的结构和组成方式。在日常生活中，我们经常用 'grammar' 来参考英语、汉语或者其他语言的语法规则。"
+description: >-
+  Grammar 是一个英文名词，指的是一种语言的规则集合，这些规则用于描述那种语言中的句子、短语、单词的结构和组成方式。在日常生活中，我们经常用
+  'grammar' 来参考英语、汉语或者其他语言的语法规则。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Grammar" 是一个英文名词，指的是一种语言的规则集合，这些规则用于描述那种语言中的句子、短语、单词的结构和组成方式。在日常生活中，我们经常用 "grammar" 来参考英语、汉语或者其他语言的语法规则。
+
+<Pronunciation word="Grammar" uk="/ˈɡɹæm.ə(ɹ)/" us="/ˈɡɹæmɚ/" client:only />
 
 ### 列举例句
 
@@ -44,3 +52,8 @@ tableOfContents: false
 Once, Tim was afraid of English because of grammar. However, since his teacher gave him a fun grammar book, studying grammar became his favorite. Now, he even wants to write a grammar book himself.
 
 曾经，Tim 因为语法而害怕英语。但是，自从他的老师给他一本有趣的语法书后，学习语法就成了他的最爱。现在，他甚至想自己写一本语法书。
+
+<WordRelations
+  synonyms={["morpho-syntax", "glomery"]}
+  client:only
+/>

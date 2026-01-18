@@ -1,13 +1,21 @@
 ---
 title: Main
-description: "Main 是一个英语单词，在汉语中，可以翻译为 '主要的' 或 '最重要的'。例如在句子 'Main ideas' 中，'main' 表示 '主要的'，整句话就是 '主要的想法'。"
+description: >-
+  Main 是一个英语单词，在汉语中，可以翻译为 '主要的' 或 '最重要的'。例如在句子 'Main ideas' 中，'main' 表示
+  '主要的'，整句话就是 '主要的想法'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Main" 是一个英语单词，在汉语中，可以翻译为 "主要的" 或 "最重要的"。例如在句子 "Main ideas" 中，"main" 表示 "主要的"，整句话就是 "主要的想法"。
+
+<Pronunciation word="Main" uk="/meɪn/" us="/meɪn/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 "After moving to a new school, Kevin quickly became the main source of laughter for his classmates with his wit and humor." (移校后，凯文以他的智慧和幽默很快成为同学们的主要笑源。)
+
+<WordRelations
+  synonyms={["largest"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Propose
-description: "Propose 是一个英语动词，中文的意思是“提议”，“建议”，或者“求婚”。"
+description: Propose 是一个英语动词，中文的意思是“提议”，“建议”，或者“求婚”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Propose" 是一个英语动词，中文的意思是“提议”，“建议”，或者“求婚”。
+
+<Pronunciation word="Propose" uk="/pɹəˈpəʊz/" us="/pɹəˈpoʊz/" client:only />
 
 ### 列举例句
 
@@ -46,3 +52,8 @@ tableOfContents: false
 
 Once upon a time, John gathered everyone to propose an adventurous journey. The proposal was met with excitement.
 曾经有一次，约翰召集所有人提议进行一次冒险之旅。提议得到了大家的热烈反应。
+
+<WordRelations
+  synonyms={["forthput", "put forth", "suggest"]}
+  client:only
+/>

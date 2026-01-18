@@ -1,13 +1,19 @@
 ---
 title: Unhappy
-description: "- 'Unhappy' 是一个形容词，表示不快乐，心情沮丧，或者感到不满意，不适。"
+description: '- ''Unhappy'' 是一个形容词，表示不快乐，心情沮丧，或者感到不满意，不适。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Unhappy" 是一个形容词，表示不快乐，心情沮丧，或者感到不满意，不适。
+
+<Pronunciation word="Unhappy" uk="/ʌnˈhæpi/" us="/ʌnˈhæpi/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 Jane watched the rain outside the window, feeling unhappy. She wanted to play outside, but now she couldn't.
 
 简单翻译：珍正看着窗外的雨，心情不快乐。她想出去玩，但现在她不能了。
+
+<WordRelations
+  antonyms={["delighted", "exuberant", "glad", "happy", "joyful", "joyous"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Concern
-description: "Concern 是一个形式多样的词汇，它既可以作为动词，也可以作为名词。"
+description: Concern 是一个形式多样的词汇，它既可以作为动词，也可以作为名词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Concern" 是一个形式多样的词汇，它既可以作为动词，也可以作为名词。
+
+<Pronunciation word="Concern" uk="/kənˈsɜːn/" us="/kənˈsɝn/" client:only />
 
 作为动词时，"concern"主要有两个意思。一是表示"关心"，"担忧"。例如："I'm concerned about your health."（我很关心你的健康。）偏向于在意或担心某件事或某人。第二个意思是"涉及"，"关于"。例如："A story that concerns high school students."（一个关于高中生的故事。）
 
@@ -53,3 +59,8 @@ tableOfContents: false
 John, a kind-hearted boy, always concerns himself with animals' welfare. One day, he found a wounded bird, which became his new concern. He took care of the bird till it flew back to the sky. His selfless act was of concern to all his neighbours.
 
 约翰，一个心地善良的男孩，总是关心动物的福利。一天，他发现了一只受伤的鸟，成为他新的关注对象。他照顾鸟儿，直到它飞回天空。他的无私行动引起了所有邻居的关注。
+
+<WordRelations
+  synonyms={["interest"]}
+  client:only
+/>

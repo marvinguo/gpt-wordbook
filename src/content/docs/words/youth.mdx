@@ -1,13 +1,19 @@
 ---
 title: Youth
-description: "Youth 指的是年轻或者年轻时期，单词一般用作名词，也可以形容年轻的、未成年的或者有朝气的。"
+description: Youth 指的是年轻或者年轻时期，单词一般用作名词，也可以形容年轻的、未成年的或者有朝气的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Youth 指的是年轻或者年轻时期，单词一般用作名词，也可以形容年轻的、未成年的或者有朝气的。
+
+<Pronunciation word="Youth" uk="/juθ/" us="/juθ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Youth 本身不能变形，但有由其衍生的形容词 "youthful"，副词 "y
 
 John spent his youth traveling around the world. He was always curious and eager to experience different cultures. This journey shaped his global perspective and open-minded personality.
 约翰把他的青春花在环游世界上。他总是充满好奇心，渴望体验不同的文化。这段旅程形成了他的全球观和开放的人格。
+
+<WordRelations
+  synonyms={["adolescent", "child", "kid", "lad", "teen", "teenager", "youngster", "adolescents", "kids", "teenagers", "teens", "young people", "youngsters", "boy", "young man", "juvenility", "youthfulness"]}
+  antonyms={["adult", "grown-up", "age", "dotage", "old age", "senility"]}
+  client:only
+/>

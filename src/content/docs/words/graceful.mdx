@@ -1,13 +1,19 @@
 ---
 title: Graceful
-description: "Graceful是一个形容词，用来描述某人或某物具有优雅、端庄、和谐的特性。它通常用于描述动作流畅，准确，自然而且美观。"
+description: Graceful是一个形容词，用来描述某人或某物具有优雅、端庄、和谐的特性。它通常用于描述动作流畅，准确，自然而且美观。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Graceful"是一个形容词，用来描述某人或某物具有优雅、端庄、和谐的特性。它通常用于描述动作流畅，准确，自然而且美观。
+
+<Pronunciation word="Graceful" uk="/ˈɡɹeɪsfʊl/" us="/ˈɡɹeɪsfʊl/" client:only />
 
 ### 列举例句
 
@@ -48,3 +54,8 @@ tableOfContents: false
 
 Mary, a graceful dancer, enchanted everyone at the party with her elegant movements.
 玛丽是一个优雅的舞者，她的优雅动作让派对上的每个人都为之魅惑。
+
+<WordRelations
+  antonyms={["clumsy", "graceless"]}
+  client:only
+/>

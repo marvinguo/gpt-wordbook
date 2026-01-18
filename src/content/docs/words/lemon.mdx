@@ -1,13 +1,21 @@
 ---
 title: Lemon
-description: "Lemon 是一个英语单词，主要的意思是 '柠檬'，指的是一种酸味的水果。在口语中，'lemon' 也可以指某件东西在使用时出现了问题，比如一辆老是出故障的车。"
+description: >-
+  Lemon 是一个英语单词，主要的意思是 '柠檬'，指的是一种酸味的水果。在口语中，'lemon'
+  也可以指某件东西在使用时出现了问题，比如一辆老是出故障的车。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 'Lemon' 是一个英语单词，主要的意思是 "柠檬"，指的是一种酸味的水果。在口语中，'lemon' 也可以指某件东西在使用时出现了问题，比如一辆老是出故障的车。
+
+<Pronunciation word="Lemon" uk="/ˈlɛmən/" us="/ˈlɛmən/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ Lemons (柠檬，复数形式)
 Lucy bought a bright, yellow lemon from the market. She squeezed it into her tea, and the sour taste made her lips pucker, but it was refreshing.
 
 (露西从市场上买了一个亮黄色的柠檬。她将它挤入茶中，酸味使她的嘴唇撅了起来，但它很提神。)
+
+<WordRelations
+  synonyms={["bomb", "PWP", "smutfic"]}
+  client:only
+/>

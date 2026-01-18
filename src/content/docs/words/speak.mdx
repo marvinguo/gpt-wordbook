@@ -1,13 +1,19 @@
 ---
 title: Speak
-description: "Speak是动词，意思是“说话”，“交谈”，或“发言”。它通常用于表示用语言来表达观点或询问情况。"
+description: Speak是动词，意思是“说话”，“交谈”，或“发言”。它通常用于表示用语言来表达观点或询问情况。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Speak"是动词，意思是“说话”，“交谈”，或“发言”。它通常用于表示用语言来表达观点或询问情况。
+
+<Pronunciation word="Speak" uk="/spiːk/" us="/spik/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ Speak 自古英语时期就有，其来源于源自原始日耳曼语的词根�
 Henry stood at the podium, ready to speak. The room was silent. He took a deep breath and began his speech.
 
 亨利站在讲台上，准备发言。房间里一片寂静。他深吸一口气，开始了他的演讲。
+
+<WordRelations
+  synonyms={["articulate", "talk", "verbalize"]}
+  antonyms={["be silent"]}
+  client:only
+/>

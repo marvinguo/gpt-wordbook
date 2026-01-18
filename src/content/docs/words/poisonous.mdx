@@ -1,13 +1,19 @@
 ---
 title: Poisonous
-description: "Poisonous 是一个英语形容词，用来形容有害的或含有毒性的事物，可以用来描述各种例如蛇，植物，物质等具有危害生物健康或生命的特性。"
+description: Poisonous 是一个英语形容词，用来形容有害的或含有毒性的事物，可以用来描述各种例如蛇，植物，物质等具有危害生物健康或生命的特性。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Poisonous" 是一个英语形容词，用来形容有害的或含有毒性的事物，可以用来描述各种例如蛇，植物，物质等具有危害生物健康或生命的特性。
+
+<Pronunciation word="Poisonous" uk="/ˈpɔɪznəs/" us="/ˈpɔɪznəs/" client:only />
 
 ### 列举例句
 
@@ -50,3 +56,9 @@ tableOfContents: false
 In a dense forest, a poisonous snake slithered through. Anyone bitten by it would feel a burning pain. (在一片茂密的森林里，一条有毒的蛇蜿蜒穿行。任何被它咬到的个体都会感到一种灼热的痛。)
 
 在翻译为：在一片茂密的森林里，一条有毒的蛇蜿蜒穿行。任何被它咬到的个体都会感到一种灼热的痛。
+
+<WordRelations
+  synonyms={["attery", "poisoned", "toxic", "venomous"]}
+  antonyms={["nonpoisonous", "unpoisonous"]}
+  client:only
+/>

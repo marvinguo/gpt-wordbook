@@ -1,13 +1,21 @@
 ---
 title: Center
-description: "Center 这个英文单词一般是指位于事物中心的，也可指中心点、中心位置等，既可以做名词也可以做动词。例如：City center (城市中心)，Center of gravity (重心)."
+description: >-
+  Center 这个英文单词一般是指位于事物中心的，也可指中心点、中心位置等，既可以做名词也可以做动词。例如：City center
+  (城市中心)，Center of gravity (重心).
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Center" 这个英文单词一般是指位于事物中心的，也可指中心点、中心位置等，既可以做名词也可以做动词。例如：City center (城市中心)，Center of gravity (重心).
+
+<Pronunciation word="Center" uk="/ˈsɛn.tə(ɹ)/" us="/ˈsɛn.tə(ɹ)/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 
 Danny walked to the city center. He saw a gigantic Christmas tree in the middle, dazzling lights illuminating the entire place.
 丹尼走到了城市中心，他看到中间一个巨大的圣诞树，炫目的灯光照亮了整个地方。
+
+<WordRelations
+  synonyms={["middle", "midst", "center of gravity", "center of mass", "centroid", "midpoint", "central"]}
+  antonyms={["periphery"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Cyclist
-description: "Cyclist 是一个名词，表示 '骑自行车的人'。"
+description: Cyclist 是一个名词，表示 '骑自行车的人'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Cyclist" 是一个名词，表示 "骑自行车的人"。
+
+<Pronunciation word="Cyclist" uk="/ˈsaɪ.klɪst/" us="/ˈsaɪ.klɪst/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Every Sunday morning, a cyclist named George rides along the coastline, taking in the fresh air and beautiful sunrise. This ritual is the perfect start to his day.
 (每个星期日早上，一个叫乔治的骑行者会沿着海岸线骑行，呼吸新鲜的空气，欣赏美丽的日出。这个习惯是他一天的完美开始。)
+
+<WordRelations
+  synonyms={["bicyclist", "biker", "cycler", "wheelman"]}
+  client:only
+/>

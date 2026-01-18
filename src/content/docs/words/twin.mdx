@@ -1,13 +1,19 @@
 ---
 title: Twin
-description: "twin 是一个英语单词，主要意思是“双胞胎”或者“一对”。“twin”也可以作为动词，意味着“配对”或“呈双重性质”。"
+description: twin 是一个英语单词，主要意思是“双胞胎”或者“一对”。“twin”也可以作为动词，意味着“配对”或“呈双重性质”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "twin" 是一个英语单词，主要意思是“双胞胎”或者“一对”。“twin”也可以作为动词，意味着“配对”或“呈双重性质”。
+
+<Pronunciation word="Twin" uk="/twɪn/" us="/twɪn/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 ### 助记故事
 
 Two twin kittens are playing in a sunny yard. Their fur is so alike that you can hardly tell them apart.（两只双胞胎小猫在阳光明媚的院子里玩耍。他们的毛色如此相似，你几乎无法分辨出来。）
+
+<WordRelations
+  synonyms={["doublet", "twindle", "twinling"]}
+  client:only
+/>

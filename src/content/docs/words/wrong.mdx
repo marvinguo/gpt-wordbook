@@ -1,13 +1,21 @@
 ---
 title: Wrong
-description: "Wrong 是一个英文单词，它可以作为名词、形容词、副词和动词使用。最常用的含义是'不正确的'或'错误的'，表示有事情与事实或期待相悖，有时也表示'不公正的'或'不道德的'，指行为违反公正准则或道德规范。"
+description: >-
+  Wrong
+  是一个英文单词，它可以作为名词、形容词、副词和动词使用。最常用的含义是'不正确的'或'错误的'，表示有事情与事实或期待相悖，有时也表示'不公正的'或'不道德的'，指行为违反公正准则或道德规范。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wrong" 是一个英文单词，它可以作为名词、形容词、副词和动词使用。最常用的含义是"不正确的"或"错误的"，表示有事情与事实或期待相悖，有时也表示"不公正的"或"不道德的"，指行为违反公正准则或道德规范。
+
+<Pronunciation word="Wrong" uk="/ɹɒŋ/" us="/ɹɔŋ/" client:only />
 
 ### 列举例句
 
@@ -41,3 +49,9 @@ Wrong 这个词的起源可以追溯到公元 1000 年前后的古英语中，�
 Tom checked his answers after the test. He found that he answered the question wrong. (汤姆在考试结束后检查了他的答案，他发现他回答的问题是错的。)
 
 汤姆在考试结束后检查了他的答案，他发现他回答的问题是错的。
+
+<WordRelations
+  synonyms={["wrength", "detrimental", "false", "faulty", "injurious", "unfit", "unjust", "unsuitable"]}
+  antonyms={["right"]}
+  client:only
+/>

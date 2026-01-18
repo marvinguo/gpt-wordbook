@@ -1,14 +1,19 @@
 ---
 title: Inescapable
-description: "Inescapable是一个形容词，源自动词 'escape'，加上前缀 'in-' 和后缀 '-able'，其含义是“不能逃避的，必然的”。"
+description: Inescapable是一个形容词，源自动词 'escape'，加上前缀 'in-' 和后缀 '-able'，其含义是“不能逃避的，必然的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Inescapable"是一个形容词，源自动词 "escape"，加上前缀 "in-" 和后缀 "-able"，其含义是“不能逃避的，必然的”。
 例如：
+
 
 1.  It's an inescapable fact that smoking is bad for your health. （抽烟对健康有害是不可避免的事实）
 2.  The conclusion is inescapable. （这个结论是必然的）
@@ -43,3 +48,9 @@ tableOfContents: false
 
 Once a young boy lied to his teacher. His lie was inescapable, and he learned a tough lesson.
 (有一次，一个小男孩对他的老师撒了谎。他的谎言是无法逃脱的，他从中吸取了一个沉痛的教训。)
+
+<WordRelations
+  synonyms={["inevitable", "unescapable"]}
+  antonyms={["escapable"]}
+  client:only
+/>

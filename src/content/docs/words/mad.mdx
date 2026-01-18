@@ -1,13 +1,19 @@
 ---
 title: Mad
-description: "Mad 是一个形容词，主要有两个意思：一是指人'疯狂的'，'失去理智的'；二是表示'生气的'，'愤怒的'。"
+description: Mad 是一个形容词，主要有两个意思：一是指人'疯狂的'，'失去理智的'；二是表示'生气的'，'愤怒的'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Mad" 是一个形容词，主要有两个意思：一是指人"疯狂的"，"失去理智的"；二是表示"生气的"，"愤怒的"。
+
+<Pronunciation word="Mad" uk="/ˈmæːd/" us="/ˈmæd/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 
 "Once upon a time, a mad scientist in town was conducting an experiment. Suddenly, the town folks heard a loud explosion."
 很久以前，城里的一个疯狂的科学家正在进行实验。突然，镇上的居民听到了一声巨大的爆炸声。
+
+<WordRelations
+  synonyms={["hella", "helluv", "kinda", "mighty", "wicked"]}
+  client:only
+/>

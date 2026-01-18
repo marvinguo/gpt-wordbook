@@ -1,13 +1,19 @@
 ---
 title: Thumb
-description: "Thumb 是一个英文单词，自然指的是人的手部之一部分，即“拇指”。"
+description: Thumb 是一个英文单词，自然指的是人的手部之一部分，即“拇指”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Thumb" 是一个英文单词，自然指的是人的手部之一部分，即“拇指”。
+
+<Pronunciation word="Thumb" uk="/θʌm/" us="/θʌm/" client:only />
 
 ### 列举例句
 
@@ -47,3 +53,8 @@ tableOfContents: false
 Sam, the thumb puppet master, bought a new thumb ring. He said, "This ring enhances my thumb control, giving my puppets life!"
 
 萨姆，那个拇指木偶表演家，买了一个新的拇指戒指。他说：“这个戒指增强了我的拇指控制力，让我的木偶有了生命！”
+
+<WordRelations
+  synonyms={["digit I", "first digit", "pollex", "thumby", "browse", "leaf", "page", "peruse"]}
+  client:only
+/>

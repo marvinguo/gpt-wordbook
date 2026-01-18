@@ -1,13 +1,19 @@
 ---
 title: Token
-description: "英文单词'token'一般有两个主要含义："
+description: 英文单词'token'一般有两个主要含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英文单词"token"一般有两个主要含义：
+
+<Pronunciation word="Token" uk="/ˈtəʊkən/" us="/ˈtoʊkən/" client:only />
 
 1.  代币、标记，例如在交通系统或游戏中使用的代币；
 2.  表示象征、标志，在某些情况下代表某一观念或感情的事物或行为。
@@ -46,3 +52,9 @@ tableOfContents: false
 
 A token was given to each of the crew members before embarking on the journey; it was a token of good luck.（在踏上旅程之前，每个船员都被给予了一枚代币，这是好运的象征）
 每个船员在踏上旅程之前都收到了一枚代币，它象征着好运。
+
+<WordRelations
+  synonyms={["memento", "souvenir", "miracle", "password", "reason", "reasoning", "sign", "symbol"]}
+  antonyms={["type"]}
+  client:only
+/>

@@ -1,14 +1,20 @@
 ---
-title: "Consecrate"
-description: "Consecrate 意为供奉、奉为神圣、使神圣化。"
+title: Consecrate
+description: Consecrate 意为供奉、奉为神圣、使神圣化。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Consecrate** 是一个庄严的动词。它指的是通过宗教仪式将某物或某人献给神，或者将其神圣化。
+
+<Pronunciation word="Consecrate" uk="/ˈkɒnsəkɹeɪt/" us="/ˈkɒnsəkɹeɪt/" client:only />
 
 ### 列举例句
 
@@ -31,3 +37,8 @@ tableOfContents: false
 The high priest performed the ancient ritual to consecrate the temple.
 (大祭司举行了古老的仪式来为神庙祝圣。)
 
+<WordRelations
+  synonyms={["behallow", "hallow"]}
+  antonyms={["defile", "desecrate"]}
+  client:only
+/>

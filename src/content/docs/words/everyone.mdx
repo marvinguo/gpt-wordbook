@@ -1,13 +1,19 @@
 ---
 title: Everyone
-description: "Everyone 是一个不定代词，表示“每个人”，“任何人”，“所有人”。"
+description: Everyone 是一个不定代词，表示“每个人”，“任何人”，“所有人”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Everyone" 是一个不定代词，表示“每个人”，“任何人”，“所有人”。
+
+<Pronunciation word="Everyone" uk="/ˈɛv.ɹi.wʌn/" us="/ˈɛv.ɹi.wʌn/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 "One day, everyone in the town got together for a big celebration. The air was filled with joy and laughter. Everyone was happy."
 
 “有一天，小镇上的每个人都聚在一起举行一场盛大的庆祝活动。空气中充满了欢乐和笑声。每个人都很快乐。”
+
+<WordRelations
+  synonyms={["everybody", "the world and his wife"]}
+  antonyms={["no one"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Herb
-description: "Herb 是名词，意为“香草，草本植物”。在一些情况下也可以表示“牧草”或者“薯类食物”。 在医学领域，它也指采用的植物药材。"
+description: Herb 是名词，意为“香草，草本植物”。在一些情况下也可以表示“牧草”或者“薯类食物”。 在医学领域，它也指采用的植物药材。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Herb" 是名词，意为“香草，草本植物”。在一些情况下也可以表示“牧草”或者“薯类食物”。 在医学领域，它也指采用的植物药材。
+
+<Pronunciation word="Herb" uk="/hɜːb/" us="/hɜːb/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 
 Ben moved slowly through his herb garden, lovingly tending to each plant. His hands gently brushed over the soft lavender and fragrant rosemary.
 本在他的草药园里慢慢移动，对每个植物都备加照料。他的手轻轻地拖过软软的薰衣草和香气扑鼻的迷迭香。
+
+<WordRelations
+  synonyms={["grass", "weed"]}
+  client:only
+/>

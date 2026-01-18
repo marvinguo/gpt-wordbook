@@ -1,13 +1,21 @@
 ---
 title: Loud
-description: "Loud 是一个形容词，常指声音大的，响亮的，可以用来形容任何声音，如音乐、人的讲话声等。在某些情况下，也可以用来形容色彩、设计过于鲜艳、过于花哨，引人注目。"
+description: >-
+  Loud
+  是一个形容词，常指声音大的，响亮的，可以用来形容任何声音，如音乐、人的讲话声等。在某些情况下，也可以用来形容色彩、设计过于鲜艳、过于花哨，引人注目。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Loud" 是一个形容词，常指声音大的，响亮的，可以用来形容任何声音，如音乐、人的讲话声等。在某些情况下，也可以用来形容色彩、设计过于鲜艳、过于花哨，引人注目。
+
+<Pronunciation word="Loud" uk="/laʊd/" us="/laʊd/" client:only />
 
 例如：
 
@@ -45,3 +53,9 @@ tableOfContents: false
 Tom went to a concert tonight. The music was so loud that it made his ears hum, even though he was standing far back from the stage. But he loved the loud music, it made him feel alive.
 
 汤姆今晚去参加了一场音乐会。音乐声音很大，尽管他站在离舞台很远的地方，他的耳朵还是在嗡嗡作响。但是他喜欢这激烈的音乐，它让他感觉充满活力。
+
+<WordRelations
+  synonyms={["garish", "gaudy"]}
+  antonyms={["quiet", "soft"]}
+  client:only
+/>

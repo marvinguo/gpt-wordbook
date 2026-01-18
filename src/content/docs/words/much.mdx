@@ -1,13 +1,21 @@
 ---
 title: Much
-description: "Much 是一个英语词汇，它通常用作副词或形容词，通常用来描述数量的概念。当用作副词时，它用于修饰动词，表示“很多，大量”的意思。当作为形容词时，它通常与单数不可数名词连用，来表示“许多”或“大量”的意思。"
+description: >-
+  Much
+  是一个英语词汇，它通常用作副词或形容词，通常用来描述数量的概念。当用作副词时，它用于修饰动词，表示“很多，大量”的意思。当作为形容词时，它通常与单数不可数名词连用，来表示“许多”或“大量”的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Much" 是一个英语词汇，它通常用作副词或形容词，通常用来描述数量的概念。当用作副词时，它用于修饰动词，表示“很多，大量”的意思。当作为形容词时，它通常与单数不可数名词连用，来表示“许多”或“大量”的意思。
+
+<Pronunciation word="Much" uk="/mʌt͡ʃ/" us="/mʌt͡ʃ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 
 Jane didn't have much time to prepare for the presentation, but she did her best. She spent much effort in organizing her notes and rehearsing her speech.
 （简没有太多时间准备演讲，但她尽了最大的努力。她花了许多力气整理笔记和排练演讲。）
+
+<WordRelations
+  synonyms={["a great deal", "a lot", "greatly", "highly", "loads", "plenty", "very"]}
+  antonyms={["few", "less", "little"]}
+  client:only
+/>

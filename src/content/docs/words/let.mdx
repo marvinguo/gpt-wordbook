@@ -1,13 +1,19 @@
 ---
 title: Let
-description: "Let是一个多功能的英语单词，主要有两个含义。一是作为动词时表示“允许”或“让”，二是在网球等体育比赛中，表示一次无效的发球。"
+description: Let是一个多功能的英语单词，主要有两个含义。一是作为动词时表示“允许”或“让”，二是在网球等体育比赛中，表示一次无效的发球。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Let"是一个多功能的英语单词，主要有两个含义。一是作为动词时表示“允许”或“让”，二是在网球等体育比赛中，表示一次无效的发球。
+
+<Pronunciation word="Let" uk="/lɛt/" us="/lɛt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 Chris was always very controlling. One day, his wife said to him, "Chris, you have to learn to let go. You can't control everything."（克里斯总是喜欢控制一切。有一天，他的妻子对他说：“克里斯，你需要学会放手。不能什么事情都要控制。”）
+
+<WordRelations
+  synonyms={["allow", "permit"]}
+  client:only
+/>

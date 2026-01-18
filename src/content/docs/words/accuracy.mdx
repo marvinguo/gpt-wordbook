@@ -1,13 +1,19 @@
 ---
 title: Accuracy
-description: "Accuracy 是一個英语单词，表示精确性或准确性。這个词经常用于描述测量、预测或计算的结果是否接近实际的、真实的或期望的值。"
+description: Accuracy 是一個英语单词，表示精确性或准确性。這个词经常用于描述测量、预测或计算的结果是否接近实际的、真实的或期望的值。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 'Accuracy' 是一個英语单词，表示精确性或准确性。這个词经常用于描述测量、预测或计算的结果是否接近实际的、真实的或期望的值。
+
+<Pronunciation word="Accuracy" uk="[ˈækjʊrəsɪ]" us="/ˈæk.jɚ.ə.si/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ Accuracy 是由词根 "accurate" 加上后缀 "-cy" 组成的。 "-cy" 是一个
 
 The boy practiced with great patience, improving the accuracy of his shots day by day. Eventually, he became the champion of the archery competition.
 男孩带着极大的耐心练习，每天提高他射击的精确性。最终，他成为了射箭比赛的冠军。
+
+<WordRelations
+  synonyms={["correctness", "truthfulness"]}
+  antonyms={["inaccuracy"]}
+  client:only
+/>

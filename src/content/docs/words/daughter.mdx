@@ -1,13 +1,19 @@
 ---
 title: Daughter
-description: "单词 'daughter' 的中文释义是“女儿”。"
+description: 单词 'daughter' 的中文释义是“女儿”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词 "daughter" 的中文释义是“女儿”。
+
+<Pronunciation word="Daughter" uk="/ˈdɔːtə(ɹ)/" us="/ˈdɔ.tɚ/" client:only />
 
 ### 列举例句
 
@@ -46,3 +52,8 @@ Jane, as the only daughter, always takes the best care of her family.
 简作为唯一的女儿，总是以最佳的方式照顾她的家庭。
 
 翻译：简作为家中唯一的女儿，总是尽最大努力照顾家庭。
+
+<WordRelations
+  antonyms={["father", "mother", "parent", "son"]}
+  client:only
+/>

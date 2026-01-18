@@ -1,13 +1,21 @@
 ---
 title: Guy
-description: "- 'Guy' 是一个英语单词，通常用来指代一个男人或男孩，它主要是美国俚语，在英国则有时指特定的男人。例如，'He's a nice guy'（他是个好人）。"
+description: >-
+  - 'Guy' 是一个英语单词，通常用来指代一个男人或男孩，它主要是美国俚语，在英国则有时指特定的男人。例如，'He's a nice
+  guy'（他是个好人）。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Guy" 是一个英语单词，通常用来指代一个男人或男孩，它主要是美国俚语，在英国则有时指特定的男人。例如，"He's a nice guy"（他是个好人）。
+
+<Pronunciation word="Guy" uk="/ɡaɪ/" us="/ɡaɪ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 
 - English: There was a guy named Tom, everybody liked him because he was always helpful and generous.
 - 中文：有一个叫汤姆的家伙, 大家都喜欢他, 因为他总是乐于助人并且非常大方。
+
+<WordRelations
+  synonyms={["bloke", "brother", "chap", "cove", "fellow", "geezer", "bro", "dude", "fella", "homey"]}
+  antonyms={["bird", "broad", "chick", "dame", "gal", "girl", "jane", "woman"]}
+  client:only
+/>

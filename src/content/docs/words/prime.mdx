@@ -1,13 +1,20 @@
 ---
 title: Prime
-description: "Prime在英语中有多种含义，根据上下文的不同，可以被译为“首位的，最好的，主要的”等。它作为形容词，通常用于形容质量最优、位置最重要的事物。此外，“prime”还可以作为数学术语，用于指称质数。"
+description: >-
+  Prime在英语中有多种含义，根据上下文的不同，可以被译为“首位的，最好的，主要的”等。它作为形容词，通常用于形容质量最优、位置最重要的事物。此外，“prime”还可以作为数学术语，用于指称质数。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Prime"在英语中有多种含义，根据上下文的不同，可以被译为“首位的，最好的，主要的”等。它作为形容词，通常用于形容质量最优、位置最重要的事物。此外，“prime”还可以作为数学术语，用于指称质数。
+
+<Pronunciation word="Prime" uk="/pɹaɪ̯m/" us="/pɹaɪ̯m/" client:only />
 
 ### 列举例句
 
@@ -45,3 +52,9 @@ Prime 的词源可以追溯到拉丁词语“Primus”，意为“首要的”�
 Once upon a time, there was a prime minister who lived in the prime of his life. He made prime decisions for his country and lived in prime real estate.
 
 曾经有个位于人生巅峰的首相，他为国家做出了关键的决策，同时他居住在一等的房地产中。
+
+<WordRelations
+  synonyms={["prime number", "choice", "prize", "quality", "select", "bloom", "blossom", "efflorescence", "flower", "flush", "heyday", "peak", "indivisible", "earliest", "first", "original", "excellent", "top quality", "greatest", "main"]}
+  antonyms={["composite"]}
+  client:only
+/>

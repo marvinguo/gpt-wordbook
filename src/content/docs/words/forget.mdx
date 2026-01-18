@@ -1,13 +1,19 @@
 ---
 title: Forget
-description: "Forget 是一个英语动词，意思是“忘记”。它可以指的是无法回忆起某个人、事、物或者信息，或者没能把某事物放在心上，无法记清。"
+description: Forget 是一个英语动词，意思是“忘记”。它可以指的是无法回忆起某个人、事、物或者信息，或者没能把某事物放在心上，无法记清。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Forget" 是一个英语动词，意思是“忘记”。它可以指的是无法回忆起某个人、事、物或者信息，或者没能把某事物放在心上，无法记清。
+
+<Pronunciation word="Forget" uk="/fəˈɡɛt/" us="/fɚˈɡɛt/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 Once a forgetful boy always forgot his homework. His teacher said, "You mustn't forget your duty." Learning this lesson, the boy never forgot again.
 (曾经，一个健忘的男孩总是忘记他的家庭作业。他的老师说，"你不能忘记你的责任。" 学习这一课后，男孩再也没忘记过。)
+
+<WordRelations
+  synonyms={["disremember", "obliviate", "overlook", "pass over"]}
+  antonyms={["acquire", "learn", "mind", "recall", "recollect", "remember", "reminisce"]}
+  client:only
+/>

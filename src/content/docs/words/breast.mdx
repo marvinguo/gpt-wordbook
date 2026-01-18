@@ -1,13 +1,19 @@
 ---
 title: Breast
-description: "Breast 是一个英文字，通常指的是人或动物的胸部，尤其是女性的乳房。它同时也可以引申用于指代心脏或心灵。"
+description: Breast 是一个英文字，通常指的是人或动物的胸部，尤其是女性的乳房。它同时也可以引申用于指代心脏或心灵。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Breast" 是一个英文字，通常指的是人或动物的胸部，尤其是女性的乳房。它同时也可以引申用于指代心脏或心灵。
+
+<Pronunciation word="Breast" uk="/bɹɛst/" us="/bɹɛst/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Breast 是一个没有词缀的单词，这是个基本的词。
 
 Lily got a regular breast exam to prevent the occurrence of breast cancer. The doctor encouraged her and said she was brave.
 (莉莉定期进行乳房检查以预防乳腺癌的发生。医生鼓励她，说她很勇敢。)
+
+<WordRelations
+  synonyms={["chest", "brisket", "white meat", "heart", "soul"]}
+  antonyms={["dark meat", "thigh", "wing"]}
+  client:only
+/>

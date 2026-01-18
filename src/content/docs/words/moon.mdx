@@ -1,13 +1,21 @@
 ---
 title: Moon
-description: "Moon 是英语中一个非常常用的单词，表示“月亮”，即地球的唯一自然卫星。例如：'I can see the moon in the sky.' (我可以看见天空中的月亮。)"
+description: >-
+  Moon 是英语中一个非常常用的单词，表示“月亮”，即地球的唯一自然卫星。例如：'I can see the moon in the sky.'
+  (我可以看见天空中的月亮。)
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Moon" 是英语中一个非常常用的单词，表示“月亮”，即地球的唯一自然卫星。例如："I can see the moon in the sky." (我可以看见天空中的月亮。)
+
+<Pronunciation word="Moon" uk="/muːn/" us="/muːn/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 "Tom sat on the hill, staring at the moon. His heart was filled with peace." (汤姆坐在小山上，凝视着月亮。他的心中充满了平静。)
+
+<WordRelations
+  synonyms={["Luna", "Moon", "calendar month", "lunar month", "month", "natural satellite", "satellite"]}
+  client:only
+/>

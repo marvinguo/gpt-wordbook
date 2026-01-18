@@ -1,13 +1,19 @@
 ---
 title: Urban
-description: "Urban 这个英文单词，主要用作形容词，是“城市的”、“都市的”或者“市区的”的意思，通常用来描述与城市或市区有关的事物或设施。"
+description: Urban 这个英文单词，主要用作形容词，是“城市的”、“都市的”或者“市区的”的意思，通常用来描述与城市或市区有关的事物或设施。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Urban 这个英文单词，主要用作形容词，是“城市的”、“都市的”或者“市区的”的意思，通常用来描述与城市或市区有关的事物或设施。
+
+<Pronunciation word="Urban" uk="/ˈɜːbən/" us="/ˈɜːbən/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ Urban 主要用作形容词，其名词形式可以通过添加后缀 -ity 形�
 ### 助记故事
 
 The urban streets were filled with lights, never sleeping, just like the city.（城市的街道上灯光璀璨，就像这个城市从未入睡一样。）
+
+<WordRelations
+  antonyms={["bucolic", "nonurban", "rural"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Distinguish
-description: "Distinguish 是一个英语动词，它的基本含义是区分、辨别。这可能涉及到识别两个或更多事物之间的差异，或者识别特定事物的特性或特征。"
+description: Distinguish 是一个英语动词，它的基本含义是区分、辨别。这可能涉及到识别两个或更多事物之间的差异，或者识别特定事物的特性或特征。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Distinguish" 是一个英语动词，它的基本含义是区分、辨别。这可能涉及到识别两个或更多事物之间的差异，或者识别特定事物的特性或特征。
+
+<Pronunciation word="Distinguish" uk="/dɪsˈtɪŋɡwɪʃ/" us="/dɪsˈtɪŋɡwɪʃ/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 Once upon a time, there were two roses so similar that no one could distinguish them. They thrived in the garden, smelling sweet and looking beautiful.
 
 从前，有两朵非常相似的玫瑰，没有人能区分它们。它们在花园中茁壮成长，香气四溢，美丽绽放。
+
+<WordRelations
+  synonyms={["differentiate", "discriminate"]}
+  antonyms={["confuse"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Read
-description: "Read 是一个常见的英语动词，本义是'阅读'，用来指读书、报纸、字母、词汇、句子等含有文字的内容。此外，它还有扩展的意思，如'了解'，'识别'等。"
+description: Read 是一个常见的英语动词，本义是'阅读'，用来指读书、报纸、字母、词汇、句子等含有文字的内容。此外，它还有扩展的意思，如'了解'，'识别'等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Read" 是一个常见的英语动词，本义是"阅读"，用来指读书、报纸、字母、词汇、句子等含有文字的内容。此外，它还有扩展的意思，如"了解"，"识别"等。
+
+<Pronunciation word="Read" uk="/ɹiːd/" us="/ɹid/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,9 @@ tableOfContents: false
 Once, I saw a boy at the park. He was so engrossed in reading a book that he didn't notice the pigeons pecking at his sandwich beside him.
 
 曾经，我在公园里看到一个男孩。他如此专心致志地读着一本书，以至于他没有注意到鸽子在啄食他旁边的三明治。
+
+<WordRelations
+  synonyms={["clock", "copy", "hear", "receive", "interpret", "make out", "make sense of", "scan", "understand", "learn", "study", "read aloud, read out, read out loud, speak"]}
+  antonyms={["pass"]}
+  client:only
+/>

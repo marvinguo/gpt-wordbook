@@ -1,13 +1,19 @@
 ---
 title: Synthesis
-description: "Synthesis 是一个名词，是指将两个或更多部份结合在一起，形成一个新的整体。经常用于化学反应和制造过程，也可用于抽象概念，如观点、理论等的结合。"
+description: Synthesis 是一个名词，是指将两个或更多部份结合在一起，形成一个新的整体。经常用于化学反应和制造过程，也可用于抽象概念，如观点、理论等的结合。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Synthesis" 是一个名词，是指将两个或更多部份结合在一起，形成一个新的整体。经常用于化学反应和制造过程，也可用于抽象概念，如观点、理论等的结合。
+
+<Pronunciation word="Synthesis" uk="/ˈsɪnθəsɪs/" us="/ˈsɪnθəsɪs/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,8 @@ tableOfContents: false
 
 The chemist spent all night in the lab, trying to perfect the synthesis of his new compound. His eyes gleamed with joy when he saw the final result.
 (化学家在实验室里度过了整夜，试图完美地合成他的新化合物。当他看到最后的结果时，他的眼睛闪烁着喜悦。)
+
+<WordRelations
+  antonyms={["analysis"]}
+  client:only
+/>

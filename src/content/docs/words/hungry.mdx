@@ -1,13 +1,22 @@
 ---
 title: Hungry
-description: "hungry 是一个形容词，基本含义为“饿的”，描述人或动物想吃东西的状态。它也可以形容对知识、权力、胜利等的渴望或需求，比如“他对成功有强烈的渴望”可以说“He is hungry for success”。"
+description: >-
+  hungry
+  是一个形容词，基本含义为“饿的”，描述人或动物想吃东西的状态。它也可以形容对知识、权力、胜利等的渴望或需求，比如“他对成功有强烈的渴望”可以说“He is
+  hungry for success”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "hungry" 是一个形容词，基本含义为“饿的”，描述人或动物想吃东西的状态。它也可以形容对知识、权力、胜利等的渴望或需求，比如“他对成功有强烈的渴望”可以说“He is hungry for success”。
+
+<Pronunciation word="Hungry" uk="/ˈhʌŋ.ɡɹi/" us="/ˈhʌŋ.ɡɹi/" client:only />
 
 ### 列举例句
 
@@ -43,3 +52,8 @@ tableOfContents: false
 
 "Tom leaves the library, so hungry that his stomach is rumbling. He dashes into the nearest burger shop, orders and devours two burgers hungrily."
 （汤姆离开图书馆，太饿了，肚子都咕噜咕噜叫。他冲进最近的汉堡店，一口气点了两个汉堡，狼吞虎咽地吃了起来。）
+
+<WordRelations
+  synonyms={["famished", "peckish", "starving"]}
+  client:only
+/>

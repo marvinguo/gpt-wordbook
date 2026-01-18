@@ -1,13 +1,19 @@
 ---
 title: Castle
-description: "Castle 是名词，意思是“城堡”，通常指欧洲的大型防御性建筑。"
+description: Castle 是名词，意思是“城堡”，通常指欧洲的大型防御性建筑。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Castle" 是名词，意思是“城堡”，通常指欧洲的大型防御性建筑。
+
+<Pronunciation word="Castle" uk="/kæsl̩/" us="/kæsl̩/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, there was a mighty castle on a high hill overlooking a beautiful village. (从前，有一座雄伟的城堡位于一个高高的山丘上，俯瞰着一个美丽的村庄。)
+
+<WordRelations
+  synonyms={["fortress", "castellate", "incastellate", "fortify"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Specialist
-description: "Specialist 是名词，意为“专家”或 “专科医生”。它用于指称在某一特定领域或学科具有深厚知识或技能的人。"
+description: Specialist 是名词，意为“专家”或 “专科医生”。它用于指称在某一特定领域或学科具有深厚知识或技能的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Specialist" 是名词，意为“专家”或 “专科医生”。它用于指称在某一特定领域或学科具有深厚知识或技能的人。
+
+<Pronunciation word="Specialist" uk="/ˈspɛʃəlɪst/" us="/ˈspɛʃəlɪst/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 Once a computer virus attacked our office network. We called a specialist. Thanks to his expertise, all systems were back to normal quickly.
 曾经我们办公室的网络被电脑病毒攻击了。我们请来了一个专家。得益于他的专业知识, 所有系统很快就恢复正常了。
+
+<WordRelations
+  synonyms={["aficionado", "connoisseur", "enthusiast"]}
+  antonyms={["generalist"]}
+  client:only
+/>

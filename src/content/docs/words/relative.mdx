@@ -1,13 +1,19 @@
 ---
 title: Relative
-description: "Relative可以作为名词或形容词使用。"
+description: Relative可以作为名词或形容词使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Relative"可以作为名词或形容词使用。
+
+<Pronunciation word="Relative" uk="[ˈɹɛl.ə.tʰɪv]" us="[ˈɹɛl.ə.tʰɪv]" client:only />
 
 作为名词，它通常表示"亲戚"，例如我们说"a close/far relative"，就是指"近/远亲"。
 
@@ -48,3 +54,9 @@ tableOfContents: false
 Jane received a letter from a relative in a far-off country. She felt a burst of excitement. It's all relative to her life filled with letters from different relatives.
 
 (简收到了一封来自遥远国度的亲戚的信。她感到非常兴奋。这个兴奋的情感来源于她的生活，那里充满了来自不同亲戚的信件。)
+
+<WordRelations
+  synonyms={["comparative", "conditional", "limited"]}
+  antonyms={["absolute", "unlimited"]}
+  client:only
+/>

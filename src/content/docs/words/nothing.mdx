@@ -1,13 +1,19 @@
 ---
 title: Nothing
-description: "Nothing 是一个代词，表示'无，没有任何事物，没有任何东西'。"
+description: Nothing 是一个代词，表示'无，没有任何事物，没有任何东西'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Nothing" 是一个代词，表示"无，没有任何事物，没有任何东西"。
+
+<Pronunciation word="Nothing" uk="/ˈnʌθɪŋ/" us="/ˈnʌθɪŋ/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ The old man lived with nothing but his memories, sitting in his empty room all d
 这位老人除了他的记忆，什么都没有，整天坐在他空荡荡的房间里。
 
 如果有任何其他单词需要帮助，请随时告诉我！
+
+<WordRelations
+  synonyms={["consequence", "consequential", "inconsequential", "insignificant", "trifling", "unimportant"]}
+  antonyms={["anything", "everything", "something"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Birth
-description: "- 'Birth' 是名词，表示“出生”或者“诞生”。它也可以引申为“起源”或者“开始”；"
+description: '- ''Birth'' 是名词，表示“出生”或者“诞生”。它也可以引申为“起源”或者“开始”；'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Birth" 是名词，表示“出生”或者“诞生”。它也可以引申为“起源”或者“开始”；
+
+<Pronunciation word="Birth" uk="/bɜːθ/" us="/bɝθ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 
 - English: "In the quiet of the night, a new life was brought into the world. It was the birth of a baby girl, full of hope and potential."
 - 中文：在宁静的夜晚，一个新的生命被带入了这个世界。这是一个充满希望和潜力的女婴的诞生。
+
+<WordRelations
+  synonyms={["biological", "blood", "consanguineous"]}
+  antonyms={["death"]}
+  client:only
+/>

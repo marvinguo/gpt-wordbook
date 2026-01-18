@@ -1,13 +1,19 @@
 ---
 title: Headline
-description: "Headline是一个非常常用的英语单词，它在中文中有'新闻标题'或'重要新闻'的意思，但也可以用作动词，意为'成为…的主角'或'给…写标题'。"
+description: Headline是一个非常常用的英语单词，它在中文中有'新闻标题'或'重要新闻'的意思，但也可以用作动词，意为'成为…的主角'或'给…写标题'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Headline"是一个非常常用的英语单词，它在中文中有"新闻标题"或"重要新闻"的意思，但也可以用作动词，意为"成为…的主角"或"给…写标题"。
+
+<Pronunciation word="Headline" uk="/ˈhɛd.laɪn/" us="/ˈhɛd.laɪn/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ Headline 的词根是 'head'-'line'，其中 'head' 的意思是“头，顶”�
 Once the concert poster was released, it turned out that she was the headline. It was like she was in a dream that didn’t wake up for a long time.
 
 一旦音乐会的海报被发布，原来她就是那个头条。感觉就像她在一个长时间不醒的梦中。
+
+<WordRelations
+  synonyms={["headliner", "hed"]}
+  client:only
+/>

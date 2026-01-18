@@ -1,13 +1,19 @@
 ---
 title: Name
-description: "Name这个单词在英语中主要有两个基本的意思，作为名词，它表示'名字'或者'名称'；当它作为动词时，它的意思是'命名'或者'称呼'。"
+description: Name这个单词在英语中主要有两个基本的意思，作为名词，它表示'名字'或者'名称'；当它作为动词时，它的意思是'命名'或者'称呼'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Name"这个单词在英语中主要有两个基本的意思，作为名词，它表示"名字"或者"名称"；当它作为动词时，它的意思是"命名"或者"称呼"。
+
+<Pronunciation word="Name" uk="/neɪm/" us="/neɪm/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 ### 助记故事
 
 In a small town, there was a newborn baby. Her parents decided to name her Bella after her grandmother. (在一个小镇上，有一个新生儿。她的父母决定以她的祖母的名字来给她取名，叫做 Bella。)
+
+<WordRelations
+  synonyms={["proper name"]}
+  client:only
+/>

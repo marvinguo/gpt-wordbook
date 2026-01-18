@@ -1,13 +1,19 @@
 ---
 title: Lung
-description: "lung在英语中指的是'肺'，这是我们身体中负责呼吸的重要器官。"
+description: lung在英语中指的是'肺'，这是我们身体中负责呼吸的重要器官。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "lung"在英语中指的是"肺"，这是我们身体中负责呼吸的重要器官。
+
+<Pronunciation word="Lung" uk="/ˈlʌŋ/" us="/ˈlʌŋ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Tom climbed the mountain and felt the thin air in his lungs. He realized that fresh air is vital to our lungs.
 (汤姆爬上山感到自己的肺里的空气稀薄。他意识到新鲜空气对我们的肺至关重要。)
+
+<WordRelations
+  synonyms={["bellows", "lights"]}
+  client:only
+/>

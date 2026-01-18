@@ -1,13 +1,21 @@
 ---
 title: Window
-description: "Window 这个单词在英语中的基本含义是“窗户”。它一般代表的是建筑物中的一种空出来的部分，让阳光和空气可以通过。如今这个单词也经常在计算机科学中使用，例如“窗体”或“窗口”。"
+description: >-
+  Window
+  这个单词在英语中的基本含义是“窗户”。它一般代表的是建筑物中的一种空出来的部分，让阳光和空气可以通过。如今这个单词也经常在计算机科学中使用，例如“窗体”或“窗口”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Window 这个单词在英语中的基本含义是“窗户”。它一般代表的是建筑物中的一种空出来的部分，让阳光和空气可以通过。如今这个单词也经常在计算机科学中使用，例如“窗体”或“窗口”。
+
+<Pronunciation word="Window" uk="/ˈwɪndəʊ/" us="/ˈwɪndoʊ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ Window 作为名词，如果讲的是很多个窗户，可以使用 windows 表�
 In a small town, there's a window you might win a dowry. The rule is you throw a ball from the window, If it falls into a specific bucket down on the ground, you win the contest.
 
 在一个小镇上，有一个可能会赢得嫁妆的窗户。规则是你从窗户扔出一个球，如果它掉进地上的特定桶里，你就赢得了比赛。
+
+<WordRelations
+  synonyms={["window"]}
+  client:only
+/>

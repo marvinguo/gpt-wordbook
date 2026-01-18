@@ -1,13 +1,19 @@
 ---
 title: Potato
-description: "Potato是英语中表示一种常见蔬菜的单词，将其直接翻译成中文为“土豆”或“马铃薯”。"
+description: Potato是英语中表示一种常见蔬菜的单词，将其直接翻译成中文为“土豆”或“马铃薯”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Potato"是英语中表示一种常见蔬菜的单词，将其直接翻译成中文为“土豆”或“马铃薯”。
+
+<Pronunciation word="Potato" uk="/pəˈteɪ.təʊ/" us="/pəˈteɪ.təʊ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 "Every year, in the small town of Idaho, people celebrate the Potato Festival. Kids and adults participate in the potato sack race, while some people show off their biggest potatoes."
 
 (每年，在爱达荷的一个小镇上，人们都会举办土豆节。孩子们和成人都参加土豆布袋赛跑，而有些人则展示他们种出的最大土豆。)
+
+<WordRelations
+  synonyms={["p'tater", "spud", "tater", "tatie", "tator", "Irish fruit", "bog orange", "earthapple", "murphy"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Love
-description: "Love 是一个既可作名词又可作动词的英文字，它在英语中有多种用法和含义。"
+description: Love 是一个既可作名词又可作动词的英文字，它在英语中有多种用法和含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Love" 是一个既可作名词又可作动词的英文字，它在英语中有多种用法和含义。
+
+<Pronunciation word="Love" uk="/lʌv/" us="/lʌv/" client:only />
 
 - 作为名词，"love" 主要指一种强烈的正面情感，比如对某人的亲情、友情或爱情；也可以用于表示对某事物热爱的喜爱之情。
 - 作为动词，"love" 表示对某人或某物的强烈喜爱或深深地关怀。
@@ -44,3 +50,9 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, there was a girl who loved the beautiful flowers in her garden. Every day, she would water them with care and love. (从前，有个女孩热爱她花园里的美丽花朵。每天，她都会用心和爱去浇灌它们。)
+
+<WordRelations
+  synonyms={["baby", "darling", "honey", "love bird", "lover", "pet", "sweetheart", "romance", "coitus", "sex", "the beast with two backs", "aphrodisia", "carnality", "mate", "sweetie", "adore", "cherish", "enjoy", "go to bed with", "sleep with"]}
+  antonyms={["indifference", "angst", "hate", "hatred", "malice", "spite", "despise"]}
+  client:only
+/>

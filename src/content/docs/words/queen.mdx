@@ -1,13 +1,19 @@
 ---
 title: Queen
-description: "英文词 'Queen' 是一个名词，它在中文中的对应翻译是'女王'，多用来指代女性君主。"
+description: 英文词 'Queen' 是一个名词，它在中文中的对应翻译是'女王'，多用来指代女性君主。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英文词 "Queen" 是一个名词，它在中文中的对应翻译是"女王"，多用来指代女性君主。
+
+<Pronunciation word="Queen" uk="/kwiːn/" us="/kwiːn/" client:only />
 
 ### 列举例句
 
@@ -48,3 +54,8 @@ tableOfContents: false
 Once upon a time, there was a wise and benevolent queen. All the people in her kingdom loved and respected her. She ruled with kindness and justice, ensuring the prosperity of her people.
 
 很久以前，有一个智慧和仁慈的女王。她的王国里的所有人都爱她，尊敬她。她以仁爱和正义治国，确保她的人民繁荣。
+
+<WordRelations
+  synonyms={["queen regnant", "bitch", "cowgirl", "girl", "lady", "mop squeezer", "queen consort"]}
+  client:only
+/>

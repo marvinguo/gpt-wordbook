@@ -1,13 +1,19 @@
 ---
 title: Wax
-description: "Wax 是一个非常有趣且多变的英语单词，既可以作为名词，也可以作为动词使用。"
+description: Wax 是一个非常有趣且多变的英语单词，既可以作为名词，也可以作为动词使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wax" 是一个非常有趣且多变的英语单词，既可以作为名词，也可以作为动词使用。
+
+<Pronunciation word="Wax" uk="/wæks/" us="/wæks/" client:only />
 
 作为名词时，“wax” 主要有两个含义：
 
@@ -46,3 +52,8 @@ Wax 的词根来自于古英语 'weax’，原意是“蜜蜂的蜡”。再往�
 
 Once, Tom found an old wax record from his grandfather's collection. As the needle dropped, music from a bygone era filled the room, waxing nostalgia.
 (有一次，Tom 从他祖父的收藏品中找到一张旧的蜡制唱片。当唱针落下时，一个逝去时代的音乐充满了房间，激起了怀旧之情。)
+
+<WordRelations
+  synonyms={["beeswax", "cerumen", "earwax", "disc", "disk", "record", "polish", "waxen"]}
+  client:only
+/>

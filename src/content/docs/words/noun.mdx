@@ -1,13 +1,19 @@
 ---
 title: Noun
-description: "noun 是英语中词性的一种，指的是名词。名词可以是实物、人、地点、事情、观念或感觉。"
+description: noun 是英语中词性的一种，指的是名词。名词可以是实物、人、地点、事情、观念或感觉。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "noun" 是英语中词性的一种，指的是名词。名词可以是实物、人、地点、事情、观念或感觉。
+
+<Pronunciation word="Noun" uk="/naʊn/" us="/naʊn/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Tom was learning English. His teacher told him "Tom, in English, a noun is the name of a person, place or thing." Tom smiled, because he understood.
 (汤姆正在学习英语。老师告诉他“汤姆，英语中的名词是人、地方或事物的名字。” 汤姆笑了，因为他明白了。)
+
+<WordRelations
+  synonyms={["name", "nameword", "naming word", "noun substantive", "substantive", "substantive noun"]}
+  client:only
+/>

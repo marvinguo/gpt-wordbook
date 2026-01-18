@@ -1,13 +1,21 @@
 ---
 title: Unusual
-description: "Unusual 是一個形容詞，主要用於描述一種不常見，罕見，或者非典型的狀況和事物。例如: 'It's unusual for him to be late.'（他很少遲到。）"
+description: >-
+  Unusual 是一個形容詞，主要用於描述一種不常見，罕見，或者非典型的狀況和事物。例如: 'It's unusual for him to be
+  late.'（他很少遲到。）
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Unusual" 是一個形容詞，主要用於描述一種不常見，罕見，或者非典型的狀況和事物。例如: "It's unusual for him to be late."（他很少遲到。）
+
+<Pronunciation word="Unusual" uk="/ʌnˈjuːʒuəl/" us="/ʌnˈjuːʒuəl/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,9 @@ Unusual 這個單詞本身就是一個形容詞，表達的是一種情況或事
 ### 助记故事
 
 "In the small village, an unusual event occurred. An apple grew on an orange tree!"（在一个小村庄，发生了一件不同寻常的事情。一棵橙子树上竟然长出了一个苹果！）
+
+<WordRelations
+  synonyms={["extraordinary", "rare", "remarkable", "uncommon"]}
+  antonyms={["common", "normal", "ordinary", "usual"]}
+  client:only
+/>

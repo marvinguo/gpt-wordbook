@@ -1,13 +1,21 @@
 ---
 title: Place
-description: "Place 是一个英语单词，通常被用来表示一个具体的地点，相当于中文里的“地方”。例如：'This is a nice place to live.' 这是个生活的好地方。"
+description: >-
+  Place 是一个英语单词，通常被用来表示一个具体的地点，相当于中文里的“地方”。例如：'This is a nice place to live.'
+  这是个生活的好地方。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Place" 是一个英语单词，通常被用来表示一个具体的地点，相当于中文里的“地方”。例如："This is a nice place to live." 这是个生活的好地方。
+
+<Pronunciation word="Place" uk="/pleɪs/" us="/pleɪs/" client:only />
 
 ### 列举例句
 
@@ -44,3 +52,8 @@ tableOfContents: false
 **Every Saturday, Jenny visits a new place in her city. Today, she discovered a beautiful park. What a peaceful place!**
 
 每个星期六，Jenny 都会去她的城市里新的地方。今天，她发现了一座美丽的公园。多么宁静的地方啊！
+
+<WordRelations
+  synonyms={["frame of mind", "mindset", "mood", "location", "position", "situation", "spot", "stead", "stell", "courtyard", "piazza", "plaza", "square", "seat"]}
+  client:only
+/>

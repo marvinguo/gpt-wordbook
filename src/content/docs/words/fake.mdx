@@ -1,13 +1,19 @@
 ---
 title: Fake
-description: "Fake 是一个形容词和动词，常用于描述伪造的、不真实的或冒充的行为或物品。"
+description: Fake 是一个形容词和动词，常用于描述伪造的、不真实的或冒充的行为或物品。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fake" 是一个形容词和动词，常用于描述伪造的、不真实的或冒充的行为或物品。
+
+<Pronunciation word="Fake" uk="/feɪk/" us="/feɪk/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 
 One day, Lily bought a fake diamond necklace from a street vendor, but when she brought it home, she realized it was fake.
 有一天，莉莉从一个街头小贩那买了一条钻石项链，但当她带回家时，她意识到那是假的。
+
+<WordRelations
+  synonyms={["deke", "feint", "pass off", "pose", "adulterate"]}
+  antonyms={["authentic", "genuine"]}
+  client:only
+/>

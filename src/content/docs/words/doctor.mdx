@@ -1,13 +1,20 @@
 ---
 title: Doctor
-description: "Doctor是个名词和动词，主要有两种意思：首先，作为名词，'doctor'最常用来指的是医生，专门从事医学行业，为病患诊断病症并提供治疗。其次，'doctor'也可以指拥有博士学位的人。作为动词，'doctor'指的是篡改，更改。"
+description: >-
+  Doctor是个名词和动词，主要有两种意思：首先，作为名词，'doctor'最常用来指的是医生，专门从事医学行业，为病患诊断病症并提供治疗。其次，'doctor'也可以指拥有博士学位的人。作为动词，'doctor'指的是篡改，更改。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Doctor"是个名词和动词，主要有两种意思：首先，作为名词，"doctor"最常用来指的是医生，专门从事医学行业，为病患诊断病症并提供治疗。其次，"doctor"也可以指拥有博士学位的人。作为动词，"doctor"指的是篡改，更改。
+
+<Pronunciation word="Doctor" uk="/ˈdɒktə/" us="/ˈdɑktɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +46,8 @@ Doctor 的单复数变形分别为 "doctor" 和 "doctors"。它的过去式和�
 
 When Jack was a little boy, he admired the village doctor for his skills in healing people. He dreamt of becoming a doctor someday. Today, Jack is a doctor serving his community.
 (杰克还是个小男孩的时候，他就很敬仰村里的医生的治病技术。他梦想有一天也能成为一名医生。今天，杰克已经是为社区民众服务的医生了。)
+
+<WordRelations
+  synonyms={["GP", "doc", "family doctor", "general practitioner", "medic", "physician", "sawbones", "surgeon", "vet", "veterinarian", "veterinary", "veterinary surgeon"]}
+  client:only
+/>

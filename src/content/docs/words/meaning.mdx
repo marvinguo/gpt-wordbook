@@ -1,13 +1,22 @@
 ---
 title: Meaning
-description: "Meaning有两个主要的含义。第一个是代表或表示某事物的理解或重要性，例如：'The meaning of life'（人生的意义）。第二个是一个词或句子的定义或解释，例如：'What's the meaning of this word?'（这个词的意思是什么？）。在语言学中，'meaning'还可以指语义。"
+description: >-
+  Meaning有两个主要的含义。第一个是代表或表示某事物的理解或重要性，例如：'The meaning of
+  life'（人生的意义）。第二个是一个词或句子的定义或解释，例如：'What's the meaning of this
+  word?'（这个词的意思是什么？）。在语言学中，'meaning'还可以指语义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Meaning"有两个主要的含义。第一个是代表或表示某事物的理解或重要性，例如："The meaning of life"（人生的意义）。第二个是一个词或句子的定义或解释，例如："What's the meaning of this word?"（这个词的意思是什么？）。在语言学中，"meaning"还可以指语义。
+
+<Pronunciation word="Meaning" uk="/ˈmiːnɪŋ/" us="/ˈmiːnɪŋ/" client:only />
 
 ### 列举例句
 
@@ -42,3 +51,8 @@ tableOfContents: false
 "Tom went to the library in search of the meaning of an obscure word he came across in a novel. He flipped through the dictionary until he found it, the sense of satisfaction filling him as he read the description. Every word truly has its own special meaning."
 
 "汤姆去图书馆寻找他在小说中遇到的一个晦涩单词的意义。他翻着字典，直到找到这个词，当他读到词义时，满足感充满了他。每个单词真的都有它特殊的意义。"
+
+<WordRelations
+  synonyms={["sense", "definition"]}
+  client:only
+/>

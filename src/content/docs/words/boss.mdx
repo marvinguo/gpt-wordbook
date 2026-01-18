@@ -1,13 +1,19 @@
 ---
 title: Boss
-description: "Boss这个单词是一种非正式的，通用的口语表达。在大多数情况下，它被用来指代某人的直接上级或者一个团队/组织的负责人。可以理解为'老板'。"
+description: Boss这个单词是一种非正式的，通用的口语表达。在大多数情况下，它被用来指代某人的直接上级或者一个团队/组织的负责人。可以理解为'老板'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Boss"这个单词是一种非正式的，通用的口语表达。在大多数情况下，它被用来指代某人的直接上级或者一个团队/组织的负责人。可以理解为"老板"。
+
+<Pronunciation word="Boss" uk="/bɒs/" us="/bɑs/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ boss 的复数形式为 bosses。
 
 "There was a young woman who dreamed of being her own boss. She worked hard, learned a lot, and finally opened her own coffee shop. Now, she is a successful boss."
 (有一位年轻女子梦想做自己的老板。她努力工作，学习了很多，最后开了自己的咖啡店。现在，她是一个成功的老板。)
+
+<WordRelations
+  synonyms={["employer", "gov", "guv", "guvnor", "mate", "head", "leader", "line manager", "manager", "supervisor", "boss around", "lord over"]}
+  client:only
+/>

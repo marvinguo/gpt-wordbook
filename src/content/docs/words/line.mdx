@@ -1,13 +1,19 @@
 ---
 title: Line
-description: "Line 在英语中是个多义词，在不同的语境中有着不同的意义。它常见的意思包括："
+description: Line 在英语中是个多义词，在不同的语境中有着不同的意义。它常见的意思包括：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Line" 在英语中是个多义词，在不同的语境中有着不同的意义。它常见的意思包括：
+
+<Pronunciation word="Line" uk="/laɪn/" us="/laɪn/" client:only />
 
 1.  "一行"，指文字或数字等的水平排列，如一行诗、一行代码。
 
@@ -58,3 +64,8 @@ tableOfContents: false
 There was a line of birds on the power line. They were happily chirping and enjoying the sunny morning. Maggie saw this beautiful sight and draw a line under it on her sketchbook.
 
 这是一群鸟儿排成一线站在电线上。它们在欢快地鸣叫，享受着阳光明媚的清晨。Maggie 看到了这个美丽的画面并在她的素描本上画下了这一幕。
+
+<WordRelations
+  synonyms={["epistle", "letter", "note", "line of engagement", "lineup", "queue"]}
+  client:only
+/>

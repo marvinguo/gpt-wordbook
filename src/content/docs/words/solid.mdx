@@ -1,13 +1,19 @@
 ---
 title: Solid
-description: "英语单词 'solid' 主要有两个含义，其一表示'固体的'或者'实心的'，其二表示'硬朗的'或者'坚固的'"
+description: 英语单词 'solid' 主要有两个含义，其一表示'固体的'或者'实心的'，其二表示'硬朗的'或者'坚固的'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英语单词 "solid" 主要有两个含义，其一表示"固体的"或者"实心的"，其二表示"硬朗的"或者"坚固的"
+
+<Pronunciation word="Solid" uk="/ˈsɒlɪd/" us="/ˈsɑlɪd/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 
 "John built a solid house out of bricks. It was so sturdy that it could withstand the strongest storm."
 约翰用砖块建了一栋结实的房子。它是如此稳固，能抵挡最强的风暴。
+
+<WordRelations
+  synonyms={["closed", "massive", "substantial"]}
+  client:only
+/>

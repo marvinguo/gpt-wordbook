@@ -1,13 +1,19 @@
 ---
 title: Appear
-description: "Appear 是一个动词，它有几个含义：1) 出现，可见；2) 似乎，好像。"
+description: Appear 是一个动词，它有几个含义：1) 出现，可见；2) 似乎，好像。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Appear" 是一个动词，它有几个含义：1) 出现，可见；2) 似乎，好像。
+
+<Pronunciation word="Appear" uk="/əˈpiːɹ/" us="/əˈpiɹ/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 "One day, a gold coin appears in my backyard. Surprisingly, it appears to be ancient."
 有一天，我后院出现了一枚金币，令人惊讶的是，它看起来像是古币。
+
+<WordRelations
+  synonyms={["look", "emerge"]}
+  antonyms={["disappear", "vanish"]}
+  client:only
+/>

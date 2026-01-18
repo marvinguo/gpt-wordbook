@@ -1,13 +1,20 @@
 ---
 title: Twilight
-description: "Twilight这个单词的主要含义是“黄昏”或“暮色”，指的是日落之后天空里的微光，也可以指日出前的那段微亮的时间。该词也经常被用作形容词，表示模糊，朦胧或者是不明确的。"
+description: >-
+  Twilight这个单词的主要含义是“黄昏”或“暮色”，指的是日落之后天空里的微光，也可以指日出前的那段微亮的时间。该词也经常被用作形容词，表示模糊，朦胧或者是不明确的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Twilight"这个单词的主要含义是“黄昏”或“暮色”，指的是日落之后天空里的微光，也可以指日出前的那段微亮的时间。该词也经常被用作形容词，表示模糊，朦胧或者是不明确的。
+
+<Pronunciation word="Twilight" uk="/ˈtwaɪlaɪt/" us="/ˈtwaɪlaɪt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +46,8 @@ tableOfContents: false
 
 Walking on the street, I found the city bathed in twilight, both quiet and beautiful. It made me feel peaceful and calm.
 走在街上，我看到这个城市沐浴在暮色中，既安静又美丽。这让我感到平静和宁静。
+
+<WordRelations
+  synonyms={["blue hour", "gloaming"]}
+  client:only
+/>

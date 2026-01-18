@@ -1,13 +1,19 @@
 ---
 title: Friend
-description: "Friend 是一个名词，表示'朋友'，指的是有密切关系的人，经常交往并具有共同利益或活动的人。"
+description: Friend 是一个名词，表示'朋友'，指的是有密切关系的人，经常交往并具有共同利益或活动的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Friend" 是一个名词，表示"朋友"，指的是有密切关系的人，经常交往并具有共同利益或活动的人。
+
+<Pronunciation word="Friend" uk="/fɹɛnd/" us="/fɹɛnd/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 Once upon a time, there was a little boy. He had no friends until one day, he saved a little dog. The dog became his best friend.
 从前，有个小男孩。他没有朋友，直到有一天，他拯救了一只小狗。那只狗就成了他最好的朋友。
+
+<WordRelations
+  synonyms={["buddy", "buster", "mate", "pal", "sonny", "admirer", "booster", "champion", "protagonist", "supporter", "ally", "acquaintance", "contact", "befriend"]}
+  antonyms={["enemy", "foe", "stranger", "defriend", "unfriend"]}
+  client:only
+/>

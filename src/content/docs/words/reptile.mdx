@@ -1,13 +1,19 @@
 ---
 title: Reptile
-description: "Reptile 是一个名词，它指的是一类脊椎动物，这一类动物一般有鳞或硬壳，体温随环境变化，像蛇、绿色、龟等都是爬行动物。"
+description: Reptile 是一个名词，它指的是一类脊椎动物，这一类动物一般有鳞或硬壳，体温随环境变化，像蛇、绿色、龟等都是爬行动物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Reptile" 是一个名词，它指的是一类脊椎动物，这一类动物一般有鳞或硬壳，体温随环境变化，像蛇、绿色、龟等都是爬行动物。
+
+<Pronunciation word="Reptile" uk="/ɹɪpˈtaɪl/" us="/ɹɪpˈtaɪl/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 In the immense zoo, there was a massive reptile exhibit. Hundreds of different types of reptiles were displayed, from snakes to lizards, all kinds of curious eyes were observing them.
 (在大型动物园中，有一个巨大的爬行动物展览。从蛇到蜥蜴，数百种不同的爬行动物都被展出，吸引了各种好奇的目光。)
+
+<WordRelations
+  synonyms={["crawling", "creeping", "reptilious", "reptitious"]}
+  client:only
+/>

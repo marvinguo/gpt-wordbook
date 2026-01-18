@@ -1,13 +1,21 @@
 ---
 title: Should
-description: "Should 是一个助动词，用于表示规劝、建议、义务和责任等。例如：'You should brush your teeth before bed'（你应该在睡前刷牙）。"
+description: >-
+  Should 是一个助动词，用于表示规劝、建议、义务和责任等。例如：'You should brush your teeth before
+  bed'（你应该在睡前刷牙）。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Should" 是一个助动词，用于表示规劝、建议、义务和责任等。例如："You should brush your teeth before bed"（你应该在睡前刷牙）。
+
+<Pronunciation word="Should" uk="/ʃʊd/" us="/ʃʊd/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 
 Tom knew he should finish his homework, but he chose to play video games instead. He learned a tough lesson when he got a low grade in school.
 汤姆知道他应该完成他的作业，但他选择了玩电子游戏。当他在学校得到低分时，他学到了一次痛苦的教训。
+
+<WordRelations
+  synonyms={["ought"]}
+  antonyms={["shouldn't"]}
+  client:only
+/>

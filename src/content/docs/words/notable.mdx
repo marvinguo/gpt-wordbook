@@ -1,13 +1,19 @@
 ---
 title: Notable
-description: "Notable这个英语单词是形容词，其主要意义是“值得注意的”，“显著的”，或“著名的”。"
+description: Notable这个英语单词是形容词，其主要意义是“值得注意的”，“显著的”，或“著名的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Notable"这个英语单词是形容词，其主要意义是“值得注意的”，“显著的”，或“著名的”。
+
+<Pronunciation word="Notable" uk="/ˈnəʊtəbl̩/" us="/ˈnoʊdəbəl/" client:only />
 
 ### 列举例句
 
@@ -46,3 +52,9 @@ tableOfContents: false
 
 "There was a notable absence in the classroom: the no-table spot. Everyone wondered where the table went."
 教室里有一处显著的空缺：没有桌子的地方。每个人都在想那张桌子去哪里了。
+
+<WordRelations
+  synonyms={["apparent", "evident", "eminent", "noteworthy"]}
+  antonyms={["non-notable", "subtle", "nameless", "obscure"]}
+  client:only
+/>

@@ -1,13 +1,21 @@
 ---
 title: Lucky
-description: "Lucky这个单词用于描述一种好运的状态，它指的是由于命运或偶然事件而赢得成功或取得有利结果的情况。例如：“I feel lucky today”，我今天感到很幸运。"
+description: >-
+  Lucky这个单词用于描述一种好运的状态，它指的是由于命运或偶然事件而赢得成功或取得有利结果的情况。例如：“I feel lucky
+  today”，我今天感到很幸运。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Lucky"这个单词用于描述一种好运的状态，它指的是由于命运或偶然事件而赢得成功或取得有利结果的情况。例如：“I feel lucky today”，我今天感到很幸运。
+
+<Pronunciation word="Lucky" uk="/ˈlʌki/" us="/ˈlʌki/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 "Tom found a wallet on the street. It was full of money. 'Someone won't feel lucky today!' he thought, and went to find the owner." | "汤姆在街上找到一个钱包。里面全是钱。'今天有人会觉得自己不走运！'他想，然后去找钱包的主人。"
+
+<WordRelations
+  synonyms={["fortunate", "successful", "auspicious", "favorable", "favourable", "fortuitous"]}
+  client:only
+/>

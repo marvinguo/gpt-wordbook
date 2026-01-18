@@ -1,13 +1,19 @@
 ---
 title: Tract
-description: "您提供的单词是 'tract'，这个单词通常用于表示'一片陆地'或'肠道'等意思。"
+description: 您提供的单词是 'tract'，这个单词通常用于表示'一片陆地'或'肠道'等意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 您提供的单词是 "tract"，这个单词通常用于表示"一片陆地"或"肠道"等意思。
+
+<Pronunciation word="Tract" uk="/tɹækt/" us="/tɹækt/" client:only />
 
 比如在以下情景中就可以使用到这个单词：
 
@@ -38,3 +44,8 @@ tableOfContents: false
 
 Once, there was a vast tract of land filled with lush greenery. Now, it's teeming with towering skyscrapers.
 (曾经，这里是一片充满翠绿的广阔土地。现在，它已经成为了鳞次栉比的摩天大楼。)
+
+<WordRelations
+  synonyms={["system"]}
+  client:only
+/>

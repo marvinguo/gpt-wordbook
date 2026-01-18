@@ -1,13 +1,19 @@
 ---
 title: Cottage
-description: "Cottage是一个英文单词，通常用来指小而雅致的乡村房屋。虽然“cottage”在本质上是一个小型住宅，但是它通常会对立区分城市的复杂公寓或现代化的房子。"
+description: Cottage是一个英文单词，通常用来指小而雅致的乡村房屋。虽然“cottage”在本质上是一个小型住宅，但是它通常会对立区分城市的复杂公寓或现代化的房子。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Cottage"是一个英文单词，通常用来指小而雅致的乡村房屋。虽然“cottage”在本质上是一个小型住宅，但是它通常会对立区分城市的复杂公寓或现代化的房子。
+
+<Pronunciation word="Cottage" uk="/ˈkɒtɪdʒ/" us="/ˈkɑtədʒ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Every summer, Mary and her family would drive to a small, white cottage by the lake. (每个夏天,玛丽和她的家人会驾车去湖边的一座小白屋.)
+
+<WordRelations
+  synonyms={["cot", "hut", "gingerbread office", "tea house", "tea room", "teahouse", "tearoom"]}
+  client:only
+/>

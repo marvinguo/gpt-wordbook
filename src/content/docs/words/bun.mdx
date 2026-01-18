@@ -1,13 +1,19 @@
 ---
 title: Bun
-description: "「Bun」是一个英语单词，主要有两种常见的含义。一种是指面包，特指那种小型、圆形的软面包或者甜点。另一种是指发型，在头部后面扎成的紧凑型圆形发髻。"
+description: 「Bun」是一个英语单词，主要有两种常见的含义。一种是指面包，特指那种小型、圆形的软面包或者甜点。另一种是指发型，在头部后面扎成的紧凑型圆形发髻。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 「Bun」是一个英语单词，主要有两种常见的含义。一种是指面包，特指那种小型、圆形的软面包或者甜点。另一种是指发型，在头部后面扎成的紧凑型圆形发髻。
+
+<Pronunciation word="Bun" uk="/bʌn/" us="/bʌn/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Once upon a time, a young girl brought a fresh bun to her teacher every day. One day, the teacher styled her wild hair into a neat bun. Since then, she's always worn her hair in a bun to school.
 (从前，有个小姑娘每天都会给她的老师带一个新鲜的面包。有一天，老师把她那乱糟糟的头发扎成了一个整洁的发髻。从那时起，她上学时总是扎一个发髻。)
+
+<WordRelations
+  synonyms={["French roll", "hair bun", "cake"]}
+  client:only
+/>

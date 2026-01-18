@@ -1,13 +1,19 @@
 ---
 title: Huge
-description: "Huge 这个单词的意思是“巨大的，庞大的”。这是一个形容词，主要用来形容尺寸、数量或程度非常大的事物。"
+description: Huge 这个单词的意思是“巨大的，庞大的”。这是一个形容词，主要用来形容尺寸、数量或程度非常大的事物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Huge" 这个单词的意思是“巨大的，庞大的”。这是一个形容词，主要用来形容尺寸、数量或程度非常大的事物。
+
+<Pronunciation word="Huge" uk="[hʊudʒ]" us="/hjuːd͡ʒ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 Hugh is a huge man with a huge heart. He always helps people in need, which makes him hugely popular in this town.
 
 休是个巨大的男人，他有一颗巨大的心。他总是帮助需要帮助的人，这让他在这个城市中人气极高。
+
+<WordRelations
+  synonyms={["colossal", "elephantine", "enormous", "giant", "gigantic", "immense", "prodigious", "vast"]}
+  antonyms={["dwarf", "midget", "minuscule", "small", "tiny"]}
+  client:only
+/>

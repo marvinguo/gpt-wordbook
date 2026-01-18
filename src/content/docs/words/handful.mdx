@@ -1,13 +1,19 @@
 ---
 title: Handful
-description: "Handful 是一个英文名词，通常有两种主要含义："
+description: Handful 是一个英文名词，通常有两种主要含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Handful" 是一个英文名词，通常有两种主要含义：
+
+<Pronunciation word="Handful" uk="/ˈhæn(d)fəl/" us="/ˈhæn(d)fəl/" client:only />
 
 1.  指一把，量词，表示一只手能拿的量。
 2.  形象的含义是指难以管理的人或事，困难的对象。
@@ -42,3 +48,8 @@ tableOfContents: false
 
 **There was a handful of sand on my desk. It came from the beach trip. I stared at it, lost in the moment.**
 我桌上有一把沙子，是来自海滩之旅的。我盯着它，陷入了回忆。
+
+<WordRelations
+  synonyms={["fistful", "handbreadth", "handsbreadth"]}
+  client:only
+/>

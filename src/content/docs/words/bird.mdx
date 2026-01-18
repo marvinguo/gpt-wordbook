@@ -1,13 +1,19 @@
 ---
 title: Bird
-description: "Bird 是英语中的一个基本单词，表示鸟类的总称。它可以指任何的鸟类，包括乌鸦、鸽子、鹦鹉等等。"
+description: Bird 是英语中的一个基本单词，表示鸟类的总称。它可以指任何的鸟类，包括乌鸦、鸽子、鹦鹉等等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bird" 是英语中的一个基本单词，表示鸟类的总称。它可以指任何的鸟类，包括乌鸦、鸽子、鹦鹉等等。
+
+<Pronunciation word="Bird" uk="/bɜd/" us="/bɝd/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 "Karen spotted a little bird in her garden, chirping happily. Fascinated, she went closer, watching it flutter its wings."（卡伦在自家的花园里发现了一只小鸟，它正在开心地啾啾叫个不停。卡伦被它吸引，走近了一些，看着它拍动着微小的翅膀。）
+
+<WordRelations
+  synonyms={["bloke", "chap", "guy", "avian", "fowl", "broad", "chick", "dame", "girl", "lass"]}
+  client:only
+/>

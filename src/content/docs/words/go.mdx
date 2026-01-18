@@ -1,13 +1,21 @@
 ---
 title: Go
-description: "Go 是一种非常常见的英语单词，是一个动词，最常见的意思是“去”，“进行”。例如“Go home”（回家）, 'Go to school'（去学校）。此外，“go”也有众多其它的含义，如“行走”，“运转”，“离开”等，用法也非常多样。"
+description: >-
+  Go 是一种非常常见的英语单词，是一个动词，最常见的意思是“去”，“进行”。例如“Go home”（回家）, 'Go to
+  school'（去学校）。此外，“go”也有众多其它的含义，如“行走”，“运转”，“离开”等，用法也非常多样。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Go" 是一种非常常见的英语单词，是一个动词，最常见的意思是“去”，“进行”。例如“Go home”（回家）, "Go to school"（去学校）。此外，“go”也有众多其它的含义，如“行走”，“运转”，“离开”等，用法也非常多样。
+
+<Pronunciation word="Go" uk="/ɡəʉ/" us="/ɡoʊ/" client:only />
 
 ### 列举例句
 
@@ -44,3 +52,9 @@ tableOfContents: false
 
 "Bob was excited to go to the zoo. He saw lions, giraffes, and monkeys. It was a thrilling go for him."
 （Bob 兴奋地去了动物园，他看到了狮子，长颈鹿和猴子。对他来说这是一个令人热血沸腾的旅程。）
+
+<WordRelations
+  synonyms={["attempt", "bash", "shot", "stab", "try", "energy", "flair", "liveliness", "perseverance", "pizzazz", "spirit", "verve", "vigour", "vim", "vitality", "zest", "gage", "measure", "green light", "mode"]}
+  antonyms={["freeze", "halt", "remain", "stand still", "stay", "stop"]}
+  client:only
+/>

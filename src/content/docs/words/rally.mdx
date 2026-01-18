@@ -1,13 +1,21 @@
 ---
 title: Rally
-description: "Rally 是一种多用途英语单词，一般用于描述一种集结或积极反弹的情况。它可以是名词也可以是动词。作为名词，它通常指一种公众集会，尤其是为了支持某种事业或抗议。作为动词，它常常用于描述发挥斗志、重振旗鼓或者资源、人员的集结。"
+description: >-
+  Rally
+  是一种多用途英语单词，一般用于描述一种集结或积极反弹的情况。它可以是名词也可以是动词。作为名词，它通常指一种公众集会，尤其是为了支持某种事业或抗议。作为动词，它常常用于描述发挥斗志、重振旗鼓或者资源、人员的集结。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Rally" 是一种多用途英语单词，一般用于描述一种集结或积极反弹的情况。它可以是名词也可以是动词。作为名词，它通常指一种公众集会，尤其是为了支持某种事业或抗议。作为动词，它常常用于描述发挥斗志、重振旗鼓或者资源、人员的集结。
+
+<Pronunciation word="Rally" uk="/ˈɹæ.li/" us="/ˈɹæ.li/" client:only />
 
 ### 举例
 
@@ -40,3 +48,9 @@ Rally 没有明显的词缀，但它可以与其他词汇组成复合词，如 "
 
 Jenna and the other students in her school started a rally against bullying. This led to a big change in their school environment.
 (詹娜和她的其他同学发起了一场反对欺凌的集会。 这导致了他们在学校环境中的大变化。)
+
+<WordRelations
+  synonyms={["muster", "bounce back", "rebound"]}
+  antonyms={["decline"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Layman
-description: "Layman 是一个名词，指的是在特定领域（尤其是专业或学术领域）缺乏专门知识或技能的人，用中文通常翻译为“外行人”。"
+description: Layman 是一个名词，指的是在特定领域（尤其是专业或学术领域）缺乏专门知识或技能的人，用中文通常翻译为“外行人”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Layman" 是一个名词，指的是在特定领域（尤其是专业或学术领域）缺乏专门知识或技能的人，用中文通常翻译为“外行人”。
+
+<Pronunciation word="Layman" uk="/ˈleɪmən/" us="/ˈleɪmən/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 Story: Jack always had an interest in architecture. Once, he eagerly stated his observations about a building's design to a group of architects. Noticing their puzzlement, he laughed and said, "Please pardon me, I'm just a layman trying to understand the complexities of your profession."
 
 故事：杰克总是对建筑设计有着浓厚的兴趣。一次，他向一群建筑师热切地描述他对一栋建筑设计的观察。当他注意到他们的困惑时，他笑了笑说：“请原谅我，我只是一个试图理解你们专业复杂性的外行人。”
+
+<WordRelations
+  antonyms={["expert", "professional", "specialist"]}
+  client:only
+/>

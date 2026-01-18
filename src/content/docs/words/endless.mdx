@@ -1,13 +1,19 @@
 ---
 title: Endless
-description: "Endless是一个形容词，代表没有终点的、无尽的或无休止的。"
+description: Endless是一个形容词，代表没有终点的、无尽的或无休止的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Endless"是一个形容词，代表没有终点的、无尽的或无休止的。
+
+<Pronunciation word="Endless" uk="/ˈɛndləs/" us="/ˈɛndləs/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ Once upon a time, there was a king who owned an endless field of gold. People fr
 曾经有一个国王，他拥有一片无尽的金色田野。人们从四面八方来看这个惊人的景象。
 
 这就是对"endless"的全面解析，希望对你有所帮助。
+
+<WordRelations
+  synonyms={["eternal", "infinite", "unlimited", "unending"]}
+  antonyms={["finite", "limited"]}
+  client:only
+/>

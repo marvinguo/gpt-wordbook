@@ -1,13 +1,19 @@
 ---
 title: Distant
-description: "Distant 是一个英语形容词，意为'遥远的，远离的，远处的'，也有'疏远的，冷淡的，不亲近的'的含义。"
+description: Distant 是一个英语形容词，意为'遥远的，远离的，远处的'，也有'疏远的，冷淡的，不亲近的'的含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Distant" 是一个英语形容词，意为"遥远的，远离的，远处的"，也有"疏远的，冷淡的，不亲近的"的含义。
+
+<Pronunciation word="Distant" uk="/ˈdɪstənt/" us="/ˈdɪstənt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 Tony always felt there was something distant about his father, like a mountain hidden in the clouds.（托尼总觉得他的父亲有些疏远，就像是藏在云里的山。）
+
+<WordRelations
+  synonyms={["aloof", "cold", "faraway"]}
+  client:only
+/>

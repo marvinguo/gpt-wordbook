@@ -1,13 +1,19 @@
 ---
 title: Recommend
-description: "Recommend是一个动词，原意是“推荐”，“建议”。可以用于建议某个人、地点、产品或事件，也可以用于建议某种行为、活动或方案。"
+description: Recommend是一个动词，原意是“推荐”，“建议”。可以用于建议某个人、地点、产品或事件，也可以用于建议某种行为、活动或方案。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Recommend"是一个动词，原意是“推荐”，“建议”。可以用于建议某个人、地点、产品或事件，也可以用于建议某种行为、活动或方案。
+
+<Pronunciation word="Recommend" uk="/ɹɛkəˈmɛnd/" us="/ɹɛkəˈmɛnd/" client:only />
 
 ### 列举例句
 
@@ -53,3 +59,8 @@ Recommend 的三单形式是 recommends, 过去式和过去分词形式则为 re
 One day, Mary discovered a beautiful garden. She fell in love with it and recommended it to her friends. "You must visit this garden," she said. "It's like a heaven on earth."
 
 某一天，玛丽发现了一个美丽的花园。她爱上了它，并向她的朋友们推荐。她说：“你一定要去这个花园，它就像是人间天堂。”
+
+<WordRelations
+  antonyms={["deprecate", "disapprove", "discourage", "disrecommend", "oppose"]}
+  client:only
+/>

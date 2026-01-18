@@ -1,13 +1,19 @@
 ---
 title: Register
-description: "Register作为动词，主要有以下几个含义:"
+description: 'Register作为动词，主要有以下几个含义:'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Register"作为动词，主要有以下几个含义:
+
+<Pronunciation word="Register" uk="/ˈɹɛdʒ.ɪs.tə/" us="/ˈɹɛdʒ.ɪs.tɚ/" client:only />
 
 1.  登记，注册 (例如，在一个会议，学校或酒店)
 2.  显示，记录 (例如，计分器，温度计或仪表盘)
@@ -51,3 +57,9 @@ Register 的过去式和过去分词形式为 registered，现在分词形式为
 ### 助记故事
 
 Lucy wanted to take a painting class, so she decided to register online. The website asked her to input her name and contact information into the register. (露西想参加一个绘画课程, 所以她决定在网上注册. 网站要求她在登记簿中输入她的姓名和联系方式。)
+
+<WordRelations
+  synonyms={["till", "enroll", "put down"]}
+  antonyms={["deregister", "unregister"]}
+  client:only
+/>

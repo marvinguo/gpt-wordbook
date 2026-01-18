@@ -1,13 +1,19 @@
 ---
 title: Descendant
-description: "词语 'descendant' 是一个名词，代表一个人的后裔或来自某个源头或起源的东西。它是描述直接或间接血统关系的常用词汇。"
+description: 词语 'descendant' 是一个名词，代表一个人的后裔或来自某个源头或起源的东西。它是描述直接或间接血统关系的常用词汇。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 词语 "descendant" 是一个名词，代表一个人的后裔或来自某个源头或起源的东西。它是描述直接或间接血统关系的常用词汇。
+
+<Pronunciation word="Descendant" uk="/dɪˈsɛndənt/" us="/dɪˈsɛndənt/" client:only />
 
 ### 列举例句
 
@@ -37,3 +43,9 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time in a faraway kingdom, a brave knight was celebrated for his deeds. Today, his descendant continues to uphold the family honor.（曾经在一个遥远的王国，一个勇敢的骑士因其事迹而被人们称赞。今天，他的后代继续维护家族的荣誉。）
+
+<WordRelations
+  synonyms={["afterbear", "offspring", "relative", "scion"]}
+  antonyms={["ancestor", "ascendant", "forebear", "ascendent", "ascending"]}
+  client:only
+/>

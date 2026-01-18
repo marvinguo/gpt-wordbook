@@ -1,13 +1,21 @@
 ---
 title: Discount
-description: "Discount 是一个英语单词，通常作为动词和名词使用。作为动词时，它有两种主要的含义。一是指在原价基础上减去一定的金额，也就是我们常说的'打折'。二是指对某事或某人轻视或忽视，就像我们说的'不把......放在眼里'。作为名词时，它指的是减价，或者是打折的金额。"
+description: >-
+  Discount
+  是一个英语单词，通常作为动词和名词使用。作为动词时，它有两种主要的含义。一是指在原价基础上减去一定的金额，也就是我们常说的'打折'。二是指对某事或某人轻视或忽视，就像我们说的'不把......放在眼里'。作为名词时，它指的是减价，或者是打折的金额。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Discount" 是一个英语单词，通常作为动词和名词使用。作为动词时，它有两种主要的含义。一是指在原价基础上减去一定的金额，也就是我们常说的"打折"。二是指对某事或某人轻视或忽视，就像我们说的"不把......放在眼里"。作为名词时，它指的是减价，或者是打折的金额。
+
+<Pronunciation word="Discount" uk="/dɪsˈkaʊnt/" us="/dɪsˈkaʊnt/" client:only />
 
 ### 列举例句
 
@@ -44,3 +52,9 @@ tableOfContents: false
 Tom went straight to the discount section as soon as he entered the store. He was always looking for a bargain.
 
 汤姆一进商店就直奔折扣区。他总是在寻找便宜货。
+
+<WordRelations
+  synonyms={["rebate", "reduction"]}
+  antonyms={["surcharge"]}
+  client:only
+/>

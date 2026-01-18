@@ -1,13 +1,21 @@
 ---
 title: Crude
-description: "Crude 是一个形容词，意思是粗糙的，简陋的，未经加工的，或者粗鲁的。它常常用来形容不精细，没有经过仔细研究或开发的事物。它也经常被用来形容石油，来表示它是一种未经过任何加工或精炼的石油。"
+description: >-
+  Crude
+  是一个形容词，意思是粗糙的，简陋的，未经加工的，或者粗鲁的。它常常用来形容不精细，没有经过仔细研究或开发的事物。它也经常被用来形容石油，来表示它是一种未经过任何加工或精炼的石油。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Crude" 是一个形容词，意思是粗糙的，简陋的，未经加工的，或者粗鲁的。它常常用来形容不精细，没有经过仔细研究或开发的事物。它也经常被用来形容石油，来表示它是一种未经过任何加工或精炼的石油。
+
+<Pronunciation word="Crude" uk="/kɹʉd/" us="/kɹuːd/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,9 @@ tableOfContents: false
 Back in a remote village, a crude wooden hut was the only shelter for Peter. The hut was built from the crude materials he found in the forest, but he called it home.
 
 在一个偏远的村庄，一座粗糙的木屋成为彼得唯一的庇护所。木屋是他在森林中找到的原始材料建造的，但他把它称作家。
+
+<WordRelations
+  synonyms={["raw", "blunt", "immature", "unripe", "obvious", "primitive"]}
+  antonyms={["processed", "refined"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Tap
-description: "Tap 是一个常用的英语单词，有多种释义。其基本的意思是'轻点'，'轻敲'，也指'水龙头'。此外，它还有抽取液体、采用资源等含义。"
+description: Tap 是一个常用的英语单词，有多种释义。其基本的意思是'轻点'，'轻敲'，也指'水龙头'。此外，它还有抽取液体、采用资源等含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Tap" 是一个常用的英语单词，有多种释义。其基本的意思是"轻点"，"轻敲"，也指"水龙头"。此外，它还有抽取液体、采用资源等含义。
+
+<Pronunciation word="Tap" uk="/tæp/" us="/tæp/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 
 In the silent night, she heard a tap on her door. It was a message from the outside world, reminding her that she was not alone.
 在寂静的夜晚，她听到有人在门上轻敲。这是来自外面的世界的信息，提醒她，她并不孤单。
+
+<WordRelations
+  synonyms={["bar", "taproom", "faucet", "handle", "spigot", "spout", "paracentesis", "eavesdrop"]}
+  client:only
+/>

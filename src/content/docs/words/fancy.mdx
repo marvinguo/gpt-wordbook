@@ -1,13 +1,19 @@
 ---
 title: Fancy
-description: "Fancy是一个多义词，既可以作为动词，也可以作为名词，或者形容词使用。"
+description: Fancy是一个多义词，既可以作为动词，也可以作为名词，或者形容词使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fancy"是一个多义词，既可以作为动词，也可以作为名词，或者形容词使用。
+
+<Pronunciation word="Fancy" uk="/ˈfæn.si/" us="/ˈfæn.si/" client:only />
 
 1.  作为动词时，"fancy" 的意思是“喜欢”或者“想象”；
 2.  作为名词时，"fancy" 的意思是“喜好”、“爱好”或者“想象”；
@@ -42,3 +48,9 @@ tableOfContents: false
 ### 助记故事
 
 Tom fancied a fancy dress in a boutique. It was red with sparkles. He knew Sarah, his girlfriend, would look lovely in it. (Tom 在精品店里看上了一件华丽的红色亮片裙。他知道他的女朋友 Sarah 穿上它一定会很漂亮。)
+
+<WordRelations
+  synonyms={["conception", "idea", "thought", "hobby", "impression", "decorative", "ornate", "high-end", "highfalutin"]}
+  antonyms={["plain", "simple"]}
+  client:only
+/>

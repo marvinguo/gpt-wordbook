@@ -1,13 +1,19 @@
 ---
 title: Shanghai
-description: "Shanghai 是一种地名，指的是中国的一座直辖市，世界著名的国际大都市，同时也是中国的经济、金融、贸易和航运的中心。"
+description: Shanghai 是一种地名，指的是中国的一座直辖市，世界著名的国际大都市，同时也是中国的经济、金融、贸易和航运的中心。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Shanghai 是一种地名，指的是中国的一座直辖市，世界著名的国际大都市，同时也是中国的经济、金融、贸易和航运的中心。
+
+<Pronunciation word="Shanghai" uk="/ˌʃæŋˈhaɪ/" us="/ˈʃæŋ.haɪ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ Shanghai 是专有名词，不会有其他的变形和固定搭配。
 ### 助记故事
 
 Lucy decided to go to Shanghai for her vacation. She was amazed by the modern skyscrapers and traditional temples balanced together. She loved the local cuisine and the vibrant atmosphere of the city. (Lucy 决定去上海度假。她被这个城市现代的摩天大楼和传统的寺庙相得益彰的景象吸引，她喜欢当地的美食和城市的活力气氛。)
+
+<WordRelations
+  synonyms={["press-gang"]}
+  client:only
+/>

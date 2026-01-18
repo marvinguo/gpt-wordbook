@@ -1,13 +1,19 @@
 ---
 title: Trick
-description: "Trick 是一个英语单词，表示欺骗，诡计，或者技巧的意思。它可以用作名词和动词。"
+description: Trick 是一个英语单词，表示欺骗，诡计，或者技巧的意思。它可以用作名词和动词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Trick" 是一个英语单词，表示欺骗，诡计，或者技巧的意思。它可以用作名词和动词。
+
+<Pronunciation word="Trick" uk="/tɹɪk/" us="/tɹɪk/" client:only />
 
 举例例句:
 
@@ -41,3 +47,8 @@ tableOfContents: false
 
 "Tom used a trick to convince Jerry to swap his cheese for a fake gold coin. Little did Jerry know, it was only a worthless piece of metal."
 (汤姆用一种把戏劝服杰瑞用他的奶酪来交换一个假金币。杰瑞不知道，那块金币只是一块毫无价值的金属。)
+
+<WordRelations
+  synonyms={["john", "shift", "illusion", "magic trick", "sleight of hand", "artifice", "con", "gambit", "ploy", "rip-off", "dupe", "fool", "gull", "have", "hoodwink", "pull the wool over someone's eyes", "rip off", "mod"]}
+  client:only
+/>

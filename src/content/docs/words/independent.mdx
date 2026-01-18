@@ -1,13 +1,19 @@
 ---
 title: Independent
-description: "Independent 是一个英语单词，用作形容词，指的是自由自在，不受别人控制，有能力自己思考，做事和做出决定的意思。例如：“他以独立的思考方式而著名”。"
+description: Independent 是一个英语单词，用作形容词，指的是自由自在，不受别人控制，有能力自己思考，做事和做出决定的意思。例如：“他以独立的思考方式而著名”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 'Independent' 是一个英语单词，用作形容词，指的是自由自在，不受别人控制，有能力自己思考，做事和做出决定的意思。例如：“他以独立的思考方式而著名”。
+
+<Pronunciation word="Independent" uk="/ɪndɪˈpɛndənt/" us="/ɪndɪˈpɛndənt/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ tableOfContents: false
 John always relies on his parents. But one day, he decided to be independent. He started working part-time and learning to solve things by himself.
 
 约翰总是依赖他的父母。但是有一天，他决定变得独立。他开始做兼职工作并学习自己解决问题。
+
+<WordRelations
+  synonyms={["autonomous", "free", "selfstanding"]}
+  antonyms={["contingent", "dependent"]}
+  client:only
+/>

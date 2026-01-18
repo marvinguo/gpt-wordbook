@@ -1,13 +1,19 @@
 ---
 title: Niece
-description: "Niece 是一个英文名词，指的是你的兄弟姐妹的女儿。它的男性对应词是 'nephew'，指的是你的兄弟姐妹的儿子。"
+description: Niece 是一个英文名词，指的是你的兄弟姐妹的女儿。它的男性对应词是 'nephew'，指的是你的兄弟姐妹的儿子。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Niece" 是一个英文名词，指的是你的兄弟姐妹的女儿。它的男性对应词是 "nephew"，指的是你的兄弟姐妹的儿子。
+
+<Pronunciation word="Niece" uk="/niːs/" us="/nis/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 My niece, Lily, visited me yesterday. She brought along her new pet puppy. Despite the mess it made, her happiness was infectious.
 
 我的侄女莉莉昨天来看我。她带来了她的新宠物小狗。尽管它搞得一团糟，但她的快乐却具有感染力。
+
+<WordRelations
+  antonyms={["aunt", "uncle", "nephew"]}
+  client:only
+/>

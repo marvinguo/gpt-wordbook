@@ -1,13 +1,19 @@
 ---
 title: Here
-description: "Here 是一个副词，主要用来说明人或者物体在说话的人附近或某一指定地点。'Here' 还可以用来引导表示建议、提议或命令的句子。"
+description: Here 是一个副词，主要用来说明人或者物体在说话的人附近或某一指定地点。'Here' 还可以用来引导表示建议、提议或命令的句子。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Here" 是一个副词，主要用来说明人或者物体在说话的人附近或某一指定地点。"Here" 还可以用来引导表示建议、提议或命令的句子。
+
+<Pronunciation word="Here" uk="/hɪə(ɹ)/" us="/hɪɹ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Once a boy lost his way in a forest. He said, "Where am I? I need to find my way back home." Suddenly, he saw a sign saying, "You're here," with a map. He quickly found his way home.
 
 曾经，一个男孩在森林里迷失了方向。他说："我在哪里？我需要找到回家的路。"突然，他看到一个标志，上面写着："你在这里，"还有一张地图。他很快就找到了回家的路。
+
+<WordRelations
+  synonyms={["right here"]}
+  client:only
+/>

@@ -1,13 +1,20 @@
 ---
 title: Freeway
-description: "Freeway是一个英语单词，来源于美式英语，指的是高速公路，一种设计用于高速行驶的特殊公路，实行车辆分流，通常设有多个车道，并且没有红绿灯或路口，通行效率高。"
+description: >-
+  Freeway是一个英语单词，来源于美式英语，指的是高速公路，一种设计用于高速行驶的特殊公路，实行车辆分流，通常设有多个车道，并且没有红绿灯或路口，通行效率高。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Freeway"是一个英语单词，来源于美式英语，指的是高速公路，一种设计用于高速行驶的特殊公路，实行车辆分流，通常设有多个车道，并且没有红绿灯或路口，通行效率高。
+
+<Pronunciation word="Freeway" uk="/ˈfɹiː.wei/" us="/ˈfɹiː.wei/" client:only />
 
 ### 列举例句
 
@@ -39,3 +46,8 @@ tableOfContents: false
 
 One day, I decided to take the freeway to reach LA from Seattle. What should be a long but hassle-free journey turned into a quite an adventure due to unexpected weather changes.
 （有一天，我决定走高速公路从西雅图去洛杉矶。本应是一段漫长但无忧无虑的旅程，由于意料之外的天气变化，变成了一场小冒险。）
+
+<WordRelations
+  synonyms={["fwy"]}
+  client:only
+/>

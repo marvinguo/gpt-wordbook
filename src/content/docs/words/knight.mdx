@@ -1,13 +1,21 @@
 ---
 title: Knight
-description: "Knight 是英语中的一个单词，主要有两种用法：作为名词，它表示一种古代社会的封建地位，就像是中世纪的勇士或者贵族。在象棋中，'knight'也是'跳马'的意思。"
+description: >-
+  Knight
+  是英语中的一个单词，主要有两种用法：作为名词，它表示一种古代社会的封建地位，就像是中世纪的勇士或者贵族。在象棋中，'knight'也是'跳马'的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Knight" 是英语中的一个单词，主要有两种用法：作为名词，它表示一种古代社会的封建地位，就像是中世纪的勇士或者贵族。在象棋中，"knight"也是"跳马"的意思。
+
+<Pronunciation word="Knight" uk="/naɪt/" us="/naɪt/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 In the quiet village, the only knight, John, rode his horse under the starry night, guarding peace. (在宁静的村庄，唯一的骑士约翰在繁星下骑着他的马，守护着和平。)
+
+<WordRelations
+  synonyms={["horse"]}
+  client:only
+/>

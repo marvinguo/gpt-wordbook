@@ -1,13 +1,21 @@
 ---
 title: Next
-description: "Next是一个英语单词，作为形容词时，表示'下一个'或'接下来的'；作为副词时，表示'接下来'；作为介词时，意味着'在...之后'；此外，'next to'是一个常见的词组，意思是'靠近'或'紧邻'。"
+description: >-
+  Next是一个英语单词，作为形容词时，表示'下一个'或'接下来的'；作为副词时，表示'接下来'；作为介词时，意味着'在...之后'；此外，'next
+  to'是一个常见的词组，意思是'靠近'或'紧邻'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Next"是一个英语单词，作为形容词时，表示"下一个"或"接下来的"；作为副词时，表示"接下来"；作为介词时，意味着"在...之后"；此外，"next to"是一个常见的词组，意思是"靠近"或"紧邻"。
+
+<Pronunciation word="Next" uk="/nɛkst/" us="/nɛkst/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 A little bee was flitting from flower to flower. The next moment, it landed on my hand, surprising me. (一只小蜜蜂在花朵间忽忽悠悠。下一刻，它降落在我的手上，使我大吃一惊。)
+
+<WordRelations
+  antonyms={["last", "this", "previous", "previously"]}
+  client:only
+/>

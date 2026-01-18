@@ -1,13 +1,20 @@
 ---
 title: Quote
-description: "quote这个单词在英语中具有多种含义，最常见的用法是作为动词，表示“引用，援引”。例如，你可能会从书中或者文章中引用一段文字或者一句话。此外，“quote”还可以作为名词，表示“报价”或者“行情”。"
+description: >-
+  quote这个单词在英语中具有多种含义，最常见的用法是作为动词，表示“引用，援引”。例如，你可能会从书中或者文章中引用一段文字或者一句话。此外，“quote”还可以作为名词，表示“报价”或者“行情”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “quote”这个单词在英语中具有多种含义，最常见的用法是作为动词，表示“引用，援引”。例如，你可能会从书中或者文章中引用一段文字或者一句话。此外，“quote”还可以作为名词，表示“报价”或者“行情”。
+
+<Pronunciation word="Quote" uk="/kwəʊt/" us="/kwəʊt/" client:only />
 
 ### 列举例句
 
@@ -47,3 +54,9 @@ tableOfContents: false
 
 Jim was preparing for his graduation speech. He started by saying, "I'll quote a line from Albert Einstein: 'Imagination is more important than knowledge'." The audience applauded wildly.
 (吉姆正在准备他的毕业演讲。他开始说道：“我将引用艾伯特·爱因斯坦的一句话：‘想象力比知识更重要。’” 观众疯狂地鼓掌。)
+
+<WordRelations
+  synonyms={["cite"]}
+  antonyms={["end quote", "unquote"]}
+  client:only
+/>

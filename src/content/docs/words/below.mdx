@@ -1,13 +1,19 @@
 ---
 title: Below
-description: "Below 是一个英文单词，常用作副词或介词。作为副词，意为'在下面'或'下列'，作为介词则通常表示'下于'或'低于', 用于表示一种相对地位或位置的概念。"
+description: 'Below 是一个英文单词，常用作副词或介词。作为副词，意为''在下面''或''下列''，作为介词则通常表示''下于''或''低于'', 用于表示一种相对地位或位置的概念。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Below" 是一个英文单词，常用作副词或介词。作为副词，意为"在下面"或"下列"，作为介词则通常表示"下于"或"低于", 用于表示一种相对地位或位置的概念。
+
+<Pronunciation word="Below" uk="/bɪˈləʊ/" us="/bəˈloʊ/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 There is a secret world below the city, unseen by those above. 在城市之下，有一个秘密的世界，上面的人们看不见。
 
 在城市之下，有一个秘密的世界，上面的人们看不见。
+
+<WordRelations
+  synonyms={["downwards", "beneath", "under", "underneath", "downstairs", "downstream"]}
+  antonyms={["upwards", "aloft", "overhead", "up", "upstairs", "upstream", "above", "over"]}
+  client:only
+/>

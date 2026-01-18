@@ -1,13 +1,19 @@
 ---
 title: Could
-description: "Could 是一个模态动词，表示过去能力、请求许可、可能性等情境。"
+description: Could 是一个模态动词，表示过去能力、请求许可、可能性等情境。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Could" 是一个模态动词，表示过去能力、请求许可、可能性等情境。
+
+<Pronunciation word="Could" uk="/kʊd/" us="/kʊd/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 Mary went on a time travel adventure. Back in the 80s, she could see her parents as teenagers.
 
 玛丽进行了一次时光旅行。在 80 年代，她还看到她的父母像十几岁的孩子一样。
+
+<WordRelations
+  synonyms={["be able to", "cognize", "grok", "ken", "may"]}
+  antonyms={["can't", "cannot", "can’t"]}
+  client:only
+/>

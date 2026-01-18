@@ -1,13 +1,19 @@
 ---
 title: Symptom
-description: "Symptom是一个名词，指的是表示疾病、疾患或不健康的状态的任何特征或迹象。'Symptom'通常用于医学领域，同时也可以指一个问题或事物存在的迹象。"
+description: Symptom是一个名词，指的是表示疾病、疾患或不健康的状态的任何特征或迹象。'Symptom'通常用于医学领域，同时也可以指一个问题或事物存在的迹象。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Symptom"是一个名词，指的是表示疾病、疾患或不健康的状态的任何特征或迹象。"Symptom"通常用于医学领域，同时也可以指一个问题或事物存在的迹象。
+
+<Pronunciation word="Symptom" uk="/ˈsɪm(p)təm/" us="/ˈsɪm(p)təm/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 Danny woke up one morning feeling not quite right. A sneeze here, a cough there - he was showing symptoms of a cold. He decided to rest, hoping he'd feel better soon.
 达尼一早醒来感觉有些不适。这儿打个喷嚏，那儿咳嗽一下 - 他表现出了感冒的症状。他决定休息，希望自己能尽快恢复过来。
+
+<WordRelations
+  synonyms={["indication", "manifestation", "sign", "signal"]}
+  antonyms={["cause"]}
+  client:only
+/>

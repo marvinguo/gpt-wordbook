@@ -1,13 +1,19 @@
 ---
 title: Dog
-description: "Dog 是英语中的一个非常常见的词，它的中文意思是“狗”。因为狗在许多世界各地的文化中都起着重要角色，所以这个词在英文中多种语境中被广泛使用。"
+description: Dog 是英语中的一个非常常见的词，它的中文意思是“狗”。因为狗在许多世界各地的文化中都起着重要角色，所以这个词在英文中多种语境中被广泛使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Dog" 是英语中的一个非常常见的词，它的中文意思是“狗”。因为狗在许多世界各地的文化中都起着重要角色，所以这个词在英文中多种语境中被广泛使用。
+
+<Pronunciation word="Dog" uk="/dɒɡ/" us="/dɔɡ/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 ### 助记故事
 
 Tom had a small dog named Max. He took Max to the park every day. They played fetch with his yellow ball. (汤姆有一只叫马克斯的小狗。他每天都带马克斯去公园玩。他们用黄色的球一起玩投掷游戏。)
+
+<WordRelations
+  synonyms={["Canis canis", "Canis domesticus", "Canis familiaris", "canine", "domestic dog", "hound", "sire", "stud", "bloke", "chap", "dude", "fellow", "guy", "man", "click", "detent", "pawl", "andiron", "dogiron", "firedog"]}
+  client:only
+/>

@@ -1,13 +1,21 @@
 ---
 title: Box
-description: "Box是一个英语单词，主要的意思是盒子或箱子，用以放置或储存物品。除此之外，'box'也有一些其他的含义,例如在体育类里，box 可以指拳击比赛，或者在交通类则可以指专供汽车停放或操作的区域。"
+description: >-
+  Box是一个英语单词，主要的意思是盒子或箱子，用以放置或储存物品。除此之外，'box'也有一些其他的含义,例如在体育类里，box
+  可以指拳击比赛，或者在交通类则可以指专供汽车停放或操作的区域。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Box"是一个英语单词，主要的意思是盒子或箱子，用以放置或储存物品。除此之外，"box"也有一些其他的含义,例如在体育类里，box 可以指拳击比赛，或者在交通类则可以指专供汽车停放或操作的区域。
+
+<Pronunciation word="Box" uk="/bɒks/" us="/bɑks/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 
 There once was a magical box. Anyone who opened the box could see the most precious memory of their life.
 曾经有一个神奇的盒子。任何打开这个盒子的人都可以看到他们生命中最珍贵的回忆。
+
+<WordRelations
+  synonyms={["computer", "machine", "TV", "telly", "tube", "boxful", "loge", "case", "package", "box seat", "text box", "cup", "shelter", "box up", "embox", "encase", "pack", "pack up"]}
+  antonyms={["unbox", "uncase", "unpack"]}
+  client:only
+/>

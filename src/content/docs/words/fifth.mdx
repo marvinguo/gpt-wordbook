@@ -1,13 +1,19 @@
 ---
 title: Fifth
-description: "Fifth这个单词在中文中的含义是“第五”。"
+description: Fifth这个单词在中文中的含义是“第五”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fifth"这个单词在中文中的含义是“第五”。
+
+<Pronunciation word="Fifth" uk="/fɪft/" us="/fɪft/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 He lived on the fifth floor and every day he climbed up the stairs, never taking the elevator.
 他住在五楼，每天都爬楼梯上楼，从不坐电梯。
+
+<WordRelations
+  synonyms={["⅕", "5th", "V", "Vth"]}
+  client:only
+/>

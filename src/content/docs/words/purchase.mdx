@@ -1,13 +1,19 @@
 ---
 title: Purchase
-description: "Purchase是一个英文单词，作为动词时，意思是“购买”，作为名词时，意思是“购买的物品”。"
+description: Purchase是一个英文单词，作为动词时，意思是“购买”，作为名词时，意思是“购买的物品”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Purchase"是一个英文单词，作为动词时，意思是“购买”，作为名词时，意思是“购买的物品”。
+
+<Pronunciation word="Purchase" uk="/ˈpɜːtʃəs/" us="/ˈpɝtʃəs/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 Once upon a time, there was a little girl who wanted to purchase a beautiful dress for her mother's birthday. (从前，有个小女孩想要购买一件漂亮的裙子，作为她妈妈的生日礼物。)
 
 故事翻译：从前，有个小女孩想要购买一件漂亮的裙子，作为她妈妈的生日礼物。
+
+<WordRelations
+  synonyms={["contact", "grip", "hold", "foothold", "support", "procure"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Frequent
-description: "Frequent是一个英语单词，它的词义是“常见的”或“频繁的”。"
+description: Frequent是一个英语单词，它的词义是“常见的”或“频繁的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Frequent"是一个英语单词，它的词义是“常见的”或“频繁的”。
+
+<Pronunciation word="Frequent" uk="/ˈfɹiː.kwənt/" us="/ˈfɹiː.kwənt/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ Frequent 的词根是“-quent”。它来自于拉丁语的词根"quent", 意�
 Mike frequently visits the nearby park to exercise. He believes in the frequency of exercise to maintain good health.
 
 (麦克经常去附近的公园锻炼。他相信保持良好的健康需要经常锻炼。)
+
+<WordRelations
+  synonyms={["continual", "recurring", "regular", "steady"]}
+  antonyms={["rare", "uncommon"]}
+  client:only
+/>

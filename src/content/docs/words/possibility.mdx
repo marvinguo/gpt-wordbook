@@ -1,13 +1,19 @@
 ---
 title: Possibility
-description: "Possibility是一个名词，意思是'可能性'。它指的是发生或存在的概率或机会。"
+description: Possibility是一个名词，意思是'可能性'。它指的是发生或存在的概率或机会。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Possibility"是一个名词，意思是"可能性"。它指的是发生或存在的概率或机会。
+
+<Pronunciation word="Possibility" uk="/ˌpɒsɪˈbɪliti/" us="/ˌpɑsɪˈbɪliti/" client:only />
 
 ### 列举例句
 
@@ -50,3 +56,9 @@ tableOfContents: false
 Jane looked at the mountainous task ahead of her. With her determination, she thought, "There's a possibility I can finish this in a week." So, she rolled up her sleeves and started working.
 
 简单来说，简直看着她面前的巨大任务。她下定决心，想到"我可能一周内就能完成这个任务。"于是，她卷起袖子，开始工作。
+
+<WordRelations
+  synonyms={["contingency", "choice", "option"]}
+  antonyms={["impossibility"]}
+  client:only
+/>

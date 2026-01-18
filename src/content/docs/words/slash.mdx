@@ -1,13 +1,19 @@
 ---
 title: Slash
-description: "Slash这个单词最常用的意思是'切割'或'削减',有时也可以用来表示斜杠/。"
+description: 'Slash这个单词最常用的意思是''切割''或''削减'',有时也可以用来表示斜杠/。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Slash"这个单词最常用的意思是"切割"或"削减",有时也可以用来表示斜杠/。
+
+<Pronunciation word="Slash" uk="/slaʃ/" us="/slaʃ/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ Adjective: Slashing (锐利的, 斩断的)
 Once a diligent boy decided to slash his leisure time to prepare for the upcoming major examination.
 
 曾经有一个勤奋的男孩决定削减他的休闲时间来为即将到来的重要考试做准备。
+
+<WordRelations
+  synonyms={["gash", "bar", "diagonal", "diagonal mark", "foreslash", "forward slash", "forward stroke", "front slash", "frontslash", "oblique", "oblique dash", "oblique mark", "oblique stroke", "scratch comma", "separatrix", "shilling mark", "slant", "slant line", "slash mark", "solidus"]}
+  antonyms={["backslash"]}
+  client:only
+/>

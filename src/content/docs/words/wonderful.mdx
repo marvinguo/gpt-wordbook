@@ -1,13 +1,19 @@
 ---
 title: Wonderful
-description: "Wonderful 是一个形容词，意思是极好的、令人愉快的，或者非常令人满意的。"
+description: Wonderful 是一个形容词，意思是极好的、令人愉快的，或者非常令人满意的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wonderful" 是一个形容词，意思是极好的、令人愉快的，或者非常令人满意的。
+
+<Pronunciation word="Wonderful" uk="/ˈwʌn.də.fl/" us="/ˈwʌn.dɚ.fl̩/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 "Every year, Linda looks forward to the wonderful cherry blossom season. When the flowers fall like snow, she feels a sense of wonder that no words can describe."（琳达每年都期待美妙的樱花季。当花瓣像雪花一样落下时，她心中充满无法用言语形容的惊奇。）
+
+<WordRelations
+  synonyms={["amazing", "astonishing", "fantastic", "frabjous", "great", "incredible", "marvelous", "mint"]}
+  antonyms={["horrible", "terrible"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Cloth
-description: "Cloth 是个名词，主要指织物，特别是用于制作衣物的。"
+description: Cloth 是个名词，主要指织物，特别是用于制作衣物的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Cloth" 是个名词，主要指织物，特别是用于制作衣物的。
+
+<Pronunciation word="Cloth" uk="/klɑθ/" us="/klɔθ/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 Once upon a time, a seamstress received a magical cloth. The cloth could change its color according to the wearer's mood. She used it to design a dress, which became a big hit.
 
 从前，有个女裁缝收到了一块神奇的布料。这块布可以根据穿它的人的心情变色。她用它设计出了一件裙子，一炮而红。
+
+<WordRelations
+  synonyms={["material", "stuff"]}
+  client:only
+/>

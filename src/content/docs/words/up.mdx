@@ -1,13 +1,21 @@
 ---
 title: Up
-description: "up 是一个复杂的英语单词，它有许多不同的用法。在最基本的层面上，'up' 是一个描述方向的副词和介词，表明某物往更高的位置移动或到达更高的位置。此外，'up' 还常常用在短语中，以表达多种抽象的概念。"
+description: >-
+  up 是一个复杂的英语单词，它有许多不同的用法。在最基本的层面上，'up'
+  是一个描述方向的副词和介词，表明某物往更高的位置移动或到达更高的位置。此外，'up' 还常常用在短语中，以表达多种抽象的概念。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "up" 是一个复杂的英语单词，它有许多不同的用法。在最基本的层面上，"up" 是一个描述方向的副词和介词，表明某物往更高的位置移动或到达更高的位置。此外，"up" 还常常用在短语中，以表达多种抽象的概念。
+
+<Pronunciation word="Up" uk="/ap/" us="/ʌp/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 
 John woke up early in the morning. He jumped up from his bed and picked up his running shoes. Today was the day he would climb up to the top of the hill.
 约翰早上醒得很早。他从床上跳起来，捡起他的运动鞋。今天是他攀登山顶的日子。
+
+<WordRelations
+  synonyms={["turn up", "alley oop"]}
+  antonyms={["down"]}
+  client:only
+/>

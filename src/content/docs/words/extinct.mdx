@@ -4,12 +4,18 @@ sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义"Extinct"是一个形容词，主要用来形容已经灭绝的生物或者事物，例如灭绝的物种、文化等。
 
 ### 列举例句
 
 1.  The dinosaurs became extinct millions of years ago.
     恐龙在几百万年前就灭绝了。
+
+<Pronunciation word="Extinct" uk="/ɛkˈstɪŋkt/" us="/ɛkˈstɪŋkt/" client:only />
 
 2.  Some languages become extinct when the last person who speaks them dies.
     当最后一个会说某种语言的人去世时，这种语言就会灭绝。
@@ -31,3 +37,9 @@ tableOfContents: false
 
 In the vast wilderness, a mammoth roared for the last time. From that moment, mammoths became extinct.
 在辽阔的荒野上，一头猛犸象最后一次发出咆哮。从那一刻起，猛犸象就灭绝了。
+
+<WordRelations
+  synonyms={["dead"]}
+  antonyms={["extant", "burning", "active", "dormant"]}
+  client:only
+/>

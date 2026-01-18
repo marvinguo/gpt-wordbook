@@ -1,13 +1,19 @@
 ---
 title: Save
-description: "Save是一个英语动词，主要含有两个基本词义。"
+description: Save是一个英语动词，主要含有两个基本词义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Save"是一个英语动词，主要含有两个基本词义。
+
+<Pronunciation word="Save" uk="/seɪv/" us="/seɪv/" client:only />
 
 1.  保存，存储：这个意思一般用在我们想保留一些东西时，比如数据、食物等。
     例如：Save your work before you leave. (在你离开之前保存你的工作。)
@@ -50,3 +56,8 @@ tableOfContents: false
 A little girl, Kathy, got trapped in a cave. She was scared and started to cry. Then, a brave young man heard her cry and came to save her. He guided her out of the cave safely. Kathy was thankful to her savior.
 
 一个小女孩,凯茜,被困在一个山洞里。她感到害怕并开始哭泣。然后，一个勇敢的年轻人听到了她的哭声并来救她。他引领她安全地走出了山洞。凯茜对她的救命恩人非常感激。
+
+<WordRelations
+  synonyms={["barring", "except for", "save for"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Flash
-description: "Flash 是一个常用英语单词，主要有两种含义：一是表示 '闪光'，一是表示 '瞬间'。"
+description: Flash 是一个常用英语单词，主要有两种含义：一是表示 '闪光'，一是表示 '瞬间'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Flash" 是一个常用英语单词，主要有两种含义：一是表示 "闪光"，一是表示 "瞬间"。
+
+<Pronunciation word="Flash" uk="/flæʃ/" us="/flæʃ/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 
 There was a flash of light in the dark cave, revealing a hidden treasure. Everyone was amazed and speechless in that moment.
 (洞穴里突然闪过一道光亮，显露出隐藏的宝藏。每个人都被当下的情景惊呆了，一时无言。)
+
+<WordRelations
+  synonyms={["gleam", "glint", "molding flash", "moulding flash", "beep"]}
+  antonyms={["aeon"]}
+  client:only
+/>

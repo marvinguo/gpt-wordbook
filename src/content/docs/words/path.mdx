@@ -1,13 +1,21 @@
 ---
 title: Path
-description: "Path 是一个英语名词，用来表示从一个地方到另一个地方的路或通道。例如， 'I walked along the forest path' (我沿着森林小径走过)。"
+description: >-
+  Path 是一个英语名词，用来表示从一个地方到另一个地方的路或通道。例如， 'I walked along the forest path'
+  (我沿着森林小径走过)。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Path" 是一个英语名词，用来表示从一个地方到另一个地方的路或通道。例如， "I walked along the forest path" (我沿着森林小径走过)。
+
+<Pronunciation word="Path" uk="[pʰɑːθ]" us="[pʰeəθ]" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,8 @@ Path 是名词，其复数形式为"paths" (路，路径)。
 
 Once upon a time, there was a hidden path in the forest leading to an ancient castle. The path was covered with fallen leaves and often used by animals. Only brave adventurers dared to venture along it.
 (曾经有一段时间，森林中隐藏着一条通往古老城堡的路径。这条小径上覆盖着落叶，经常被动物使用。只有勇敢的冒险者敢于冒险沿着它前进。)
+
+<WordRelations
+  synonyms={["track", "trail"]}
+  client:only
+/>

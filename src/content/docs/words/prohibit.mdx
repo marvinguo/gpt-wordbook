@@ -1,13 +1,19 @@
 ---
 title: Prohibit
-description: "词义：'Prohibit'是一个动词，意思是“禁止”或“阻止”。通常用于表示不允许某种行为或活动的法律或规则。"
+description: 词义：'Prohibit'是一个动词，意思是“禁止”或“阻止”。通常用于表示不允许某种行为或活动的法律或规则。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 词义："Prohibit"是一个动词，意思是“禁止”或“阻止”。通常用于表示不允许某种行为或活动的法律或规则。
+
+<Pronunciation word="Prohibit" uk="/pɹəʊˈhɪbɪt/" us="/pɹoʊˈhɪbɪt/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,9 @@ Prohibit 这个词在 14 世纪从拉丁文 prohibitus 发展而来，原意为�
 ### 助记故事
 
 The new law was passed to prohibit the consumption of alcohol in public parks. Anyone found violating it would be fined heavily. (新的法律被通过，以禁止在公共公园饮酒。任何被发现违反此法的人都将被重罚。）
+
+<WordRelations
+  synonyms={["ban", "disallow", "forbid"]}
+  antonyms={["allow", "authorize"]}
+  client:only
+/>

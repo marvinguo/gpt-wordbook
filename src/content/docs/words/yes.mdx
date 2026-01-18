@@ -1,13 +1,19 @@
 ---
-title: "Yes"
-description: "Yes 是一个英语的基本词汇，经常用来表示同意或确认。它可以用来回复一般疑问句，表示肯定的答复或对命令的确认。"
+title: 'Yes'
+description: Yes 是一个英语的基本词汇，经常用来表示同意或确认。它可以用来回复一般疑问句，表示肯定的答复或对命令的确认。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Yes" 是一个英语的基本词汇，经常用来表示同意或确认。它可以用来回复一般疑问句，表示肯定的答复或对命令的确认。
+
+<Pronunciation word="Yes" uk="/jɛs/" us="/jɛs/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 John was hesitant about the decision, "Will you marry me, Emily?" Emily didn't hesitate, nodded and said, "Yes, I will."
 
 约翰对决定犹豫不决，"你愿意嫁给我吗，艾米丽?"艾米丽毫不犹豫地点头说："是的，我愿意。"
+
+<WordRelations
+  synonyms={["aye", "nod", "yea", "agree", "consent"]}
+  antonyms={["nay", "no"]}
+  client:only
+/>

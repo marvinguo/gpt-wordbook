@@ -1,13 +1,19 @@
 ---
 title: Seagull
-description: "- Seagull 是一个英文单词，它的本意是海鸥。常见于海洋、湖泊附近，多数种类属于大型或中型鸟类。"
+description: '- Seagull 是一个英文单词，它的本意是海鸥。常见于海洋、湖泊附近，多数种类属于大型或中型鸟类。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - Seagull 是一个英文单词，它的本意是海鸥。常见于海洋、湖泊附近，多数种类属于大型或中型鸟类。
+
+<Pronunciation word="Seagull" uk="/ˈsiː.ɡʌl/" us="/ˈsiː.ɡʌl/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 - 一个名叫贝拉的海鸥优雅地从天空俯冲而下，降落在海滩上，啄食我们野餐剩下的面包屑。
 
 以上是关于“seagull”的全部解析，希望对您有所帮助。
+
+<WordRelations
+  synonyms={["gull", "mew"]}
+  client:only
+/>

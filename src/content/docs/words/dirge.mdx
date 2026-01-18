@@ -1,14 +1,20 @@
 ---
-title: "Dirge"
-description: "Dirge 指哀歌、挽歌、为死者朗诵的诗或歌。"
+title: Dirge
+description: Dirge 指哀歌、挽歌、为死者朗诵的诗或歌。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Dirge** 是一个名词。形容那种节奏缓慢、气氛沉重、在葬礼等悲伤场合演奏或演唱的音乐。
+
+<Pronunciation word="Dirge" uk="/dɜːdʒ/" us="/dɝdʒ/" client:only />
 
 ### 列举例句
 
@@ -29,3 +35,7 @@ tableOfContents: false
 The wind howling through the trees sounded like a mournful dirge.
 (穿过树林的呼啸风声听起来就像一首哀伤的挽歌。)
 
+<WordRelations
+  synonyms={["coronach", "elegy", "lament", "requiem", "threnody"]}
+  client:only
+/>

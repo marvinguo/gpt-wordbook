@@ -1,13 +1,19 @@
 ---
 title: Witty
-description: "Witty 是一个形容词，用于描述一种聪明并富有幽默感的特性。例如，名人通常用快速且有趣的回答来展现他们的'witty'特质。"
+description: Witty 是一个形容词，用于描述一种聪明并富有幽默感的特性。例如，名人通常用快速且有趣的回答来展现他们的'witty'特质。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Witty" 是一个形容词，用于描述一种聪明并富有幽默感的特性。例如，名人通常用快速且有趣的回答来展现他们的"witty"特质。
+
+<Pronunciation word="Witty" uk="/ˈwɪti/" us="/ˈwɪti/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 One day, a witty painter was commissioned to draw a living room. Instead of just filling the canvas with furniture, he painted a whimsical party of tiny animals in the room, tickling everyone's humor.
 
 有一天，一个机智的画家接到了为客厅画一幅画的委托。他并没有简单地在画布上填满家具，而是在房间里画了一群缤纷的小动物开派对，让每个人都觉得很有趣。
+
+<WordRelations
+  synonyms={["facetious", "humorous", "jocose", "jocular", "lively", "quick"]}
+  client:only
+/>

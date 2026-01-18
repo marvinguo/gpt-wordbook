@@ -1,13 +1,19 @@
 ---
 title: Accept
-description: "Accept是一个动词，主要有两个基本含义："
+description: Accept是一个动词，主要有两个基本含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Accept"是一个动词，主要有两个基本含义：
+
+<Pronunciation word="Accept" uk="/ækˈsɛpt/" us="/əkˈsɛpt/" client:only />
 
 1.  同意接受或同意。例如：接受建议，接受邀请等。
 2.  承认或承认。例如：接受事实，接受真相等。
@@ -41,3 +47,9 @@ Accept 这个单词来自于拉丁词根 "cept", 意为“拿，取”。有许�
 ### 助记故事
 
 There was a proposal that many people did not like at first. But, after understanding its advantages, they had to accept it. (原来有一个建议，很多人一开始并不喜欢。但是，明白了它的优点之后，他们不得不接受它。)
+
+<WordRelations
+  synonyms={["admit", "onfang", "receive", "take", "withtake"]}
+  antonyms={["decline", "reject"]}
+  client:only
+/>

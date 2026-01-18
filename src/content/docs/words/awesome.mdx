@@ -1,13 +1,19 @@
 ---
 title: Awesome
-description: "Awesome 是一个形容词，被用来描述令人敬畏，或者是异常惊人与很棒的事物或者情况。"
+description: Awesome 是一个形容词，被用来描述令人敬畏，或者是异常惊人与很棒的事物或者情况。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Awesome" 是一个形容词，被用来描述令人敬畏，或者是异常惊人与很棒的事物或者情况。
+
+<Pronunciation word="Awesome" uk="/ˈɔːsəm/" us="/ˈɔs.əm/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Awesome 是由词根 "awe" 和后缀 "some" 组成的。其它含有"some"后缀
 
 During our hiking trip, we saw an awesome waterfall. It was so beautiful and mighty that all of us stood still, completely captivated by its awesomeness.
 (在我们的徒步旅行中，我们看到了一个令人惊叹的瀑布。它是如此美丽和强大，以至于我们所有人都站在那里，完全被它的美丽深深吸引。)
+
+<WordRelations
+  synonyms={["awesome sauce"]}
+  antonyms={["fail", "shit", "weaksauce", "aweless"]}
+  client:only
+/>

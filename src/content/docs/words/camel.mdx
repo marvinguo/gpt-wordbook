@@ -1,13 +1,19 @@
 ---
 title: Camel
-description: "单词 'camel' 在英文中是一种动物的名称，指的是骆驼。这是一种特殊的大型动物，以其耐寒，耐干旱及长期不需饮水而闻名，主要生活在沙漠地区。"
+description: 单词 'camel' 在英文中是一种动物的名称，指的是骆驼。这是一种特殊的大型动物，以其耐寒，耐干旱及长期不需饮水而闻名，主要生活在沙漠地区。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词 "camel" 在英文中是一种动物的名称，指的是骆驼。这是一种特殊的大型动物，以其耐寒，耐干旱及长期不需饮水而闻名，主要生活在沙漠地区。
+
+<Pronunciation word="Camel" uk="/ˈkæməl/" us="/ˈkæməl/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 A thirsty camel trekked across the vast, hot desert, in search of an oasis. After days of journey, it saw a mirage shimmering in the heat, imagining it to be a sparkling pool of water.
 (一只口渴的骆驼在广袤的沙漠中行走，寻找绿洲。经过几天的旅程，它在热浪中看到了一个海市蜃楼，幻想它是一个泡沫四溢的水池。)
+
+<WordRelations
+  synonyms={["oont"]}
+  client:only
+/>

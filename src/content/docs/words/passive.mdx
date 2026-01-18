@@ -1,13 +1,19 @@
 ---
 title: Passive
-description: "Passive 是一个英语形容词，有被动的、消极的、无抵抗的等含义。当用在语法上，它也可以指代'被动语态'."
+description: Passive 是一个英语形容词，有被动的、消极的、无抵抗的等含义。当用在语法上，它也可以指代'被动语态'.
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Passive" 是一个英语形容词，有被动的、消极的、无抵抗的等含义。当用在语法上，它也可以指代"被动语态".
+
+<Pronunciation word="Passive" uk="/ˈpæs.ɪv/" us="/ˈpæs.ɪv/" client:only />
 
 ### 列举例句
 
@@ -46,3 +52,9 @@ tableOfContents: false
 
 Lucy was known to be very passive in her group. She always followed others' opinions without arguing.
 露西在她的圈子里被认为是非常被动的。她总是不辩驳地跟随他人的意见。
+
+<WordRelations
+  synonyms={["disinterested", "idle", "inactive", "uninvolved"]}
+  antonyms={["active", "aggressive"]}
+  client:only
+/>

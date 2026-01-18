@@ -1,13 +1,19 @@
 ---
 title: Rooster
-description: "Rooster是英文中对'公鸡'的称呼。这个词常常用在农场和乡村环境中，描述公鸡的行为或特点。"
+description: Rooster是英文中对'公鸡'的称呼。这个词常常用在农场和乡村环境中，描述公鸡的行为或特点。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Rooster"是英文中对"公鸡"的称呼。这个词常常用在农场和乡村环境中，描述公鸡的行为或特点。
+
+<Pronunciation word="Rooster" uk="/ˈɹuːstə/" us="/ˈɹustəɹ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Every morning, as the sun started to rise, the rooster would stand on the barn and crow loudly, signaling the start of a new day to all the farm animals. （每天早晨，当太阳开始升起，公鸡就会站在谷仓上大声的啼叫，向所有的农场动物宣告新的一天的开始。）
+
+<WordRelations
+  synonyms={["cock", "cock of the roost", "cock of the walk", "brawler"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Dolphin
-description: "Dolphin是英文中的一种名词，它的中文含义是“海豚”，通常指的是正常生活在海洋中的智慧生物。"
+description: Dolphin是英文中的一种名词，它的中文含义是“海豚”，通常指的是正常生活在海洋中的智慧生物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Dolphin"是英文中的一种名词，它的中文含义是“海豚”，通常指的是正常生活在海洋中的智慧生物。
+
+<Pronunciation word="Dolphin" uk="/ˈdɒlfɪn/" us="/ˈdɑlfɪn/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 
 It was an exhilarating day. I saw a dolphin leaping high into the sky as if it were trying to touch the clouds. I felt like I was sharing a moment with nature.
 那是令人兴奋的一天。我看到一只海豚高高地跃出水面，宛如试图触摸云彩。我感觉像是在与自然共享一个美妙的瞬间。
+
+<WordRelations
+  synonyms={["mereswine", "sea goose", "sea pig"]}
+  client:only
+/>

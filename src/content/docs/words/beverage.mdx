@@ -1,13 +1,19 @@
 ---
 title: Beverage
-description: "Beverage 是一个英语单词，通常被用来指任何种类的饮料。这个词不仅包括日常饮用的水，茶，咖啡和牛奶等，也包括酒精饮料如啤酒，酒，甚至果汁和汽水等。"
+description: Beverage 是一个英语单词，通常被用来指任何种类的饮料。这个词不仅包括日常饮用的水，茶，咖啡和牛奶等，也包括酒精饮料如啤酒，酒，甚至果汁和汽水等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Beverage" 是一个英语单词，通常被用来指任何种类的饮料。这个词不仅包括日常饮用的水，茶，咖啡和牛奶等，也包括酒精饮料如啤酒，酒，甚至果汁和汽水等。
+
+<Pronunciation word="Beverage" uk="/ˈbevəɹɪdʒ/" us="/ˈbevəɹɪdʒ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 In the hottest summer, a beaver was longing for a cool beverage. He hopped to the river, took a sip of water, and felt refreshed. (在最热的夏天，一只海狸渴望能喝到一杯凉爽的饮料。他跳到河边，喝了一口水，感到非常清爽。)
+
+<WordRelations
+  synonyms={["drink"]}
+  client:only
+/>

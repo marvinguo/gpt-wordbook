@@ -1,13 +1,19 @@
 ---
 title: Hat
-description: "Hat 是名词，是英文中“帽子”的意思。"
+description: Hat 是名词，是英文中“帽子”的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Hat" 是名词，是英文中“帽子”的意思。
+
+<Pronunciation word="Hat" uk="[hat]" us="/hæt/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 
 Once upon a time, there was a magical hat. Anyone who wore the hat could understand the language of animals.
 曾经有一顶魔力的帽子，任何人戴上它就能理解动物的语言。
+
+<WordRelations
+  synonyms={["gold hatband", "tuft"]}
+  client:only
+/>

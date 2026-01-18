@@ -1,13 +1,19 @@
 ---
 title: Individual
-description: "Individual 是一个英语单词，用作形容词时表示'单独的'，'独特的'；用作名词时表示'个人'，'个体'。"
+description: Individual 是一个英语单词，用作形容词时表示'单独的'，'独特的'；用作名词时表示'个人'，'个体'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Individual" 是一个英语单词，用作形容词时表示"单独的"，"独特的"；用作名词时表示"个人"，"个体"。
+
+<Pronunciation word="Individual" uk="/ˌɘndɘˈvɘd͡ʒɘl/" us="/ˌɪndəˈ-/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ Individual 的词根是"divid"，源自拉丁文的"dividere"，意为"分离"�
 In a forest, each tree is an individual, with its own place and function. The individual tree supports its own growth, and it also contributes to the whole ecosystem.
 
 在一片森林中，每棵树都是一个个体，有其自己的位置和功能。个别的树支撑自身的生长，同时也为整个生态系统做出贡献。
+
+<WordRelations
+  synonyms={["personal", "single", "selfstanding"]}
+  antonyms={["group", "joint", "shared", "collective"]}
+  client:only
+/>

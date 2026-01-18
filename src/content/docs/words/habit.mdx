@@ -1,13 +1,19 @@
 ---
 title: Habit
-description: "habit 是一个名词，“习惯”或“习性”的意思。"
+description: habit 是一个名词，“习惯”或“习性”的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "habit" 是一个名词，“习惯”或“习性”的意思。
+
+<Pronunciation word="Habit" uk="/ˈhæbət/" us="/ˈhæbət/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Once there was a rabbit, who had a strange habit of eating carrots while jumping. Everyone found it entertaining.
 
 曾经有只兔子，它有一种奇怪的习惯，就是一边跳跃一边吃胡萝卜，大家都觉得很有趣。
+
+<WordRelations
+  synonyms={["wont"]}
+  client:only
+/>

@@ -1,13 +1,21 @@
 ---
 title: Plural
-description: "Plural 是一个英语形容词，源自拉丁语 'pluralis'，意为“多个的”或“多样的”。当我们说一个词是'plural'（复数）的时候，我们是指它代表的是多于一个的事物或者概念。"
+description: >-
+  Plural 是一个英语形容词，源自拉丁语
+  'pluralis'，意为“多个的”或“多样的”。当我们说一个词是'plural'（复数）的时候，我们是指它代表的是多于一个的事物或者概念。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Plural" 是一个英语形容词，源自拉丁语 "pluralis"，意为“多个的”或“多样的”。当我们说一个词是"plural"（复数）的时候，我们是指它代表的是多于一个的事物或者概念。
+
+<Pronunciation word="Plural" uk="/ˈplɔː.ɹəl/" us="/ˈpləɹəl/" client:only />
 
 ### 列举例句
 
@@ -43,3 +51,9 @@ tableOfContents: false
 One day, Mike found that he made a mistake in the English homework. He wrote "childs" instead of the correct plural form "children". His teacher advised him to pay more attention to singular and plural forms in English.
 
 有一天，麦克发现他的英语家庭作业中犯了一个错误。他写了“childs”，而正确的复数形式应为“children”。他的老师建议他更加注意英语中的单数和复数形式。
+
+<WordRelations
+  synonyms={["manifold", "morefold", "multiple", "several"]}
+  antonyms={["singular"]}
+  client:only
+/>

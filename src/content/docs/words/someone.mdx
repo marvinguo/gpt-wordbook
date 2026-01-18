@@ -1,13 +1,19 @@
 ---
 title: Someone
-description: "Someone 是一个英语代词，用于指代某个不确定的人。它的用法类似于 'somebody'。"
+description: Someone 是一个英语代词，用于指代某个不确定的人。它的用法类似于 'somebody'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Someone" 是一个英语代词，用于指代某个不确定的人。它的用法类似于 "somebody"。
+
+<Pronunciation word="Someone" uk="/ˈsʌmwʌn/" us="/ˈsʌmwʌn/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 "There was someone standing under the old tree. He was waiting for someone important to him." - 有一个人站在老树下。他在等一个对他来说重要的人。
+
+<WordRelations
+  synonyms={["anybody", "anyone", "somebody"]}
+  client:only
+/>

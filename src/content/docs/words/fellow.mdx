@@ -1,13 +1,19 @@
 ---
 title: Fellow
-description: "Fellow 是一个英文单词，主要有两个常见的含义。一是作为名词使用，表示“同伴”或者“朋友”；第二个是在学术环境中用来表示“研究员”或者“学者”。"
+description: Fellow 是一个英文单词，主要有两个常见的含义。一是作为名词使用，表示“同伴”或者“朋友”；第二个是在学术环境中用来表示“研究员”或者“学者”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fellow" 是一个英文单词，主要有两个常见的含义。一是作为名词使用，表示“同伴”或者“朋友”；第二个是在学术环境中用来表示“研究员”或者“学者”。
+
+<Pronunciation word="Fellow" uk="/ˈfɛləʊ/" us="/ˈfɛloʊ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Once a simple fellow named Tom helped an old woman carry her heavy groceries home. Everyone in the town liked Tom because he was always helpful and kind.
 (从前，一个名叫汤姆的普通小伙子帮助一位老妇人把沉重的杂货带回家。这个小镇上的每个人都喜欢汤姆，因为他总是乐于助人，心地善良。)
+
+<WordRelations
+  synonyms={["fellow", "schoolfellow"]}
+  client:only
+/>

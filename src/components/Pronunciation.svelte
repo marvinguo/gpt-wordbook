@@ -165,8 +165,8 @@
           aria-label="播放英式发音"
           title="播放英式发音"
         >
-          <span class="text-[0.7rem] font-bold opacity-50 tracking-wider uppercase">UK</span>
-          <span class="font-sans text-[0.95rem] tracking-wide opacity-90">{uk}</span>
+          <span class="text-xs font-bold opacity-50 uppercase">UK</span>
+          <span class="font-sans text-base !mt-[-2px] tracking-wide opacity-90">{uk}</span>
           <div class="relative w-[1.1rem] h-[1.1rem] flex items-center justify-center">
              {#if isPlayingUK}
                <span class="absolute inset-0 rounded-full bg-[#8b5cf6]/20 animate-ping"></span>
@@ -190,8 +190,8 @@
           aria-label="播放美式发音"
           title="播放美式发音"
         >
-          <span class="text-[0.7rem] font-bold opacity-50 tracking-wider uppercase">US</span>
-          <span class="font-sans text-[0.95rem] tracking-wide opacity-90">{us}</span>
+          <span class="text-xs font-bold opacity-50 uppercase">US</span>
+          <span class="font-sans text-base !mt-[-2px] tracking-wide opacity-90">{us}</span>
           <div class="relative w-[1.1rem] h-[1.1rem] flex items-center justify-center">
              {#if isPlayingUS}
                <span class="absolute inset-0 rounded-full bg-[#8b5cf6]/20 animate-ping"></span>

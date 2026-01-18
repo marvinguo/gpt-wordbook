@@ -1,14 +1,20 @@
 ---
 title: That
-description: "That 是一个指示代词，用于特指远离说话人的事物或已被提及、已知的事物。同时，'that' 也可以用作连词，引导名词性从句或表语从句。"
+description: That 是一个指示代词，用于特指远离说话人的事物或已被提及、已知的事物。同时，'that' 也可以用作连词，引导名词性从句或表语从句。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "That" 是一个指示代词，用于特指远离说话人的事物或已被提及、已知的事物。同时，"that" 也可以用作连词，引导名词性从句或表语从句。
 例如：That's my book.（那是我的书）
+
+<Pronunciation word="That" uk="/ˈðæt/" us="/ˈðæt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 ### 助记故事
 
 "That is not my cat," Jim said, pointing at the furry creature on the roof. (“那不是我的猫，”吉姆一边说，一边指着屋顶上的毛绒动物。)
+
+<WordRelations
+  synonyms={["so"]}
+  antonyms={["here", "there", "this", "yon", "yonder"]}
+  client:only
+/>

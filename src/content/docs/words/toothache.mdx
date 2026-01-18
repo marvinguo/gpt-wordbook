@@ -1,13 +1,19 @@
 ---
 title: Toothache
-description: "Toothache 是一个英文单词，意思是“牙痛”。这个单词是由 'tooth'（牙齿）和 'ache' （疼痛）两个单词组合而成的。"
+description: Toothache 是一个英文单词，意思是“牙痛”。这个单词是由 'tooth'（牙齿）和 'ache' （疼痛）两个单词组合而成的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Toothache" 是一个英文单词，意思是“牙痛”。这个单词是由 "tooth"（牙齿）和 "ache" （疼痛）两个单词组合而成的。
+
+<Pronunciation word="Toothache" uk="/ˈtuθˌeɪk/" us="/ˈtuθˌeɪk/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Tom woke up in the middle of the night because of a severe toothache. He couldn't fall asleep again and the pain seemed to get worse. He finally decided to visit the dentist the first thing in the morning.
 汤姆因为剧烈的牙痛在半夜里醒来。他无法再次入睡，疼痛似乎愈来愈严重。他终于决定早上第一件事就去看牙医。
+
+<WordRelations
+  synonyms={["dentalgia", "odontalgia"]}
+  client:only
+/>

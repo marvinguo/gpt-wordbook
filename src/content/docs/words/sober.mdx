@@ -1,13 +1,19 @@
 ---
 title: Sober
-description: "Sober是英语中的形容词，主要含义是："
+description: Sober是英语中的形容词，主要含义是：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sober"是英语中的形容词，主要含义是：
+
+<Pronunciation word="Sober" uk="/ˈsəʊ.bə(ɹ)/" us="/ˈsəʊ.bə(ɹ)/" client:only />
 
 1.  不喝酒或未喝酒的，清醒的；
 2.  严肃的，冷静的，有节制的。
@@ -49,3 +55,8 @@ tableOfContents: false
 
 Once, a young man went to find seashells in the sea overnight. He needed to stay sober to watch out for any dangers.
 曾经，一个年轻人整夜在大海中寻找贝壳。他需要保持清醒，警惕任何可能的危险。
+
+<WordRelations
+  antonyms={["drunk"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Bottom
-description: "bottom 是一个英语词汇，正常被用于形容或指出事物的底部或最低处。"
+description: bottom 是一个英语词汇，正常被用于形容或指出事物的底部或最低处。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “bottom” 是一个英语词汇，正常被用于形容或指出事物的底部或最低处。
+
+<Pronunciation word="Bottom" uk="/ˈbɒtəm/" us="/ˈbɑtəm/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 Jack was looking for his toy car everywhere, and finally he found it at the bottom of his toy box.
 
 (杰克随处寻找他的玩具车，最后他在他的玩具盒底部找到了它。)
+
+<WordRelations
+  synonyms={["catcher", "derriere", "sit upon", "🍑", "base"]}
+  antonyms={["top"]}
+  client:only
+/>

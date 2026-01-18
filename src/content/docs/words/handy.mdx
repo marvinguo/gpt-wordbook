@@ -1,13 +1,19 @@
 ---
 title: Handy
-description: "Handy是一个形容词，中文意思主要有两个：一是“方便的，手边的”，二是“灵巧的，能手的”。"
+description: Handy是一个形容词，中文意思主要有两个：一是“方便的，手边的”，二是“灵巧的，能手的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Handy"是一个形容词，中文意思主要有两个：一是“方便的，手边的”，二是“灵巧的，能手的”。
+
+<Pronunciation word="Handy" uk="/ˈhæn.di/" us="/ˈhæn.di/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ Handy 是形容词，没有名词、动词和不同时态的变形。
 Peter’s dad is a really handy man. Whether it's fixing a leaky faucet, assembling furniture, or painting the wall, he can always handle it. Peter is proud of his dad.
 
 彼得的爸爸是一个很能手的人。无论是修理漏水的水龙头、组装家具，还是粉刷墙壁，他总是能处理得了。彼得为他的爸爸感到骄傲。
+
+<WordRelations
+  synonyms={["at hand", "crafty"]}
+  antonyms={["awkward"]}
+  client:only
+/>

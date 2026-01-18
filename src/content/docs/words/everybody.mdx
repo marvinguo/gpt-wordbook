@@ -1,13 +1,21 @@
 ---
 title: Everybody
-description: "- 'Everybody' 是一个指代性的词，常被用来指代一组相关的所有人。等同于英语中的 'all people' 或 'all persons'。中文的翻译一般为 '每一个人' 或 '大家'。"
+description: >-
+  - 'Everybody' 是一个指代性的词，常被用来指代一组相关的所有人。等同于英语中的 'all people' 或 'all
+  persons'。中文的翻译一般为 '每一个人' 或 '大家'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Everybody" 是一个指代性的词，常被用来指代一组相关的所有人。等同于英语中的 "all people" 或 "all persons"。中文的翻译一般为 "每一个人" 或 "大家"。
+
+<Pronunciation word="Everybody" uk="/ˈɛvɹibɒdi/" us="/ˈɛvɹibɑdi/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 
 - Everybody in the town gathered to celebrate the festival. The joyous laughter echoed in the air, filling people's hearts with warmth and happiness.
 - 小镇上的每一个人都聚集在一起庆祝这个节日。欢声笑语在空气中回响，让人们的心充满了温暖和幸福。
+
+<WordRelations
+  synonyms={["everyone"]}
+  antonyms={["negates", "no one", "nobody"]}
+  client:only
+/>

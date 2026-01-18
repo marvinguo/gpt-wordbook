@@ -1,13 +1,19 @@
 ---
 title: Joy
-description: "Joy 是一个名词，表示 '欢乐' 或 '喜悦' 的意思。它描述一个人对某事物或环境所感受的那种无比愉快的心情。"
+description: Joy 是一个名词，表示 '欢乐' 或 '喜悦' 的意思。它描述一个人对某事物或环境所感受的那种无比愉快的心情。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Joy 是一个名词，表示 "欢乐" 或 "喜悦" 的意思。它描述一个人对某事物或环境所感受的那种无比愉快的心情。
+
+<Pronunciation word="Joy" uk="/dʒɔɪ/" us="/dʒɔɪ/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,8 @@ Joy 一词源于法语的 joie，又从拉丁语的 gaudere 演变而来，意�
 
 Joy wandered around the quiet park, her heart filling with joy as she watched the children play. She couldn't help but join them.
 Joy 在安静的公园里四处漫步，看着孩子们玩耍，她的心充满了喜悦。她忍不住也加入了他们。
+
+<WordRelations
+  antonyms={["infelicity", "joylessness", "unhappiness", "unjoy"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Tranquil
-description: "Tranquil 这个英语单词的意思是'安静的'或者'平静的'，一般用来描述一个安宁或者无动荡的环境或者心境。"
+description: Tranquil 这个英语单词的意思是'安静的'或者'平静的'，一般用来描述一个安宁或者无动荡的环境或者心境。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Tranquil" 这个英语单词的意思是"安静的"或者"平静的"，一般用来描述一个安宁或者无动荡的环境或者心境。
+
+<Pronunciation word="Tranquil" uk="/ˈtɹæŋ.kwɪl/" us="/ˈtɹæŋ.kwɪl/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 
 In a small tranquil village, there lived an old man. He enjoyed his tranquil life, sitting under a tree, reading a book tranquilly.
 在一个小而宁静的村庄，住着一位老人。他享受他的宁静生活，静静地坐在树下，阅读一本书。
+
+<WordRelations
+  synonyms={["peaceful", "calm", "serene", "steady"]}
+  antonyms={["agitated"]}
+  client:only
+/>

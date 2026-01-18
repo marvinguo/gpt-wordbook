@@ -1,13 +1,19 @@
 ---
 title: Heavy
-description: "heavy 是一个形容词，主要意思是'重的'。除此之外，它还有其他意思，比如：严重的，强烈的，繁重的，巨大的，沉闷的，浓厚的，劲头强的等。"
+description: heavy 是一个形容词，主要意思是'重的'。除此之外，它还有其他意思，比如：严重的，强烈的，繁重的，巨大的，沉闷的，浓厚的，劲头强的等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "heavy" 是一个形容词，主要意思是"重的"。除此之外，它还有其他意思，比如：严重的，强烈的，繁重的，巨大的，沉闷的，浓厚的，劲头强的等。
+
+<Pronunciation word="Heavy" uk="/ˈhe.vi/" us="/ˈhɛ.vi/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 Tom found a heavy stone in the garden. He tried to lift it, but failed. (汤姆在花园里找到了一块重石头。 他试图去举起它，但是失败了。)
+
+<WordRelations
+  synonyms={["swear", "sweer"]}
+  antonyms={["light"]}
+  client:only
+/>

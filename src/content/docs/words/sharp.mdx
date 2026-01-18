@@ -1,13 +1,19 @@
 ---
 title: Sharp
-description: "单词'sharp'常见的意思是“锐利的、尖的”，另外也可以表示'突然的'或'急剧的'，比如在音乐领域，sharp 表示“提高半音”。"
+description: 单词'sharp'常见的意思是“锐利的、尖的”，另外也可以表示'突然的'或'急剧的'，比如在音乐领域，sharp 表示“提高半音”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词"sharp"常见的意思是“锐利的、尖的”，另外也可以表示"突然的"或"急剧的"，比如在音乐领域，sharp 表示“提高半音”。
+
+<Pronunciation word="Sharp" uk="/ʃɑːp/" us="/ʃɑɹp/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ tableOfContents: false
 
 John was carving a piece of wood with his sharp knife when he received a sharp reprimand from his mom. His quick reaction to mom's sharp voice was to put away the sharp object immediately.
 约翰正在用他锐利的刀刻一块木头，突然他的妈妈严厉地批评了他。他对妈妈突然的尖叫声的反应就是立即把锋利的东西放回去。
+
+<WordRelations
+  synonyms={["keen", "razor", "razor-sharp", "pointed", "accurate", "exact", "precise", "acrimonious", "bitter", "cutting", "harsh", "hostile", "nasty", "acrid", "pungent", "dishonest", "dodgy", "illegal", "illicit", "underhand"]}
+  antonyms={["blunt", "dull", "imprecise", "inaccurate", "complimentary", "flattering", "friendly", "kind", "nice", "bland", "insipid", "tasteless", "flat", "above-board", "honest", "legit", "legitimate", "reputable", "dim", "dim-witted"]}
+  client:only
+/>

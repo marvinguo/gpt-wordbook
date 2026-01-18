@@ -1,13 +1,19 @@
 ---
 title: Nine
-description: "Nine是一个序数，代表了数字 9，用于计数和排列。"
+description: Nine是一个序数，代表了数字 9，用于计数和排列。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Nine"是一个序数，代表了数字 9，用于计数和排列。
+
+<Pronunciation word="Nine" uk="/naɪn/" us="/naɪn/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 There are nine cute kittens playing in the yard. They chase each other, tumble joyfully under the warm sunlight.
 院子里有九只可爱的小猫在玩耍。他们互相追赶，在温暖的阳光下欢快地翻滚。
+
+<WordRelations
+  synonyms={["IX"]}
+  client:only
+/>

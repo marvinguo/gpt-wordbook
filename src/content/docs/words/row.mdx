@@ -1,13 +1,19 @@
 ---
 title: Row
-description: "Row是一个英语单词，有两个主要的发音和意思。"
+description: Row是一个英语单词，有两个主要的发音和意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Row"是一个英语单词，有两个主要的发音和意思。
+
+<Pronunciation word="Row" uk="/ˈɹəʊ/" us="/ˈɹoʊ/" client:only />
 
 第一种发音是 [rou]，像 "cow" 的发音，主要意思是"排"，"行"，经常用于形容可数的物品或者人按照一定的方式排列起来，如：row of houses（一排房子）。
 
@@ -45,3 +51,9 @@ tableOfContents: false
 ### 助记故事
 
 Tom always rows his boat at the lake. He enjoys the solitude and the repetition of the rowing. But one day, he had a row with a man who also wanted to use his boat. It was the first time that the peaceful lake had seen such a row. (汤姆总是在湖上划自己的船。他享受独处以及划船的重复动作。但是一天，他和一个也想用他的船的男人吵了起来。这是和谐的湖面第一次见识到这样的争吵。)
+
+<WordRelations
+  synonyms={["line", "sequence", "series", "succession", "tier"]}
+  antonyms={["column"]}
+  client:only
+/>

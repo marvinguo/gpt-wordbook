@@ -1,13 +1,20 @@
 ---
 title: Lodge
-description: "Lodge是个具有多重含义的英语单词。它既可以作为名词，也可以作为动词使用。作为名词的时候，'lodge'常常指“小屋”或者“旅馆”。作为动词的时候，'lodge'一般指'提交'或者'嵌入'。"
+description: >-
+  Lodge是个具有多重含义的英语单词。它既可以作为名词，也可以作为动词使用。作为名词的时候，'lodge'常常指“小屋”或者“旅馆”。作为动词的时候，'lodge'一般指'提交'或者'嵌入'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Lodge"是个具有多重含义的英语单词。它既可以作为名词，也可以作为动词使用。作为名词的时候，"lodge"常常指“小屋”或者“旅馆”。作为动词的时候，"lodge"一般指"提交"或者"嵌入"。
+
+<Pronunciation word="Lodge" uk="/lɒdʒ/" us="/lɑdʒ/" client:only />
 
 ### 列举例句
 
@@ -42,3 +49,8 @@ tableOfContents: false
 ### 助记故事
 
 "Lost in the snowy mountains, John found a small lodge. He lodged a firewood into the fireplace to keep warm."（约翰在雪山中迷路了，他找到了一个小屋。他把一根柴火嵌入了壁炉，以保持温暖。）
+
+<WordRelations
+  synonyms={["stay over", "stop"]}
+  client:only
+/>

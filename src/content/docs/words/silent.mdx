@@ -1,13 +1,19 @@
 ---
 title: Silent
-description: "英文单词 'silent' 主要是形容词，中文翻译为“沉默的，寂静的”。它常用来描述一个人或者物体没有制造出声音或是噪音的状态。"
+description: 英文单词 'silent' 主要是形容词，中文翻译为“沉默的，寂静的”。它常用来描述一个人或者物体没有制造出声音或是噪音的状态。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英文单词 "silent" 主要是形容词，中文翻译为“沉默的，寂静的”。它常用来描述一个人或者物体没有制造出声音或是噪音的状态。
+
+<Pronunciation word="Silent" uk="/ˈsaɪlənt/" us="/ˈsaɪlənt/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 
 In the silent night, he confessed his love to her under the starry sky.
 在寂静的夜晚，他在繁星点点的天空下向她表白了爱意。
+
+<WordRelations
+  synonyms={["quiet", "concealed", "invisible", "occluded", "dormant", "still", "mute", "quiescent", "servile", "speechless", "taciturn", "dumb"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Store
-description: "Store这个单词有很多意思，但主要的两个意思是："
+description: Store这个单词有很多意思，但主要的两个意思是：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Store"这个单词有很多意思，但主要的两个意思是：
+
+<Pronunciation word="Store" uk="/stɔː/" us="/stɔɹ/" client:only />
 
 - 作为名词， "Store"通常指的是一个商店或一个存储地点。例如， "grocery store" 通常指的是售卖食品的商店。
 - 作为动词时，"Store" 指的是保存或储备物品，例如"store water in a tank"意思是在水箱里储存水。
@@ -45,3 +51,8 @@ tableOfContents: false
 
 Tom owns a little grocery store. He stores all types of goods there. Every day, neighbors come to the store for their needs.
 (汤姆拥有一家小杂货店。他在那里储存了各种商品。每天，邻居们都会来到商店满足他们的需求。)
+
+<WordRelations
+  synonyms={["memory", "boutique", "shop", "stock", "supply"]}
+  client:only
+/>

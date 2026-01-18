@@ -1,13 +1,19 @@
 ---
 title: Hatred
-description: "Hatred是一个英语单词，意指强烈的厌恶或憎恨。"
+description: Hatred是一个英语单词，意指强烈的厌恶或憎恨。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Hatred"是一个英语单词，意指强烈的厌恶或憎恨。
+
+<Pronunciation word="Hatred" uk="/ˈheɪtɹɪd/" us="/ˈheɪtɹɪd/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ tableOfContents: false
 At first glance, there was a seemingly unresolvable hatred between the two families. (乍一看，这两个家庭之间似乎存在着无法解决的仇恨。)
 ——
 策一看，那两个家庭之间似乎存在着无法调和的仇恨。
+
+<WordRelations
+  synonyms={["antipathy", "hate", "hostility"]}
+  antonyms={["amity", "love"]}
+  client:only
+/>

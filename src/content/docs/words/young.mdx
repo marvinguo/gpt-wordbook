@@ -1,13 +1,19 @@
 ---
 title: Young
-description: "Young 是一个形容词，表示“年轻的”。这可以指年龄小的，年数低的或者对于某个时期，某个物种或种群而言早期的。"
+description: Young 是一个形容词，表示“年轻的”。这可以指年龄小的，年数低的或者对于某个时期，某个物种或种群而言早期的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Young" 是一个形容词，表示“年轻的”。这可以指年龄小的，年数低的或者对于某个时期，某个物种或种群而言早期的。
+
+<Pronunciation word="Young" uk="/jʌŋ/" us="/jʌŋ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 ### 助记故事
 
 在一个阳光明媚的早晨，一个年轻的男子站在山顶上，大喊"我是 the young and the fearless!" (一个明媚的早晨，一个年轻的男子站在山顶上，大喊"我是年轻而无畏的！")
+
+<WordRelations
+  synonyms={["junior", "youthful", "juvenile", "immature", "underdeveloped", "undeveloped"]}
+  antonyms={["aged", "elderly", "grown up", "old", "senior", "youthless", "mature", "experienced", "veteran"]}
+  client:only
+/>

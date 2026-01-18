@@ -1,13 +1,19 @@
 ---
 title: Kidney
-description: "Kidney的中文意思是“肾脏”，它是人体的主要排泄器官之一。"
+description: Kidney的中文意思是“肾脏”，它是人体的主要排泄器官之一。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Kidney"的中文意思是“肾脏”，它是人体的主要排泄器官之一。
+
+<Pronunciation word="Kidney" uk="/ˈkɪdni/" us="/ˈkɪdni/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Kidney 的复数形式是"kidneys" (肾脏)。
 
 Once upon a time, Kidney, the efficient organ was working hard to filter waste products. Every day, Kidney made sure the body is clean and healthy.
 (从前，肾脏这个高效的器官在努力地过滤废物。肾脏每天都在确保身体的清洁和健康。)
+
+<WordRelations
+  synonyms={["nephros", "rein", "ren"]}
+  client:only
+/>

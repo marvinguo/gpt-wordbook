@@ -1,13 +1,19 @@
 ---
 title: Sun
-description: "Sun 是空中照耀我们的大明星，也就是我们行星系的中心。它是一个中性名词。"
+description: Sun 是空中照耀我们的大明星，也就是我们行星系的中心。它是一个中性名词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sun" 是空中照耀我们的大明星，也就是我们行星系的中心。它是一个中性名词。
+
+<Pronunciation word="Sun" uk="/sʌn/" us="/sʌn/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Once upon a time, in a village, a little boy loved to play under the sun. Everything seemed more vibrant and lively.
 从前，有一个小男孩喜欢在太阳下玩耍，一切都显得更加明亮和生动。
+
+<WordRelations
+  synonyms={["apricate"]}
+  client:only
+/>

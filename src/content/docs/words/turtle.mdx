@@ -1,13 +1,19 @@
 ---
 title: Turtle
-description: "Turtle 是一个英文单词，一般被翻译为'海龟'或者'乌龟'。"
+description: Turtle 是一个英文单词，一般被翻译为'海龟'或者'乌龟'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Turtle" 是一个英文单词，一般被翻译为"海龟"或者"乌龟"。
+
+<Pronunciation word="Turtle" uk="/ˈtɜːtəl/" us="/ˈtɝtəl/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Once there was a turtle named Harry. He lived in a peaceful pond surrounded by luscious green trees and colorful flowers. He spent his days slowly paddling across the pond, enjoying the warm sun on his back.
 
 过去有一只叫哈利的乌龟。他住在一个宁静的池塘中，池塘周围是茂盛的绿树和七彩的花朵。他整天在池塘中悠然游弋，享受暖阳照在背上的感觉。
+
+<WordRelations
+  synonyms={["sea turtle", "shellpad", "shield-toad", "testudo"]}
+  client:only
+/>

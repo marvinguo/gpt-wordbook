@@ -1,13 +1,19 @@
 ---
 title: Ruin
-description: "Ruin 是一个既可以作为动词又可以作为名词的单词。作为动词，它主要用来描述使某物毁坏，使某人堕落；作为名词，它形容的是毁灭的情况或状态，或者毁坏的遗迹。"
+description: Ruin 是一个既可以作为动词又可以作为名词的单词。作为动词，它主要用来描述使某物毁坏，使某人堕落；作为名词，它形容的是毁灭的情况或状态，或者毁坏的遗迹。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Ruin" 是一个既可以作为动词又可以作为名词的单词。作为动词，它主要用来描述使某物毁坏，使某人堕落；作为名词，它形容的是毁灭的情况或状态，或者毁坏的遗迹。
+
+<Pronunciation word="Ruin" uk="/ˈɹuː.ɪn/" us="/ˈɹuː.ɪn/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 “Once, a beautiful village stood in the valley. But a dragon's attack ruined it overnight. The once vibrant community is now just a ruin."
 （曾经，山谷中有一个美丽的村庄。但是，一夜之间，龙的攻击毁了它。曾经繁华的社区现在只是一个废墟。）
+
+<WordRelations
+  synonyms={["destroy", "fordo", "ruinate", "wreck"]}
+  antonyms={["build", "construct", "found", "produce"]}
+  client:only
+/>

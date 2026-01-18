@@ -1,13 +1,19 @@
 ---
 title: Luck
-description: "luck 这个单词在中文当中对应的意思通常是 '运气' 或者 '幸运'。它可以指一个人的运气好坏，也可以指一个意外的好运。"
+description: luck 这个单词在中文当中对应的意思通常是 '运气' 或者 '幸运'。它可以指一个人的运气好坏，也可以指一个意外的好运。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "luck" 这个单词在中文当中对应的意思通常是 "运气" 或者 "幸运"。它可以指一个人的运气好坏，也可以指一个意外的好运。
+
+<Pronunciation word="Luck" uk="/lʌk/" us="/lʌk/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Luck 作为名词，它的复数形式是 lucks; 作为动词（比较少见）�
 
 Every morning, Tom swings his lucky charm and says, "Luck, be my friend today!" So far, luck has indeed been generous to him.
 (每天早晨，汤姆都会摇晃他的幸运符说：“运气，今天请偏向我！”到目前为止，运气确实对他很大方。)
+
+<WordRelations
+  synonyms={["chance", "fortune"]}
+  client:only
+/>

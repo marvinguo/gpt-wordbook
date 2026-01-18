@@ -1,13 +1,19 @@
 ---
 title: Unknown
-description: "Unknown，这个单词很常见，用来形容一些未知的、不被了解或者不清楚的事物或者人。"
+description: Unknown，这个单词很常见，用来形容一些未知的、不被了解或者不清楚的事物或者人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Unknown"，这个单词很常见，用来形容一些未知的、不被了解或者不清楚的事物或者人。
+
+<Pronunciation word="Unknown" uk="/ʌnˈnəʊn/" us="/ʌnˈnoʊn/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Unknown 作为形容词，没有单复数形式。其对应的名词形式是"un
 
 There was an unknown island, where lived unknown animals. No one knew what it looked like.
 存在有一个未知的岛屿，居住着未知的动物。没有人知道它是什么样子。
+
+<WordRelations
+  synonyms={["anonymous", "obscure", "unascertained", "uncharted", "undiscovered", "unexplored", "unfamiliar", "unidentified", "unnamed", "unrecognized", "unrevealed", "unsung"]}
+  antonyms={["famous", "known", "well-known"]}
+  client:only
+/>

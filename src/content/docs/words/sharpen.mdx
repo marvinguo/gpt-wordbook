@@ -1,13 +1,19 @@
 ---
 title: Sharpen
-description: "Sharpen 是一个英文字，通常用做动词，其基本意思是 '使变得更尖锐' 或 '使变得更清晰'。在不同的上下文中，它可以具有物理或抽象的含义。"
+description: Sharpen 是一个英文字，通常用做动词，其基本意思是 '使变得更尖锐' 或 '使变得更清晰'。在不同的上下文中，它可以具有物理或抽象的含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sharpen" 是一个英文字，通常用做动词，其基本意思是 "使变得更尖锐" 或 "使变得更清晰"。在不同的上下文中，它可以具有物理或抽象的含义。
+
+<Pronunciation word="Sharpen" uk="/ˈʃɑɹpɨn/" us="/ˈʃɑɹpɨn/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ tableOfContents: false
 
 Every morning, the artist would sharpen his pencil and sketch the sunrise. It was a ritual that brought him peace and started his day off right.
 (每天早晨，艺术家都会削尖他的铅笔，去素描日出。这成了他找寻宁静，崭新开始的日常仪式。)
+
+<WordRelations
+  synonyms={["hone", "whet"]}
+  antonyms={["blunt", "blur"]}
+  client:only
+/>

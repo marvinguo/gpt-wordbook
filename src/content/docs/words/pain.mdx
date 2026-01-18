@@ -1,13 +1,19 @@
 ---
 title: Pain
-description: "Pain 是一个名词，表示身体或心理上的痛苦。例如，你可能会因为头疼或者失去了你爱的人而感到痛苦。"
+description: Pain 是一个名词，表示身体或心理上的痛苦。例如，你可能会因为头疼或者失去了你爱的人而感到痛苦。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Pain" 是一个名词，表示身体或心理上的痛苦。例如，你可能会因为头疼或者失去了你爱的人而感到痛苦。
+
+<Pronunciation word="Pain" uk="/peɪn/" us="/peɪn/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 Tom twisted his ankle and felt a surge of pain. He gritted his teeth and tried to carry on.
 (汤姆扭伤了他的脚踝，感到一阵剧痛。他咬紧牙关，试图继续前行。)
+
+<WordRelations
+  synonyms={["pest"]}
+  antonyms={["pleasure"]}
+  client:only
+/>

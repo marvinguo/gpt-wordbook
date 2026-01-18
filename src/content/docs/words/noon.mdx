@@ -1,13 +1,19 @@
 ---
 title: Noon
-description: "noon是一个英语名词，通常用来指代一天中的中午，大约在 12:00 这个时间点。"
+description: 'noon是一个英语名词，通常用来指代一天中的中午，大约在 12:00 这个时间点。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "noon"是一个英语名词，通常用来指代一天中的中午，大约在 12:00 这个时间点。
+
+<Pronunciation word="Noon" uk="/nuːn/" us="/nuːn/" client:only />
 
 ### 列举例句
 
@@ -48,3 +54,9 @@ Especially on Sundays, she would pack a lovely lunch with sandwiches and apple j
 She loved the feel of the warm sun at noon, the chirping of the birds and the peace it brought her. (她喜欢中午时分温暖的阳光，鸟儿的叫声以及它带给她的平静。)
 
 她喜欢中午的温暖阳光，鸟儿的啾啾声以及这一切带给她的宁静。
+
+<WordRelations
+  synonyms={["capstone", "noon of night", "midday", "nones", "noontide", "twelve"]}
+  antonyms={["midnight"]}
+  client:only
+/>

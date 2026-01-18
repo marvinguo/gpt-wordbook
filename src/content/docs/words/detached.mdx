@@ -1,13 +1,19 @@
 ---
 title: Detached
-description: "英文单词'detached'在中文中常常被翻译为“孤立的”，“独立的”，或者“客观的”，也可以指人无动于衷，或者情绪上的疏离。"
+description: 英文单词'detached'在中文中常常被翻译为“孤立的”，“独立的”，或者“客观的”，也可以指人无动于衷，或者情绪上的疏离。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英文单词"detached"在中文中常常被翻译为“孤立的”，“独立的”，或者“客观的”，也可以指人无动于衷，或者情绪上的疏离。
+
+<Pronunciation word="Detached" uk="/dɪˈtæt͡ʃt/" us="/dɪˈtæt͡ʃt/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 In a quiant town, stood a detached house. Its colors, faded with time, yet it held a charm of separation.
 
 在一个风景如画的小镇上，独立着一座房子。颜色随着时间的推移已经褪色，但它却散发出一种隔离的韵味。
+
+<WordRelations
+  synonyms={["fall off", "allocate", "earmark", "disengage", "unfasten"]}
+  antonyms={["attach"]}
+  client:only
+/>

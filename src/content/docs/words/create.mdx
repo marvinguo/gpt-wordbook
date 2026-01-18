@@ -1,13 +1,19 @@
 ---
 title: Create
-description: "Create 是一个英语动词，基本含义是“创造”或“创建”，表示使一个新的或原始的实体或想法通过某种形式的活动或过程而存在。"
+description: Create 是一个英语动词，基本含义是“创造”或“创建”，表示使一个新的或原始的实体或想法通过某种形式的活动或过程而存在。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Create" 是一个英语动词，基本含义是“创造”或“创建”，表示使一个新的或原始的实体或想法通过某种形式的活动或过程而存在。
+
+<Pronunciation word="Create" uk="/kɹiːˈeɪt/" us="/kɹiːˈeɪt/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ Create 自身并无特殊词缀，不过其派生词如 'creation' (创建物，
 
 "Once upon a time, there was a smart scientist named Dr. Allen. He decided to create a robot to help him with his research. His creativity and spirit inspired everyone."
 （从前，有一个聪明的科学家名叫艾伦博士。他决定创建一个机器人来帮助他的研究。他的创新精神和决心激励了所有人。）
+
+<WordRelations
+  synonyms={["generate"]}
+  antonyms={["annihilate", "extinguish"]}
+  client:only
+/>

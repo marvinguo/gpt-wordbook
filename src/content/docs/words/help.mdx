@@ -1,13 +1,19 @@
 ---
 title: Help
-description: "Help 是一个英语单词，作为动词时，它的意思是“帮助，协助”，例如我帮助他完成作业。作为名词时，它的意思是“帮助，协助”，例如我需要你的帮助。"
+description: Help 是一个英语单词，作为动词时，它的意思是“帮助，协助”，例如我帮助他完成作业。作为名词时，它的意思是“帮助，协助”，例如我需要你的帮助。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Help" 是一个英语单词，作为动词时，它的意思是“帮助，协助”，例如我帮助他完成作业。作为名词时，它的意思是“帮助，协助”，例如我需要你的帮助。
+
+<Pronunciation word="Help" uk="/hɛlp/" us="/hɛlp/" client:only />
 
 ### 列举例句
 
@@ -49,3 +55,8 @@ tableOfContents: false
 One day, Bob saw an old lady who couldn't cross the street and helped her. From then on, Bob was always ready to help others.
 
 有一天，鲍勃看到一位老太太无法过马路，他上前帮助了她。从那天开始，鲍勃总是乐于助人。
+
+<WordRelations
+  synonyms={["aid", "assistance"]}
+  client:only
+/>

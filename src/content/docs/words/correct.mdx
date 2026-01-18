@@ -1,13 +1,19 @@
 ---
 title: Correct
-description: "Correct 是一个形容词和动词。作为形容词，它意味着“正确的”，与错误相对；作为动词，它意味着“纠正”，即修正错误或不准确之处。"
+description: Correct 是一个形容词和动词。作为形容词，它意味着“正确的”，与错误相对；作为动词，它意味着“纠正”，即修正错误或不准确之处。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Correct" 是一个形容词和动词。作为形容词，它意味着“正确的”，与错误相对；作为动词，它意味着“纠正”，即修正错误或不准确之处。
+
+<Pronunciation word="Correct" uk="/kəˈɹɛkt/" us="/kəˈɹɛkt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 
 Steve played a wrong note on the piano. His teacher quickly said, "Correct your mistake, Steve. The right note is G, not F."
 (史蒂夫在钢琴上弹错了一个音符。他的老师迅速地说，“纠正你的错误，史蒂夫。正确的音符是 G，不是 F。”)
+
+<WordRelations
+  synonyms={["right", "well behaved", "well-mannered"]}
+  antonyms={["uncouth", "inaccurate", "incorrect"]}
+  client:only
+/>

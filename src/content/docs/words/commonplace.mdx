@@ -1,13 +1,21 @@
 ---
 title: Commonplace
-description: "Commonplace 是一个英文单词，通常做形容词或名词使用。作为形容词，意思是“普通的，平常的，常见的”，用来形容某事物非常常见，没有任何的新奇性或特殊性。作为名词，它意味着“平庸的事物，普遍而常见的事例”。"
+description: >-
+  Commonplace
+  是一个英文单词，通常做形容词或名词使用。作为形容词，意思是“普通的，平常的，常见的”，用来形容某事物非常常见，没有任何的新奇性或特殊性。作为名词，它意味着“平庸的事物，普遍而常见的事例”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Commonplace" 是一个英文单词，通常做形容词或名词使用。作为形容词，意思是“普通的，平常的，常见的”，用来形容某事物非常常见，没有任何的新奇性或特殊性。作为名词，它意味着“平庸的事物，普遍而常见的事例”。
+
+<Pronunciation word="Commonplace" uk="/ˈkɒmənˌpleɪs/" us="/ˈkɑmənˌpleɪs/" client:only />
 
 ### 列举例句
 
@@ -42,3 +50,9 @@ Once upon a time, there was a town where miracles were a commonplace. Everyone h
 从前，有一个镇子，那里神奇的事情司空见惯。每个人都有特殊的力量。
 
 从前，有一个镇子，在那里 miracles 是常见的事。每个人都有特殊的力量。
+
+<WordRelations
+  synonyms={["routine", "undistinguished", "unexceptional"]}
+  antonyms={["distinguished", "inimitable", "unique"]}
+  client:only
+/>

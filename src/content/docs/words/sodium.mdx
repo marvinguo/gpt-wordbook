@@ -1,13 +1,19 @@
 ---
 title: Sodium
-description: "- 'Sodium' 是一种化学元素，符号为 Na，原子序数为 11。它是一种有色金属，会快速氧化在空气中，常见的用途包括在制做肥料和谈化剂中。"
+description: '- ''Sodium'' 是一种化学元素，符号为 Na，原子序数为 11。它是一种有色金属，会快速氧化在空气中，常见的用途包括在制做肥料和谈化剂中。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Sodium" 是一种化学元素，符号为 Na，原子序数为 11。它是一种有色金属，会快速氧化在空气中，常见的用途包括在制做肥料和谈化剂中。
+
+<Pronunciation word="Sodium" uk="/ˈsəʊdɪəm/" us="/ˈsoʊdi.əm/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 - As soon as John put the piece of Sodium into water, it began to fizz and sputter, heating up the water rapidly. Everyone in the chemistry class watched in amazement.
 - 当约翰把钠放入水中后，它开始冒泡和嘶嘶作响，快速地将水加热。整个化学课的同学都看得目瞪口呆。
+
+<WordRelations
+  synonyms={["natrium"]}
+  client:only
+/>

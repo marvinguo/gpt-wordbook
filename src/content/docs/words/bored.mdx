@@ -1,13 +1,19 @@
 ---
 title: Bored
-description: "Bored是形容词，描述一个人感到无聊或不感兴趣。这种情感经常在我们没有什么事情可做或者做的事情没有吸引力的时候发生。"
+description: Bored是形容词，描述一个人感到无聊或不感兴趣。这种情感经常在我们没有什么事情可做或者做的事情没有吸引力的时候发生。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bored"是形容词，描述一个人感到无聊或不感兴趣。这种情感经常在我们没有什么事情可做或者做的事情没有吸引力的时候发生。
+
+<Pronunciation word="Bored" uk="/bɔːd/" us="/bɔːd/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Bored = bore (陈旧的，无聊的) + ed. 你可以想象在读一本陈旧的�
 
 Lily was bored during her history lesson, her mind wandered around while staring at the clock that is barely moving.
 （莉莉在历史课上感到无聊，她的思绪飘忽不定，带着盼望地盯着那几乎不走的钟表。）
+
+<WordRelations
+  antonyms={["interest"]}
+  client:only
+/>

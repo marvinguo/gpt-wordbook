@@ -1,13 +1,19 @@
 ---
 title: Intend
-description: "英语单词 'intend' 是一个动词，最常见的含义是打算、计划或有意要做某事。"
+description: 英语单词 'intend' 是一个动词，最常见的含义是打算、计划或有意要做某事。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英语单词 "intend" 是一个动词，最常见的含义是打算、计划或有意要做某事。
+
+<Pronunciation word="Intend" uk="/ɪnˈtɛnd/" us="/ɪnˈtɛnd/" client:only />
 
 ### 列举例句
 
@@ -46,3 +52,8 @@ Alice intends to visit a friend who lives far away, if she finishes her work in 
 小故事中文翻译：
 
 如果爱丽丝按时完成工作，她打算去拜访一个住得很远的朋友。
+
+<WordRelations
+  synonyms={["design", "mean", "plan", "purpose", "foremind", "mint"]}
+  client:only
+/>

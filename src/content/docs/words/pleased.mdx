@@ -1,13 +1,19 @@
 ---
 title: Pleased
-description: "Pleased 是一个形容词，源自中古英语词汇。这个词用于表达对某事或某人感到满意和高兴的情绪。"
+description: Pleased 是一个形容词，源自中古英语词汇。这个词用于表达对某事或某人感到满意和高兴的情绪。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Pleased" 是一个形容词，源自中古英语词汇。这个词用于表达对某事或某人感到满意和高兴的情绪。
+
+<Pronunciation word="Pleased" uk="/pliːzd/" us="/pliːzd/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 Once upon a time, a little boy helped an elderly woman to carry her heavy bags. Seeing the woman's pleased face, the boy felt a warm feeling in his heart.
 
 从前，一个小男孩帮助一位老太太提重物。看到老太太满意的脸庞，他的心里充满了温暖。
+
+<WordRelations
+  synonyms={["desire", "will", "satisfy", "content", "happy", "satisfied"]}
+  antonyms={["annoy", "disgust", "displease", "irritate"]}
+  client:only
+/>

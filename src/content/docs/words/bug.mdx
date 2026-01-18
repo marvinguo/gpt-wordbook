@@ -1,13 +1,19 @@
 ---
 title: Bug
-description: "Bug这个单词在英语中有两个最常见的含义。一种是形容昆虫，特别是那些小的、引起困扰的昆虫；另一种是形容电脑软件中的错误或者故障。"
+description: Bug这个单词在英语中有两个最常见的含义。一种是形容昆虫，特别是那些小的、引起困扰的昆虫；另一种是形容电脑软件中的错误或者故障。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bug"这个单词在英语中有两个最常见的含义。一种是形容昆虫，特别是那些小的、引起困扰的昆虫；另一种是形容电脑软件中的错误或者故障。
+
+<Pronunciation word="Bug" uk="/bʌɡ/" us="/bʌɡ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 John, a software engineer, was debugging his program at home. A pesky bug kept flying around, distracting him. Suddenly, he found the solution to the 'bug' in his code.
 
 约翰是一个软件工程师，他在家里调试他的程序。一只讨厌的小虫一直飞来飞去，分散了他的注意力。突然，他找到了代码中的“漏洞”的解决方案。
+
+<WordRelations
+  synonyms={["bog", "bogey", "boggard", "boggle", "bogle", "bugbear", "defect", "glitch", "bug"]}
+  client:only
+/>

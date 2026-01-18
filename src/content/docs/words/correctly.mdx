@@ -1,13 +1,19 @@
 ---
 title: Correctly
-description: "Correctly 是一个副词，意为“正确地”或“准确地”，用于修饰动词，表示出行动的方式或意图。"
+description: Correctly 是一个副词，意为“正确地”或“准确地”，用于修饰动词，表示出行动的方式或意图。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Correctly" 是一个副词，意为“正确地”或“准确地”，用于修饰动词，表示出行动的方式或意图。
+
+<Pronunciation word="Correctly" uk="/kəˈɹɛktli/" us="/kəˈɹɛktli/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 
 Sara correctly answered all the questions in the quiz and won the prize. She felt proud of herself.
 莎拉在测验中正确回答了所有问题，并赢得了奖品。她为自己感到骄傲。
+
+<WordRelations
+  synonyms={["accurately", "exactly", "precisely"]}
+  antonyms={["incorrectly"]}
+  client:only
+/>

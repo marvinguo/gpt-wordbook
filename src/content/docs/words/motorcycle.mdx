@@ -1,13 +1,19 @@
 ---
 title: Motorcycle
-description: "Motorcycle 是英语单词，指的是摩托车，一个有两个或三个轮子的机动车辆。这是一种通常用于短途旅行或者简短通勤的个人交通工具。"
+description: Motorcycle 是英语单词，指的是摩托车，一个有两个或三个轮子的机动车辆。这是一种通常用于短途旅行或者简短通勤的个人交通工具。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Motorcycle 是英语单词，指的是摩托车，一个有两个或三个轮子的机动车辆。这是一种通常用于短途旅行或者简短通勤的个人交通工具。
+
+<Pronunciation word="Motorcycle" uk="/ˈməʊtəˌsaikəl/" us="/ˈməʊtəˌsaikəl/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ Motorcycle 这个单词可以通过拆解来记忆，motor（发动机）+ cycle
 "Every Sunday, Tom rides his motorcycle to the mountains to enjoy the view. The wind combs through his hair as he races along the winding road."
 
 每个星期日，汤姆都会骑着他的摩托车去山上享受风景。当他在蜿蜒的道路上疾驰时，风便会穿过他的头发。
+
+<WordRelations
+  synonyms={["bike", "chopper", "cycle", "moped", "motorbicycle", "motorbike"]}
+  client:only
+/>

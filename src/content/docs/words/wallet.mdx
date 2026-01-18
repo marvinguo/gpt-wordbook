@@ -1,13 +1,19 @@
 ---
 title: Wallet
-description: "Wallet 是一个名词，用来表示一个小的、平的包，通常用来携带所有的现金、信用卡、身份证等个人事物。"
+description: Wallet 是一个名词，用来表示一个小的、平的包，通常用来携带所有的现金、信用卡、身份证等个人事物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wallet" 是一个名词，用来表示一个小的、平的包，通常用来携带所有的现金、信用卡、身份证等个人事物。
+
+<Pronunciation word="Wallet" uk="/ˈwɒlɪt/" us="/ˈwɒlɪt/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ Tom was eating an ice cream while walking in the park, oblivious to the fact tha
 
 故事翻译：
 汤姆在公园里边走边吃冰淇淋，没有注意到他的钱包从后兜里掉出来了。
+
+<WordRelations
+  synonyms={["billfold", "pocketbook"]}
+  client:only
+/>

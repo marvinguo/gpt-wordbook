@@ -1,13 +1,21 @@
 ---
 title: Bishop
-description: "Bishop 是一个英语名词，主要有两个含义。首先，它是一个宗教词汇，用于指代基督教中的一种重要职务，即主教，负责管理一定地区的教会事务。次要的含义是在国际象棋中，指代'象'这一棋子。"
+description: >-
+  Bishop
+  是一个英语名词，主要有两个含义。首先，它是一个宗教词汇，用于指代基督教中的一种重要职务，即主教，负责管理一定地区的教会事务。次要的含义是在国际象棋中，指代'象'这一棋子。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bishop" 是一个英语名词，主要有两个含义。首先，它是一个宗教词汇，用于指代基督教中的一种重要职务，即主教，负责管理一定地区的教会事务。次要的含义是在国际象棋中，指代"象"这一棋子。
+
+<Pronunciation word="Bishop" uk="/ˈbɪʃəp/" us="/ˈbɪʃəp/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ tableOfContents: false
 
 The bishop, in his soft-spoken yet powerful way, often inspired the local community with his sermons. Chess was his favorite pastime, his moves, especially with the bishop, were strategic and unpredictable.
 (主教以他的柔和却有力的方式，常用他的布道激励当地社区。国际象棋是他最喜欢的消遣方式，他的每一步尤其是用象棋子的移动都是策略性的和不可预测的。)
+
+<WordRelations
+  synonyms={["consecrator", "diocesan bishop", "suffragan bishop", "hierarch", "ordinary"]}
+  client:only
+/>

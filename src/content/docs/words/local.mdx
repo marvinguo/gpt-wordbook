@@ -1,13 +1,21 @@
 ---
 title: Local
-description: "Local 是一个形容词，主要用于描述某事或某人属于、或是特定于一个特地的地方或者区域。例如，我们会说“当地的新闻” (local news)，或是“当地的超市” (local supermarket)。"
+description: >-
+  Local 是一个形容词，主要用于描述某事或某人属于、或是特定于一个特地的地方或者区域。例如，我们会说“当地的新闻” (local
+  news)，或是“当地的超市” (local supermarket)。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Local 是一个形容词，主要用于描述某事或某人属于、或是特定于一个特地的地方或者区域。例如，我们会说“当地的新闻” (local news)，或是“当地的超市” (local supermarket)。
+
+<Pronunciation word="Local" uk="/ˈləʊkl̩/" us="/ˈloʊkl̩/" client:only />
 
 ### 列举例句
 
@@ -44,3 +52,9 @@ Local 本身就是一个完整的单词，并没有词缀。
 Once a local cat named Bob, loved to stroll around the local park. He enjoyed watching local kids playing. He truly was a local celebrity.
 
 - 曾经有一只叫 Bob 的当地猫，喜欢在公园里闲逛。它喜欢看本地的孩子们玩耍。它真的是当地的明星。
+
+<WordRelations
+  synonyms={["stopper", "topical"]}
+  antonyms={["express", "fast", "global"]}
+  client:only
+/>

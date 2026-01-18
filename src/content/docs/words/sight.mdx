@@ -1,15 +1,21 @@
 ---
 title: Sight
-description: "生词这个单词主要有两个含义:"
+description: '生词这个单词主要有两个含义:'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "生词"这个单词主要有两个含义:
 第一，它可以指通过眼睛看到的物体，场景或者人，可以翻译为“视觉”, “视线内的人或事物”。
 第二，它也可以指值得看的物体或场景，此时常常翻译为“景色”、“名胜”。
+
+<Pronunciation word="Sight" uk="/saɪt/" us="/saɪt/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 Once upon a time, I walked through the forest, as the sun's rays filtered through the leaves. Suddenly, a beautiful sight filled my eyes, a deer gracefully prancing by a babbling brook. I'll never forget that sight!
 
 曾经有一次，我走在森林中，阳光穿过树叶洒落下来。突然，一幅美丽的景象出现在我眼前，一只鹿优雅地在潺潺的小溪边跳动。我永远不会忘记那个景象！
+
+<WordRelations
+  synonyms={["sense", "vision", "peep sight", "scope", "view", "espy", "glimpse", "spot", "aim", "take aim", "see"]}
+  client:only
+/>

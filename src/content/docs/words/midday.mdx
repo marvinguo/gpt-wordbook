@@ -1,13 +1,19 @@
 ---
 title: Midday
-description: "Midday 是一个英语单词，表示一天中的正午或中午时分，普遍用于描述太阳位于天空最高点的时候，或者是一天中的 12 点左右。"
+description: Midday 是一个英语单词，表示一天中的正午或中午时分，普遍用于描述太阳位于天空最高点的时候，或者是一天中的 12 点左右。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Midday" 是一个英语单词，表示一天中的正午或中午时分，普遍用于描述太阳位于天空最高点的时候，或者是一天中的 12 点左右。
+
+<Pronunciation word="Midday" uk="/mɪdˈdeɪ/" us="/mɪdˈdeɪ/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 "There's a tradition in our town. At midday, everyone stops their work to enjoy a local dish together. It’s our special midday unity meal."（我们镇上有个传统。在正午时分，每个人都停下他们的工作，一起享受一道地方菜。这就是我们特别的正午团结餐。）
+
+<WordRelations
+  synonyms={["nones", "noontide"]}
+  antonyms={["midnight"]}
+  client:only
+/>

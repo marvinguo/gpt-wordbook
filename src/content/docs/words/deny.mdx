@@ -1,13 +1,19 @@
 ---
 title: Deny
-description: "Deny 是一个动词，它的基本意思是'否认'或'拒绝'。"
+description: Deny 是一个动词，它的基本意思是'否认'或'拒绝'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Deny" 是一个动词，它的基本意思是"否认"或"拒绝"。
+
+<Pronunciation word="Deny" uk="/dɪˈnaɪ/" us="/dɪˈnaɪ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 
 Carl needed money for his new business, but the bank denied his loan application. He did not give up; instead, he found another way to fund his dream project.
 卡尔为了他的新生意需要资金，但银行拒绝了他的贷款申请。他并没有放弃；相反，他找到了另一种方式来为他的梦想工程筹资。
+
+<WordRelations
+  synonyms={["contradict", "disclaim", "gainsay", "refute", "withsay"]}
+  antonyms={["affirm", "confirm", "allow"]}
+  client:only
+/>

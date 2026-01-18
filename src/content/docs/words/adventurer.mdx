@@ -1,13 +1,19 @@
 ---
 title: Adventurer
-description: "Adventurer 是一种名词，指的是那些喜欢探索、冒险，愿意承担风险的人。"
+description: Adventurer 是一种名词，指的是那些喜欢探索、冒险，愿意承担风险的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Adventurer" 是一种名词，指的是那些喜欢探索、冒险，愿意承担风险的人。
+
+<Pronunciation word="Adventurer" uk="/ædˈvɛn.tʃɚ.ɚ/" us="/ædˈvɛn.tʃɚ.ɚ/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 
 "Even as a child, Jack was an adventurer. He would turn every family trip into an exciting adventure, always eager to explore unseen horizons."
 "自小就一直，杰克就是一个冒险家。他会把每一次家庭旅行都变成一次刺激的冒险，总是热衷于探索未见过的地平线。"
+
+<WordRelations
+  synonyms={["man of action"]}
+  client:only
+/>

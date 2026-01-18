@@ -1,13 +1,19 @@
 ---
 title: Bacon
-description: "Bacon 是英语中的一个名词，主要指一种制成薄片的熏或煮熟的猪肉，通常在早餐时食用。在烹饪中，它也常常用于制作三明治，或者烹调其他食物以增添风味。"
+description: Bacon 是英语中的一个名词，主要指一种制成薄片的熏或煮熟的猪肉，通常在早餐时食用。在烹饪中，它也常常用于制作三明治，或者烹调其他食物以增添风味。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bacon" 是英语中的一个名词，主要指一种制成薄片的熏或煮熟的猪肉，通常在早餐时食用。在烹饪中，它也常常用于制作三明治，或者烹调其他食物以增添风味。
+
+<Pronunciation word="Bacon" uk="/ˈbeɪ.kən/" us="/ˈbeɪ.kən/" client:only />
 
 ### 列举例句
 
@@ -36,3 +42,8 @@ tableOfContents: false
 "Every morning, Tom's mom makes him eggs and bacon for breakfast. Tom loves the smell of bacon cooking. It's the best way to start the day."
 
 （每天早晨，汤姆的妈妈都会为他做鸡蛋和培根作为早餐。汤姆喜欢培根烹饪时的香味。这是开始新一天的最好方式。）
+
+<WordRelations
+  synonyms={["ham", "pork"]}
+  client:only
+/>

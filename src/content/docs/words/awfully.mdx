@@ -1,13 +1,19 @@
 ---
 title: Awfully
-description: "Awfully是一个英语副词，有'非常'或'极度'的意思。通常、它被用来强调描述词或其他副词的程度。"
+description: Awfully是一个英语副词，有'非常'或'极度'的意思。通常、它被用来强调描述词或其他副词的程度。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Awfully"是一个英语副词，有"非常"或"极度"的意思。通常、它被用来强调描述词或其他副词的程度。
+
+<Pronunciation word="Awfully" uk="/ˈɔːfli/" us="/ˈɔːfli/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 John was awfully late for his meeting. His boss was awfully mad at him.
 (约翰迟到得非常厉害，他的老板对他非常生气。)
+
+<WordRelations
+  synonyms={["extremely", "terribly", "very"]}
+  client:only
+/>

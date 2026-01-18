@@ -1,13 +1,19 @@
 ---
 title: Pound
-description: "Pound这个单词在英语当中有多个含义。它可以表示重量单位'磅'，也可以表示敲打或重击的行为，此外，它还可表示英国的货币单位。"
+description: Pound这个单词在英语当中有多个含义。它可以表示重量单位'磅'，也可以表示敲打或重击的行为，此外，它还可表示英国的货币单位。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Pound"这个单词在英语当中有多个含义。它可以表示重量单位"磅"，也可以表示敲打或重击的行为，此外，它还可表示英国的货币单位。
+
+<Pronunciation word="Pound" uk="/paʊnd/" us="/paʊnd/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 One day, John went to a local market in London. He bought a pound of oranges, spending five pounds. Suddenly, he heard a loud pounding noise. He turned around and saw a man pounding a nail into a wood board.
 
 一天，约翰去伦敦的一个当地市场。他花了五英镑买了一磅橙子。突然，他听到了一阵响亮的敲击声。他转过身，看见一个男人正在往一个木板上敲钉子。
+
+<WordRelations
+  synonyms={["GBP", "nicker", "pound sterling", "quid", "£", "hash", "sharp", "lb", "lb t", "punt"]}
+  client:only
+/>

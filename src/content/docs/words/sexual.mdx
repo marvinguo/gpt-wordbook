@@ -1,13 +1,19 @@
 ---
 title: Sexual
-description: "单词 'sexual' 是形容词, 主要用于描述与性有关或性方面的事物。"
+description: '单词 ''sexual'' 是形容词, 主要用于描述与性有关或性方面的事物。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词 "sexual" 是形容词, 主要用于描述与性有关或性方面的事物。
+
+<Pronunciation word="Sexual" uk="/ˈsɛksjuəl/" us="/ˈsɛkʃuəl/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 John attended a seminar on sexual health, which was enlightening and made him realize the significance of safe sex. (约翰参加了一场关于性健康的研讨会，这让他眼界大开，同时他也认识到了安全性行为的重要性)。
+
+<WordRelations
+  synonyms={["allosexual", "feminine"]}
+  antonyms={["asexual"]}
+  client:only
+/>

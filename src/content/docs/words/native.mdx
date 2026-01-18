@@ -1,13 +1,20 @@
 ---
 title: Native
-description: "Native是一个形容词，直译为'本土的'或'本地的'，常用来描述某人出生或长大的地方，或是物种原本生存的环境。同时，'native'也可作名词，描述一个来自特定地方的人。"
+description: >-
+  Native是一个形容词，直译为'本土的'或'本地的'，常用来描述某人出生或长大的地方，或是物种原本生存的环境。同时，'native'也可作名词，描述一个来自特定地方的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Native"是一个形容词，直译为"本土的"或"本地的"，常用来描述某人出生或长大的地方，或是物种原本生存的环境。同时，"native"也可作名词，描述一个来自特定地方的人。
+
+<Pronunciation word="Native" uk="/ˈneɪtɪv/" us="/ˈneɪtəv/" client:only />
 
 ### 列举例句
 
@@ -42,3 +49,9 @@ tableOfContents: false
 Jack, a native of Chicago, decided to move to New York for a job. Even in the bustling city, he often missed the tranquility of his native town.
 
 杰克，一个芝加哥本地人，决定为了工作搬到纽约。即使在繁华的大城市，他仍经常怀念家乡的宁静。
+
+<WordRelations
+  synonyms={["homeling", "inborn", "innate", "aboriginal", "autochthonous", "indigenous"]}
+  antonyms={["foreign", "fremd"]}
+  client:only
+/>

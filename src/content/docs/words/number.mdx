@@ -1,13 +1,21 @@
 ---
 title: Number
-description: "Number 是一个常用的英语单词，在语境中有多种含义。最基本的意思就是“数字”，它也可以表示'总数'或'个数'。此外，'number'也可以被用来代替'一首歌'或'一段表演'等意思。"
+description: >-
+  Number
+  是一个常用的英语单词，在语境中有多种含义。最基本的意思就是“数字”，它也可以表示'总数'或'个数'。此外，'number'也可以被用来代替'一首歌'或'一段表演'等意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Number" 是一个常用的英语单词，在语境中有多种含义。最基本的意思就是“数字”，它也可以表示"总数"或"个数"。此外，"number"也可以被用来代替"一首歌"或"一段表演"等意思。
+
+<Pronunciation word="Number" uk="/ˈnʌmbə/" us="/ˈnʌmbə/" client:only />
 
 ### 列举例句
 
@@ -43,3 +51,8 @@ Number 是一个基础词，没有前缀和后缀。但我们可以添加词缀�
 John found an old notebook in his grandmother's attic. Each page was filled with mysterious numbers.（约翰在祖母的阁楼上找到一本旧笔记本。每一页都充满了神秘的数字。）
 
 约翰在祖母的阁楼上发现了一本旧笔记本。每一页都写满了神秘的数字。
+
+<WordRelations
+  synonyms={["numeral", "rime", "scalar"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Sunny
-description: "Sunny 是一个形容词，它的基本含义是“阳光充足的”，常用来描述天气晴朗，阳光明媚的情况。此外，'sunny'也可以形容人，表示乐观、开朗、明快的性格。"
+description: Sunny 是一个形容词，它的基本含义是“阳光充足的”，常用来描述天气晴朗，阳光明媚的情况。此外，'sunny'也可以形容人，表示乐观、开朗、明快的性格。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sunny" 是一个形容词，它的基本含义是“阳光充足的”，常用来描述天气晴朗，阳光明媚的情况。此外，"sunny"也可以形容人，表示乐观、开朗、明快的性格。
+
+<Pronunciation word="Sunny" uk="/ˈsʌni/" us="/ˈsʌni/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 
 One sunny morning, Bob went out for a walk. The birds were singing and the flowers were blooming. Everywhere he looked, the world seemed filled with brightness and joy.
 (在一个阳光明媚的早晨，Bob 出去散步。鸟儿正在歌唱，鲜花正在盛开。不论他看向何处，世界似乎都充满了光明和欢乐。)
+
+<WordRelations
+  synonyms={["bright", "cheerful", "sunlit", "sunshiny"]}
+  client:only
+/>

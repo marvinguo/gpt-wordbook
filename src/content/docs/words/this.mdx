@@ -1,13 +1,19 @@
 ---
 title: This
-description: "this 是一个英语指示代词，通常用于指代距离说话人较近的人或物。例如，人们通常使用 'this' 来谈论他们正在谈论的事物，或者他们能看到和触摸的事物。"
+description: this 是一个英语指示代词，通常用于指代距离说话人较近的人或物。例如，人们通常使用 'this' 来谈论他们正在谈论的事物，或者他们能看到和触摸的事物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "this" 是一个英语指示代词，通常用于指代距离说话人较近的人或物。例如，人们通常使用 "this" 来谈论他们正在谈论的事物，或者他们能看到和触摸的事物。
+
+<Pronunciation word="This" uk="/ðəs/" us="/ðəs/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 This is John. He is a student at a local university. This is his daily life: He goes to classes in the morning, studies in the library in the afternoon, and this is how he spends his day.
 （这是约翰。他是本地一所大学的学生。这是他的日常生活：早上他上课，下午在图书馆学习，这就是他如何度过他的一天。）
+
+<WordRelations
+  synonyms={["+1", "IAWTP", "QFT"]}
+  client:only
+/>

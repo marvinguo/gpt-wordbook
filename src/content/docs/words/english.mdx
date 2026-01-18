@@ -1,13 +1,19 @@
 ---
 title: English
-description: "English 是一个形容词和名词，意指那些与英格兰或英格兰人相关的事物或人士，也指世界通用的语言，英语。"
+description: English 是一个形容词和名词，意指那些与英格兰或英格兰人相关的事物或人士，也指世界通用的语言，英语。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 English 是一个形容词和名词，意指那些与英格兰或英格兰人相关的事物或人士，也指世界通用的语言，英语。
+
+<Pronunciation word="English" uk="/ˈɪŋ.ɡlɪʃ/" us="/ˈɪŋ.ɡlɪʃ/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,8 @@ English 是一个形容词和名词，意指那些与英格兰或英格兰人相
 John, an English teacher, is teaching English in China. He loves Chinese culture and learns Chinese diligently in his spare time.
 
 约翰，一个英语教师，在中国教英语。他热爱中国文化，并在空闲时间勤奋地学习中文。
+
+<WordRelations
+  synonyms={["side", "sidespin", "spin"]}
+  client:only
+/>

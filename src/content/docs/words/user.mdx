@@ -1,13 +1,19 @@
 ---
 title: User
-description: "User 是英语中的一个常用词，它的基本含义是“用户”，“使用者”或是“消费者”。它是一个名词，指的是一个使用某种产品、服务或系统的人。"
+description: User 是英语中的一个常用词，它的基本含义是“用户”，“使用者”或是“消费者”。它是一个名词，指的是一个使用某种产品、服务或系统的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "User" 是英语中的一个常用词，它的基本含义是“用户”，“使用者”或是“消费者”。它是一个名词，指的是一个使用某种产品、服务或系统的人。
+
+<Pronunciation word="User" uk="/ˈjuːzə/" us="/ˈjuzɚ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 One day, a new user came to town. He was an enthusiastic user of the town's library. The user made it a point to rate and write reviews for every book he read, helping other users make better choices.（一天，一个新用户来到了小镇。他热衷于使用镇上的图书馆。这位用户把为他阅读过的每一本书打分并写书评作为一种习惯，这帮助了其他的用户做出更好的选择。）
+
+<WordRelations
+  synonyms={["parasite"]}
+  antonyms={["nonuser"]}
+  client:only
+/>

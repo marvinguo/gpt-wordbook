@@ -1,13 +1,19 @@
 ---
 title: Dull
-description: "英文单词 'dull' 通常描述一种乏味、呆滞甚至单调的情况。它也可以用来描述锐度不足的物理对象，比如钝的刀。"
+description: 英文单词 'dull' 通常描述一种乏味、呆滞甚至单调的情况。它也可以用来描述锐度不足的物理对象，比如钝的刀。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英文单词 "dull" 通常描述一种乏味、呆滞甚至单调的情况。它也可以用来描述锐度不足的物理对象，比如钝的刀。
+
+<Pronunciation word="Dull" uk="/dəl/" us="/dʌl/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 
 Once, the doll got lost in the dull city.
 曾经，一个小玩偶在这个乏味的城市里迷失了。
+
+<WordRelations
+  synonyms={["dullen", "lackluster", "matte"]}
+  antonyms={["bright", "intelligent", "sharp"]}
+  client:only
+/>

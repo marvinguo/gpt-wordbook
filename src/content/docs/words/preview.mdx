@@ -1,13 +1,19 @@
 ---
 title: Preview
-description: "Preview 是一个英语单词，用作名词时，它的意思是'预览'或'预演'。用作动词时，它的意思是'预先查看'或'预览'。"
+description: Preview 是一个英语单词，用作名词时，它的意思是'预览'或'预演'。用作动词时，它的意思是'预先查看'或'预览'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Preview 是一个英语单词，用作名词时，它的意思是"预览"或"预演"。用作动词时，它的意思是"预先查看"或"预览"。
+
+<Pronunciation word="Preview" uk="/ˈpɹiːvjʉː/" us="/ˈpɹiːvjʉː/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ Preview 这个单词在中世纪晚期就开始出现了，最初的意思是“
 ### 助记故事
 
 Once, John got a chance to preview a new sci-fi movie. He was thrilled and couldn't wait to share his views on the special scene. (曾经，约翰有机会预览一部新的科幻电影。他感到很兴奋，迫不及待想要分享他对特殊场景的看法。)
+
+<WordRelations
+  synonyms={["forelook", "foretaste"]}
+  client:only
+/>

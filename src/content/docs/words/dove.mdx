@@ -1,15 +1,21 @@
 ---
 title: Dove
-description: "Dove是英文，有两个不同的意思："
+description: Dove是英文，有两个不同的意思：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Dove"是英文，有两个不同的意思：
 第一个意思是“鸽子”。这是一个名词，指的是一种常见的鸟类。
 另一个不同的意思是“潜水”。当"dove"作为动词使用时，它是"dive"的过去式和过去分词，表示潜入水中或俯冲。
+
+<Pronunciation word="Dove" uk="/dʌv/" us="/dʌv/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 "Spotting a dove on his window sill, John took it as a sign of peace and decided to forgive his friend."（约翰在他的窗台上发现一只鸽子，他把它视为和平的标志，决定原谅他的朋友。）
 
 "约翰在他的窗台上发现一只鸽子，他把它视为和平的标志，决定原谅他的朋友。"
+
+<WordRelations
+  synonyms={["columbid", "columbiform", "culver", "pigeon"]}
+  client:only
+/>

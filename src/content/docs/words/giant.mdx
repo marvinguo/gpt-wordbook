@@ -1,13 +1,19 @@
 ---
 title: Giant
-description: "Giant 是一个英语单词，主要用于描述某人或某物的体积、规模、能力或影响力等特征远超过常人或普通水平。它可以用作名词或形容词。"
+description: Giant 是一个英语单词，主要用于描述某人或某物的体积、规模、能力或影响力等特征远超过常人或普通水平。它可以用作名词或形容词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Giant" 是一个英语单词，主要用于描述某人或某物的体积、规模、能力或影响力等特征远超过常人或普通水平。它可以用作名词或形容词。
+
+<Pronunciation word="Giant" uk="/ˈdʒaɪ.ənt/" us="/ˈdʒaɪ.ənt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Giant 作为形容词: 例如 giant-sized(超大型的)
 ### 助记故事
 
 "The giant elephant towered over the other animals in the zoo, attracting awe and applause from the crowd." 这个故事意思是：“动物园里的大象如同巨人一般高大，引得观众的惊叹与掌声。”
+
+<WordRelations
+  synonyms={["colossal", "enormous", "gigantic", "immense", "prodigious", "vast"]}
+  antonyms={["dwarf", "midget"]}
+  client:only
+/>

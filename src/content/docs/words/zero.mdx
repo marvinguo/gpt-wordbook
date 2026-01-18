@@ -1,13 +1,19 @@
 ---
 title: Zero
-description: "Zero 是一个英文单词，主要意思是'零'，在数学和科学中被广泛使用。它还有其它含义，例如表示'无'，'没有'，或者形容某人或某事为'无足轻重的'。"
+description: Zero 是一个英文单词，主要意思是'零'，在数学和科学中被广泛使用。它还有其它含义，例如表示'无'，'没有'，或者形容某人或某事为'无足轻重的'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Zero 是一个英文单词，主要意思是"零"，在数学和科学中被广泛使用。它还有其它含义，例如表示"无"，"没有"，或者形容某人或某事为"无足轻重的"。
+
+<Pronunciation word="Zero" uk="/ˈzɪəɹəʊ/" us="/ˈzi(ˌ)ɹoʊ/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ Zero 本身并没包含词缀，是一个无缀词。
 
 Once, a scientist created a new machine. However, it had zero popularities among people because of its complexity. Undeterred, he kept improving, hoping that one day, this "zero" would mean something to the world.
 （曾经，一位科学家创造了一台新的机器。但由于它太过复杂，没有人喜欢，它的人气为零。但他并未气馁，他不断地改进，希望有一天，这个“零”能对世界有所意义。）
+
+<WordRelations
+  synonyms={["slashed zero", "additive identity", "nadir", "bugger all", "fuck all", "nada", "naught", "nil", "nothing", "nought", "nowt", "null", "sod all", "sweet FA", "sweet Fanny Adams", "zilch", "zip", "cipher", "nobody", "nonentity"]}
+  antonyms={["pole"]}
+  client:only
+/>

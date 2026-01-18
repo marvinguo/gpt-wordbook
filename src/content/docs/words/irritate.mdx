@@ -1,13 +1,19 @@
 ---
 title: Irritate
-description: "Irritate是一个动词，意味着'激怒'或'使烦躁'。它可以用来指任何让人失去耐心或感到困扰的事物。"
+description: Irritate是一个动词，意味着'激怒'或'使烦躁'。它可以用来指任何让人失去耐心或感到困扰的事物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Irritate"是一个动词，意味着"激怒"或"使烦躁"。它可以用来指任何让人失去耐心或感到困扰的事物。
+
+<Pronunciation word="Irritate" uk="/ˈɪɹɪteɪt/" us="/ˈɪɹɪteɪt/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 
 He attempted to irritate his sibling by repeatedly poking her, delighted at the sight of her annoyed face. 他试图通过一遍又一遍地戳他的妹妹来惹恼她，看着她烦躁的脸，他兴高采烈。
 他尝试通过不断地戳他的妹妹来激怒她，看到她烦躁的脸，他感到非常开心。
+
+<WordRelations
+  synonyms={["provoke", "rile"]}
+  antonyms={["placate", "please", "soothe"]}
+  client:only
+/>

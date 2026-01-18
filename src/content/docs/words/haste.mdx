@@ -1,13 +1,19 @@
 ---
 title: Haste
-description: "Haste 这个单词是英文中的一个名词，它的意思是'快速'，'急促'或'匆忙'。"
+description: Haste 这个单词是英文中的一个名词，它的意思是'快速'，'急促'或'匆忙'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Haste" 这个单词是英文中的一个名词，它的意思是"快速"，"急促"或"匆忙"。
+
+<Pronunciation word="Haste" uk="/heɪst/" us="/heɪst/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Haste 是一个不含词根或词缀的单独单词。
 
 One day, a rabbit made haste to deliver a message to the king. He slipped and fell because he was too hasty. This teaches us that haste makes waste.
 (有一天，一只兔子立刻去给国王送信。因为它过于匆忙，所以它滑倒了。这教会我们，过于匆忙就会事倍功半。)
+
+<WordRelations
+  synonyms={["hurry", "rush", "scamper", "scramble", "scurry"]}
+  client:only
+/>

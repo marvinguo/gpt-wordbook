@@ -1,13 +1,19 @@
 ---
 title: Central
-description: "Central是形容词，主要有两个含义：一是指“中心的、中央的”，二是指“主要的、关键的”。"
+description: Central是形容词，主要有两个含义：一是指“中心的、中央的”，二是指“主要的、关键的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Central"是形容词，主要有两个含义：一是指“中心的、中央的”，二是指“主要的、关键的”。
+
+<Pronunciation word="Central" uk="/ˈsɛntɹəl/" us="/ˈsɛntɹəl/" client:only />
 
 ### 列举例句
 
@@ -48,3 +54,8 @@ tableOfContents: false
 The central park in the city is the place where we first met. (我们第一次见面的地方是城市的中央公园。)
 
 故事翻译：我们第一次见面的地方，就在城市的中心公园。
+
+<WordRelations
+  synonyms={["dominant", "main", "principal"]}
+  client:only
+/>

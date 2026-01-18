@@ -1,13 +1,19 @@
 ---
 title: Broom
-description: "Broom是一个英语单词，主要的意思是'扫帚'，它是家庭清洁工具的一种，通常由硬毛或草束等固定到一个长柄上，用来清扫地面的杂物。"
+description: Broom是一个英语单词，主要的意思是'扫帚'，它是家庭清洁工具的一种，通常由硬毛或草束等固定到一个长柄上，用来清扫地面的杂物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Broom"是一个英语单词，主要的意思是"扫帚"，它是家庭清洁工具的一种，通常由硬毛或草束等固定到一个长柄上，用来清扫地面的杂物。
+
+<Pronunciation word="Broom" uk="/bɹuːm/" us="/bɹuːm/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, there was a magic broom that could sweep the room by itself. (从前，有一个神奇的扫帚，它能自己扫地。)
+
+<WordRelations
+  synonyms={["besom"]}
+  client:only
+/>

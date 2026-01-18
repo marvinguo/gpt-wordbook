@@ -1,13 +1,19 @@
 ---
 title: Surgeon
-description: "Surgeon 是英语中的一个常见单词，该词是名词，指的是在医院或诊所工作，执行手术的医生，即“外科医生”。"
+description: Surgeon 是英语中的一个常见单词，该词是名词，指的是在医院或诊所工作，执行手术的医生，即“外科医生”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Surgeon" 是英语中的一个常见单词，该词是名词，指的是在医院或诊所工作，执行手术的医生，即“外科医生”。
+
+<Pronunciation word="Surgeon" uk="/ˈsɜːdʒən/" us="/ˈsɜːdʒən/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Once there was a skilled surgeon named Dr. Howard. He could deftly maneuver through the most complex operations, saving countless lives. ( 曾经有一位名叫霍华德的熟练外科医生。他可以熟练地操控最复杂的手术，挽救了无数生命。)
+
+<WordRelations
+  synonyms={["chirurgeon", "sawbones"]}
+  client:only
+/>

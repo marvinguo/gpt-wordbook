@@ -1,13 +1,21 @@
 ---
 title: Sugar
-description: "Sugar 是一种化学术语，指的是一类包括葡萄糖、果糖、味道甜的碳水化合物。在日常生活中，'sugar' 通常特指蔗糖或者食糖，用于烹饪和烘焙。同时，'sugar' 也有一个地道的用法，偶尔会用作亲昵语，就像中文里的'亲爱的'。"
+description: >-
+  Sugar 是一种化学术语，指的是一类包括葡萄糖、果糖、味道甜的碳水化合物。在日常生活中，'sugar'
+  通常特指蔗糖或者食糖，用于烹饪和烘焙。同时，'sugar' 也有一个地道的用法，偶尔会用作亲昵语，就像中文里的'亲爱的'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sugar" 是一种化学术语，指的是一类包括葡萄糖、果糖、味道甜的碳水化合物。在日常生活中，"sugar" 通常特指蔗糖或者食糖，用于烹饪和烘焙。同时，"sugar" 也有一个地道的用法，偶尔会用作亲昵语，就像中文里的"亲爱的"。
+
+<Pronunciation word="Sugar" uk="/ˈʃʊɡə(ɹ)/" us="/ˈʃʊɡɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,8 @@ tableOfContents: false
 
 In a cake shop, Sally cried, "Can I have a sugar cookie, mom?" Her mom smiled, gave her the sweet treat and said, "Here you are, sugar."
 在一家蛋糕店里，Sally 喊着：“我可以吃一块糖饼干吗，妈妈？”她的妈妈笑了，给了她那个甜点，说：“给你，亲爱的。”
+
+<WordRelations
+  synonyms={["sweeten", "sugar-coat"]}
+  client:only
+/>

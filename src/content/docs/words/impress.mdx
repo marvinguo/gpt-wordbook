@@ -1,13 +1,19 @@
 ---
 title: Impress
-description: "Impress这个单词是动词，主要含义是'给人以深刻的影响'或'使印象深刻'。"
+description: Impress这个单词是动词，主要含义是'给人以深刻的影响'或'使印象深刻'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Impress"这个单词是动词，主要含义是"给人以深刻的影响"或"使印象深刻"。
+
+<Pronunciation word="Impress" uk="/ˈɪmpɹɛs/" us="/ˈɪmpɹɛs/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 
 Once upon a time, a young man tried to impress a girl with a magic trick. He pulled a rabbit out of the hat.
 从前，有一个年轻人试图用魔术来给一个女孩留下深刻印象。他从帽子里拉出了一只兔子。
+
+<WordRelations
+  synonyms={["pressgang", "cut a figure", "imprint", "print", "stamp", "confiscate", "impound", "seize", "sequester", "make an impression"]}
+  client:only
+/>

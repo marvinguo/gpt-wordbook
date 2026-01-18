@@ -1,13 +1,21 @@
 ---
 title: Neat
-description: "Neat是一个常用的形容词，用于形容某人或某物整洁、清晰或者精炼。比如一个人穿着可以说是 neat，一份报告的呈现也可以是 neat。它也可以表示妥帖，恰到好处。"
+description: >-
+  Neat是一个常用的形容词，用于形容某人或某物整洁、清晰或者精炼。比如一个人穿着可以说是 neat，一份报告的呈现也可以是
+  neat。它也可以表示妥帖，恰到好处。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Neat"是一个常用的形容词，用于形容某人或某物整洁、清晰或者精炼。比如一个人穿着可以说是 neat，一份报告的呈现也可以是 neat。它也可以表示妥帖，恰到好处。
+
+<Pronunciation word="Neat" uk="/niːt/" us="/niːt/" client:only />
 
 ### 列举例句
 
@@ -42,3 +50,8 @@ tableOfContents: false
 
 There's a cat, nifty and always neat. It loves to sit on the bookshelf, surrounded by neat stacks of books.
 有只喵很利落，总是那么整洁。它爱坐在书架上，周围是整齐的书堆。
+
+<WordRelations
+  antonyms={["on the rocks"]}
+  client:only
+/>

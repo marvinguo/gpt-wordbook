@@ -1,13 +1,19 @@
 ---
 title: World
-description: "World 是一个常用的英文单词，主要有两个含义。它可以指代地球、宇宙或整个自然界，也可以引申为人类社会、生活的广大舞台。"
+description: World 是一个常用的英文单词，主要有两个含义。它可以指代地球、宇宙或整个自然界，也可以引申为人类社会、生活的广大舞台。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "World" 是一个常用的英文单词，主要有两个含义。它可以指代地球、宇宙或整个自然界，也可以引申为人类社会、生活的广大舞台。
+
+<Pronunciation word="World" uk="/wɝld/" us="/wɝld/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 
 Once upon a time, a little boy dreamed about exploring the world. He looked at the world map every day and imagined what it would be like in those faraway places.
 曾经有一次，一个小男孩梦想着探索世界。他每天都会看着世界地图，想象那些遥远的地方会是什么样子。
+
+<WordRelations
+  synonyms={["planet", "circle", "Earth", "Sol III", "globe"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Notice
-description: "Notice这个单词可以用做名词和动词。名词形式可以指注意、通告、预告，动词形式则意味着注意到、察觉到。"
+description: Notice这个单词可以用做名词和动词。名词形式可以指注意、通告、预告，动词形式则意味着注意到、察觉到。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Notice"这个单词可以用做名词和动词。名词形式可以指注意、通告、预告，动词形式则意味着注意到、察觉到。
+
+<Pronunciation word="Notice" uk="/ˈnəʊtɪs/" us="/ˈnoʊtɪs/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ Notice 中没有明显的单词词缀，但是我们可以通过"noticeable"（�
 ### 助记故事
 
 A note on a piece of ice caught my attention. It was the notice about the closure of the park due to extreme cold. (一块冰上的纸条引起了我的注意。这是一个关于由于严寒公园关闭的通知。)
+
+<WordRelations
+  synonyms={["heed", "regard", "recognize"]}
+  antonyms={["ignore", "neglect"]}
+  client:only
+/>

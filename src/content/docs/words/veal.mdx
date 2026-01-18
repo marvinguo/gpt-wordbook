@@ -1,13 +1,21 @@
 ---
 title: Veal
-description: "Veal是英文单词，指的是小牛肉，通常是 7 至 12 周大的小牛的肉。有许多不同的烹饪方式和菜肴使用了小牛肉，包括名为'Veal Parmesan'的意大利菜肴。"
+description: >-
+  Veal是英文单词，指的是小牛肉，通常是 7 至 12 周大的小牛的肉。有许多不同的烹饪方式和菜肴使用了小牛肉，包括名为'Veal
+  Parmesan'的意大利菜肴。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Veal"是英文单词，指的是小牛肉，通常是 7 至 12 周大的小牛的肉。有许多不同的烹饪方式和菜肴使用了小牛肉，包括名为"Veal Parmesan"的意大利菜肴。
+
+<Pronunciation word="Veal" uk="/viːl/" us="/viːl/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,8 @@ tableOfContents: false
 
 The gourmet praised the veal steak at the fancy restaurant. It was tender, rich in flavor, and cooked to perfection.
 (美食家赞扬了豪华餐厅的小牛排。它鲜嫩，口感丰富，烹饪得恰到好处。)
+
+<WordRelations
+  synonyms={["calfflesh"]}
+  client:only
+/>

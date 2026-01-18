@@ -1,13 +1,21 @@
 ---
 title: Maiden
-description: "Maiden 是个名词，主要有两个含义：1. 年轻未婚的女子，就象我们中文里说的丫环或少女。2. 指人或事物的第一次或首次，如“maiden voyage” 指的是首次的航行。"
+description: >-
+  Maiden 是个名词，主要有两个含义：1. 年轻未婚的女子，就象我们中文里说的丫环或少女。2. 指人或事物的第一次或首次，如“maiden voyage”
+  指的是首次的航行。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Maiden 是个名词，主要有两个含义：1. 年轻未婚的女子，就象我们中文里说的丫环或少女。2. 指人或事物的第一次或首次，如“maiden voyage” 指的是首次的航行。
+
+<Pronunciation word="Maiden" uk="/ˈmeɪdən/" us="/ˈmeɪdən/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,9 @@ Maiden 可以拆分为 maid 和-en。Maid 是女仆的意思，而-en 是单词�
 Once upon a time, a noble maiden lived in a humble cottage. This was her maiden experience of living alone, but she courageously faced every challenge that came her way.
 
 曾经有一位高贵的少女住在一个简朴的小屋里。这是她首次独自生活，但她勇敢地面对了每一个挑战。
+
+<WordRelations
+  synonyms={["bachelorette", "maidenly"]}
+  antonyms={["Master"]}
+  client:only
+/>

@@ -1,13 +1,21 @@
 ---
 title: Doom
-description: "- Doom 是一个英语单词，其主要意思是'厄运'、'毁灭'或'死亡'。它可能涵盖了能导致最后的失败或破坏的任何形势的概念。当用作动词时，Doom 意味着指定或判定为失败、死亡或灾难。"
+description: >-
+  - Doom 是一个英语单词，其主要意思是'厄运'、'毁灭'或'死亡'。它可能涵盖了能导致最后的失败或破坏的任何形势的概念。当用作动词时，Doom
+  意味着指定或判定为失败、死亡或灾难。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - Doom 是一个英语单词，其主要意思是"厄运"、"毁灭"或"死亡"。它可能涵盖了能导致最后的失败或破坏的任何形势的概念。当用作动词时，Doom 意味着指定或判定为失败、死亡或灾难。
+
+<Pronunciation word="Doom" uk="/duːm/" us="/duːm/" client:only />
 
 ### 列举例句
 
@@ -41,3 +49,8 @@ tableOfContents: false
 - The old witch prophesied the prince's doom. The kingdom was filled with panic and gloom.
 
   那个老巫婆预言了王子的厄运。整个王国充满了恐慌和忧郁。
+
+<WordRelations
+  antonyms={["fortune"]}
+  client:only
+/>

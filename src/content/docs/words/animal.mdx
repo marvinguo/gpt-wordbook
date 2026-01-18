@@ -1,13 +1,21 @@
 ---
 title: Animal
-description: "Animal 这个单词在英文中的意思是“动物”。它可以用来泛指所有包括人在内的生物。在狭义上，它只包括那些呼吸氧气并且能主动移动的生物，人更经常地用它来指称那些非人类生物。"
+description: >-
+  Animal
+  这个单词在英文中的意思是“动物”。它可以用来泛指所有包括人在内的生物。在狭义上，它只包括那些呼吸氧气并且能主动移动的生物，人更经常地用它来指称那些非人类生物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Animal 这个单词在英文中的意思是“动物”。它可以用来泛指所有包括人在内的生物。在狭义上，它只包括那些呼吸氧气并且能主动移动的生物，人更经常地用它来指称那些非人类生物。
+
+<Pronunciation word="Animal" uk="/ˈænɪməl/" us="/ˈænɪməl/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ Animal 这个单词在英文中的意思是“动物”。它可以用来泛指�
 "Every day, a little girl went to the park near her house. She loved to watch the animals there. The squirrels darted around, the ducks swam in the pond, and the birds flew in the sky. She felt closer to nature when she watched them."
 
 每天，一个小女孩都会去她家附近的公园。她喜欢观察那里的动物。松鼠在四处跑，鸭子在池塘中游，鸟儿在天空飞翔。看着它们，她觉得自己更接近大自然。
+
+<WordRelations
+  synonyms={["beast", "creature", "brute", "monster", "savage"]}
+  client:only
+/>

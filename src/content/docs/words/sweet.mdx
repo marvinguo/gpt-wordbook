@@ -1,13 +1,19 @@
 ---
 title: Sweet
-description: "Sweet 是一个英语形容词，意为“甜的，甜美的”。它描述了某种味道、声音、气味，或者一种人的举止和性格。"
+description: Sweet 是一个英语形容词，意为“甜的，甜美的”。它描述了某种味道、声音、气味，或者一种人的举止和性格。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sweet" 是一个英语形容词，意为“甜的，甜美的”。它描述了某种味道、声音、气味，或者一种人的举止和性格。
+
+<Pronunciation word="Sweet" uk="/swiːt/" us="/swit/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 There was a little bird with a sweet voice in the forest. It sang every morning, waking up the whole forest with its sweet song. [在森林中有一只声音甜美的小鸟。每天早晨，它都会唱歌，用甜美的歌声唤醒整个森林。]
+
+<WordRelations
+  synonyms={["dessert", "bonbon", "candy", "confection", "confectionery", "lolly", "sweetness", "awesome", "rad", "wicked", "sugared", "sweetened", "gracious", "helpful", "kind", "sensitive", "thoughtful", "fragrant", "odoriferous", "odorous"]}
+  antonyms={["lame", "uncool", "nonsweet", "sugarless", "unsugared", "unsweet", "unsweetened", "sour", "bitter", "salty", "decaying", "fermented", "rancid", "spoiled", "stale", "savoury", "dry"]}
+  client:only
+/>

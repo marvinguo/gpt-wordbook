@@ -1,13 +1,19 @@
 ---
 title: Worsen
-description: "worsen 是一个动词，意为“变得更糟；加重；恶化”。"
+description: worsen 是一个动词，意为“变得更糟；加重；恶化”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "worsen" 是一个动词，意为“变得更糟；加重；恶化”。
+
+<Pronunciation word="Worsen" uk="/ˈwɜː(r)sən/" us="/ˈwɜː(r)sən/" client:only />
 
 ### 列举例句
 
@@ -47,3 +53,9 @@ tableOfContents: false
 The city was hit by a severe drought. As days passed, the situation only seemed to worsen, with no rain in sight.
 
 这个城市遭受了严重的干旱。随着日子的推移，情况似乎只是在恶化，看不到下雨的迹象。
+
+<WordRelations
+  synonyms={["decline", "deteriorate", "better", "defeat", "overpower", "aggravate", "exacerbate"]}
+  antonyms={["ameliorate", "improve"]}
+  client:only
+/>

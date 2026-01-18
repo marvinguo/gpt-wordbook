@@ -1,13 +1,19 @@
 ---
 title: Eligible
-description: "Eligible 是一个形容词，意思是合格的、有资格的或者符合条件的。"
+description: Eligible 是一个形容词，意思是合格的、有资格的或者符合条件的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Eligible" 是一个形容词，意思是合格的、有资格的或者符合条件的。
+
+<Pronunciation word="Eligible" uk="/ˈɛlɪdʒəb(ə)l/" us="/ˈɛlɪdʒəb(ə)l/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ Eligible 的反义词是 ineligible。而且它没有词形变化。
 ### 助记故事
 
 Maria was thrilled when she received the acceptance letter, she was finally eligible for the overseas study program. 玛丽亚收到录取通知书时非常激动，她终于有资格参加海外学习项目了。
+
+<WordRelations
+  synonyms={["qualified"]}
+  antonyms={["ineligible", "unqualified"]}
+  client:only
+/>

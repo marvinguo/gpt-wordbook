@@ -1,13 +1,19 @@
 ---
 title: Chile
-description: "Chile 是西班牙语，是南美洲国家智利（Chile）的英语名字。它位于南美洲南部，东邻阿根廷，西临太平洋。"
+description: Chile 是西班牙语，是南美洲国家智利（Chile）的英语名字。它位于南美洲南部，东邻阿根廷，西临太平洋。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Chile" 是西班牙语，是南美洲国家智利（Chile）的英语名字。它位于南美洲南部，东邻阿根廷，西临太平洋。
+
+<Pronunciation word="Chile" uk="/ˈt͡ʃɪli/" us="/ˈt͡ʃɪli/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 
 "Last year, Paul had a memorable journey to Chile. He tasted the local wine, experienced the vibrant culture, and admired the breath-taking landscapes. The trip made a deep impression on Paul."
 "去年，保罗对智利的一次旅行给他留下了深刻的印象。他品尝了当地的葡萄酒，体验了当地丰富多彩的文化，欣赏了令人惊叹的风景。这次旅行让保罗印象深刻。"
+
+<WordRelations
+  synonyms={["chili pepper", "chili powder", "chili con carne"]}
+  client:only
+/>

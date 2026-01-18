@@ -1,13 +1,19 @@
 ---
 title: Oar
-description: "Oar 是一个名词，指的是划船的桨。作为动词，'oar' 表示用桨划船。"
+description: Oar 是一个名词，指的是划船的桨。作为动词，'oar' 表示用桨划船。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Oar" 是一个名词，指的是划船的桨。作为动词，"oar" 表示用桨划船。
+
+<Pronunciation word="Oar" uk="/ɔː/" us="/ɔɹ/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 John was in a small boat in the middle of the lake. Suddenly, he realized he had lost his **oar** in the water. Stranded in the middle of the lake, he had no choice but to wait for help.
 
 约翰在湖中央的一艘小船上。突然，他发现他的桨落在了水中。困在湖心，他别无选择，只能等待救援。
+
+<WordRelations
+  synonyms={["paddle"]}
+  client:only
+/>

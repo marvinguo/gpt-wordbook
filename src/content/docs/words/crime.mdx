@@ -1,13 +1,19 @@
 ---
 title: Crime
-description: "Crime 是一个名词，意为“犯罪”，指违反法律，并且可能受到法律处罚的行为。"
+description: Crime 是一个名词，意为“犯罪”，指违反法律，并且可能受到法律处罚的行为。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Crime" 是一个名词，意为“犯罪”，指违反法律，并且可能受到法律处罚的行为。
+
+<Pronunciation word="Crime" uk="/kɹaɪm/" us="/kɹaɪm/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 John lived a life of **crime**, and eventually, the police caught him. (约翰过着**犯罪**的生活，最终被警察抓住了。)
+
+<WordRelations
+  synonyms={["criminality", "delinquency"]}
+  client:only
+/>

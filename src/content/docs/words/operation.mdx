@@ -1,13 +1,19 @@
 ---
 title: Operation
-description: "Operation 这个单词在英语中有多重含义，它通常被用作名词，主要表示以下几个意思："
+description: Operation 这个单词在英语中有多重含义，它通常被用作名词，主要表示以下几个意思：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Operation 这个单词在英语中有多重含义，它通常被用作名词，主要表示以下几个意思：
+
+<Pronunciation word="Operation" uk="/ˌɒpəˈɹeɪʃən/" us="/ˌɑpəˈɹeɪʃən/" client:only />
 
 1.  运作，操作。如：The operation of this machine is simple.（这台机器的操作很简单。）
 
@@ -54,3 +60,8 @@ Operation 本身就是名词形式，对应的动词形式是 operate，形容�
 There was a crucial military operation last night. Our troops infiltrated the enemy base stealthily and captured the enemy's leader. It was a successful operation.
 
 昨晚有一个关键的军事行动。我们的部队秘密地渗透到敌人的基地并捕获了敌人的领导。这次行动非常成功。
+
+<WordRelations
+  synonyms={["function", "transformation"]}
+  client:only
+/>

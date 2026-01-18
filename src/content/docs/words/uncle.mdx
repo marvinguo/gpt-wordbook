@@ -1,13 +1,19 @@
 ---
 title: Uncle
-description: "Uncle 除了我们最熟悉的意思——朋友和堂、伯、舅、姨父——外，还可以作为一种亲切的称谓来对待年纪较大的男性。"
+description: Uncle 除了我们最熟悉的意思——朋友和堂、伯、舅、姨父——外，还可以作为一种亲切的称谓来对待年纪较大的男性。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “Uncle” 除了我们最熟悉的意思——朋友和堂、伯、舅、姨父——外，还可以作为一种亲切的称谓来对待年纪较大的男性。
+
+<Pronunciation word="Uncle" uk="/ˈʌŋ.kəl/" us="/ˈʌŋ.kəl/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 Once, Uncle John went fishing. He sat quietly by the lake, listening to the birds chirping, feeling the cool breeze. (曾经，约翰叔叔去钓鱼。他静静地坐在湖边，听着鸟儿的啾啾声，感受着微风的凉爽。)
+
+<WordRelations
+  synonyms={["eam", "eme"]}
+  antonyms={["boy", "aunty", "nephew", "niece", "aunt"]}
+  client:only
+/>

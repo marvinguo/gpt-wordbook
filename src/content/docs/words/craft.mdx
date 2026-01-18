@@ -1,13 +1,19 @@
 ---
 title: Craft
-description: "Craft主要有两个基础含义："
+description: Craft主要有两个基础含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Craft"主要有两个基础含义：
+
+<Pronunciation word="Craft" uk="/kɹɑːft/" us="/kɹæft/" client:only />
 
 1.  它可以指的是一种手工艺或艺术，如“手工艺品”（craft item）或“艺术制作”（the craft of painting）；
 2.  另一个含义是 “技巧” 或 “巧妙” ，比如 “欺骗的技巧”（the craft of deception）。
@@ -45,3 +51,8 @@ Craft 的词根来自古英语的"cræft"，意为力量或技能。这古老的
 
 Once upon a time, there was a crafty wizard who crafted a magical potion.
 曾经有一次，有一个狡猾的巫师精心制作了一瓶魔法药水。
+
+<WordRelations
+  synonyms={["art", "business", "handicraft", "profession", "trade", "craftsmanship", "workmanship"]}
+  client:only
+/>

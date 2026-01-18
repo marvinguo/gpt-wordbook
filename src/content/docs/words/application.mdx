@@ -1,13 +1,21 @@
 ---
 title: Application
-description: "Application 是一个英语单词，有两个主要含义。一是'应用，使用'，通常指的是某种理论、原则或知识的实际应用。二是'申请，请求'，表示提出要求以达成某种目的。"
+description: >-
+  Application
+  是一个英语单词，有两个主要含义。一是'应用，使用'，通常指的是某种理论、原则或知识的实际应用。二是'申请，请求'，表示提出要求以达成某种目的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Application 是一个英语单词，有两个主要含义。一是"应用，使用"，通常指的是某种理论、原则或知识的实际应用。二是"申请，请求"，表示提出要求以达成某种目的。
+
+<Pronunciation word="Application" uk="/aplɪˈkeɪʃ(ə)n/" us="/ˌæpləˈkeɪʃən/" client:only />
 
 例如：
 
@@ -47,3 +55,8 @@ Application 这个词在 14 世纪从法语引入英语，原意是“正式提�
 
 Tom had been staring at the 'send' button on the job application for minutes, nervous yet excited. Was this the start of a new chapter?
 多米已经盯着求职申请上的“发送”按钮几分钟了，既紧张又兴奋。这将是新篇章的开始吗?
+
+<WordRelations
+  synonyms={["app", "program", "software"]}
+  client:only
+/>

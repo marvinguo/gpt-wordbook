@@ -1,13 +1,19 @@
 ---
 title: Best
-description: "Best 是一种形容词，也可能是副词，其最基本的含义是“最好的”或“最出色的”。描绘了超过其他所有的某种特质或特性。"
+description: Best 是一种形容词，也可能是副词，其最基本的含义是“最好的”或“最出色的”。描绘了超过其他所有的某种特质或特性。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Best" 是一种形容词，也可能是副词，其最基本的含义是“最好的”或“最出色的”。描绘了超过其他所有的某种特质或特性。
+
+<Pronunciation word="Best" uk="/ˈbɛst/" us="/ˈbɛst/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 
 She studied hard for the math exam, and her efforts paid off. She scored the best in her class.
 她为数学考试努力学习，她的努力得到了回报。她在班级中取得了最好的成绩。
+
+<WordRelations
+  synonyms={["accomplished", "all right", "decent", "not bad", "satisfactory", "well"]}
+  antonyms={["worst", "baddest", "bad", "evil", "poor"]}
+  client:only
+/>

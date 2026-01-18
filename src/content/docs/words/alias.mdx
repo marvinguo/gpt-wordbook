@@ -1,14 +1,20 @@
 ---
-title: "Alias"
-description: "Alias 指代名、化名，常用于罪犯或作家。"
+title: Alias
+description: Alias 指代名、化名，常用于罪犯或作家。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Alias** 既可以作名词（假名），也可以作副词（又名）。它通常用于隐藏真实身份。
+
+<Pronunciation word="Alias" uk="/ˈeɪ.li.əs/" us="/ˈeɪ.li.əs/" client:only />
 
 ### 列举例句
 
@@ -30,3 +36,7 @@ tableOfContents: false
 The famous hacker was known only by his online alias, and his true identity remained a secret for years.
 (这位著名的黑客仅因其网络化名而闻名，他的真实身份多年来一直是个秘密。)
 
+<WordRelations
+  synonyms={["pseudonym", "AKA"]}
+  client:only
+/>

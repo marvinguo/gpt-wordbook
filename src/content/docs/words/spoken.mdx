@@ -1,13 +1,19 @@
 ---
 title: Spoken
-description: "Spoken 是'恶话'的过去分词和过去式，主要用于描述以口头方式表达的信息或者描述人的口头语言能力。"
+description: Spoken 是'恶话'的过去分词和过去式，主要用于描述以口头方式表达的信息或者描述人的口头语言能力。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Spoken" 是"恶话"的过去分词和过去式，主要用于描述以口头方式表达的信息或者描述人的口头语言能力。
+
+<Pronunciation word="Spoken" uk="/ˈspoʊkən/" us="/ˈspoʊkən/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 John just spoke his first sentence: "I love you, Mom." That was the most beautifully spoken sentence she had ever heard.（约翰刚刚说了他的第一句话："我爱你，妈妈。" 那是她听过的最美的一句话。）
 
 约翰刚刚说出他的第一句话："我爱你，妈妈。"那是她听过的最美的一句话。
+
+<WordRelations
+  synonyms={["articulate", "talk", "verbalize", "oral", "verbal"]}
+  antonyms={["be silent", "unspoken"]}
+  client:only
+/>

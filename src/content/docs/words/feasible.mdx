@@ -1,13 +1,19 @@
 ---
 title: Feasible
-description: "Feasible是一个形容词，表示可能的或能实行的，具备实现或完成的条件。"
+description: Feasible是一个形容词，表示可能的或能实行的，具备实现或完成的条件。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Feasible"是一个形容词，表示可能的或能实行的，具备实现或完成的条件。
+
+<Pronunciation word="Feasible" uk="/ˈfiːzəbəl/" us="/ˈfiːzəbəl/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 
 Tom has a brilliant but challenging idea. He worked overnight to map out a feasible plan, and everyone cheered when they heard it.
 (Tom 有一个热门但具有挑战性的想法。他彻夜工作，绘制出一个可行的计划，当大家听到时，都欢呼起来。)
+
+<WordRelations
+  synonyms={["achievable", "doable", "possible", "practicable", "workable"]}
+  antonyms={["infeasible", "unfeasible"]}
+  client:only
+/>

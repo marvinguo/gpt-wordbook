@@ -1,13 +1,19 @@
 ---
 title: Formal
-description: "Formal 是一个形容词，主要指的是坚守规章制度、严谨正式或者正规的。也可以形容着装或者场合的正式。"
+description: Formal 是一个形容词，主要指的是坚守规章制度、严谨正式或者正规的。也可以形容着装或者场合的正式。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Formal" 是一个形容词，主要指的是坚守规章制度、严谨正式或者正规的。也可以形容着装或者场合的正式。
+
+<Pronunciation word="Formal" uk="/ˈfɔːməl/" us="/ˈfɔɹməl/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ Formal 来自拉丁文词根 "formalis"，侧重于形式或形状。
 In a formal event, a man in formal attire was about to give a formal speech. The atmosphere was quite formal.
 
 在一个正式的活动中，一个穿着正式服装的男士即将发表一个正式的演讲。气氛很正式。
+
+<WordRelations
+  antonyms={["informal"]}
+  client:only
+/>

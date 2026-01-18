@@ -1,13 +1,19 @@
 ---
 title: In
-description: "In 是一个英文介词，通常用于表示物体的位置、状态，或者时间。例如, 'in the box （在盒子里）', 'in time（及时）'."
+description: 'In 是一个英文介词，通常用于表示物体的位置、状态，或者时间。例如, ''in the box （在盒子里）'', ''in time（及时）''.'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 'In' 是一个英文介词，通常用于表示物体的位置、状态，或者时间。例如, 'in the box （在盒子里）', 'in time（及时）'.
+
+<Pronunciation word="In" uk="/ɪn/" us="/ɪn/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Tom was looking for Jerry everywhere, but Jerry was hiding in the box all the time.（汤姆一直在到处找杰瑞，但是杰瑞一直在盒子里藏着。）
+
+<WordRelations
+  antonyms={["out"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Cosy
-description: "cosy是一个形容词，该词原意为“温暖舒适的”，通常用于描述一个环境或者氛围，让人感到轻松、愉快和舒适。也可作为“和谐，亲密”来理解。"
+description: cosy是一个形容词，该词原意为“温暖舒适的”，通常用于描述一个环境或者氛围，让人感到轻松、愉快和舒适。也可作为“和谐，亲密”来理解。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "cosy"是一个形容词，该词原意为“温暖舒适的”，通常用于描述一个环境或者氛围，让人感到轻松、愉快和舒适。也可作为“和谐，亲密”来理解。
+
+<Pronunciation word="Cosy" uk="/ˈkəʊzi/" us="/ˈkoʊzi/" client:only />
 
 ### 列举例句
 
@@ -35,3 +41,8 @@ tableOfContents: false
 
 In a deep winter night, Emily sat by the fireplace, wrapped in a blanket, sipping hot chocolate. The room was quiet and cosy, making her forget the cold outside.
 在深冬的夜晚，艾米丽坐在壁炉旁，裹着毛毯，喝着热巧克力。房间静谧而舒适，让她忘记了外面的严寒。
+
+<WordRelations
+  synonyms={["snug"]}
+  client:only
+/>

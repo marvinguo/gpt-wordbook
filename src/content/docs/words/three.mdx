@@ -1,13 +1,19 @@
 ---
 title: Three
-description: "Three是一个基本的英语词汇，表示数目'3'，用于数物品或事件。"
+description: Three是一个基本的英语词汇，表示数目'3'，用于数物品或事件。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Three"是一个基本的英语词汇，表示数目"3"，用于数物品或事件。
+
+<Pronunciation word="Three" uk="/θɹiː/" us="/θɹiː/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ Three 起源于古代英语，当时的形式是"þrīe"或"þrēo"，源自古�
 ### 助记故事
 
 Once upon a time, there were three little pigs. They lived happily together.（从前，有三只小猪。他们快乐地生活在一起。）
+
+<WordRelations
+  synonyms={["leash", "tether"]}
+  client:only
+/>

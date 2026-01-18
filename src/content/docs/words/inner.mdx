@@ -1,13 +1,19 @@
 ---
 title: Inner
-description: "Inner 是一个形容词，意为'内部的'、'内在的'，用于描述事物的内部或心灵。"
+description: Inner 是一个形容词，意为'内部的'、'内在的'，用于描述事物的内部或心灵。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Inner" 是一个形容词，意为"内部的"、"内在的"，用于描述事物的内部或心灵。
+
+<Pronunciation word="Inner" uk="/ˈɪnə/" us="/ˈɪnɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 In the inner part of the forest, a small creature found its safe haven. The inner radiance of the setting sun gave the creature a sense of peace and warmth.
 （在森林的内部，一个小生物找到了它的安全避风港。落日的内在光辉给予了小生物一种平静和温暖的感觉。）
+
+<WordRelations
+  synonyms={["interior", "internal"]}
+  antonyms={["outer"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Yesterday
-description: "Yesterday是一个时间词，指的是“昨天”，通常用于表示在今天的前一天发生的事情或时间点。"
+description: Yesterday是一个时间词，指的是“昨天”，通常用于表示在今天的前一天发生的事情或时间点。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Yesterday"是一个时间词，指的是“昨天”，通常用于表示在今天的前一天发生的事情或时间点。
+
+<Pronunciation word="Yesterday" uk="/ˈjɛstədeɪ/" us="/ˈjɛstɚdeɪ/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 Yesterday, I lost my bag in the mall. I was upset but the security staff was very helpful. They found it in the lost and found section.
 
 昨天，我在商场里丢了我的包。我很烦恼，但保安人员非常热心。他们在失物招领处找到了它。
+
+<WordRelations
+  synonyms={["the last day"]}
+  antonyms={["tomorrow"]}
+  client:only
+/>

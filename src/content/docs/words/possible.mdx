@@ -1,13 +1,19 @@
 ---
 title: Possible
-description: "Possible是一个形容词，意为“可能的，可行的”。"
+description: Possible是一个形容词，意为“可能的，可行的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “Possible”是一个形容词，意为“可能的，可行的”。
+
+<Pronunciation word="Possible" uk="/ˈpɒsɪbl̩/" us="/ˈpɑsəbl̩/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 
 Once upon a time, there was a girl who believed nothing was impossible. Once she set her mind on doing something, she would try every possible way to accomplish it.
 曾经有个女孩，她相信没有什么是不可能的。一旦她决定做某事，她会尝试一切可能的方法来完成它。
+
+<WordRelations
+  synonyms={["option", "possibility", "achievable", "doable", "viable", "futurable", "likely", "plausible"]}
+  antonyms={["impossible", "no-go", "certain", "inevitable", "implausible"]}
+  client:only
+/>

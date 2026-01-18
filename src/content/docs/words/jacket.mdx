@@ -1,13 +1,19 @@
 ---
 title: Jacket
-description: "Jacket 是一个英文名词，中文翻译为“夹克”或“外套”。"
+description: Jacket 是一个英文名词，中文翻译为“夹克”或“外套”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Jacket" 是一个英文名词，中文翻译为“夹克”或“外套”。
+
+<Pronunciation word="Jacket" uk="/ˈd͡ʒæk.ɪt/" us="/ˈd͡ʒækət/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ jackets（复数形式，表示多件夹克）, jacketing（动词形式，表�
 ### 助记故事
 
 There was a little boy who loved his red jacket. He would wear it all day, every day, no matter what the weather was. (有一个小男孩非常爱他的红色夹克。无论天气如何，他都会一整天，天天穿着它。)
+
+<WordRelations
+  synonyms={["coat", "sleeve"]}
+  client:only
+/>

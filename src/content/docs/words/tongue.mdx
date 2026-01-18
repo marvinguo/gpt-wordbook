@@ -1,13 +1,21 @@
 ---
 title: Tongue
-description: "单词 'tongue' 通常有两个主要的含义：一是指人或动物的舌头，作为身体的一部分，用于品尝食物和协助发音；二是指人类使用的语言或方言。这两种意义通常是最常用的。"
+description: >-
+  单词 'tongue'
+  通常有两个主要的含义：一是指人或动物的舌头，作为身体的一部分，用于品尝食物和协助发音；二是指人类使用的语言或方言。这两种意义通常是最常用的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词 "tongue" 通常有两个主要的含义：一是指人或动物的舌头，作为身体的一部分，用于品尝食物和协助发音；二是指人类使用的语言或方言。这两种意义通常是最常用的。
+
+<Pronunciation word="Tongue" uk="/tɒŋɡ/" us="/tʌŋ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, there was a boy whose tongue could taste any flavor, making him a legendary taster. (从前有一个男孩，他的舌头可以品尝出任何味道，使他成为一个传奇的品鉴师。)
+
+<WordRelations
+  synonyms={["idiom", "language", "lingo", "speaking in tongues"]}
+  client:only
+/>

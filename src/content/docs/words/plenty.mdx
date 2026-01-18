@@ -1,13 +1,21 @@
 ---
 title: Plenty
-description: "- 'Plenty' 是一个英语形容词，意思是“许多的，大量的”，通常用来表示足够或过剩的量。同义词包括 abundant, ample, considerable, copious 等。"
+description: >-
+  - 'Plenty' 是一个英语形容词，意思是“许多的，大量的”，通常用来表示足够或过剩的量。同义词包括 abundant, ample,
+  considerable, copious 等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Plenty" 是一个英语形容词，意思是“许多的，大量的”，通常用来表示足够或过剩的量。同义词包括 abundant, ample, considerable, copious 等。
+
+<Pronunciation word="Plenty" uk="/ˈplɛnti/" us="/ˈplɛnti/" client:only />
 
 ### 列举例句
 
@@ -43,3 +51,8 @@ tableOfContents: false
 Lisa looked around the old barn, it was a mess. Dusty tools, plenty of old picture frames and broken furniture were scattered everywhere. "There's plenty for us to clean," she sighed.
 
 丽莎环顾着旧谷仓，杂乱无章。尘土飞扬的工具，许多旧照片框和破碎的家具散落在每个地方。 "有很多东西需要我们清理," 她叹息道。
+
+<WordRelations
+  synonyms={["abundance", "profusion"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Goods
-description: "- 'Goods' 是一种集合名词，可以翻译为“商品”或“货物”。通常用来指出售或转让的物品，尤其在商业和贸易中使用。"
+description: '- ''Goods'' 是一种集合名词，可以翻译为“商品”或“货物”。通常用来指出售或转让的物品，尤其在商业和贸易中使用。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Goods" 是一种集合名词，可以翻译为“商品”或“货物”。通常用来指出售或转让的物品，尤其在商业和贸易中使用。
+
+<Pronunciation word="Goods" uk="/ɡʊdz/" us="/ɡʊdz/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 Tom was a merchant who owned a goods store. He was well-known because he sold high-quality goods at fair prices.
 汤姆是一名商人，拥有一个商品商店。他因为以公平的价格出售高质量商品而闻名。
+
+<WordRelations
+  synonyms={["evidence", "fact", "wares"]}
+  antonyms={["bad", "evil", "capital", "services"]}
+  client:only
+/>

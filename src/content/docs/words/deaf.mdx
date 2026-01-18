@@ -1,13 +1,19 @@
 ---
 title: Deaf
-description: "Deaf是形容词，意思是'聋的'，通常用于描述因为生理原因或疾病而无法听到声音的人。这个词也可以用于比喻，表达人们对于某些信息或者事情'充耳不闻'。"
+description: Deaf是形容词，意思是'聋的'，通常用于描述因为生理原因或疾病而无法听到声音的人。这个词也可以用于比喻，表达人们对于某些信息或者事情'充耳不闻'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Deaf"是形容词，意思是"聋的"，通常用于描述因为生理原因或疾病而无法听到声音的人。这个词也可以用于比喻，表达人们对于某些信息或者事情"充耳不闻"。
+
+<Pronunciation word="Deaf" uk="/diːf/" us="/diːf/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 
 In a small town, there lived a deaf boy named Tom. Despite his deafness, Tom always had a bright smile and was known for his kind and gentle ways.
 在一个小镇上，住着一个叫 Tom 的聋孩子。尽管他聋了，但是 Tom 总是带着灿烂的笑容，并以他的善良和温和的举止而被人们所知。
+
+<WordRelations
+  synonyms={["hard of hearing", "hearing-impaired"]}
+  client:only
+/>

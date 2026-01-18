@@ -1,13 +1,19 @@
 ---
 title: Hitherto
-description: "hitherto是一个副词，意为'到目前为止'，'迄今'，通常用于描述迄今为止一直存在或发生的情况。"
+description: hitherto是一个副词，意为'到目前为止'，'迄今'，通常用于描述迄今为止一直存在或发生的情况。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "hitherto"是一个副词，意为"到目前为止"，"迄今"，通常用于描述迄今为止一直存在或发生的情况。
+
+<Pronunciation word="Hitherto" uk="/ˈhɪðəˌtuː/" us="/ˈhɪðɚˌtu/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 "Hitherto, Mary had trusted everyone easily. But after being deceived once, she decided to be more cautious."
 
 - 直到那次被欺骗之前，玛丽一直轻易地相信任何人。但现在，她决定变得更为谨慎。
+
+<WordRelations
+  synonyms={["heretofore", "up to now"]}
+  antonyms={["from now on", "henceforth"]}
+  client:only
+/>

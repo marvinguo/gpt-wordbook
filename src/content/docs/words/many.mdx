@@ -1,13 +1,21 @@
 ---
 title: Many
-description: "Many 是一个常用的英语量词，主要用于表示数量上的多。相似的词有 'numerous', 'a lot of', 'a great number of' 发音为 /ˈmɛːni/。"
+description: >-
+  Many 是一个常用的英语量词，主要用于表示数量上的多。相似的词有 'numerous', 'a lot of', 'a great number of'
+  发音为 /ˈmɛːni/。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Many" 是一个常用的英语量词，主要用于表示数量上的多。相似的词有 "numerous", "a lot of", "a great number of" 发音为 /ˈmɛːni/。
+
+<Pronunciation word="Many" uk="/ˈmæni/" us="/ˈmɛni/" client:only />
 
 ### 列举例句
 
@@ -39,3 +47,9 @@ tableOfContents: false
 
 Tom has many toys. He likes to share them with his friends. They always have a lot of fun together.
 (汤姆有很多玩具。他喜欢和朋友们分享。他们总是一起玩的很开心。)
+
+<WordRelations
+  synonyms={["abundance", "buttload", "deal", "crowd", "mob", "multiple", "several"]}
+  antonyms={["few"]}
+  client:only
+/>

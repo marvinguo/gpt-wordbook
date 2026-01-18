@@ -1,13 +1,19 @@
 ---
 title: Conceal
-description: "单词 'conceal' 是一个动词，意为“隐藏”，“遮盖”。当你想要隐藏或保密某个事物、信息、或感觉时，可以用这个词。"
+description: 单词 'conceal' 是一个动词，意为“隐藏”，“遮盖”。当你想要隐藏或保密某个事物、信息、或感觉时，可以用这个词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词 "conceal" 是一个动词，意为“隐藏”，“遮盖”。当你想要隐藏或保密某个事物、信息、或感觉时，可以用这个词。
+
+<Pronunciation word="Conceal" uk="/kənˈsiːl/" us="/kənˈsiːl/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 ### 助记故事
 
 "John hastily concealed the surprise gift behind his back when his girlfriend suddenly walked in." - 约翰的女友突然走进来，他赶紧将惊喜的礼物藏在了背后。
+
+<WordRelations
+  synonyms={["hide", "obfuscate", "secrete"]}
+  antonyms={["admit", "reveal", "uncover"]}
+  client:only
+/>

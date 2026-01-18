@@ -1,13 +1,21 @@
 ---
 title: Separate
-description: "Separate 是一个英语单词，根据上下文，它可以作为动词或形容词。作为动词，'separate' 意思是'使分开'或'隔开'。作为形容词，'separate' 意思是'独立的'或'单独的'。"
+description: >-
+  Separate 是一个英语单词，根据上下文，它可以作为动词或形容词。作为动词，'separate'
+  意思是'使分开'或'隔开'。作为形容词，'separate' 意思是'独立的'或'单独的'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Separate" 是一个英语单词，根据上下文，它可以作为动词或形容词。作为动词，"separate" 意思是"使分开"或"隔开"。作为形容词，"separate" 意思是"独立的"或"单独的"。
+
+<Pronunciation word="Separate" uk="/ˈsɛpəɹət/" us="/ˈsɛpəɹət/" client:only />
 
 ### 列举例句
 
@@ -46,3 +54,9 @@ tableOfContents: false
 In a big forest, a parrot chose to separate from its flock to find new food sources. It found a separate fruit tree which others didn't know yet. 它发现了一棵其他鹦鹉们还不知道的独立的果树。
 
 (在一片大森林中，一只鹦鹉选择从它的群体中独立出来寻找新的食物来源。它发现了一棵其他鹦鹉们还不知道的独立的果树。)
+
+<WordRelations
+  synonyms={["split up", "tear apart", "partition", "split", "break down", "come apart", "disintegrate", "fall apart", "earmark", "sepose"]}
+  antonyms={["annex", "combine"]}
+  client:only
+/>

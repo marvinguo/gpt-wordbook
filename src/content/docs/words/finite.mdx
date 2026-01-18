@@ -1,13 +1,19 @@
 ---
 title: Finite
-description: "Finite是一个英语形容词，意思是有限的，有尽头的，非永久的。这个词用来描述一个数量，空间，时间等有一个清晰可见的限制或结束的东西。"
+description: Finite是一个英语形容词，意思是有限的，有尽头的，非永久的。这个词用来描述一个数量，空间，时间等有一个清晰可见的限制或结束的东西。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Finite"是一个英语形容词，意思是有限的，有尽头的，非永久的。这个词用来描述一个数量，空间，时间等有一个清晰可见的限制或结束的东西。
+
+<Pronunciation word="Finite" uk="/ˈfaɪnaɪt/" us="/ˈfaɪnaɪt/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ plaintext
 
 Oliver's pocket money was finite, so he had to spend it wisely.
 (奥利弗的零花钱是有限的，所以他必须明智地使用它。)
+
+<WordRelations
+  synonyms={["limited"]}
+  antonyms={["endless", "eternal", "everlasting", "infinite", "infinitival", "nonfinite", "unlimited"]}
+  client:only
+/>

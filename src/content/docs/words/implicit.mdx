@@ -1,13 +1,19 @@
 ---
 title: Implicit
-description: "Implicit 是一个形容词，它的主要含义是“含蓄的，不直接表达的”，通常用来描述一些没有明确说明但可以理解或感知的事物或观点。"
+description: Implicit 是一个形容词，它的主要含义是“含蓄的，不直接表达的”，通常用来描述一些没有明确说明但可以理解或感知的事物或观点。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Implicit" 是一个形容词，它的主要含义是“含蓄的，不直接表达的”，通常用来描述一些没有明确说明但可以理解或感知的事物或观点。
+
+<Pronunciation word="Implicit" uk="/ɪmˈplɪsɪt/" us="/ɪmˈplɪsɪt/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 Fred, known for his silent demeanor, had an implicit way of expressing himself. He seldom said what he felt directly, but through his actions, his intent was clear.
 
 弗雷德以他的沉默寡言著名，他以含蓄的方式表达自己的想法。他很少直接说出他的感受，但通过他的行动，他的意图清晰无误。
+
+<WordRelations
+  synonyms={["inherent", "intrinsic", "unconditional", "unquestioning", "implied", "unspoken"]}
+  antonyms={["explicit"]}
+  client:only
+/>

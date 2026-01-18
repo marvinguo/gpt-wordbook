@@ -1,13 +1,19 @@
 ---
 title: Bite
-description: "Bite 是一个英语动词，基本的中文翻译是'咬'。此外，它还可以表示'刺痛'或'刺激'。"
+description: Bite 是一个英语动词，基本的中文翻译是'咬'。此外，它还可以表示'刺痛'或'刺激'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bite" 是一个英语动词，基本的中文翻译是"咬"。此外，它还可以表示"刺痛"或"刺激"。
+
+<Pronunciation word="Bite" uk="/bʌɪt/" us="/baɪt/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 ### 助记故事
 
 Once, a small dog bit a thief who was sneaking into a house. The bite made the thief scream and alerted the house owner. (有一次，一只小狗咬了一个正偷偷闯入一户人家的小偷。小狗的咬使小偷尖叫起来，吸引了房主的注意。)
+
+<WordRelations
+  synonyms={["mouthful", "snack", "sting"]}
+  client:only
+/>

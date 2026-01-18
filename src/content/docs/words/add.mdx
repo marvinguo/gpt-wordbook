@@ -1,13 +1,19 @@
 ---
 title: Add
-description: "Add 是一个动词，主要意思是'加，增加'。在数学中，'add'是求和的意思；在日常生活里也经常用到，如增加配料，增加人数等。"
+description: Add 是一个动词，主要意思是'加，增加'。在数学中，'add'是求和的意思；在日常生活里也经常用到，如增加配料，增加人数等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Add" 是一个动词，主要意思是"加，增加"。在数学中，"add"是求和的意思；在日常生活里也经常用到，如增加配料，增加人数等。
+
+<Pronunciation word="Add" uk="/æd/" us="/æd/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 Tom wants to make a cake for his mom's birthday. He carefully adds flour, butter, eggs, and sugar into a bowl. (汤姆想为他妈妈的生日做蛋糕。他小心翼翼地将面粉、黄油、鸡蛋和糖加入碗中。)
+
+<WordRelations
+  synonyms={["coalesce", "join", "unite", "bestow", "give", "annex", "augment", "increase", "add up", "sum", "mention", "note"]}
+  antonyms={["remove", "subtract"]}
+  client:only
+/>

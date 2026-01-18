@@ -1,13 +1,19 @@
 ---
 title: Bullet
-description: "Bullet 是英语单词，常被用来指代枪弹或子弹。它也可以用于形容小东西的速度快。像是射出去的子弹。"
+description: Bullet 是英语单词，常被用来指代枪弹或子弹。它也可以用于形容小东西的速度快。像是射出去的子弹。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bullet" 是英语单词，常被用来指代枪弹或子弹。它也可以用于形容小东西的速度快。像是射出去的子弹。
+
+<Pronunciation word="Bullet" uk="/ˈbʊl.ɪt/" us="/ˈbʊl.ɪt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Once upon a time, a little bullet named "Bully" lived in a gun. Every time he was fired, he would fly at a breathtaking speed. "Bully, the fastest in the world!" he would say proudly.
 
 从前，一颗叫做“Bully”的小子弹住在一把枪里。每次它被发射出去，都会以惊人的速度飞行。“我是世界上最快的！”它总是很骄傲地说。
+
+<WordRelations
+  synonyms={["cap", "pill", "slug", "bullet point"]}
+  client:only
+/>

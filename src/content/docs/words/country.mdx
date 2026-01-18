@@ -1,13 +1,19 @@
 ---
 title: Country
-description: "Country 是一个英文名词，主要含义为'国家'，但也可用于表达诸如'乡村'或'农村'这样的概念。"
+description: Country 是一个英文名词，主要含义为'国家'，但也可用于表达诸如'乡村'或'农村'这样的概念。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Country" 是一个英文名词，主要含义为"国家"，但也可用于表达诸如"乡村"或"农村"这样的概念。
+
+<Pronunciation word="Country" uk="/ˈkʌntɹi/" us="/ˈkʌntɹi/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ Country 单复数形式有变化，复数形式为 "countries"。
 ### 助记故事
 
 "Once upon a time, there was a robot living in a distant country. It loved to explore its surroundings." (曾经有一个机器人住在一个遥远的国家。它喜欢探索周围的环境。)
+
+<WordRelations
+  synonyms={["country", "country and western", "country-western music"]}
+  client:only
+/>

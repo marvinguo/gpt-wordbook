@@ -1,13 +1,19 @@
 ---
 title: Army
-description: "Army 是一个英文名词，中文翻译为“军队”或者“陆军”。这是一个集体名词，代表由许多士兵，官员，及其设备构成的大型军事力量。"
+description: Army 是一个英文名词，中文翻译为“军队”或者“陆军”。这是一个集体名词，代表由许多士兵，官员，及其设备构成的大型军事力量。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Army" 是一个英文名词，中文翻译为“军队”或者“陆军”。这是一个集体名词，代表由许多士兵，官员，及其设备构成的大型军事力量。
+
+<Pronunciation word="Army" uk="/ˈɑː.miː/" us="/ˈɑɹ.mi/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 In a small country, there lived a brave army. They loved their land and defended it with their lives.
 
 在一个小国家里，生活着一个勇敢的军队。他们热爱他们的土地，并用他们的生命捍卫它。
+
+<WordRelations
+  synonyms={["ferd", "here", "host"]}
+  client:only
+/>

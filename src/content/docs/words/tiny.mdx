@@ -1,13 +1,19 @@
 ---
 title: Tiny
-description: "Tiny 这个单词是形容词，在英语中表示“非常小”的意思。这个词用来描述尺寸、规模、程度等方面小到了非常度的物体或者现象。"
+description: Tiny 这个单词是形容词，在英语中表示“非常小”的意思。这个词用来描述尺寸、规模、程度等方面小到了非常度的物体或者现象。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Tiny" 这个单词是形容词，在英语中表示“非常小”的意思。这个词用来描述尺寸、规模、程度等方面小到了非常度的物体或者现象。
+
+<Pronunciation word="Tiny" uk="/ˈtaɪni/" us="/ˈtaɪni/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ Tiny 作为形容词，其比较级为 "tinier"，最高级为 "tiniest"。中�
 ### 助记故事
 
 In a tiny village, there lived a tiny dog with a big heart. His tiny steps inspired many. （在一个小村庄里，有一只有着大大心的小狗，它的小步子启发了许多人。）
+
+<WordRelations
+  antonyms={["great", "huge"]}
+  client:only
+/>

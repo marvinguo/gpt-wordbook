@@ -1,13 +1,19 @@
 ---
 title: Credit
-description: "CREDIT 这个单词的中文意思是'信用'或者'学分'，其中'信用'的意思更常用。"
+description: CREDIT 这个单词的中文意思是'信用'或者'学分'，其中'信用'的意思更常用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "CREDIT" 这个单词的中文意思是"信用"或者"学分"，其中"信用"的意思更常用。
+
+<Pronunciation word="Credit" uk="/ˈkɹɛdɪt/" us="/ˈkɹɛdɪt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ cred- 是来自拉丁词根，表示“相信”。常见的衍生词有 "credib
 
 John's credit was so good that the bank readily granted him a loan to start his business.
 约翰的信用很好，银行愿意轻易地给他授予一笔贷款，以便他开始他的事业。
+
+<WordRelations
+  synonyms={["unit", "accept", "believe"]}
+  antonyms={["debit"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Telegram
-description: "Telegram 是一个英语名词，主要用于描述一种通过电报传送的信息。它也是一个受欢迎的即时通信应用的名称。"
+description: Telegram 是一个英语名词，主要用于描述一种通过电报传送的信息。它也是一个受欢迎的即时通信应用的名称。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Telegram" 是一个英语名词，主要用于描述一种通过电报传送的信息。它也是一个受欢迎的即时通信应用的名称。
+
+<Pronunciation word="Telegram" uk="/ˈtɛləˌɡɹæm/" us="/ˈtɛləˌɡɹæm/" client:only />
 
 例如：
 
@@ -40,3 +46,8 @@ tableOfContents: false
 John received an urgent telegram from his brother while he was at school. It said, "Come home. Dad sick." John immediately left school and rushed home.
 
 (约翰在学校时收到了他弟弟发来的紧急电报，上面写着："回家，爸爸病了。"约翰立刻离开学校，赶回家。)
+
+<WordRelations
+  synonyms={["cable", "wire"]}
+  client:only
+/>

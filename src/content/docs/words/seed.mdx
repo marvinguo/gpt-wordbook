@@ -1,13 +1,21 @@
 ---
 title: Seed
-description: "Seed 这个单词在英语里的默认义项是 '种子'，但其实在日常生活中，我们可以根据上下文理解为许多不同的意思。举个例子，它也可以用来描述创始要素、起源，或者指象征新生事物的人。"
+description: >-
+  Seed 这个单词在英语里的默认义项是
+  '种子'，但其实在日常生活中，我们可以根据上下文理解为许多不同的意思。举个例子，它也可以用来描述创始要素、起源，或者指象征新生事物的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Seed" 这个单词在英语里的默认义项是 "种子"，但其实在日常生活中，我们可以根据上下文理解为许多不同的意思。举个例子，它也可以用来描述创始要素、起源，或者指象征新生事物的人。
+
+<Pronunciation word="Seed" uk="/siːd/" us="/siːd/" client:only />
 
 ### 列举例句
 
@@ -47,3 +55,8 @@ tableOfContents: false
 Once upon a time, there was a tiny seed. It stayed underground during winter, waiting for the warmth of spring. When spring came, the seed blossomed into a beautiful flower, bringing joy to everyone who saw it.
 
 从前，有一个微小的种子。它在冬天呆在地下，等待春天的温暖。当春天来临时，这个种子绽放成一朵美丽的花，给每个看到它的人带来了快乐。
+
+<WordRelations
+  synonyms={["germ"]}
+  client:only
+/>

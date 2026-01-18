@@ -1,13 +1,19 @@
 ---
 title: Write
-description: "Write这个单词是一个动词，是指在纸上、电脑或者其他介质上用文字记录下来，可以是信、文章、书、诗等等。它的基本含义是'写'。"
+description: Write这个单词是一个动词，是指在纸上、电脑或者其他介质上用文字记录下来，可以是信、文章、书、诗等等。它的基本含义是'写'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Write"这个单词是一个动词，是指在纸上、电脑或者其他介质上用文字记录下来，可以是信、文章、书、诗等等。它的基本含义是"写"。
+
+<Pronunciation word="Write" uk="/ɹaɪt/" us="/ɹaɪt/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 
 Once upon a time, a young man named Tom found he could write magical words that turned into reality. He used this power to bring joy to his town. （从前，有一个叫做 Tom 的年轻人发现他能写出会变成现实的神奇字句。他用这个力量带给他的镇子带来了快乐。）
 翻译：从前，一个名叫 Tom 的年轻人发现他能写出会变成现实的神奇之言。他利用这种能力给他的小镇带来了快乐。
+
+<WordRelations
+  synonyms={["author", "pen", "save", "store", "sit", "inscribe", "scrawl", "scribble", "post", "display", "indicate", "mark", "show"]}
+  antonyms={["load", "read", "retrieve"]}
+  client:only
+/>

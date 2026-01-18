@@ -1,13 +1,19 @@
 ---
 title: Sunset
-description: "Sunset 是一个英文单词，标示一天最后的那个时段，也就是太阳落山的过程，或者这个时间到了黑暗开始的一段时间。"
+description: Sunset 是一个英文单词，标示一天最后的那个时段，也就是太阳落山的过程，或者这个时间到了黑暗开始的一段时间。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sunset" 是一个英文单词，标示一天最后的那个时段，也就是太阳落山的过程，或者这个时间到了黑暗开始的一段时间。
+
+<Pronunciation word="Sunset" uk="/ˈsʌnˌsɛt/" us="/ˈsʌnˌsɛt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 English: In the city far away from the sea, every day at sunset, people would gather on rooftops to watch the sun tuck itself below the horizon. The sky would turn from blue to red to purple, creating a magical moment.
 
 Chinese Translation: 在远离海洋的城市，每天日落时分，人们会聚集在屋顶上观看太阳慢慢沉入地平线下。天空会从蓝色变为红色，再变为紫色，构成了一个神奇的时刻。
+
+<WordRelations
+  synonyms={["last", "terminal", "twilight", "end", "final act", "swansong", "dusk", "nightfall", "sundown"]}
+  antonyms={["sunrise"]}
+  client:only
+/>

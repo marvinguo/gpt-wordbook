@@ -1,13 +1,19 @@
 ---
 title: Interesting
-description: "Interesting 这个词在英语中是个形容词，表示引起兴趣的，有趣的。"
+description: Interesting 这个词在英语中是个形容词，表示引起兴趣的，有趣的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Interesting" 这个词在英语中是个形容词，表示引起兴趣的，有趣的。
+
+<Pronunciation word="Interesting" uk="/ˈɪnt(ə)ɹɛstɪŋ/" us="/ˈɪnt(ʃ)ɹɛstɪŋ/" client:only />
 
 ### 列举例句
 
@@ -46,3 +52,9 @@ tableOfContents: false
 When Tom first visited the science museum, he found it very interesting. (当汤姆第一次参观科学博物馆时，他觉得它非常有趣。)
 
 希望这些信息能帮到您，如有任何其他问题，欢迎随时向我提问。
+
+<WordRelations
+  synonyms={["absorbing"]}
+  antonyms={["bore", "disinterest", "boring", "uninteresting"]}
+  client:only
+/>

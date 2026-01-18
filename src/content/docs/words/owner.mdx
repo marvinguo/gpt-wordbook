@@ -1,13 +1,19 @@
 ---
 title: Owner
-description: "Owner 是名词，意思是“所有者”，“拥有者”，指的是拥有某物的人。"
+description: Owner 是名词，意思是“所有者”，“拥有者”，指的是拥有某物的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Owner" 是名词，意思是“所有者”，“拥有者”，指的是拥有某物的人。
+
+<Pronunciation word="Owner" uk="/ˈəʊnə/" us="/ˈoʊnɚ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 There was an old book store. Its owner was an elderly man who loved every book as if it were his child. (有一个古老的书店。店主是一个老年人，他爱每一本书就像它是他的孩子。)
+
+<WordRelations
+  synonyms={["possessor", "proprietor"]}
+  client:only
+/>

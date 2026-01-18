@@ -1,13 +1,19 @@
 ---
 title: Kitty
-description: "Kitty 是一个英语单词，常用作人名，尤其是女性的昵称，多源自 Katherine。在其他情况下，也常被用作小猫的昵称。"
+description: Kitty 是一个英语单词，常用作人名，尤其是女性的昵称，多源自 Katherine。在其他情况下，也常被用作小猫的昵称。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Kitty 是一个英语单词，常用作人名，尤其是女性的昵称，多源自 Katherine。在其他情况下，也常被用作小猫的昵称。
+
+<Pronunciation word="Kitty" uk="/ˈkɪti/" us="/ˈkɪti/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ Kitty 作为人名或者对小猫的称呼，没有变形。
 ### 助记故事
 
 One day, Kitty the cat saw a butterfly flying in the garden. She jumped and tried to catch it, but it flew away. (有一天，小猫凯蒂在花园里看到了一只蝴蝶。她跳起来试图去抓它，但是它飞走了。)
+
+<WordRelations
+  synonyms={["pot"]}
+  client:only
+/>

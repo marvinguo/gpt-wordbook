@@ -1,13 +1,19 @@
 ---
 title: Rate
-description: "Rate这个词在英语中有许多不同的含义，它可以用作名词，也可以用作动词。"
+description: Rate这个词在英语中有许多不同的含义，它可以用作名词，也可以用作动词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Rate"这个词在英语中有许多不同的含义，它可以用作名词，也可以用作动词。
+
+<Pronunciation word="Rate" uk="/ɹeɪt/" us="/ɹeɪt/" client:only />
 
 作为名词时，常见的意义有：
 
@@ -54,3 +60,8 @@ rate 的动词时态变化：
 ### 助记故事
 
 Mr. Smith had to rate his students, it was his duty as a teacher. He saw a lot of potential in John, therefore, he gave him a high rate. (史密斯先生需要给他的学生评级，这是他作为老师的职责。他在约翰身上看到了很多潜力，所以他给了约翰一个很高的评级。)
+
+<WordRelations
+  synonyms={["rank"]}
+  client:only
+/>

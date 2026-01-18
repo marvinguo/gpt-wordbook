@@ -1,13 +1,19 @@
 ---
 title: Lower
-description: "Lower 是一个常用的英语单词，它既可以作为动词，也可以作为形容词。"
+description: Lower 是一个常用的英语单词，它既可以作为动词，也可以作为形容词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Lower" 是一个常用的英语单词，它既可以作为动词，也可以作为形容词。
+
+<Pronunciation word="Lower" uk="/ˈləʊə/" us="/ˈloʊɚ/" client:only />
 
 作为动词，"lower" 常常被用来表示"降低，减小"或"使降下，使下降"的意思。例如："Lower the volume, please" （请把音量调低）。
 
@@ -48,3 +54,9 @@ tableOfContents: false
 One day, Emma sees a colorful balloon floating lower and lower from the sky. She runs, extends her arms, and catches it. "A lower balloon is easier to catch," she giggles.
 
 有一天，埃玛看到一个五彩的气球从天空飘落下来。她跑过去，伸出手臂，抓住了它。她咯咯地笑道："越低的气球越容易抓到。"
+
+<WordRelations
+  synonyms={["blue", "depressed", "down", "gloomy", "miserable", "sad", "unhappy", "abject", "immoral", "scummy", "scurvy", "nether", "underslung", "devalued", "low-level", "reduced", "low-toned", "soft", "deep", "flat"]}
+  antonyms={["high", "tall"]}
+  client:only
+/>

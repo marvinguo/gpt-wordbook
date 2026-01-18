@@ -1,13 +1,19 @@
 ---
 title: Clue
-description: "Clue是一个名词，表示'线索'或'提示'。"
+description: Clue是一个名词，表示'线索'或'提示'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Clue"是一个名词，表示"线索"或"提示"。
+
+<Pronunciation word="Clue" uk="/kluː/" us="/kluː/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Clue 主要以名词形式使用，其中它的复数形态为"clues"；在一�
 
 The eager archaeologist stumbled upon an ancient tomb in Egypt. Inside, a clue led him to a hidden treasure chamber. (那位热心的考古学家在埃及无意中发现了一个古墓。在墓内，一个线索引导他找到了一个隐藏的宝藏室。)
 中文翻译：那位热切的考古学家在埃及偶然发现了一座古墓。在墓内，一条线索把他引向了一个隐藏的宝藏室。
+
+<WordRelations
+  synonyms={["hint", "indication", "suggestion", "signature", "idea"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: To
-description: "To 是一个非常常见的英语介词，主要被用来表示方向、目标、目的或结果，也常作为不定式动词的标记。"
+description: To 是一个非常常见的英语介词，主要被用来表示方向、目标、目的或结果，也常作为不定式动词的标记。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "To" 是一个非常常见的英语介词，主要被用来表示方向、目标、目的或结果，也常作为不定式动词的标记。
+
+<Pronunciation word="To" uk="/tʉː/" us="/tʉː/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 David wanted to go to the park to play basketball. He enjoyed the journey to the park, which was full of beautiful views.
 
 大卫想去公园打篮球。他喜欢去公园的路程，因为沿途风景优美。
+
+<WordRelations
+  synonyms={["closed", "shut"]}
+  antonyms={["ajar", "open"]}
+  client:only
+/>

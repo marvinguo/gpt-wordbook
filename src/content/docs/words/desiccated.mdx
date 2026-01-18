@@ -1,14 +1,20 @@
 ---
-title: "Desiccated"
-description: "Desiccated 形容干透的、脱水的、枯燥乏味的。"
+title: Desiccated
+description: Desiccated 形容干透的、脱水的、枯燥乏味的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Desiccated** 既可以指物理上的干枯（如椰丝），也可以形容某事由于缺乏活力而变得枯燥死板。
+
+<Pronunciation word="Desiccated" uk="/ˈdɛsɪkeɪtəd/" us="/ˈdɛsɪkeɪtəd/" client:only />
 
 ### 列举例句
 
@@ -30,3 +36,8 @@ tableOfContents: false
 The ancient mummy was perfectly preserved in the desiccated air of the tomb.
 (那具古代木乃伊在墓穴干燥的空气中保存得非常完好。)
 
+<WordRelations
+  synonyms={["dehydrate", "exiccate", "exsiccate", "parch"]}
+  antonyms={["hydrate", "moisten", "moisturize", "wet"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Fever
-description: "Fever 是英语中的一个可数名词，主要用于描述体温异常的情况，也就是我们通常说的“发热”或“发热病”。"
+description: Fever 是英语中的一个可数名词，主要用于描述体温异常的情况，也就是我们通常说的“发热”或“发热病”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fever" 是英语中的一个可数名词，主要用于描述体温异常的情况，也就是我们通常说的“发热”或“发热病”。
+
+<Pronunciation word="Fever" uk="/ˈfiːvə/" us="/ˈfivɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 When Jenny got home from school, she felt hot and uncomfortable. She told her mother, "I think I've got a fever." Her mother quickly took her temperature and found it was true.
 （当珍妮放学回家后，感觉自己很热，不舒服。她告诉她的妈妈："我想我发热了。"她的妈妈很快给她测了体温，发现她真的发热了。）
+
+<WordRelations
+  synonyms={["excitation", "excitement", "passion", "pyrexia", "temperature"]}
+  client:only
+/>

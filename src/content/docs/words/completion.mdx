@@ -1,13 +1,19 @@
 ---
 title: Completion
-description: "Completion来自于动词'complete',转化为名词后意为“完成”，“结束”，或者“具备完整特性的状态”。"
+description: 'Completion来自于动词''complete'',转化为名词后意为“完成”，“结束”，或者“具备完整特性的状态”。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Completion"来自于动词"complete",转化为名词后意为“完成”，“结束”，或者“具备完整特性的状态”。
+
+<Pronunciation word="Completion" uk="/kəmˈpliːʃən/" us="/kəmˈpliːʃən/" client:only />
 
 ### 列举例句
 
@@ -49,3 +55,9 @@ tableOfContents: false
 
 John had been renovating his house for months, and today marked the completion. He looked around at the freshly painted walls, the new furniture, and the sparkling kitchen. He felt a immense sense of satisfaction, knowing that his hard work has paid off.
 (约翰已经翻新了几个月的房子，今天标志着完成。他环顾刚刚油漆过的墙壁，新的家具，闪亮的厨房。知道他的辛勤努力得到了回报，他感到了巨大的满足。)
+
+<WordRelations
+  synonyms={["completeness", "doneness"]}
+  antonyms={["termination", "incompletion", "unfinishedness"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Pill
-description: "Pill 是一个英文名词，通常被翻译为中文的“药片”或“药丸”。它指的是将药物或其他药剂凝固和压缩成小块，以便于口服。"
+description: Pill 是一个英文名词，通常被翻译为中文的“药片”或“药丸”。它指的是将药物或其他药剂凝固和压缩成小块，以便于口服。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 'Pill' 是一个英文名词，通常被翻译为中文的“药片”或“药丸”。它指的是将药物或其他药剂凝固和压缩成小块，以便于口服。
+
+<Pronunciation word="Pill" uk="/pɪl/" us="/pɪl/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 Every morning, Grandma would carefully count out her pills for the day. She had different pills for her heart, blood pressure, and arthritis.
 
 每天早上，奶奶都会仔细地数一天的药。她有用于心脏，血压和关节炎的不同药片。
+
+<WordRelations
+  synonyms={["cap", "tablet"]}
+  client:only
+/>

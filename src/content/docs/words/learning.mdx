@@ -1,13 +1,19 @@
 ---
 title: Learning
-description: "Learning是个名词，来源于动词 'learn'，表示'学习'或者'所学的知识'。"
+description: Learning是个名词，来源于动词 'learn'，表示'学习'或者'所学的知识'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Learning"是个名词，来源于动词 "learn"，表示"学习"或者"所学的知识"。
+
+<Pronunciation word="Learning" uk="/ˈlɜːnɪŋ/" us="/ˈlɝnɪŋ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ learn (学习)是动词形式；learner (学习者)是名词形式；learned (�
 ### 助记故事
 
 Back in school, Tim was always eager for learning. He believed that knowledge was the key to explore the world. (在学校的时候，Tim 总是渴望学习。他相信知识是探索世界的钥匙。)
+
+<WordRelations
+  synonyms={["study"]}
+  antonyms={["forget", "teach"]}
+  client:only
+/>

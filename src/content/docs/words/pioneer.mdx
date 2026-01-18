@@ -1,13 +1,19 @@
 ---
 title: Pioneer
-description: "Pioneer 是一个英语词语，它通常被用来形容或成为一个在特定领域取得关键成就或创新的人或事物。它可以作为名词和动词使用。"
+description: Pioneer 是一个英语词语，它通常被用来形容或成为一个在特定领域取得关键成就或创新的人或事物。它可以作为名词和动词使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Pioneer" 是一个英语词语，它通常被用来形容或成为一个在特定领域取得关键成就或创新的人或事物。它可以作为名词和动词使用。
+
+<Pronunciation word="Pioneer" uk="/ˌpaɪəˈnɪəɹ/" us="/ˌpaɪəˈnɪəɹ/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 In the 19th century, John, a determined pioneer, ventured towards the American West, facing numerous challenges and adversities to establish a new settlement, shaping the foundations of the thriving cities we see today.
 
 在 19 世纪，坚定的先驱者约翰冒险前往美国西部，面临许多挑战和困难，以创建新的定居点，奠定了我们今天看到的繁荣城市的基础。
+
+<WordRelations
+  synonyms={["break new ground", "push the envelope"]}
+  client:only
+/>

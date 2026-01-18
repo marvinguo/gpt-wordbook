@@ -1,13 +1,21 @@
 ---
 title: Life
-description: "Life 是一个名词，英文中的主要含义是生命，生活，和寿命等。这是一个非常泛泛的词，可以用来描述生物体从出生到死亡的整个过程，也可以用来描述个体的日常生活或经历。"
+description: >-
+  Life
+  是一个名词，英文中的主要含义是生命，生活，和寿命等。这是一个非常泛泛的词，可以用来描述生物体从出生到死亡的整个过程，也可以用来描述个体的日常生活或经历。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Life 是一个名词，英文中的主要含义是生命，生活，和寿命等。这是一个非常泛泛的词，可以用来描述生物体从出生到死亡的整个过程，也可以用来描述个体的日常生活或经历。
+
+<Pronunciation word="Life" uk="/laɪf/" us="/laɪf/" client:only />
 
 ### 列举例句
 
@@ -43,3 +51,9 @@ Life 这个单词可以联想到许多关于生活的事物或现象，例如生
 John was tired of his city life. He moved to the countryside to start a new life. There, he found that life was simpler, but much happier.
 
 约翰厌倦了他的城市生活。他搬到了乡下开始新的生活。在那里，他发现生活更简单，但更幸福。
+
+<WordRelations
+  synonyms={["existence", "experience", "time"]}
+  antonyms={["coma", "void", "death"]}
+  client:only
+/>

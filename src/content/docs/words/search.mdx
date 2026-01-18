@@ -1,13 +1,19 @@
 ---
 title: Search
-description: "Search 这个单词是一个既可当动词也可作名词使用的英文单词，因此含有两种主要的含义："
+description: Search 这个单词是一个既可当动词也可作名词使用的英文单词，因此含有两种主要的含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Search" 这个单词是一个既可当动词也可作名词使用的英文单词，因此含有两种主要的含义：
+
+<Pronunciation word="Search" uk="/sɜːt͡ʃ/" us="/sɝt͡ʃ/" client:only />
 
 - 作为动词使用时，"search" 主要表示“搜寻”或者“搜索”的意思，例如：“Search for clues.”(搜索线索）。
 - 作为名词使用时，“search”则主要表示“搜查”，“搜寻”，例如： “The search was arduous.” (搜索工作艰巨).
@@ -45,3 +51,8 @@ tableOfContents: false
 Amy lost her favorite earring. She began to search every corner of her house, but it was nowhere to be found. Finally, she found it in the last place she searched — the bathroom.
 
 艾米失去了她最喜欢的一只耳环。她开始在房间的每个角落搜索，但它直到最后也没有出现。终于，她在她搜索的最后一个地方--浴室里找到了它。
+
+<WordRelations
+  synonyms={["comb", "look for", "scour", "seek"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Helmet
-description: "Helmet是一个名词，它的意思是'头盔“，一种用于保护头部避免受伤的防护设备。在很多场合中如自行车骑行、打棒球、工地作业等都需要佩戴头盔。"
+description: Helmet是一个名词，它的意思是'头盔“，一种用于保护头部避免受伤的防护设备。在很多场合中如自行车骑行、打棒球、工地作业等都需要佩戴头盔。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Helmet"是一个名词，它的意思是"头盔“，一种用于保护头部避免受伤的防护设备。在很多场合中如自行车骑行、打棒球、工地作业等都需要佩戴头盔。
+
+<Pronunciation word="Helmet" uk="/ˈhɛlmət/" us="/ˈhɛlmət/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Tom is riding his bicycle downhill. His helmet gleams in the sunlight. Suddenly, he stumbles but fortunately, his helmet protects him.
 (Tom 正在骑自行车下山，他的头盔在阳光下闪耀。突然，他被绊倒了，但幸运的是，他的头盔保护了他。)
+
+<WordRelations
+  synonyms={["brain bucket", "hard hat"]}
+  client:only
+/>

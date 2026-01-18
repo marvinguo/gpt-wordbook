@@ -1,13 +1,19 @@
 ---
 title: Decent
-description: "Decent 是一个形容词，意为'合适的'、'像样的'或'体面的'。"
+description: Decent 是一个形容词，意为'合适的'、'像样的'或'体面的'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Decent" 是一个形容词，意为"合适的"、"像样的"或"体面的"。
+
+<Pronunciation word="Decent" uk="/ˈdiːsənt/" us="/ˈdiːsənt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 
 Lisa just moved to the city and found a decent apartment with a reasonable price. She's excited to start her new life there.
 (丽莎刚刚搬到城里，找到了一套价格适中的公寓。她兴奋地准备在这里开始新的生活。)
+
+<WordRelations
+  synonyms={["adequate", "satisfactory", "good", "moral"]}
+  antonyms={["bad", "immoral", "inadequate", "poor", "unsatisfactory", "indecent", "underdressed"]}
+  client:only
+/>

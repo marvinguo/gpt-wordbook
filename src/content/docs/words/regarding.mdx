@@ -1,13 +1,19 @@
 ---
 title: Regarding
-description: "Regarding 是一个预词，意思是'关于'， '有关'，常用于引入话题或者是某个考虑点。"
+description: Regarding 是一个预词，意思是'关于'， '有关'，常用于引入话题或者是某个考虑点。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Regarding" 是一个预词，意思是"关于"， "有关"，常用于引入话题或者是某个考虑点。
+
+<Pronunciation word="Regarding" uk="/ɹɪˈɡɑːdɪŋ/" us="/ɹɪˈɡɑɹdɪŋ/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 
 When I was reading the book, I found a note in it regarding the previous owner's thoughts.(当我在读这本书时，我发现其中有一张关于前任拥有者思考的便签。)
 这个小故事的中文翻译为：当我在读这本书时，我发现其中有一张关于前任拥有者思考的便签。
+
+<WordRelations
+  synonyms={["about", "apropos", "with respect to"]}
+  antonyms={["ignore", "neglect"]}
+  client:only
+/>

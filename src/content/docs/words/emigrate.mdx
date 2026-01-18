@@ -1,13 +1,19 @@
 ---
 title: Emigrate
-description: "Emigrate 是一个动词，它的意思是离开自己的国家或地区去其他地方居住，常常是为了寻找更好的生活和工作机会。"
+description: Emigrate 是一个动词，它的意思是离开自己的国家或地区去其他地方居住，常常是为了寻找更好的生活和工作机会。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Emigrate" 是一个动词，它的意思是离开自己的国家或地区去其他地方居住，常常是为了寻找更好的生活和工作机会。
+
+<Pronunciation word="Emigrate" uk="/ˈɛmɪɡɹeɪt/" us="/ˈɛmɪɡɹeɪt/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 
 John decided to emigrate from his small village in the Philippines. He packed his bags, said his goodbyes, and left for New York City, dreaming of a brighter future.
 (约翰决定从菲律宾的小村庄移民出去。他打包行李，告别了亲人，然后去了纽约，梦想着更加光明的未来。)
+
+<WordRelations
+  antonyms={["immigrate"]}
+  client:only
+/>

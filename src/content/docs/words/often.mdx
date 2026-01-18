@@ -1,13 +1,19 @@
 ---
 title: Often
-description: "Often 是一个副词，表示“常常”，“经常”的意思，用于描述事情发生的频率。"
+description: Often 是一个副词，表示“常常”，“经常”的意思，用于描述事情发生的频率。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Often" 是一个副词，表示“常常”，“经常”的意思，用于描述事情发生的频率。
+
+<Pronunciation word="Often" uk="/ˈɑf(t)ən/" us="/ˈɔf(t)ən/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 John often goes to the park with his dog, Max. They play fetch, and afterwards, they rest under a tree.
 
 约翰经常和他的狗马克斯一起去公园。他们玩接球游戏，玩完后，他们就在一棵树下面休息。
+
+<WordRelations
+  synonyms={["a lot", "frequently", "usually"]}
+  antonyms={["infrequently", "occasionally", "rarely", "seldom"]}
+  client:only
+/>

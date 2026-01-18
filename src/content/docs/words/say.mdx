@@ -1,13 +1,19 @@
 ---
 title: Say
-description: "Say 是一个常见的英语动词，基本含义是'说'，'讲'。可以用来表达出声、发表意见或以言语形式传递信息。"
+description: Say 是一个常见的英语动词，基本含义是'说'，'讲'。可以用来表达出声、发表意见或以言语形式传递信息。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Say" 是一个常见的英语动词，基本含义是"说"，"讲"。可以用来表达出声、发表意见或以言语形式传递信息。
+
+<Pronunciation word="Say" uk="/seɪ/" us="/seɪ/" client:only />
 
 ### 列举例句
 
@@ -46,3 +52,8 @@ tableOfContents: false
 One day, a boy wanted to make new friends. He decided to rely on the power of "say". He started to say hello to everyone he met, and slowly, people started to say hello back. With just a simple "say", his world started to expand.
 
 有一天，一个男孩想要交到新朋友。他决定利用 "说" 的力量。他开始向他遇到的每一个人打招呼，慢慢地，人们开始回应他的问候。只是通过一个简单的 "say"，他的世界开始扩大了。
+
+<WordRelations
+  synonyms={["hey"]}
+  client:only
+/>

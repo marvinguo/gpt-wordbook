@@ -1,13 +1,19 @@
 ---
 title: Mean
-description: "Mean 是一个英文单词，主要有两个词义："
+description: Mean 是一个英文单词，主要有两个词义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Mean" 是一个英文单词，主要有两个词义：
+
+<Pronunciation word="Mean" uk="/miːn/" us="/miːn/" client:only />
 
 1.  作为动词，"mean" 的基本意思是“意味着”，“表示”。举个例子：What does this word mean?（这个单词是什么意思？）
 2.  另一个常见的意思是在数学语境中，"mean" 被用作名词，表示“平均数”。
@@ -41,3 +47,8 @@ tableOfContents: false
 ### 助记故事
 
 "Tom didn't mean to knock the vase off. It was an accident." - 汤姆并没有故意把花瓶撞碎。那是个意外。
+
+<WordRelations
+  synonyms={["bring about", "cause", "lead to", "result in", "convey", "indicate", "signify", "imply", "intend", "serious"]}
+  client:only
+/>

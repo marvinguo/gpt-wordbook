@@ -1,13 +1,19 @@
 ---
 title: Day
-description: "Day 是英语中非常常见的一个单词，它主要有两个含义，第一个含义是指'一天'，即二十四小时，另一个含义是指'白天'，相对于'night(夜晚)'来说。"
+description: Day 是英语中非常常见的一个单词，它主要有两个含义，第一个含义是指'一天'，即二十四小时，另一个含义是指'白天'，相对于'night(夜晚)'来说。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Day" 是英语中非常常见的一个单词，它主要有两个含义，第一个含义是指"一天"，即二十四小时，另一个含义是指"白天"，相对于"night(夜晚)"来说。
+
+<Pronunciation word="Day" uk="/deɪ/" us="/deɪ/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 ### 助记故事
 
 John wakes up in the morning and says, "It's a new day." He goes to work during the day, and returns home when the day ends. (约翰早晨醒来说:“这是新的一天。”他白天去工作，当天结束时回家。)
+
+<WordRelations
+  synonyms={["daylight", "upsun", "epoch", "era"]}
+  antonyms={["night"]}
+  client:only
+/>

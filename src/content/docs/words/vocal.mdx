@@ -1,13 +1,19 @@
 ---
 title: Vocal
-description: "Vocal通常有两个基本含义："
+description: Vocal通常有两个基本含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Vocal"通常有两个基本含义：
+
+<Pronunciation word="Vocal" uk="/ˈvəʊ.kəl/" us="/ˈvəʊ.kəl/" client:only />
 
 1.  和声音有关的，通常指人的声音，如在"vocal cord"（声带）中；
 2.  公开表达观点的，如在"He was very vocal about his opinions"（他坦率地表达了自己的观点）中。
@@ -42,3 +48,9 @@ Vocal 这个词，原始的拉丁语形态是"vocalis"，意为"声音的，发�
 ### 助记故事
 
 Dave was always very quiet. But when a local park was threatened to be torn down, he became vocal. He wouldn't let his favorite place disappear without a fight. (戴夫一直都很安静。但是，当一座本地公园面临被拆除的威胁时，他变得愿意发声。他不会让他最喜欢的地方默默地消失。)
+
+<WordRelations
+  synonyms={["audible", "loud"]}
+  antonyms={["inaudible", "quiet", "silent", "voiceless"]}
+  client:only
+/>

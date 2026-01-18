@@ -1,13 +1,19 @@
 ---
 title: Friendly
-description: "Friendly是一个形容词，描述一个人和善、友好的，或者表示一个环境、事物对人友好、亲切。"
+description: Friendly是一个形容词，描述一个人和善、友好的，或者表示一个环境、事物对人友好、亲切。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “Friendly”是一个形容词，描述一个人和善、友好的，或者表示一个环境、事物对人友好、亲切。
+
+<Pronunciation word="Friendly" uk="/ˈfɹɛndli/" us="/ˈfɹɛndli/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 In the friendly town of SunnyVille, everyone always smiles and helps. The people's welcoming nature makes everyone feel at home.
 
 在友好的小镇 SunnyVille，每个人都面带微笑，互相帮助。人们的热情款待让每个人感觉像在家一样。
+
+<WordRelations
+  antonyms={["hostile", "unfriendly"]}
+  client:only
+/>

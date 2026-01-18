@@ -1,13 +1,19 @@
 ---
 title: Beginning
-description: "Beginning 是英文的一个名词，表示'开始'或'起步'。它可以用来描述任何事物的起始阶段，包括故事、项目、日子等。"
+description: Beginning 是英文的一个名词，表示'开始'或'起步'。它可以用来描述任何事物的起始阶段，包括故事、项目、日子等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Beginning" 是英文的一个名词，表示"开始"或"起步"。它可以用来描述任何事物的起始阶段，包括故事、项目、日子等。
+
+<Pronunciation word="Beginning" uk="/bɪˈɡɪn.ɪŋ/" us="/bɪˈɡɪn.ɪŋ/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 Once upon a time, in the beginning, there was only darkness and silence. Suddenly, a small spark shone. It was the beginning of life.
 
 很久很久以前，最开始的时候，只有黑暗和寂静。突然之间，一颗小火花闪亮了。这是生命的开始。
+
+<WordRelations
+  synonyms={["commencing", "start", "starting", "head", "commencement", "origin", "source", "element", "embryo", "rudiment"]}
+  antonyms={["conclusion", "end"]}
+  client:only
+/>

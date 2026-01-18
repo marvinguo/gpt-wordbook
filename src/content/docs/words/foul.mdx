@@ -1,13 +1,19 @@
 ---
 title: Foul
-description: "Foul  是一个英语单词，在中文中的意思是“腐烂的，污秽的”，也可以表示“犯规”，在体育竞技中常常使用。"
+description: Foul  是一个英语单词，在中文中的意思是“腐烂的，污秽的”，也可以表示“犯规”，在体育竞技中常常使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 " Foul " 是一个英语单词，在中文中的意思是“腐烂的，污秽的”，也可以表示“犯规”，在体育竞技中常常使用。
+
+<Pronunciation word="Foul" uk="/faʊl/" us="/faʊl/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 In the abandoned factory, a foul odor lingered. It was so intense that Tom had to cover his nose.
 (在废弃的工厂里，一股浑浑的气味挥之不去。气味太重了，以至于汤姆不得不捂住鼻子。)
+
+<WordRelations
+  synonyms={["odious", "shameful", "wretched"]}
+  client:only
+/>

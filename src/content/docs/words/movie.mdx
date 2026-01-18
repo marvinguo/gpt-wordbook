@@ -1,13 +1,21 @@
 ---
 title: Movie
-description: "Movie 是一个名词，它意味着'电影'，大多数时候，我们使用'movie'来表示通过电影院或电视观看的一系列动态图像，通常配有声音，代表一个故事或一部记录片。"
+description: >-
+  Movie
+  是一个名词，它意味着'电影'，大多数时候，我们使用'movie'来表示通过电影院或电视观看的一系列动态图像，通常配有声音，代表一个故事或一部记录片。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Movie" 是一个名词，它意味着"电影"，大多数时候，我们使用"movie"来表示通过电影院或电视观看的一系列动态图像，通常配有声音，代表一个故事或一部记录片。
+
+<Pronunciation word="Movie" uk="/ˈmuːvi/" us="/ˈmuːvi/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 Tom's home alone tonight, so he decided to watch a movie. He chose a mystery thriller with popcorn ready. It's his way to enjoy a lonely night. (Tom 今晚一个人在家，所以他决定看一部电影。他挑了一部悬疑惊悚片，还准备好了爆米花。对他来说，这就是享受孤独之夜的方式。)
+
+<WordRelations
+  synonyms={["film", "flick", "motion picture", "motion-picture show", "moving picture", "moving-picture show", "photoplay", "picture", "picture show"]}
+  client:only
+/>

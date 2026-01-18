@@ -1,13 +1,20 @@
 ---
 title: Junk
-description: "Junk是一个英文单词，主要有两个意思。第一个意思是'废旧物品'，通常指无用或者不再需要的东西。第二个意思是'垃圾食品'，指的是营养价值低，含糖、盐、脂肪等过高的食物。"
+description: >-
+  Junk是一个英文单词，主要有两个意思。第一个意思是'废旧物品'，通常指无用或者不再需要的东西。第二个意思是'垃圾食品'，指的是营养价值低，含糖、盐、脂肪等过高的食物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Junk"是一个英文单词，主要有两个意思。第一个意思是"废旧物品"，通常指无用或者不再需要的东西。第二个意思是"垃圾食品"，指的是营养价值低，含糖、盐、脂肪等过高的食物。
+
+<Pronunciation word="Junk" uk="/dʒʌŋk/" us="/dʒʌŋk/" client:only />
 
 ### 列举例句
 
@@ -42,3 +49,8 @@ tableOfContents: false
 Tina's room was filled with all sorts of junk from old books to broken dolls. She finally decided it's time to clear all the junk and make room for the new.
 
 蒂娜的房间充满了各种各样的废旧物品，从旧书到破碎的洋娃娃。她终于决定清理所有的废旧物品，为新的东西腾出空间。
+
+<WordRelations
+  synonyms={["bin", "chuck", "chuck away", "chuck out", "discard", "dispose", "ditch", "dump", "scrap", "throw away", "throw out", "toss", "trash"]}
+  client:only
+/>

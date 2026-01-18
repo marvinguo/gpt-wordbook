@@ -1,13 +1,20 @@
 ---
 title: Documentary
-description: "Documentary是一个形容词和名词，它通常是指一种电影或电视节目，它提供有关真实事情的详细和准确的信息，例如，关于重大事件或有关历史、科学、自然或社会问题的信息。"
+description: >-
+  Documentary是一个形容词和名词，它通常是指一种电影或电视节目，它提供有关真实事情的详细和准确的信息，例如，关于重大事件或有关历史、科学、自然或社会问题的信息。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Documentary"是一个形容词和名词，它通常是指一种电影或电视节目，它提供有关真实事情的详细和准确的信息，例如，关于重大事件或有关历史、科学、自然或社会问题的信息。
+
+<Pronunciation word="Documentary" uk="/ˌdɒk.jəˈmɛn.tɹi/" us="/ˌdɒk.jəˈmɛn.tɹi/" client:only />
 
 ### 列举例句
 
@@ -46,3 +53,8 @@ documentaries (复数形式)
 There was a girl who loves documentaries. One day, she made a documentary about how she lives without any fish in her life.
 
 这里有个爱看纪录片的女孩。一天，她制作了一部关于她如何在没有任何鱼的情况下生活的纪录片。
+
+<WordRelations
+  antonyms={["fiction"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Kindle
-description: "Kindle 作为动词，意为“点燃”，“激发”，“激起”。这个词旨在描述点亮或引发一些东西，如火焰或兴趣。"
+description: Kindle 作为动词，意为“点燃”，“激发”，“激起”。这个词旨在描述点亮或引发一些东西，如火焰或兴趣。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Kindle" 作为动词，意为“点燃”，“激发”，“激起”。这个词旨在描述点亮或引发一些东西，如火焰或兴趣。
+
+<Pronunciation word="Kindle" uk="/ˈkɪndl/" us="/ˈkɪndl/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 In the depths of the forest, a little spark kindled a fire which warmed the whole area. It brought light to the darkest night and comfort to the cold winter.
 在森林的深处，一颗小火花点燃了一堆火，温暖了整个地区。它带来了黑夜的光明，给寒冷的冬天带来了温暖。
+
+<WordRelations
+  synonyms={["arouse", "inspire", "ignite"]}
+  antonyms={["dampen", "douse", "extinguish"]}
+  client:only
+/>

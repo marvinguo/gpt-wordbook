@@ -1,13 +1,21 @@
 ---
 title: Bachelor
-description: "Bachelor 是一个英文单词，具有两个主要意思。首先，'Bachelor' 最常见的含义是描述未婚的成年男子。此外，'Bachelor' 在学术语境中引申为学士学位。"
+description: >-
+  Bachelor 是一个英文单词，具有两个主要意思。首先，'Bachelor' 最常见的含义是描述未婚的成年男子。此外，'Bachelor'
+  在学术语境中引申为学士学位。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bachelor" 是一个英文单词，具有两个主要意思。首先，"Bachelor" 最常见的含义是描述未婚的成年男子。此外，"Bachelor" 在学术语境中引申为学士学位。
+
+<Pronunciation word="Bachelor" uk="/ˈbætʃ.ə.lə(ɹ)/" us="/ˈbætʃ.lɚ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,9 @@ tableOfContents: false
 Once upon a time, there was a handsome bachelor living alone in a town. He was not only known for his appeal but also his bachelor's degree in literature from a prestigious university.
 
 曾经有一个时候，有一个英俊的单身汉独自生活在一个小镇上。他不仅因为他的吸引力而闻名，而且他还拥有来自一所名牌大学的文学学士学位。
+
+<WordRelations
+  synonyms={["baccalaureate"]}
+  antonyms={["bachelorette", "wedder"]}
+  client:only
+/>

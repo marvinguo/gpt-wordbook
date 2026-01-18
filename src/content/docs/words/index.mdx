@@ -1,13 +1,21 @@
 ---
 title: Index
-description: "Index 是一个常用的英文单词，它有多个含义。主要的意思是'索引'或者'指标'，它可用来指代书籍或其他文件中用于快速定位信息的列表，也可以指代评估某种情况或变化的标准或测量。"
+description: >-
+  Index
+  是一个常用的英文单词，它有多个含义。主要的意思是'索引'或者'指标'，它可用来指代书籍或其他文件中用于快速定位信息的列表，也可以指代评估某种情况或变化的标准或测量。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Index" 是一个常用的英文单词，它有多个含义。主要的意思是"索引"或者"指标"，它可用来指代书籍或其他文件中用于快速定位信息的列表，也可以指代评估某种情况或变化的标准或测量。
+
+<Pronunciation word="Index" uk="/ˈɪndɛks/" us="/ˈɪndɛks/" client:only />
 
 ### 列举例句
 
@@ -48,3 +56,8 @@ Index 的词根来自于拉丁文 "Indicare"，意为"指出"或"显示"。
 
 "John always had a habit of using the index in a book. One day, he found a hidden message written across the index page of an old novel."
 "约翰有使用书中索引的习惯。有一天，他在一本旧小说的索引页中发现了一条隐藏的信息。"
+
+<WordRelations
+  synonyms={["manicule"]}
+  client:only
+/>

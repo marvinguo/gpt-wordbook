@@ -1,13 +1,19 @@
 ---
 title: Deduce
-description: "Deduce 这个单词就是主要表示 '推理' 或 '推断' 的含义。它常常用于科学，数学，逻辑以及刑侦等场景里，表示从一系列已知的事实或者证据中得出结论。"
+description: Deduce 这个单词就是主要表示 '推理' 或 '推断' 的含义。它常常用于科学，数学，逻辑以及刑侦等场景里，表示从一系列已知的事实或者证据中得出结论。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Deduce" 这个单词就是主要表示 "推理" 或 "推断" 的含义。它常常用于科学，数学，逻辑以及刑侦等场景里，表示从一系列已知的事实或者证据中得出结论。
+
+<Pronunciation word="Deduce" uk="/dɪˈdjuːs/" us="/dɪˈduːs/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 John based his decision not on emotions, but on facts he could deduce. (约翰并非依赖情绪做决定，而是依靠他可以推断的事实。)
 中文翻译：约翰并非依赖情绪做决定，而是依靠他可以推断的事实。
+
+<WordRelations
+  synonyms={["conclude", "infer"]}
+  antonyms={["induce"]}
+  client:only
+/>

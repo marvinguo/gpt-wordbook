@@ -1,13 +1,19 @@
 ---
 title: Innocent
-description: "Innocent 是一个英文单词，一般情况下，它是形容词，用来形容一个人或行为无罪、纯洁的，或者没有经验的，不了解世故的。"
+description: Innocent 是一个英文单词，一般情况下，它是形容词，用来形容一个人或行为无罪、纯洁的，或者没有经验的，不了解世故的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Innocent" 是一个英文单词，一般情况下，它是形容词，用来形容一个人或行为无罪、纯洁的，或者没有经验的，不了解世故的。
+
+<Pronunciation word="Innocent" uk="/ˈɪnəsn̩t/" us="/ˈɪnəsn̩t/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 Little Panda wandered off from his home and got himself into a big city. Seeing the tall buildings and bustling crowds, he is innocent of the ways of the world. (小熊猫离家出走，跑到了一个大城市。看到高楼大厦和熙熙攘攘的人群，他对世界的运转是个完完全全的新手。)
+
+<WordRelations
+  synonyms={["guiltless", "sackless", "pure", "untainted"]}
+  antonyms={["guilty", "nocent", "perverse"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Humid
-description: "humid是一个形容词，意思是'湿润的'或'潮湿的'。它经常用于描述空气或环境含有大量水分的场景。"
+description: humid是一个形容词，意思是'湿润的'或'潮湿的'。它经常用于描述空气或环境含有大量水分的场景。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "humid"是一个形容词，意思是"湿润的"或"潮湿的"。它经常用于描述空气或环境含有大量水分的场景。
+
+<Pronunciation word="Humid" uk="/ˈhjuːmɪd/" us="/ˈhjuːmɪd/" client:only />
 
 ### 列举例句
 
@@ -51,3 +57,8 @@ tableOfContents: false
 Tom can't stand the humid weather in Miami. The moment he steps off the plane, his shirt sticks to his skin.
 
 湯姆无法忍受迈阿密湿润的天气。一下飞机，他的衬衫就贴在了皮肤上。
+
+<WordRelations
+  synonyms={["damp", "moist"]}
+  client:only
+/>

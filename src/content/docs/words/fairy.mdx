@@ -1,13 +1,19 @@
 ---
 title: Fairy
-description: "Fairy是英文中的一个名词，指的是吉祥的精灵或者神秘小精灵，通常在童话或神话中扮演着重要的角色。"
+description: Fairy是英文中的一个名词，指的是吉祥的精灵或者神秘小精灵，通常在童话或神话中扮演着重要的角色。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 'Fairy'是英文中的一个名词，指的是吉祥的精灵或者神秘小精灵，通常在童话或神话中扮演着重要的角色。
+
+<Pronunciation word="Fairy" uk="/ˈfɛə̯ɹi/" us="/ˈfɛə̯ɹi/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Fairy 的词源来自于 14 世纪法文 faerie，意为“魔法，魔法之地
 
 Once upon a time, a kind fairy lived in a magical forest. She used her powers to help the forest animals.
 从前，有一个善良的小仙女住在一个神奇的森林中。她用她的力量来帮助森林里的动物。
+
+<WordRelations
+  synonyms={["fag", "faggot", "poof", "queen", "fae", "fay", "fey", "goblin", "sprite"]}
+  client:only
+/>

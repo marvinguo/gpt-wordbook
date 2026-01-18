@@ -1,13 +1,19 @@
 ---
 title: Miss
-description: "英语单词 'miss' 主要有两个情境：一种做名词用，指未婚女士；另一种是做动词用，主要指错过、漏失。"
+description: 英语单词 'miss' 主要有两个情境：一种做名词用，指未婚女士；另一种是做动词用，主要指错过、漏失。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英语单词 "miss" 主要有两个情境：一种做名词用，指未婚女士；另一种是做动词用，主要指错过、漏失。
+
+<Pronunciation word="Miss" uk="/mɪs/" us="/mɪs/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ Miss 这个词在英语中并没有显著的词根衍生。
 
 Today, Miss Green got up late and missed the early bus to work. She was worried but caught the next one with a sigh of relief.
 今天，格林小姐起床晚了，错过了早班公交去上班。她很担心，但是松了一口气坐上了下一班公交。
+
+<WordRelations
+  antonyms={["collide", "hit", "impinge", "run into", "strike", "feature", "have"]}
+  client:only
+/>

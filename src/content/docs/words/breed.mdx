@@ -1,13 +1,19 @@
 ---
 title: Breed
-description: "Breed 是一个多义词，既可以作为名词，也可以作为动词。"
+description: Breed 是一个多义词，既可以作为名词，也可以作为动词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Breed" 是一个多义词，既可以作为名词，也可以作为动词。
+
+<Pronunciation word="Breed" uk="/bɹiːd/" us="/bɹiːd/" client:only />
 
 1.  作为名词，"breed" 可以表示动物的品种。例如，"This breed of dog is known for its loyalty."（这个狗品种以其忠诚闻名。）
 
@@ -48,3 +54,8 @@ tableOfContents: false
 "One day, Mary visited a farm. She was amazed to see different breeds of cows. The farmer explained, 'We breed these cows to produce the best milk.' That trip to the farm taught Mary the wonder of breeding."
 
 一天，玛丽参观了一座农场。她惊讶地看到了各种不同的奶牛品种。农场主解释说："我们繁育这些奶牛是为了获得最好的牛奶。" 这次农场之旅让玛丽了解到了繁殖的奇妙。
+
+<WordRelations
+  synonyms={["bring up", "raise", "rear"]}
+  client:only
+/>

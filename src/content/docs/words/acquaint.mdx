@@ -1,13 +1,19 @@
 ---
 title: Acquaint
-description: "Acquaint 是一个动态词，来源于中古英语的 'acointen'，意思是熟知或者了解。我们现在用它去表达'使某人熟悉或了解（某事）'的意思。"
+description: Acquaint 是一个动态词，来源于中古英语的 'acointen'，意思是熟知或者了解。我们现在用它去表达'使某人熟悉或了解（某事）'的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Acquaint" 是一个动态词，来源于中古英语的 "acointen"，意思是熟知或者了解。我们现在用它去表达"使某人熟悉或了解（某事）"的意思。
+
+<Pronunciation word="Acquaint" uk="/əˈkweɪnt/" us="/əˈkweɪnt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ Acquaint 是一个动词。其过去式和过去分词是 acquainted。它的名
 
 Emily moved to a new city for her job. She was eager to acquaint herself with her new neighborhood. She spent a lot of time exploring nearby streets, parks, and markets.
 (艾米丽因为她的工作搬到了一个新的城市。她渴望了解自己的新社区。她花了很多时间探索附近的街道、公园和市场。)
+
+<WordRelations
+  synonyms={["advise", "apprise", "inform", "habituate", "inure", "familiarize"]}
+  client:only
+/>

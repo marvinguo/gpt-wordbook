@@ -1,13 +1,19 @@
 ---
 title: Bruise
-description: "Bruise 是一个英文单词，常用作名词或动词。作为名词它指的是身体上由于受伤或冲击导致的淤血或紫斑；作为动词时，它的意思是使皮肤淤血，被撞伤害。"
+description: Bruise 是一个英文单词，常用作名词或动词。作为名词它指的是身体上由于受伤或冲击导致的淤血或紫斑；作为动词时，它的意思是使皮肤淤血，被撞伤害。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Bruise" 是一个英文单词，常用作名词或动词。作为名词它指的是身体上由于受伤或冲击导致的淤血或紫斑；作为动词时，它的意思是使皮肤淤血，被撞伤害。
+
+<Pronunciation word="Bruise" uk="/bɹuːz/" us="/bɹuːz/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ Bruise 的过去式和过去分词是"bruised"，动名词为 "bruising"。
 ### 助记故事
 
 When I played basketball with my friends, unfortunately, I had a collision with one of them, which led to a bruise on my elbow. It was painful and blue. (当我跟朋友们打篮球时，不幸的是，我与他们其中一个撞到了一起，导致我肘部淤了一块血。那很疼，看上去也是兰色的。)
+
+<WordRelations
+  synonyms={["contusion", "ecchymosis"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Somebody
-description: "Somebody是个不定代词，意思是'某人'或'有人'，通常指未特指的或者不知名的人。"
+description: Somebody是个不定代词，意思是'某人'或'有人'，通常指未特指的或者不知名的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Somebody"是个不定代词，意思是"某人"或"有人"，通常指未特指的或者不知名的人。
+
+<Pronunciation word="Somebody" uk="/ˈsʌmbədɪ/" us="/ˈsʌmbɑdi/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 **Somebody** scribbled a beautiful poem on the corner of the public bench. Later, passersby added their thoughts, turning it into a community canvas. (某人在公共长凳角落涂鸦了一首美丽的诗。后来，路过的人们纷纷添加了他们的想法，把它变成了一个社区的画布。)
+
+<WordRelations
+  synonyms={["someone"]}
+  client:only
+/>

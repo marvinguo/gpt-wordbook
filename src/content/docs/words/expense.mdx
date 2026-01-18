@@ -1,13 +1,19 @@
 ---
 title: Expense
-description: "Expense 是一个英文名词，主要意思为“费用”，“开销”，常指日常生活或做某项活动所需花费的金钱。"
+description: Expense 是一个英文名词，主要意思为“费用”，“开销”，常指日常生活或做某项活动所需花费的金钱。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Expense" 是一个英文名词，主要意思为“费用”，“开销”，常指日常生活或做某项活动所需花费的金钱。
+
+<Pronunciation word="Expense" uk="/ɪkˈspɛns/" us="/ɪkˈspɛns/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 John just opened his online shop, but the initial "expense" was higher than he thought. He needed to tighten his belt and think of other ways to reduce costs.
 约翰刚刚开了他的在线店铺，但初始的"expense"(开销)却比他想象的要高。他需要节省开支，想出其他方式来减少费用。
+
+<WordRelations
+  synonyms={["charge", "cost", "disbursement", "expenditure", "outlay", "payment"]}
+  client:only
+/>

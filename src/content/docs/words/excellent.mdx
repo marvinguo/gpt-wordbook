@@ -1,13 +1,19 @@
 ---
 title: Excellent
-description: "Excellent 是一个形容词，意思是“优秀的”或“极好的”，表示一种超过一般水平的特性或品质。"
+description: Excellent 是一个形容词，意思是“优秀的”或“极好的”，表示一种超过一般水平的特性或品质。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Excellent" 是一个形容词，意思是“优秀的”或“极好的”，表示一种超过一般水平的特性或品质。
+
+<Pronunciation word="Excellent" uk="/ˈɛksələnt/" us="/ˈɛksələnt/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Tony is an excellent pianist. He played a beautiful song at the concert last night. The audience applauded enthusiastically, and everyone thought it was an excellent performance.
 
 托尼是一个优秀的钢琴家。他在昨晚的音乐会上演奏了一首美妙的曲子。观众们热烈鼓掌，大家都认为这是一次优秀的表演。
+
+<WordRelations
+  antonyms={["poor", "terrible"]}
+  client:only
+/>

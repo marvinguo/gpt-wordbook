@@ -1,13 +1,19 @@
 ---
 title: Opponent
-description: "Opponent 是一个名词，意思是“对手”或“反对者”。它不仅指代与我们直接竞争的人，也可以指代在观点或立场上我们的反对者。"
+description: Opponent 是一个名词，意思是“对手”或“反对者”。它不仅指代与我们直接竞争的人，也可以指代在观点或立场上我们的反对者。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Opponent 是一个名词，意思是“对手”或“反对者”。它不仅指代与我们直接竞争的人，也可以指代在观点或立场上我们的反对者。
+
+<Pronunciation word="Opponent" uk="/ɒpəʊnənt/" us="/ɒpəʊnənt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Opponent 自身没有其他形式的变化。它有一个动词形式的亲缘�
 
 "In the chess tournament, John faced his greatest opponent ever. After a fierce competition, John was defeated by his opponent."
 在棋赛中，约翰遇到了他有史以来最强大的对手。经过一场激烈的竞争，约翰被他的对手击败了。
+
+<WordRelations
+  synonyms={["adversary", "antagonist"]}
+  antonyms={["advocate", "proponent", "supporter", "respondent"]}
+  client:only
+/>

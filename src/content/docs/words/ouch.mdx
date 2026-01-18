@@ -1,13 +1,19 @@
 ---
 title: Ouch
-description: "Ouch 是一种口语化的感叹词，常在英语中表示疼痛，不舒服或受伤的时候使用。"
+description: Ouch 是一种口语化的感叹词，常在英语中表示疼痛，不舒服或受伤的时候使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Ouch" 是一种口语化的感叹词，常在英语中表示疼痛，不舒服或受伤的时候使用。
+
+<Pronunciation word="Ouch" uk="/ˈaʊtʃ/" us="/ˈaʊtʃ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Anna was helping her mom in the kitchen. Suddenly, she shouted, "Ouch! The skillet is too hot!"
 
 安娜在厨房帮妈妈做事。突然，她大喊道：“哎哟！煎锅太烫了！”
+
+<WordRelations
+  synonyms={["ow", "owie", "youch", "yow", "yowch"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Grasshopper
-description: "Grasshopper 是名词，主要指的是蚱蜢或是蝗虫，这是一种在全世界广泛分布的昆虫。"
+description: Grasshopper 是名词，主要指的是蚱蜢或是蝗虫，这是一种在全世界广泛分布的昆虫。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Grasshopper" 是名词，主要指的是蚱蜢或是蝗虫，这是一种在全世界广泛分布的昆虫。
+
+<Pronunciation word="Grasshopper" uk="/ɡɹæsˌhɒpə(ɹ)/" us="/ˈɡɹæsˌhɑpəɹ/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Once there was a grasshopper who loved jumping in the fields, enjoying the sunshine. (曾经有只蚱蜢，它喜欢在田野里跳跃，享受阳光。)
+
+<WordRelations
+  synonyms={["grasshop", "hopper"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Earthquake
-description: "Earthquake 是一个英文名词，表现地壳因为地质力量变动而突然释放出来的能量，引起的地震现象。"
+description: Earthquake 是一个英文名词，表现地壳因为地质力量变动而突然释放出来的能量，引起的地震现象。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Earthquake" 是一个英文名词，表现地壳因为地质力量变动而突然释放出来的能量，引起的地震现象。
+
+<Pronunciation word="Earthquake" uk="/ˈɜːθkweɪk/" us="/ˈɝθkweɪk/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 During an earthquake, the entire building shook violently. The people inside were terrified and ran towards the exit. It was a day they would never forget.
 (在地震发生时，整栋大楼剧烈摇晃。里面的人都非常恐惧，他们向出口跑去。那是他们永远不会忘记的一天。)
+
+<WordRelations
+  synonyms={["earthdin", "quake", "seism", "temblor", "terremote", "tremblor", "tremor"]}
+  client:only
+/>

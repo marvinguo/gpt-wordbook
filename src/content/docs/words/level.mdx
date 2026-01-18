@@ -1,13 +1,19 @@
 ---
 title: Level
-description: "Level 是一个在英文中常用的词语，它既可以用作名词也可以用作形容词或者动词。它的基本含义是等级，水平，标准。"
+description: Level 是一个在英文中常用的词语，它既可以用作名词也可以用作形容词或者动词。它的基本含义是等级，水平，标准。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Level" 是一个在英文中常用的词语，它既可以用作名词也可以用作形容词或者动词。它的基本含义是等级，水平，标准。
+
+<Pronunciation word="Level" uk="/ˈlɛv.əl/" us="/ˈlɛv.əl/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ tableOfContents: false
 
 "Tim worked day and night to level up in his game. He was determined to reach the top level."
 （Tim 日夜不停地工作着，只是为了在他的游戏中提升等级。他立志要达到最高级别。）
+
+<WordRelations
+  synonyms={["stage", "world", "zone"]}
+  antonyms={["tilted", "unbalanced", "uneven"]}
+  client:only
+/>

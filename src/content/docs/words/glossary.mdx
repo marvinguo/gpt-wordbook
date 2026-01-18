@@ -1,13 +1,19 @@
 ---
 title: Glossary
-description: "Glossary 是一个名词，指的是（尤其是在书的末尾）列出特殊、困难或技术性词汇的解释或翻译的字词表。它助于读者更好地理解一本书或一篇文章的内容。"
+description: Glossary 是一个名词，指的是（尤其是在书的末尾）列出特殊、困难或技术性词汇的解释或翻译的字词表。它助于读者更好地理解一本书或一篇文章的内容。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Glossary" 是一个名词，指的是（尤其是在书的末尾）列出特殊、困难或技术性词汇的解释或翻译的字词表。它助于读者更好地理解一本书或一篇文章的内容。
+
+<Pronunciation word="Glossary" uk="/ˈɡlɒsəɹi/" us="/ˈɡlɒsəɹi/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Jane was reading a scientific book about space, but there were many terms she didn't understand. Her friend recommended her to look at the glossary at the end of the book. To her surprise, it helped a lot. (简正在阅读一本关于太空的科技书，但有很多术语她不理解。她的朋友建议她看看书尾的词汇表。令她惊讶的是，这帮助了她很多。）
+
+<WordRelations
+  synonyms={["clavis", "idioticon", "vocabulary"]}
+  client:only
+/>

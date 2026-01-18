@@ -1,13 +1,19 @@
 ---
 title: Exhibit
-description: "Exhibit 是一个英语单词，它既可以作为动词也可以作为名词使用。"
+description: Exhibit 是一个英语单词，它既可以作为动词也可以作为名词使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Exhibit" 是一个英语单词，它既可以作为动词也可以作为名词使用。
+
+<Pronunciation word="Exhibit" uk="/ɛɡ-/" us="/ɛɡ-/" client:only />
 
 作为动词，"exhibit" 的含义是“展示”，或“陈列”。例如，在美术馆，一些艺术作品可以被“展出”。
 
@@ -49,3 +55,8 @@ tableOfContents: false
 Once in New York, I saw an exhibit of dinosaur fossils. The majestic bones exhibited the prehistoric life vividly. The exhibit was unforgettable.
 
 曾经在纽约，我看到了一次恐龙化石的展览。壮观的骨骸生动地展示了史前生活。 这次展览令我难以忘怀。
+
+<WordRelations
+  synonyms={["showing", "exhibition", "exposition", "show", "demonstrate", "display", "show off"]}
+  client:only
+/>

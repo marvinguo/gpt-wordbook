@@ -1,13 +1,19 @@
 ---
 title: Wheel
-description: "Wheel 是一个名词，表示“轮子”。它也可以作为动词使用，意思是推动或转动。"
+description: Wheel 是一个名词，表示“轮子”。它也可以作为动词使用，意思是推动或转动。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wheel" 是一个名词，表示“轮子”。它也可以作为动词使用，意思是推动或转动。
+
+<Pronunciation word="Wheel" uk="/ʍiːl/" us="/wil/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 Tom found an old wooden wheel in the barn. He thought that he could turn it into a table.
 
 (汤姆在谷仓里发现了一个旧木轮。他想把它变成一张桌子。)
+
+<WordRelations
+  synonyms={["breaking wheel", "rim"]}
+  client:only
+/>

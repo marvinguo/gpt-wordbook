@@ -1,13 +1,18 @@
 ---
 title: As
-description: "As 是一个非常常用的英语单词，它是一个连词，可以表示比较、原因、方式、时间等不同含义。此外，'as' 还可以作为代词使用。"
+description: As 是一个非常常用的英语单词，它是一个连词，可以表示比较、原因、方式、时间等不同含义。此外，'as' 还可以作为代词使用。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "As" 是一个非常常用的英语单词，它是一个连词，可以表示比较、原因、方式、时间等不同含义。此外，"as" 还可以作为代词使用。
+
 
 ### 列举例句
 
@@ -40,3 +45,8 @@ tableOfContents: false
 Once again, she woke up as the sun began to rise. Even as the cold wind blew outside, she felt a warm sense of happiness, as if she was home.
 
 (她再次在太阳升起时醒来。尽管外面刮着冷风，但她感到一种暖洋洋的幸福感，好像她已经回家了。)
+
+<WordRelations
+  synonyms={["while", "whilst", "given that", "seeing that", "albeit", "although"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Fruitful
-description: "Fruitful是一个形容词，意思是产生许多好的结果的，成功的，或者产生大量果实的。例如：长时间的研究被证明是果实累累的。"
+description: Fruitful是一个形容词，意思是产生许多好的结果的，成功的，或者产生大量果实的。例如：长时间的研究被证明是果实累累的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Fruitful"是一个形容词，意思是产生许多好的结果的，成功的，或者产生大量果实的。例如：长时间的研究被证明是果实累累的。
+
+<Pronunciation word="Fruitful" uk="/ˈfɹuːtfəl/" us="/ˈfɹuːtfəl/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 Once, a farmer had a fruitful year because of the extra care he gave to his crops. His neighbors praised him for his effort.
 曾经，一个农民由于对他的庄稼格外细心，所以那一年他收获了很多。他的邻居们都夸他工作勤奋。
+
+<WordRelations
+  synonyms={["fertile"]}
+  antonyms={["barren", "infertile", "unfruitful"]}
+  client:only
+/>

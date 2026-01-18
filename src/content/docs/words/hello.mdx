@@ -1,13 +1,19 @@
 ---
 title: Hello
-description: "Hello 是英语的一个常用词，本意是用于问候，表示“你好”。它也可以用于表示惊讶或者获取他人注意。“Hello”也常用在接电话时的打招呼。"
+description: Hello 是英语的一个常用词，本意是用于问候，表示“你好”。它也可以用于表示惊讶或者获取他人注意。“Hello”也常用在接电话时的打招呼。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Hello 是英语的一个常用词，本意是用于问候，表示“你好”。它也可以用于表示惊讶或者获取他人注意。“Hello”也常用在接电话时的打招呼。
+
+<Pronunciation word="Hello" uk="/həˈləʊ/" us="/həˈləʊ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Hello 的词根没有明确来源，可能源于 16 世纪的英格兰方言，�
 
 One day, Little John walked into a candy store. "Hello, may I have a lollipop please?" asked Little John. "Sure, here you go," said the shop owner kindly.
 （有一天，小约翰走进一家糖果店。“你好，我可以买一根棒棒糖吗？”小约翰问道。 “当然可以，给你，”商店老板亲切地说。）
+
+<WordRelations
+  synonyms={["greeting"]}
+  antonyms={["bye", "goodbye"]}
+  client:only
+/>

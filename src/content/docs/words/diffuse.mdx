@@ -1,13 +1,19 @@
 ---
 title: Diffuse
-description: "Diffuse 是一个英语单词，可以用作形容词或动词。"
+description: Diffuse 是一个英语单词，可以用作形容词或动词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Diffuse 是一个英语单词，可以用作形容词或动词。
+
+<Pronunciation word="Diffuse" uk="/dɪˈfjuːz/" us="/dɪˈfjuz/" client:only />
 
 作为形容词，它通常形容光或者声音分散开来，不集中；也可以形容一个人的思路、言语、作品等不集中、杂乱。另外，这个词还可以表示疾病等的广泛扩散或者深入人体各个部位。
 
@@ -61,3 +67,8 @@ Diffuse 这个词源于拉丁语，表示 "扩散，分散"的意思，在中世
 In a small village, a wise old man lives. He always diffuses useful knowledge to the youngsters. The diffusion of his wisdom, like the diffusion of light, spreads to every corner of the village, making the whole village prosper.
 
 在一个小村庄里，住着一位智慧的老人。他总是向年轻人传播有用的知识。他智慧的传播，就像光的传播一样，散播到村庄的每一个角落，使整个村庄繁荣起来。
+
+<WordRelations
+  synonyms={["forspread"]}
+  client:only
+/>

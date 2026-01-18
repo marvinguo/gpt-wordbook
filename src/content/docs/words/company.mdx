@@ -1,13 +1,21 @@
 ---
 title: Company
-description: "Company 是一个英语单词，既可以作为名词，也可以作为动词。最常见的解析是它作为名词，意为“公司”或者“商会”。另外，它还有“陪伴”，“伙伴”的意思。作为动词时，也有'陪伴'的意思。"
+description: >-
+  Company
+  是一个英语单词，既可以作为名词，也可以作为动词。最常见的解析是它作为名词，意为“公司”或者“商会”。另外，它还有“陪伴”，“伙伴”的意思。作为动词时，也有'陪伴'的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Company" 是一个英语单词，既可以作为名词，也可以作为动词。最常见的解析是它作为名词，意为“公司”或者“商会”。另外，它还有“陪伴”，“伙伴”的意思。作为动词时，也有"陪伴"的意思。
+
+<Pronunciation word="Company" uk="/ˈkʌmp(ə)ni/" us="/ˈkʌmpəni/" client:only />
 
 ### 列举例句
 
@@ -41,3 +49,8 @@ tableOfContents: false
 
 Tom started a company with his friends. They shared the same passion for technology and aimed to change the world.
 汤姆和他的朋友们成立了一家公司。他们对技术有着共同的热情，并立志要改变世界。
+
+<WordRelations
+  synonyms={["fellowship", "friendship", "mateship", "association", "companionship", "organization", "society", "corporation", "attend", "escort", "go with", "fornicate", "have sex", "make love"]}
+  client:only
+/>

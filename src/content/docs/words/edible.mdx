@@ -1,13 +1,20 @@
 ---
 title: Edible
-description: "英语单词'edible'是形容词，主要用于描述可以安全食用或可口的食物。当你看到这个词时，它通常用来指那些可直接食用，或烹饪后可以食用的食品，也可以用于描述某种物质或产品是可以安全食用的。"
+description: >-
+  英语单词'edible'是形容词，主要用于描述可以安全食用或可口的食物。当你看到这个词时，它通常用来指那些可直接食用，或烹饪后可以食用的食品，也可以用于描述某种物质或产品是可以安全食用的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 英语单词"edible"是形容词，主要用于描述可以安全食用或可口的食物。当你看到这个词时，它通常用来指那些可直接食用，或烹饪后可以食用的食品，也可以用于描述某种物质或产品是可以安全食用的。
+
+<Pronunciation word="Edible" uk="/ˈɛdɪbl/" us="/ˈɛdɪbl/" client:only />
 
 ### 列举例句
 
@@ -39,3 +46,9 @@ Edible 是形容词，没有变形。但可以用来形成复合词，如"edible
 
 Sally was in her garden, looking at the variety of plants she has. Suddenly, she spotted some purple berries and wondered, "Are those berries edible?"
 萨莉在她的花园里，看着她拥有的各种植物。突然，她发现了一些紫色的浆果，她想知道：“那些浆果可以吃吗？”。
+
+<WordRelations
+  synonyms={["food", "comestible", "eatable", "eatworthy"]}
+  antonyms={["inedible"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Disgusting
-description: "Disgusting 是一个形容词，源于动词 'disgust', 意思是引起极度反感或厌恶的, 可形容人或事物。"
+description: 'Disgusting 是一个形容词，源于动词 ''disgust'', 意思是引起极度反感或厌恶的, 可形容人或事物。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Disgusting" 是一个形容词，源于动词 "disgust", 意思是引起极度反感或厌恶的, 可形容人或事物。
+
+<Pronunciation word="Disgusting" uk="/dɪsˈɡʊstɪŋ/" us="/dɪsˈkʌstɪŋ/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,8 @@ tableOfContents: false
 One day, Joe ate a strange fruit by accident. As soon as he tasted it, he scowled and yelled, "This is disgusting!" The weird taste was simply too horrible to bear.
 
 有一天，乔意外的吃了一种奇怪的水果。他刚一尝，就皱起了眉头，大喊：“这真是恶心!” 那种怪味简直无法忍受。
+
+<WordRelations
+  synonyms={["distasteful", "gro", "grody", "grotty", "repulsive"]}
+  client:only
+/>

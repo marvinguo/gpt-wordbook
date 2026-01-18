@@ -1,14 +1,20 @@
 ---
 title: Used
-description: "Used 是动词 'use' 的过去式和过去分词，表示 '使用，利用'。"
+description: Used 是动词 'use' 的过去式和过去分词，表示 '使用，利用'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Used" 是动词 "use" 的过去式和过去分词，表示 "使用，利用"。
 另一方面，当 "used" 后接 "to" 时，表示"曾经，过去常常"，用于表达过去的习惯或状态。
+
+<Pronunciation word="Used" uk="/juːzd/" us="/juːzd/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 
 “John used to be a shy boy, but now he's a confident speaker.”
 中文翻译: “约翰曾经是一个害羞的男孩，但现在他是一个自信的演讲者。”
+
+<WordRelations
+  synonyms={["apply", "employ", "engage", "utilise", "utilize", "exploit", "take advantage of", "pre-owned", "second-hand"]}
+  antonyms={["unused", "new"]}
+  client:only
+/>

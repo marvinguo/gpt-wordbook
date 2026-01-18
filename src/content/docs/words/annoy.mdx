@@ -1,13 +1,19 @@
 ---
 title: Annoy
-description: "Annoy这个单词表示使人烦恼或者使人不悦的意思，在不同的上下文中可以有不同的含义。"
+description: Annoy这个单词表示使人烦恼或者使人不悦的意思，在不同的上下文中可以有不同的含义。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Annoy"这个单词表示使人烦恼或者使人不悦的意思，在不同的上下文中可以有不同的含义。
+
+<Pronunciation word="Annoy" uk="/əˈnɔɪ/" us="/əˈnɔɪ/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,9 @@ Annoy 的几种常见变形有：
 "Every morning, John is annoyed by the loud alarms from the construction site near his house. He feels like he is living in a noisy factory." (每天早上，约翰都被他家附近的建筑工地刺耳的警报声所烦恼。他感觉自己就像住在一个嘈杂的工厂里。)
 
 希望这些信息对你有所帮助！
+
+<WordRelations
+  synonyms={["annoyance", "bother", "bug", "hassle", "irk", "irritate", "nag", "pester"]}
+  antonyms={["please"]}
+  client:only
+/>

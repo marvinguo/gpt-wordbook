@@ -1,13 +1,19 @@
 ---
 title: Sunlight
-description: "Sunlight 是一个英语单词，指的是太阳发出的光线，也就是我们熟知的阳光。"
+description: Sunlight 是一个英语单词，指的是太阳发出的光线，也就是我们熟知的阳光。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Sunlight" 是一个英语单词，指的是太阳发出的光线，也就是我们熟知的阳光。
+
+<Pronunciation word="Sunlight" uk="/ˈsʌnˌlaɪt/" us="/ˈsʌnˌlaɪt/" client:only />
 
 ### 列举例句
 
@@ -44,3 +50,9 @@ tableOfContents: false
 
 The little bird danced in the sunlight, spreading its wings wide. Trees swayed lightly, bathing in the gentle glow.
 小鸟在阳光下跳舞，张开翅膀。树木在柔和的光线中轻轻摇晃，沐浴在阳光下。
+
+<WordRelations
+  synonyms={["hope", "optimism", "daylight", "sunshine", "break of day", "first light", "sunup", "crack of dawn", "dawn", "sparrow-fart"]}
+  antonyms={["sunset"]}
+  client:only
+/>

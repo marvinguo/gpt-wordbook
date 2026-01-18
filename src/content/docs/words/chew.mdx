@@ -1,13 +1,19 @@
 ---
 title: Chew
-description: "Chew 是一个英语动词，意为“咀嚼”，常用于谈论食物的咀嚼过程。也可用于形象表达对某个问题深入思考的过程。"
+description: Chew 是一个英语动词，意为“咀嚼”，常用于谈论食物的咀嚼过程。也可用于形象表达对某个问题深入思考的过程。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Chew" 是一个英语动词，意为“咀嚼”，常用于谈论食物的咀嚼过程。也可用于形象表达对某个问题深入思考的过程。
+
+<Pronunciation word="Chew" uk="/tʃuː/" us="/tʃu/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,8 @@ tableOfContents: false
 Tom has a habit of chewing gum while studying. He believes it helps him concentrate. (汤姆有边学习边咀嚼口香糖的习惯。他相信这有助于他集中注意力。)
 
 中文翻译：汤姆有在学习时嚼口香糖的习惯。他觉得这有助于他集中精力。
+
+<WordRelations
+  synonyms={["bite", "chavel", "chomp", "crunch", "masticate", "grind", "pulverize", "rip", "shred", "tear", "contemplate", "mull", "muse", "ponder", "ruminate"]}
+  client:only
+/>

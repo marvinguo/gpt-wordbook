@@ -1,13 +1,19 @@
 ---
 title: Nice
-description: "Nice 是一个形容词，主要的意思是“好的”，“愉快的”，“令人满意的”。你可以用它来形容人、事物、环境及情况等。"
+description: Nice 是一个形容词，主要的意思是“好的”，“愉快的”，“令人满意的”。你可以用它来形容人、事物、环境及情况等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Nice" 是一个形容词，主要的意思是“好的”，“愉快的”，“令人满意的”。你可以用它来形容人、事物、环境及情况等。
+
+<Pronunciation word="Nice" uk="/naɪs/" us="/naɪs/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 There was a nice girl named Lily. She had a nice smile and wore a nice dress. Lily did a nice deed by helping an old woman crossing the street. (丽丽是一个 nice 的（好的）女孩。她拥有好看的微笑，穿着美丽的裙子。她帮助了一个老太太过马路，做了一件好人好事。)
+
+<WordRelations
+  synonyms={["charming", "delightful", "friendly", "kind", "lovely", "pleasant", "sweet", "appetising", "appetizing", "delicious", "moreish", "scrummy", "scrumptious", "tasty", "fine", "subtle"]}
+  antonyms={["horrible", "horrid", "nasty", "awful", "disgusting", "distasteful", "foul", "gross", "nauseating", "putrid", "rancid", "rank", "sickening", "unsatisfactory", "naughty"]}
+  client:only
+/>

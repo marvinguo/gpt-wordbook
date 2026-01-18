@@ -1,13 +1,19 @@
 ---
 title: Home
-description: "Home是英语中最常见的单词之一，表示家，也可以指人生活、生存的地方。它既可以用作名词，也可以用作形容词或副词。"
+description: Home是英语中最常见的单词之一，表示家，也可以指人生活、生存的地方。它既可以用作名词，也可以用作形容词或副词。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Home"是英语中最常见的单词之一，表示家，也可以指人生活、生存的地方。它既可以用作名词，也可以用作形容词或副词。
+
+<Pronunciation word="Home" uk="/(h)əʊm/" us="/hoʊm/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 Once upon a time in New York, there was a boy named Tommy. No matter where he traveled, the picture of his cozy home was always in his heart.
 纽约，有个叫汤米的男孩。无论他走到哪里，心中总会浮现出温馨家园的画面。
+
+<WordRelations
+  synonyms={["home base", "abode", "domicile", "dwelling", "house", "residence", "tenement", "homeward"]}
+  antonyms={["away", "road", "visitor"]}
+  client:only
+/>

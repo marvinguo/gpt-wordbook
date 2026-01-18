@@ -1,13 +1,19 @@
 ---
 title: Front
-description: "Front 这个单词在英语中用途相当广泛。主要有以下几个常见含义："
+description: Front 这个单词在英语中用途相当广泛。主要有以下几个常见含义：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Front" 这个单词在英语中用途相当广泛。主要有以下几个常见含义：
+
+<Pronunciation word="Front" uk="/fɹʌnt/" us="/fɹʌnt/" client:only />
 
 1.  对面，正面（名词）。（例：He sat at the front of the classroom. 他坐在教室的前排。）
 2.  表现，假装（名词）。 （例：He puts on a brave front, but he's really scared. 他表现得很勇敢，但其实他非常害怕。）
@@ -49,3 +55,9 @@ Front 作为一个单词，其本身既可以作为词根也可以作为词缀�
 
 Once upon a time, there was a house that was built with its front facing the sea. Every morning, the first thing the family saw was the beautiful sunrise from the ocean.
 从前，有一幢房子，它的正面朝向大海。每天早晨，家人们首先看到的就是海上美丽的日出。
+
+<WordRelations
+  synonyms={["fore", "feign", "put on airs", "first", "lead"]}
+  antonyms={["back", "rear", "last"]}
+  client:only
+/>

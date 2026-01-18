@@ -1,13 +1,19 @@
 ---
 title: Soap
-description: "单词'soap'的意思主要有两种：其一是我们日常生活中用于清洁的肥皂，其二则是'肥皂剧'，这是对一些独立剧集或连续剧的称呼。"
+description: 单词'soap'的意思主要有两种：其一是我们日常生活中用于清洁的肥皂，其二则是'肥皂剧'，这是对一些独立剧集或连续剧的称呼。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词"soap"的意思主要有两种：其一是我们日常生活中用于清洁的肥皂，其二则是"肥皂剧"，这是对一些独立剧集或连续剧的称呼。
+
+<Pronunciation word="Soap" uk="/səʊp/" us="/soʊp/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 Sarah is a big fan of the soap opera "Fabulous Life".Every evening, she sits on the couch with a bowl of popcorn, waiting for the show to begin.
 
 萨拉是肥皂剧 "繁华人生" 的粉丝。她每天晚上都会坐在沙发上，碗里放着爆米花，等待节目开始。
+
+<WordRelations
+  synonyms={["downplay", "soft soap", "soft-pedal", "sugar soap"]}
+  client:only
+/>

@@ -1,13 +1,18 @@
 ---
 title: Immobile
-description: "Immobile 是一个英语形容词，意为“不动的”，“固定的”，或“无法移动的”。"
+description: Immobile 是一个英语形容词，意为“不动的”，“固定的”，或“无法移动的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Immobile" 是一个英语形容词，意为“不动的”，“固定的”，或“无法移动的”。
+
 
 ### 列举例句
 
@@ -41,3 +46,9 @@ tableOfContents: false
 ### 助记故事
 
 In many years of treasure hunting, she discovered a magical immobile rock. By touching it, you could hear the whispers of the past.（在多年的寻宝中，她发现了一块神奇的、不可移动的石头。你只要触碰它，就可以听到过去的私语）
+
+<WordRelations
+  synonyms={["fixed", "sessile", "unmovable"]}
+  antonyms={["mobile"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Subtract
-description: "Subtract 是一个英文动词，通常意味着'从整数或者总数中取掉某个数量'，在数学中通常被理解为减法的操作。"
+description: Subtract 是一个英文动词，通常意味着'从整数或者总数中取掉某个数量'，在数学中通常被理解为减法的操作。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Subtract" 是一个英文动词，通常意味着"从整数或者总数中取掉某个数量"，在数学中通常被理解为减法的操作。
+
+<Pronunciation word="Subtract" uk="/səbˈtɹækt/" us="/səbˈtɹækt/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 ### 助记故事
 
 James had ten apples. He gave three to his little sister. Now, he needs to subtract three from ten to know how many he has left. (詹姆斯有十个苹果。他给了弟弟三个。现在，他需要从十里减去三，才能知道他还剩下多少。)
+
+<WordRelations
+  synonyms={["unadd"]}
+  antonyms={["add"]}
+  client:only
+/>

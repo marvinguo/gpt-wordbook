@@ -1,13 +1,19 @@
 ---
 title: Cheerful
-description: "Cheerful 是一个形容词，意为“快乐的，愉快的”，常用来形容人或者氛围的心情状态。"
+description: Cheerful 是一个形容词，意为“快乐的，愉快的”，常用来形容人或者氛围的心情状态。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Cheerful" 是一个形容词，意为“快乐的，愉快的”，常用来形容人或者氛围的心情状态。
+
+<Pronunciation word="Cheerful" uk="/ˈt͡ʃɪəfəl/" us="/ˈt͡ʃɪɹfəl/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ Cheerful 是形容词，对应的副词形式是 "cheerfully"（快乐地）。
 
 After winning the game, Tom was so cheerful that he started doing a little dance. His laughter spread through the room, making everyone else cheerful too.
 (赢得比赛后，汤姆非常开心，他甚至开始跳起舞来。他的笑声在房间里传播开来，使得其他人也都变得快乐起来。)
+
+<WordRelations
+  synonyms={["bright", "bubbly", "cheerly", "ebullient", "happy", "joyful", "merry", "optimistic", "vivacious"]}
+  antonyms={["depressed", "miserable", "sad"]}
+  client:only
+/>

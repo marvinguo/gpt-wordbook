@@ -1,13 +1,19 @@
 ---
 title: All
-description: "All 是一个英语词汇，用作形容词时意为'全部的，所有的'，用作副词时意为'全部，完全'。"
+description: All 是一个英语词汇，用作形容词时意为'全部的，所有的'，用作副词时意为'全部，完全'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "All" 是一个英语词汇，用作形容词时意为"全部的，所有的"，用作副词时意为"全部，完全"。
+
+<Pronunciation word="All" uk="/ɔːl/" us="/ɔl/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 He ate all the candy, and now he has a stomachache. 他吃掉了所有的糖果，现在他肚子疼。
 他吃掉了所有的糖果，现在他肚子疼。
+
+<WordRelations
+  synonyms={["completely"]}
+  client:only
+/>

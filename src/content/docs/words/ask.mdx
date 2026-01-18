@@ -1,13 +1,19 @@
 ---
 title: Ask
-description: "Ask 是一个英文单词，作为动词，它的基本意思是 '请求'，'询问' 或 '邀请'。它通常用于要求信息或请求一些事物的情况下。"
+description: Ask 是一个英文单词，作为动词，它的基本意思是 '请求'，'询问' 或 '邀请'。它通常用于要求信息或请求一些事物的情况下。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Ask" 是一个英文单词，作为动词，它的基本意思是 "请求"，"询问" 或 "邀请"。它通常用于要求信息或请求一些事物的情况下。
+
+<Pronunciation word="Ask" uk="/ˈask/" us="/eəsk/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 ### 助记故事
 
 John was lost in the city. He worked up the courage to ask a police officer for directions. The officer kindly gave him the way. (约翰在城市中迷路了。他鼓起勇气问警察路。警官很好心地给了他路。)
+
+<WordRelations
+  synonyms={["request"]}
+  client:only
+/>

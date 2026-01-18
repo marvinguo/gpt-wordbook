@@ -1,13 +1,19 @@
 ---
 title: Smooth
-description: "Smooth是一个形容词，常用来形容物体或表面光滑无疙瘩，没有凹凸不平的地方。同时也可以用来形容动作或过程流畅，没有问题或困难。"
+description: Smooth是一个形容词，常用来形容物体或表面光滑无疙瘩，没有凹凸不平的地方。同时也可以用来形容动作或过程流畅，没有问题或困难。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 “Smooth”是一个形容词，常用来形容物体或表面光滑无疙瘩，没有凹凸不平的地方。同时也可以用来形容动作或过程流畅，没有问题或困难。
+
+<Pronunciation word="Smooth" uk="/smuːð/" us="/smuːð/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 Amy ran her hand over the new silk scarf. It was smooth, like a calm lake under the moon.
 艾米手抚新的丝巾，它就像皎洁月光下的平静湖面一样光滑。
+
+<WordRelations
+  synonyms={["even", "fluid"]}
+  antonyms={["bumpy", "rough", "uneven"]}
+  client:only
+/>

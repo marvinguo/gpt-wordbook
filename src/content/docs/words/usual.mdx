@@ -1,13 +1,21 @@
 ---
 title: Usual
-description: "Usual是一个形容词，意思是“通常的，平常的”，它用来描述平时会发生、看到、或者期望会发生的事情。例如：“That's the usual state of affairs.”（那是常态。）"
+description: >-
+  Usual是一个形容词，意思是“通常的，平常的”，它用来描述平时会发生、看到、或者期望会发生的事情。例如：“That's the usual state
+  of affairs.”（那是常态。）
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Usual"是一个形容词，意思是“通常的，平常的”，它用来描述平时会发生、看到、或者期望会发生的事情。例如：“That's the usual state of affairs.”（那是常态。）
+
+<Pronunciation word="Usual" uk="/ˈjuːʒʊəl/" us="/ˈjuːʒʊəl/" client:only />
 
 ### 列举例句
 
@@ -38,3 +46,9 @@ tableOfContents: false
 ### 助记故事
 
 "Every morning, Tom drinks his usual coffee and reads the newspaper. Everything seems so usual, just like every other day."（每天早上，汤姆都会喝他通常的咖啡，看报纸。一切看起来都那么平常，就像每一天。）
+
+<WordRelations
+  synonyms={["common", "normal", "ordinary", "plain", "regular", "simple", "standard", "typical", "wonted"]}
+  antonyms={["abnormal", "atypical", "unusual"]}
+  client:only
+/>

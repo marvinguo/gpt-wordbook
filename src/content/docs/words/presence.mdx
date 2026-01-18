@@ -1,13 +1,19 @@
 ---
 title: Presence
-description: "Presence这个词常常可以被解释成指在一个地方的存在，也可以是对别人某种显著、强烈或者重要的感觉或影响。"
+description: Presence这个词常常可以被解释成指在一个地方的存在，也可以是对别人某种显著、强烈或者重要的感觉或影响。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Presence"这个词常常可以被解释成指在一个地方的存在，也可以是对别人某种显著、强烈或者重要的感觉或影响。
+
+<Pronunciation word="Presence" uk="/ˈpɹɛzəns/" us="/ˈpɹɛzəns/" client:only />
 
 例如:
 
@@ -43,3 +49,9 @@ tableOfContents: false
 In the dead of night, even the slightest presence could set the cat on edge. The mouse was well aware of this and made no sound.
 
 在深夜里，即使是最轻微的存在感也可能使猫紧张。老鼠很清楚这一点，所以它没有发出任何声音。
+
+<WordRelations
+  synonyms={["presence"]}
+  antonyms={["absence"]}
+  client:only
+/>

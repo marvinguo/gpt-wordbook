@@ -1,13 +1,19 @@
 ---
 title: Survivor
-description: "Survivor 是一个名词，主要指那些在困难、灾难、危机或其他生存挑战中存活下来的人们。"
+description: Survivor 是一个名词，主要指那些在困难、灾难、危机或其他生存挑战中存活下来的人们。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Survivor" 是一个名词，主要指那些在困难、灾难、危机或其他生存挑战中存活下来的人们。
+
+<Pronunciation word="Survivor" uk="/sɚˈvaɪvɚ/" us="/sɚˈvaɪvɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 The sole survivor of the shipwreck spent five years on a deserted island, learning to survive with nothing but raw nature.
 (这艘沉船的唯一幸存者在一座荒岛上度过了五年，学习使用最原始的自然资源进行生存。)
+
+<WordRelations
+  synonyms={["tough cookie", "trooper"]}
+  client:only
+/>

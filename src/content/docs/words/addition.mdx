@@ -1,13 +1,19 @@
 ---
 title: Addition
-description: "Addition 是英语单词，它的主要含义是增加、添加或者数学中的加法。"
+description: Addition 是英语单词，它的主要含义是增加、添加或者数学中的加法。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Addition" 是英语单词，它的主要含义是增加、添加或者数学中的加法。
+
+<Pronunciation word="Addition" uk="/æˈdɪʃən/" us="/æˈdɪʃən/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 This basketball team needs an addition of a great shooter to compete at a higher level. (这个篮球队需要增加一位优秀的投手才能在更高级别的竞争中立足。)
+
+<WordRelations
+  synonyms={["adding", "annexation", "inclusion", "extra", "supplement"]}
+  antonyms={["exclusion", "reduction", "subtraction", "deduction"]}
+  client:only
+/>

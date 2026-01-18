@@ -1,13 +1,19 @@
 ---
 title: Weather
-description: "Weather 是一个英语单词，它的主要含义是'天气'。如果用作动词，则它的含义可以转变为“经受”，“经受住”。"
+description: Weather 是一个英语单词，它的主要含义是'天气'。如果用作动词，则它的含义可以转变为“经受”，“经受住”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Weather" 是一个英语单词，它的主要含义是"天气"。如果用作动词，则它的含义可以转变为“经受”，“经受住”。
+
+<Pronunciation word="Weather" uk="/ˈwɛðə/" us="/ˈwɛðɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 The little girl loved to sit by the window and draw the weather every day: sunny days, rainy days, and stormy days. Each page of her notebook told a new weather story.
 那个小女孩喜欢坐在窗边，每天都画下天气：晴天，雨天，暴风雨天。她的笔记本的每一页都讲述了一个新的天气故事。
+
+<WordRelations
+  synonyms={["meteorology", "weatherboard", "windward"]}
+  antonyms={["lee"]}
+  client:only
+/>

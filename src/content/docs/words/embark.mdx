@@ -1,13 +1,19 @@
 ---
 title: Embark
-description: "Embark 这个单词来源于法语和拉丁语，原意是上船，进而发展成了开始做某件事或者启程的意思。"
+description: Embark 这个单词来源于法语和拉丁语，原意是上船，进而发展成了开始做某件事或者启程的意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 Embark 这个单词来源于法语和拉丁语，原意是上船，进而发展成了开始做某件事或者启程的意思。
+
+<Pronunciation word="Embark" uk="/ɛmˈbɑːk/" us="/ɛmˈbɑːk/" client:only />
 
 ### 列举例句
 
@@ -47,3 +53,9 @@ Naisha Zagruji embarked on a new business venture.（奈莎·扎格吕吉开始�
 "One beautiful morning, a young girl named Daisy embarked on a journey to explore the unknown world. She had a lot of dreams and was full of energy."
 
 “一个美好的早晨，一个叫黛西的小女孩开始了探索未知世界的旅程。她有很多梦想，充满了能量。”
+
+<WordRelations
+  synonyms={["make sail"]}
+  antonyms={["disembark"]}
+  client:only
+/>

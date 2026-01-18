@@ -1,13 +1,19 @@
 ---
 title: Poetry
-description: "Poetry 是一个英文单词，它通常被翻译为'诗歌'。它指的是一种语言艺术形式，通常使用节奏和美学模式来唤起情绪，描绘场景，或者表达特定主题。"
+description: Poetry 是一个英文单词，它通常被翻译为'诗歌'。它指的是一种语言艺术形式，通常使用节奏和美学模式来唤起情绪，描绘场景，或者表达特定主题。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Poetry" 是一个英文单词，它通常被翻译为"诗歌"。它指的是一种语言艺术形式，通常使用节奏和美学模式来唤起情绪，描绘场景，或者表达特定主题。
+
+<Pronunciation word="Poetry" uk="/ˈpəʊɪtɹi/" us="/ˈpoʊətɹi/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 Once lived a woman infatuated by the beauty of poetry. Verses flowed from her heart, like a river in spring. （曾经有一个女人，为诗歌的美丽而痴迷。她的心仿佛是春天的河流，诗句从中流淌出来。）
+
+<WordRelations
+  synonyms={["poesy", "verse"]}
+  antonyms={["prose"]}
+  client:only
+/>

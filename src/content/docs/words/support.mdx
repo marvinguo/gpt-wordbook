@@ -1,13 +1,19 @@
 ---
 title: Support
-description: "Support 是一个非常常见的英语单词。根据具体的上下文环境，它有多种含义。主要的含义有："
+description: Support 是一个非常常见的英语单词。根据具体的上下文环境，它有多种含义。主要的含义有：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Support" 是一个非常常见的英语单词。根据具体的上下文环境，它有多种含义。主要的含义有：
+
+<Pronunciation word="Support" uk="/səˈpɔːt/" us="/səˈpɔɹt/" client:only />
 
 1.  作为动词，"support"的基本含义是"提供帮助或服务"，例如支援，帮助，赞同，维持或承托。
 2.  作为名词，"support"主要指的是"支持"，例如支持力量，物质援助或者精神支持。
@@ -53,3 +59,9 @@ tableOfContents: false
 
 “Every time Tim felt down, his friends would show up and bring him his favorite chocolate cake, providing the emotional support he needed. Tim was grateful to have such supportive friends.”
 “每次提姆情绪低落的时候，他的朋友们都会出现，为他带来他最喜欢的巧克力蛋糕，给予他所需要的情绪支持。提姆感谢有这样支持他的朋友。”
+
+<WordRelations
+  synonyms={["stut", "underprop", "uphold"]}
+  antonyms={["kernel", "oppose"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Barber
-description: "Barber一词用作名词，它的意思是 '理发师'，也就是专接修剪、剃须的人。"
+description: Barber一词用作名词，它的意思是 '理发师'，也就是专接修剪、剃须的人。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Barber"一词用作名词，它的意思是 "理发师"，也就是专接修剪、剃须的人。
+
+<Pronunciation word="Barber" uk="/ˈbɑː.bə/" us="/ˈbɑɹ.bɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 ### 助记故事
 
 James was a barber in a small town. Everyone loved his service, from kids getting their first haircut to old men needing a trim. - James 是一个小镇上的理发师。从孩子们的第一次剃头到老人们的修剪，每个人都喜欢他的服务。
+
+<WordRelations
+  synonyms={["haircutter", "hairdresser", "hairstylist"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Insane
-description: "Insane 是一个形容词，用来描述人或行为的，主词义是“疯狂的”或“精神病的”。此外，它也常被用来形容极其荒谬的事情或者难以相信的情景。"
+description: Insane 是一个形容词，用来描述人或行为的，主词义是“疯狂的”或“精神病的”。此外，它也常被用来形容极其荒谬的事情或者难以相信的情景。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Insane" 是一个形容词，用来描述人或行为的，主词义是“疯狂的”或“精神病的”。此外，它也常被用来形容极其荒谬的事情或者难以相信的情景。
+
+<Pronunciation word="Insane" uk="/ɪnˈseɪn/" us="/ɪnˈseɪn/" client:only />
 
 ### 列举例句
 
@@ -42,3 +48,9 @@ tableOfContents: false
 ### 助记故事
 
 Once there was an insane painter who used his feet instead of brushes. He became famous for his unique style. (曾经有一个疯狂的画家，他用脚代替画笔画画。他的独特风格使他变得非常有名。)
+
+<WordRelations
+  synonyms={["delirious", "distracted"]}
+  antonyms={["sane"]}
+  client:only
+/>

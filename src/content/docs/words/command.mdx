@@ -1,13 +1,20 @@
 ---
 title: Command
-description: "Command是一个英语单词，根据上下文，可能有多个词义。作为动词，它的基本意思是下达指令或者命令；作为名词，它主要指的是命令或者指令，或者是控制权、指挥权。"
+description: >-
+  Command是一个英语单词，根据上下文，可能有多个词义。作为动词，它的基本意思是下达指令或者命令；作为名词，它主要指的是命令或者指令，或者是控制权、指挥权。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Command"是一个英语单词，根据上下文，可能有多个词义。作为动词，它的基本意思是下达指令或者命令；作为名词，它主要指的是命令或者指令，或者是控制权、指挥权。
+
+<Pronunciation word="Command" uk="/kəˈmɑːnd/" us="/kəˈmænd/" client:only />
 
 ### 列举例句
 
@@ -40,3 +47,8 @@ Command 这个单词源自 14 世纪的欧洲，具有“给予、派遣”的�
 Once upon a time, there was a commander who has the commanding charm. Every command he gave was executed perfectly.（从前，有一个拥有威严魅力的指挥官。他发出的每个命令都会被完美执行。）
 
 故事翻译：从前，有一位魅力四溢、威严的指挥官，他下达的每一条命令都能被完美地执行。
+
+<WordRelations
+  synonyms={["decree", "order"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Recently
-description: "recently 是一个副词，用于描述在最近的过去或最近的未来发生的事情。"
+description: recently 是一个副词，用于描述在最近的过去或最近的未来发生的事情。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 'recently' 是一个副词，用于描述在最近的过去或最近的未来发生的事情。
+
+<Pronunciation word="Recently" uk="/ˈɹiːsəntli/" us="/ˈɹiːsəntli/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,9 @@ tableOfContents: false
 Our class recently had a little reunion picnic. All friends talked about the good old days, laughed, and connected as if we were back in school.
 
 我们的班级最近举行了一次小型的同学聚会。所有的朋友们都在谈论着美好的过去，大家笑着，联络感情，就好像我们又回到了学校一样。
+
+<WordRelations
+  synonyms={["freshly", "lately", "newly"]}
+  antonyms={["long ago", "long since"]}
+  client:only
+/>

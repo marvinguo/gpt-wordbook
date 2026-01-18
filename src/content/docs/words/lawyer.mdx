@@ -1,13 +1,19 @@
 ---
 title: Lawyer
-description: "Lawyer 是个名词，表示从事法律工作、能提供法律咨询与服务的专业人士，中文意思是“律师”。"
+description: Lawyer 是个名词，表示从事法律工作、能提供法律咨询与服务的专业人士，中文意思是“律师”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Lawyer" 是个名词，表示从事法律工作、能提供法律咨询与服务的专业人士，中文意思是“律师”。
+
+<Pronunciation word="Lawyer" uk="/ˈlɔɪ.ə(ɹ)/" us="/ˈlɔ.jɚ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +46,8 @@ tableOfContents: false
 Ben always dreamt of being a lawyer. So, he studied hard everyday, reading books and practicing law cases. Finally, his dream came true.
 
 贝恩一直梦想成为一名律师。所以，他每天都努力学习，阅读书籍，研究法律案例。最终，他的梦想实现了。
+
+<WordRelations
+  synonyms={["advocate", "attorney", "counselor"]}
+  client:only
+/>

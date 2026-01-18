@@ -1,13 +1,19 @@
 ---
 title: End
-description: "End 是一个英文单词，既可以做动词也可以做名词。作为名词，它的基本意思是 '结束' 或者 '终点'。作为动词，它表示 '结束' 或者 '使…结束'。"
+description: End 是一个英文单词，既可以做动词也可以做名词。作为名词，它的基本意思是 '结束' 或者 '终点'。作为动词，它表示 '结束' 或者 '使…结束'。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "End" 是一个英文单词，既可以做动词也可以做名词。作为名词，它的基本意思是 "结束" 或者 "终点"。作为动词，它表示 "结束" 或者 "使…结束"。
+
+<Pronunciation word="End" uk="/ɛnd/" us="/ɛnd/" client:only />
 
 例如：end of the road（道路的尽头）；end a relationship（结束一段感情）。
 
@@ -41,3 +47,9 @@ tableOfContents: false
 
 The boy walked to the end of the street and found a stray dog. He decided to take it home and named it Endy.
 翻译：这个男孩走到了街道的尽头，发现了一只流浪狗。他决定把它带回家，并给它起名叫 Endy。
+
+<WordRelations
+  synonyms={["conclusion", "limit", "termination", "terminus"]}
+  antonyms={["beginning", "start"]}
+  client:only
+/>

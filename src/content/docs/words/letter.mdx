@@ -1,13 +1,21 @@
 ---
 title: Letter
-description: "单词 'letter' 在英语中主要有两个意思：第一，它表示 '字符' 或 '字母'，指的是我们在字母表中看到的单个文字；第二，它表示 '信件'，即通过邮政系统发送的通信。"
+description: >-
+  单词 'letter' 在英语中主要有两个意思：第一，它表示 '字符' 或 '字母'，指的是我们在字母表中看到的单个文字；第二，它表示
+  '信件'，即通过邮政系统发送的通信。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词 "letter" 在英语中主要有两个意思：第一，它表示 "字符" 或 "字母"，指的是我们在字母表中看到的单个文字；第二，它表示 "信件"，即通过邮政系统发送的通信。
+
+<Pronunciation word="Letter" uk="/ˈlɛtə(ɹ)/" us="/-ɾɚ/" client:only />
 
 ### 列举例句
 
@@ -40,3 +48,8 @@ tableOfContents: false
 Bob received a mysterious letter one day. It had no return address, but inside was a map. Intrigued, he decided to follow it.
 
 一天，Bob 收到了一封神秘的信。 信上没有回邮地址，但里面有一张地图。出于好奇，他决定按图索骥。
+
+<WordRelations
+  synonyms={["bookstaff", "bookstave"]}
+  client:only
+/>

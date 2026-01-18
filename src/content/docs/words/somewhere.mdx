@@ -1,13 +1,19 @@
 ---
 title: Somewhere
-description: "Somewhere 是个副词，常用于表示在某个不确切的、不明的或尚未谈及的地方。"
+description: Somewhere 是个副词，常用于表示在某个不确切的、不明的或尚未谈及的地方。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Somewhere" 是个副词，常用于表示在某个不确切的、不明的或尚未谈及的地方。
+
+<Pronunciation word="Somewhere" uk="/ˈsʌm.hweːɹ/" us="/ˈsʌm.wɛɹ/" client:only />
 
 ### 列举例句
 
@@ -41,3 +47,8 @@ tableOfContents: false
 ### 助记故事
 
 There must be a key hidden somewhere in the room. (房间里肯定有把钥匙藏在某个地方。)
+
+<WordRelations
+  synonyms={["someplace", "somewheres"]}
+  client:only
+/>

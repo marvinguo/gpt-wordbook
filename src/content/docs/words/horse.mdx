@@ -1,13 +1,19 @@
 ---
 title: Horse
-description: "单词“horse”在英语中是一个名词，它的基本词义是'马'，也常被作为比喻，例如表达力量和坚硬的特性。"
+description: 单词“horse”在英语中是一个名词，它的基本词义是'马'，也常被作为比喻，例如表达力量和坚硬的特性。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 单词“horse”在英语中是一个名词，它的基本词义是"马"，也常被作为比喻，例如表达力量和坚硬的特性。
+
+<Pronunciation word="Horse" uk="/hɔːs/" us="/hɔɹs/" client:only />
 
 ### 列举例句
 
@@ -46,3 +52,8 @@ tableOfContents: false
 "Mark owned a horse called Thunder. Thunder was no ordinary horse because it could outrun any horse in town."
 
 马克拥有一匹叫做“雷霆”的马。雷霆并不是一匹普通的马，因为它可以跑得比镇上任何一匹马都要快。
+
+<WordRelations
+  synonyms={["horsie", "nag", "prad", "steed", "knight", "pommel horse", "vaulting horse", "dobbin", "pony", "trot"]}
+  client:only
+/>

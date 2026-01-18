@@ -1,13 +1,19 @@
 ---
 title: Underwear
-description: "Underwear 是一个英语单词，意为“内衣”。它是一个宽泛的术语，旨在描述你的衣物中贴身的那一部分， 对应于中文的内衣、内裤等。"
+description: Underwear 是一个英语单词，意为“内衣”。它是一个宽泛的术语，旨在描述你的衣物中贴身的那一部分， 对应于中文的内衣、内裤等。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Underwear" 是一个英语单词，意为“内衣”。它是一个宽泛的术语，旨在描述你的衣物中贴身的那一部分， 对应于中文的内衣、内裤等。
+
+<Pronunciation word="Underwear" uk="/ˈʌndəwɛə/" us="/ˈʌndɚwɚ/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,8 @@ tableOfContents: false
 
 Jay woke up and the first thing he did was reaching out for his underwear in the drawer. He always likes starting his day on a fresh note.
 Jay 醒了，他做的第一件事就是从抽屉里拿出他的内衣。他总是喜欢以新鲜的方式开始他的一天。
+
+<WordRelations
+  synonyms={["shreddies", "underclothes", "undergarment", "undies"]}
+  client:only
+/>

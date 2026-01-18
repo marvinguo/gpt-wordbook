@@ -1,13 +1,19 @@
 ---
 title: Remnant
-description: "Remnant 是一个英文名词，意思是“残余部分”或“遗迹”。它通常指一些在过去存在、现在却只剩下一小部分或片段的事物。"
+description: Remnant 是一个英文名词，意思是“残余部分”或“遗迹”。它通常指一些在过去存在、现在却只剩下一小部分或片段的事物。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Remnant" 是一个英文名词，意思是“残余部分”或“遗迹”。它通常指一些在过去存在、现在却只剩下一小部分或片段的事物。
+
+<Pronunciation word="Remnant" uk="/ˈɹɛmnənt/" us="/ˈɹɛmnənt/" client:only />
 
 例如：
 
@@ -47,3 +53,8 @@ Remnant 本身并没有字符串逻辑的变形。由 remnant 派生出的形容
 
 "New York City has many remnants of its vibrant past like old buildings and historic landmarks. Visitors often spend time exploring these fascinating memories of the city."
 “纽约市有许多它曾经充满活力的过去的残余物，如老建筑和历史地标。游客常常花时间探索这些关于这座城市的迷人记忆。”
+
+<WordRelations
+  synonyms={["lave", "relic", "remainder", "residue", "remains"]}
+  client:only
+/>

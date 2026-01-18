@@ -1,13 +1,19 @@
 ---
 title: Windy
-description: "Wind的形容词形式，'Windy'这个单词通常描述的是风的强度或者常有风的情况。中文翻译就是“多风的，风大的”。"
+description: Wind的形容词形式，'Windy'这个单词通常描述的是风的强度或者常有风的情况。中文翻译就是“多风的，风大的”。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Wind"的形容词形式，"Windy"这个单词通常描述的是风的强度或者常有风的情况。中文翻译就是“多风的，风大的”。
+
+<Pronunciation word="Windy" uk="/ˈwɪndi/" us="/ˈwɪndi/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,9 @@ tableOfContents: false
 ### 助记故事
 
 Once upon a time, in a windy town, a little girl had a kite. She was very happy because the kite flew high in the sky.（从前，在一个多风的城镇，有个小女孩有一只风筝。因为风筝在天空飞得很高，所以她非常开心。）
+
+<WordRelations
+  synonyms={["blowy", "blustery", "breezy"]}
+  antonyms={["calm", "windless"]}
+  client:only
+/>

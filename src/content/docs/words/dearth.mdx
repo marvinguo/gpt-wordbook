@@ -1,14 +1,20 @@
 ---
-title: "Dearth"
-description: "Dearth 指缺乏、稀少、饥荒。"
+title: Dearth
+description: Dearth 指缺乏、稀少、饥荒。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
 
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
+
 ### 分析词义
 
 **Dearth** 是一个名词。常用于 **a dearth of...**，表示某种有用或必需的东西严重不足。
+
+<Pronunciation word="Dearth" uk="/dɜːθ/" us="/dɝθ/" client:only />
 
 ### 列举例句
 
@@ -29,3 +35,7 @@ tableOfContents: false
 In the desert, the dearth of vegetation makes it difficult for animals to survive.
 (在沙漠中，植被的稀缺使动物难以生存。)
 
+<WordRelations
+  synonyms={["famine", "shortage", "lack", "paucity", "scarcity"]}
+  client:only
+/>

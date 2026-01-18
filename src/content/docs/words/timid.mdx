@@ -1,13 +1,19 @@
 ---
 title: Timid
-description: "Timid 是一个形容词，用于形容人或动物害怕新的或困难的情况，感到胆小或缺乏自信。"
+description: Timid 是一个形容词，用于形容人或动物害怕新的或困难的情况，感到胆小或缺乏自信。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Timid" 是一个形容词，用于形容人或动物害怕新的或困难的情况，感到胆小或缺乏自信。
+
+<Pronunciation word="Timid" uk="/ˈtɪmɪd/" us="/ˈtɪmɪd/" client:only />
 
 ### 列举例句
 
@@ -39,3 +45,9 @@ tableOfContents: false
 
 "Tom is a timid mouse. He's afraid of everything, especially cats. One day, his cheese was taken by a cat. Even though he was scared, he decided to take it back. Timidly, he approached the cat, surprisingly, the cat didn't catch him but returned his cheese."
 汤姆是一只胆小的老鼠。他害怕所有的事物，特别是猫。有一天，他的奶酪被一只猫抢走了。尽管他很害怕，但他决定把它拿回来。他胆怯地走向那只猫，令人惊讶的是，那只猫并没有抓住他，反而把他的奶酪归还给了他。
+
+<WordRelations
+  synonyms={["fearful", "shy", "timorous"]}
+  antonyms={["aggressive", "bellicose", "daredevil", "dauntless", "reckless"]}
+  client:only
+/>

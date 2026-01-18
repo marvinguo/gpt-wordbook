@@ -1,13 +1,19 @@
 ---
 title: Flu
-description: "Flu 是流行性感冒的简称，流行性感冒被认为是一种令人特别不舒服，可能甚至是有害或致命的疾病。"
+description: Flu 是流行性感冒的简称，流行性感冒被认为是一种令人特别不舒服，可能甚至是有害或致命的疾病。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Flu" 是流行性感冒的简称，流行性感冒被认为是一种令人特别不舒服，可能甚至是有害或致命的疾病。
+
+<Pronunciation word="Flu" uk="/flʉː/" us="/flʉː/" client:only />
 
 ### 列举例句
 
@@ -38,3 +44,8 @@ tableOfContents: false
 ### 助记故事
 
 Last winter, Jack felt feverish and weak. "Must be the flu," he thought. His mother made soup and told him to rest. (去年冬天，杰克觉得发热，身体虚弱。“肯定是得了流感，”他想。他的母亲为他做了一碗汤，叫他好好休息。)
+
+<WordRelations
+  synonyms={["grip", "grippe"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Blouse
-description: "- 'Blouse' 是名词，指的是女士或儿童的衬衫，一般比衬衣更为宽松，和裙子或裤子配合穿着。"
+description: '- ''Blouse'' 是名词，指的是女士或儿童的衬衫，一般比衬衣更为宽松，和裙子或裤子配合穿着。'
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 - "Blouse" 是名词，指的是女士或儿童的衬衫，一般比衬衣更为宽松，和裙子或裤子配合穿着。
+
+<Pronunciation word="Blouse" uk="/blaʊs/" us="/blaʊs/" client:only />
 
 ### 列举例句
 
@@ -43,3 +49,9 @@ tableOfContents: false
 - Mary just bought a gorgeous blouse with delicate lace on the sleeves. She couldn't wait to wear it to her dinner date.
 
   玛丽刚买了一件袖子上有精致蕾丝的漂亮上衣。她迫不及待想在晚餐约会上穿上它。
+
+<WordRelations
+  synonyms={["bodice"]}
+  antonyms={["unblouse"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Element
-description: "Element这个单词在英文中有多种含义，包括："
+description: Element这个单词在英文中有多种含义，包括：
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Element"这个单词在英文中有多种含义，包括：
+
+<Pronunciation word="Element" uk="/ˈɛlɪmənt/" us="/ˈɛlɪmənt/" client:only />
 
 1.  基本部分或组成部分，例如：“水是由氢和氧两种元素组成的”。
 2.  自然或环境的力量，例如：“他们冒着恶劣的天气元素进行远足”。
@@ -42,3 +48,8 @@ tableOfContents: false
 ### 助记故事
 
 "The chemistry teacher brought out different elements, like hydrogen and oxygen, to demonstrate a reaction. The students were in their element, rapt with attention."（化学老师拿出了不同的元素，如氢和氧，以演示一种反应。学生们在他们最享受的元素中，全神贯注地看着。）
+
+<WordRelations
+  synonyms={["chemical element", "firststuff", "member"]}
+  client:only
+/>

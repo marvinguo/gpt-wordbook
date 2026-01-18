@@ -1,13 +1,19 @@
 ---
 title: Worthless
-description: "Worthless是一个形容词，用来形容一件事物之没有价值、无用或者无价值的。"
+description: Worthless是一个形容词，用来形容一件事物之没有价值、无用或者无价值的。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Worthless"是一个形容词，用来形容一件事物之没有价值、无用或者无价值的。
+
+<Pronunciation word="Worthless" uk="/ˈwɜːθləs/" us="/ˈwɝθləs/" client:only />
 
 ### 列举例句
 
@@ -46,3 +52,9 @@ tableOfContents: false
 
 "In the attic, she found an old, dusty violin. To anyone else it may have looked worthless. But to her, it was a priceless treasure."
 "在阁楼，她找到了一把旧旧的、积满灰尘的小提琴。对任何人来说，它看起来可能一文不值。但对她而言，这是无价之宝。"
+
+<WordRelations
+  synonyms={["inconsequential", "valueless", "miserable", "useless"]}
+  antonyms={["precious", "useful", "valuable", "worthful", "worthy"]}
+  client:only
+/>

@@ -1,13 +1,19 @@
 ---
 title: Whilst
-description: "Whilst是一个连接词，主要应用在英国英语中，它在美国英语中的等效词是'while'。'Whilst'用于表示'在...期间'或'然而'两种意思。"
+description: Whilst是一个连接词，主要应用在英国英语中，它在美国英语中的等效词是'while'。'Whilst'用于表示'在...期间'或'然而'两种意思。
 sidebar:
   hidden: true
 tableOfContents: false
 ---
+
+import Pronunciation from '../../../components/Pronunciation.svelte';
+import WordRelations from '../../../components/WordRelations.svelte';
+
 ### 分析词义
 
 "Whilst"是一个连接词，主要应用在英国英语中，它在美国英语中的等效词是"while"。"Whilst"用于表示"在...期间"或"然而"两种意思。
+
+<Pronunciation word="Whilst" uk="/hwaɪlst/" us="/hwaɪlst/" client:only />
 
 ### 列举例句
 
@@ -45,3 +51,8 @@ tableOfContents: false
 I met her whilst I was in the bookstore. She was looking for a novel, and I was engrossed in the history section.
 
 我在书店里遇见她的时候。她在找一本小说，而我正在深深地陷于历史书籍中。
+
+<WordRelations
+  synonyms={["while"]}
+  client:only
+/>
