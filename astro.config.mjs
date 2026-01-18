@@ -195,14 +195,14 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'twitter:title',
-						content: '智析单词书 | GPT Wordbook- AI 赋能的深度词汇学习平台',
+						content: '智析单词书 | GPT Wordbook - AI 赋能的深度词汇学习平台',
 					},
 				},
 				{
 					tag: 'meta',
 					attrs: {
 						name: 'twitter:description',
-						content: '智析单词书（GPT-Wordbook）是 AI 驱动的深度英语词汇学习平台，精选 8000+ 核心词汇，利用 GPT 模型深度解析每个单词的词义、例句、词根、词缀、文化内涵与使用场景，从理解本质出发构建长期记忆。',
+						content: '智析单词书（GPT Wordbook）是 AI 驱动的深度英语词汇学习平台，精选 8000+ 核心词汇，利用 GPT 模型深度解析每个单词的词义、发音、例句、词根、词缀、同义词、反义词、文化内涵与使用场景，从理解本质出发构建长期记忆。',
 					},
 				},
 				{
@@ -216,7 +216,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						name: 'twitter:image:alt',
-						content: '智析单词书 | GPT Wordbook- AI 赋能的深度词汇学习平台 预览图',
+						content: '智析单词书 | GPT Wordbook - AI 赋能的深度词汇学习平台 预览图',
 					},
 				},
 				// Open Graph Meta 标签 (使用 property 而非 name)
@@ -245,14 +245,14 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:title',
-						content: '智析单词书 | GPT Wordbook- AI 赋能的深度词汇学习平台',
+						content: '智析单词书 | GPT Wordbook - AI 赋能的深度词汇学习平台',
 					},
 				},
 				{
 					tag: 'meta',
 					attrs: {
 						property: 'og:description',
-						content: '智析单词书（GPT-Wordbook）是 AI 驱动的深度英语词汇学习平台，精选 8000+ 核心词汇，利用 GPT 模型深度解析每个单词的词义、例句、词根、词缀、文化内涵与使用场景，从理解本质出发构建长期记忆。',
+						content: '智析单词书（GPT Wordbook）是 AI 驱动的深度英语词汇学习平台，精选 8000+ 核心词汇，利用 GPT 模型深度解析每个单词的词义、发音、例句、词根、词缀、同义词、反义词、文化内涵与使用场景，从理解本质出发构建长期记忆。',
 					},
 				},
 				{
@@ -280,7 +280,7 @@ export default defineConfig({
 					tag: 'meta',
 					attrs: {
 						property: 'og:image:alt',
-						content: '智析单词书 | GPT Wordbook- AI 赋能的深度词汇学习平台 预览图',
+						content: '智析单词书 | GPT Wordbook - AI 赋能的深度词汇学习平台 预览图',
 					},
 				},
 				{
