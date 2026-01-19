@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://www.lexitalkai.com/" target="_blank">
     <img width="120"
-    src="https://github.com/nicejade//gpt-wordbook/blob/main/public/favicon.svg?raw=true">
+    src="https://www.lexitalkai.com/favicon.svg">
   </a>
 </p>
 
@@ -37,20 +37,20 @@
   <a href="https://nodejs.org/en/" target="_blank">
     <img src="https://img.shields.io/badge/node-%3E%3D%2016.0.0-green.svg" alt="Node Version">
   </a>
-  <a href="https://github.com/nicejade/gpt-wordbook">
-    <img src="https://img.shields.io/github/license/nicejade/gpt-wordbook" alt="LICENSE">
+  <a href="https://github.com/marvinguo/lexitalk">
+    <img src="https://img.shields.io/github/license/marvinguo/lexitalk" alt="LICENSE">
   </a>
-  <a href="https://github.com/nicejade/gpt-wordbook/stargazers">
-    <img src="https://img.shields.io/github/stars/nicejade/gpt-wordbook?style=social" alt="GitHub Stars">
+  <a href="https://github.com/marvinguo/lexitalk/stargazers">
+    <img src="https://img.shields.io/github/stars/marvinguo/lexitalk?style=social" alt="GitHub Stars">
   </a>
-  <a href="https://github.com/nicejade/gpt-wordbook/network/members">
-    <img src="https://img.shields.io/github/forks/nicejade/gpt-wordbook?style=social" alt="GitHub Forks">
+  <a href="https://github.com/marvinguo/lexitalk/network/members">
+    <img src="https://img.shields.io/github/forks/marvinguo/lexitalk?style=social" alt="GitHub Forks">
   </a>
   <a href="https://prettier.io/">
     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat" alt="Prettier">
   </a>
-  <a href="https://aboutme.lovejade.cn/?utm_source=github.com">
-    <img src="https://img.shields.io/badge/Author-nicejade-%23a696c8.svg" alt="Author nicejade">
+  <a href="https://www.lexitalkai.com/">
+    <img src="https://img.shields.io/badge/Author-LexiTalkAI-%230b6ff3.svg" alt="Author LexiTalk AI">
   </a>
 </div>
 
@@ -131,7 +131,7 @@ gpt-wordbook/
 ### 克隆项目
 
 ```bash
-git clone https://github.com/nicejade/gpt-wordbook.git
+git clone https://github.com/marvinguo/lexitalk.git
 cd gpt-wordbook
 ```
 
@@ -194,7 +194,7 @@ pnpm preview
 
 #### 2. **Vercel**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nicejade/gpt-wordbook)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/marvinguo/lexitalk)
 
 - 零配置部署
 - 自动 HTTPS
@@ -286,10 +286,10 @@ pnpm build
 
 如果你在使用过程中遇到问题或有任何建议，欢迎通过以下方式联系：
 
-- 📧 提交 [Issue](https://github.com/nicejade/gpt-wordbook/issues)
-- 💬 参与 [Discussions](https://github.com/nicejade/gpt-wordbook/discussions)
+- 📧 提交 [Issue](https://github.com/marvinguo/lexitalk/issues)
+- 💬 参与 [Discussions](https://github.com/marvinguo/lexitalk/discussions)
 - 🐦 关注作者 [X | Twitter](https://x.com/MarshalXuan)
-- 📝 访问作者博客 [晚晴幽草轩](https://www.lovejade.cn/)
+- 📝 访问 LexiTalk AI 官网 [lexitalkai.com](https://www.lexitalkai.com/)
 
 ## ⭐ Star History
 
@@ -314,12 +314,12 @@ pnpm build
 
 <div align="center">
   <p>用 ❤️ 构建，助力英语学习</p>
-  <p>Made with ❤️ by <a href="https://www.lovejade.cn/">nicejade</a></p>
+  <p>Made with ❤️ by <a href="https://www.lexitalkai.com/">LexiTalk AI</a></p>
   <p>
-    <a href="https://word.lovejade.cn/">在线访问</a> · 
-    <a href="https://github.com/nicejade/gpt-wordbook/issues">报告问题</a> · 
-    <a href="https://github.com/nicejade/gpt-wordbook/discussions">讨论交流</a>
+    <a href="https://www.lexitalkai.com/">在线访问</a> · 
+    <a href="https://github.com/marvinguo/lexitalk/issues">报告问题</a> · 
+    <a href="https://github.com/marvinguo/lexitalk/discussions">讨论交流</a>
   </p>
 </div>
 
-Copyright (c) 2026-present, [nicejade](https://www.lovejade.cn/).
+Copyright (c) 2026-present, [LexiTalk AI](https://www.lexitalkai.com/).
